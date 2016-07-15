@@ -1,0 +1,19 @@
+<p>To upload a file using the command line, do the following:</p>
+
+<code>curl "http://example.com/upload.php" -F myfile=@"/path/to/file"</code>
+
+Example:
+<code>curl "http://example.com/upload.php" -F myfile=@"~/Desktop/image.png"</code>
+
+And using authentication:
+<code>curl -u username:password "http://example.com/upload.php" -F myfile=@"~/Desktop/image.png"</code>
+
+NOTE:
+Change myfile to the file input value name.
+&lt;input name="myfile" type="file" />
+
+<code name="php">
+// upload.php
+var_dump($_POST);
+var_dump($_FILES);
+</code>

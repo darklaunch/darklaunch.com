@@ -1,0 +1,13 @@
+<p>Unable to catch the python exception?</p>
+
+<p>First, use a catch all exception and see what exception it throws. The class and module will hint at where you may import the exception to catch from.</p>
+
+<code name="python">
+try:
+  thing_that_raises_exception()
+except Exception as e:
+  print(e.__class__)
+  print(e.__module__)
+</code>
+
+<p>keywords: Django, MySQL, except ProgrammingError, django.db.utils.ProgrammingError</p>

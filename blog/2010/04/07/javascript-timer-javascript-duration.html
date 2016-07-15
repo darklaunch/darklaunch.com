@@ -1,0 +1,34 @@
+To time and measure the duration of a JavaScript event.
+
+<code name="js">
+function start() {
+    startTime = new Date().getTime();
+}
+
+function stop() {
+    var endTime = new Date().getTime();
+    return endTime - startTime;
+}
+</code>
+
+Example:
+<code name="js">
+function start() {
+    startTime = new Date().getTime();
+}
+
+function stop() {
+    var endTime = new Date().getTime();
+    return endTime - startTime;
+}
+
+function doSomething() {
+    for (var i = 0; i < 1000000; i++) {
+        // Do something
+    }
+}
+</code>
+
+<code name="html">
+<input value="Click me" onclick="start(); doSomething(); alert(stop() + 'ms');" type="button" />
+</code>

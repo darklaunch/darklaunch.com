@@ -1,0 +1,11 @@
+<p>To run a multiline python script in a bash shell script from the commandline, do the following</p>
+
+<code name="sh">
+cat <<EOF | python -
+import sys
+from pprint import pprint
+pprint(sys.path)
+EOF
+</code>
+
+<p>This will allow running python code inside a self-contained bash script.</p>

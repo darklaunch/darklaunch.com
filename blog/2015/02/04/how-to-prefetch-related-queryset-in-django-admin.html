@@ -1,0 +1,11 @@
+<p>Use prefetch_related and select_related in Django admin. Implement a custom get_queryset method.</p>
+
+<code name="py">
+from django.contrib import admin
+
+class MyModelAdmin(admin.ModelAdmin):
+  def get_queryset(self, request):
+    my_model = super(MyModelAdmin, self).queryset(request)
+    my_model = my_model.prefetch_related('user')
+    return my_model
+</code>

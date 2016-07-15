@@ -1,0 +1,16 @@
+<p>Read stdin using php on the command line.</p> 
+
+<code name="sh">
+listdir ()
+{
+    ls | sort | php -r '
+        while ($line = fgets(STDIN)) {
+            $filename = rtrim($line);
+            $modified = date(DATE_W3C, filemtime($filename));
+            echo "$modified $filename\n";
+        }
+    '
+}
+</code>
+
+<img alt="" src="/img/uploads/2014-06/bash-stdin-php-command-line.png" />

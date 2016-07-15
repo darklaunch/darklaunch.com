@@ -1,0 +1,28 @@
+<p>Call php code from a Python script. The following Python script executes a PHP script and outputs the results.</p>
+
+<code name="python">
+# script.py
+import subprocess
+
+php_script = 'var_dump(stream_get_contents(STDIN));'
+command = ['php', '-r', php_script,]
+proc = subprocess.Popen(command, shell=False, stdout=subprocess.PIPE, stdin=subprocess.PIPE)
+stdout, stderr = proc.communicate(input='hello, world!')
+print stdout
+</code>
+
+<code name="bash">
+$ python script.py
+string(13) "hello, world!"
+</code>
+
+<p>Note: Python 3 may require input value to be string encoded using str.encode().</p>
+
+<code name="python">
+try:
+    # Python 3
+    input = str.encode(modified)
+except TypeError:
+    # Python 2
+    input = modified
+</code>

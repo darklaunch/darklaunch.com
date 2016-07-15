@@ -1,0 +1,19 @@
+<p>Specify a different ssh port when using rsync.</p>
+
+<code name="sh">
+rsync --rsh="ssh -p 2222" /path/to/src/ user@host:/path/to/dest/
+</code>
+
+<p>An example with more options added.</p>
+
+<code name="sh">
+time rsync \
+    --compress \
+    --progress \
+    --recursive \
+    --rsh="ssh -p 2222 -i ~/.ssh/path/to/id_rsa" \
+    --verbose \
+    --partial \
+    /path/to/src/ \
+    user@host:/path/to/dest/
+</code>

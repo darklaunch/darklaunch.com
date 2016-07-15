@@ -1,0 +1,11 @@
+<code name="php">
+function escape($str) {
+    return str_replace(
+        array( '&',     '<',    '>',    '"',      '\''),
+        array( '&amp;amp;', '&amp;lt;', '&amp;gt;', '&quot;', '&#039;'),
+        $str
+    );
+}
+</code>
+
+NOTE: &amp;apos; is not used as it is not a valid HTML entity reference.

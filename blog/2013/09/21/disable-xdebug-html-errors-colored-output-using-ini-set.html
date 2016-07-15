@@ -1,0 +1,10 @@
+<p>To disable xdebug's colorized html output, use the following ini_set().</p>
+
+<code name="php">
+ini_set('xdebug.default_enable', false);
+ini_set('html_errors', false);
+</code>
+
+<p>This removes the html tags including the pre tag with a "xdebug-var-dump" class when using var_dump():</p>
+
+<code>&lt;pre class='xdebug-var-dump' dir='ltr'&gt;</code>

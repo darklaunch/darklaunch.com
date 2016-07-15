@@ -1,0 +1,10 @@
+<p>MySQL WHERE IN case sensitive select clause.</p>
+
+<code name="sql">
+SELECT
+    *
+FROM
+    `table`
+WHERE
+    CAST(`column` AS BINARY) NOT IN ('Foo', 'Bar', 'Baz');
+</code>

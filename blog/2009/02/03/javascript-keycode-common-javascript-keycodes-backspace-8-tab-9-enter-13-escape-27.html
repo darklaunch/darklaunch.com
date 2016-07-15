@@ -1,0 +1,30 @@
+<code name="JavaScript">
+var keyCodes = {
+    BACKSPACE: 8,
+    TAB: 9,
+    ENTER: 13,
+    ESC: 27,
+    SPACE: 32,
+    PAGE_UP: 33,
+    PAGE_DOWN: 34,
+    LEFT: 37,
+    UP: 38,
+    RIGHT: 39,
+    DOWN: 40,
+    DEL: 46
+};
+</code>
+Example:
+<code name="JavaScript">
+$("#search-input").keydown(function(event) {
+    switch (event.keyCode) {
+        case keyCodes.ENTER:
+            event.preventDefault();
+            var query = $("#search-input").val();
+            ajaxSearch(query);
+            break;
+        default:
+            break;
+    }
+});
+</code>

@@ -1,0 +1,95 @@
+<p>Measure elapsed time duration using python.</p>
+
+<code name="python">
+import time
+
+start_time = time.time()
+
+# Do something.
+time.sleep(1.234)
+
+end_time = time.time()
+elapsed_time = end_time - start_time
+</code>
+
+<p>Another way to measure multiple durations:</p>
+
+<code name="python">
+from collections import OrderedDict
+import logging
+import time
+
+
+class Timer(object):
+  def __init__(self):
+    self.starts = OrderedDict()
+    self.starts['start'] = time.time()
+
+  def round(self, number):
+    return '{0:>5} {1}'.format(int(number * 1000), 'ms')
+
+  def columns(self, count):
+    return u'{0}  '.format(u'\u2502') * count
+
+  def start(self, thing):
+    self.starts[thing] = time.time()
+    logging.debug(u'{0} {1}{2} {3}'.format(' ' * 8, self.columns(len(self.starts) - 2), u'\u250c', thing))
+
+  def stop(self):
+    thing, started = self.starts.popitem()
+    elapsed = self.round(time.time() - started)
+    logging.debug(u'{0} {1}{2} {3}'.format(elapsed, self.columns(len(self.starts) - 1), u'\u2514', thing))
+</code>
+
+<code name="python">
+import logging
+import time
+
+import Timer
+
+
+logging.getLogger().setLevel(logging.DEBUG)
+
+timer = Timer.Timer()
+timer.start('Tasks')
+timer.start('First task')
+time.sleep(1)
+timer.stop()
+
+timer.start('Task 2')
+timer.start('Another task')
+time.sleep(4)
+timer.stop()
+
+timer.start('Yet another task')
+time.sleep(.5)
+
+timer.start('Do something')
+time.sleep(3)
+timer.start('Last task')
+time.sleep(.5)
+timer.stop()
+timer.stop()
+timer.stop()
+timer.stop()
+timer.stop()
+</code>
+
+<p>Example run output:</p>
+
+<code>
+$ python timer.py 
+DEBUG:root:         ┌ Tasks
+DEBUG:root:         │  ┌ First task
+DEBUG:root: 1001 ms │  └ First task
+DEBUG:root:         │  ┌ Task 2
+DEBUG:root:         │  │  ┌ Another task
+DEBUG:root: 4000 ms │  │  └ Another task
+DEBUG:root:         │  │  ┌ Yet another task
+DEBUG:root:         │  │  │  ┌ Do something
+DEBUG:root:         │  │  │  │  ┌ Last task
+DEBUG:root:  501 ms │  │  │  │  └ Last task
+DEBUG:root: 3503 ms │  │  │  └ Do something
+DEBUG:root: 4004 ms │  │  └ Yet another task
+DEBUG:root: 8005 ms │  └ Task 2
+DEBUG:root: 9007 ms └ Tasks</code>

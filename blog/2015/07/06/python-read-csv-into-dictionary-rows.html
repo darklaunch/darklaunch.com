@@ -1,0 +1,27 @@
+<p>Read a csv with headers in python into dictionary rows mapping to the headers.</p>
+
+<code>
+first,last,sex
+Liberia,Mariana,female
+Eligius,Prosperus,male
+Florina,Xenia,female</code>
+
+<code name="python">
+import csv
+
+with open('data.csv') as f:
+    reader = csv.reader(f)
+    headers = next(reader)
+    print('headers found: ' + str(headers))
+    for row_list in reader:
+        row_dict = dict(zip(headers, row_list))
+        print(row_dict)
+</code>
+
+<code name="sh">
+$ python with_header.py 
+headers found: ['first', 'last', 'sex']
+{'sex': 'female', 'last': 'Mariana', 'first': 'Liberia'}
+{'sex': 'male', 'last': 'Prosperus', 'first': 'Eligius'}
+{'sex': 'female', 'last': 'Xenia', 'first': 'Florina'}
+</code>

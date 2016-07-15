@@ -1,0 +1,33 @@
+<p>Allow access to MySQL database from remote server.</p>
+
+<p>Edit /etc/mysql/my.cnf or /usr/local/mysql/my.cnf (on OS X)</p>
+
+<p>Change</p>
+<code>bind-address = 127.0.0.1</code>
+
+<p>to</p>
+<code>bind-address = 0.0.0.0</code>
+
+<p>Restart MySQL</p>
+
+<code>
+$ sudo service mysql stop
+$ sudo service mysql start
+$ sudo service mysql status</code>
+
+<p>or</p>
+
+<code>
+$ sudo mysqladmin shutdown
+$ /usr/local/mysql/bin/mysqld</code>
+
+<p>Fixes for possible error:</p>
+
+Fix "Host is not allowed to connect to this MySQL server"
+$ mysql -u root -h "www.example.com"
+ERROR 1130 (HY000): Host 'dhcp-XXX-XX-XX-XXX.example.com' is not allowed to connect to this MySQL server
+
+<code name="sql">
+$ mysql -u root
+mysql> GRANT ALL ON *.* TO 'root'@'%';
+</code>

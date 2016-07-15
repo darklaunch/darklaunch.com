@@ -1,0 +1,25 @@
+<code name="php">
+// 1 megabyte
+$content_length = 1000000;
+
+// download binary file
+header('Content-Type: application/octet-stream');
+header('Content-Length: ' . $content_length);
+header('Content-Disposition: attachment; filename="somefile.bin"');
+
+$bytes = 1000;
+$length = $content_length / $bytes;
+$str = str_repeat('.', $bytes);
+$micro_seconds = 20000;
+
+for ($i = 0; $i < $length; $i++) {
+    echo $str;
+    
+    // slow the download
+    usleep($micro_seconds);
+}
+</code>
+
+Show the download progress including Total, Received, Xferd, Average Dload, Speed Upload, Time Total, Time Spent, Time Left, Current Speed:
+
+<code>curl http://www.example.com/path/to/slow-download.php -o /dev/null</code>

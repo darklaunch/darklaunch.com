@@ -1,0 +1,16 @@
+<p>To enable Basic Authentication using Django and mod_wsgi, do the following:</p>
+
+<p>Add WSGIPassAuthorization to apache configuration file (
+/etc/apache2/sites-available/mysite.com )</p>
+
+<p>Configure this WSGIPassAuthorization On so that mod_wsgi will pass the HTTP Authentication headers to your Django application so your app will be able to
+authenticate the requests.</p>
+
+<code>
+<VirtualHost *:80>
+    WSGIPassAuthorization On
+    WSGIScriptAlias / /home/www/mysite.com/wsgi.py
+</VirtualHost>
+</code>
+
+<p>Restart apache and the now the HTTP_AUTHORIZATION environment variable will be available in the django request.</p>

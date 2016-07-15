@@ -1,0 +1,22 @@
+<p>View whitespace in JavaScript & PHP. This function replaces line endings/newlines and tabs:</p>
+
+<code name="javascript">
+function raw(str) {
+    return str.replace(/\t/g, '\\t')
+              .replace(/\r\n/g, '\\r\\n')
+              .replace(/\r/g, '\\r')
+              .replace(/\n/g, '\\n');
+}
+</code>
+
+<p>The /g modifier finds and replaces all occurrences.</p>
+
+<p>The equivalent for php to see whitespace would be:</p>
+
+<code name="php">
+function raw($str) {
+    $str = str_replace(array("\t", "\r\n", "\r", "\n"),
+                       array('\t', '\r\n', '\r', '\n'), $str);
+    return $str;
+}
+</code>
