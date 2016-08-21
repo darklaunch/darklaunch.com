@@ -1,4 +1,5 @@
-<code name="JavaScript">
+<p>JavaScript keycodes.</p>
+<code name="javascript">
 var keyCodes = {
     BACKSPACE: 8,
     TAB: 9,
@@ -11,20 +12,17 @@ var keyCodes = {
     UP: 38,
     RIGHT: 39,
     DOWN: 40,
-    DEL: 46
+    DEL: 46,
 };
 </code>
-Example:
-<code name="JavaScript">
-$("#search-input").keydown(function(event) {
-    switch (event.keyCode) {
-        case keyCodes.ENTER:
-            event.preventDefault();
-            var query = $("#search-input").val();
-            ajaxSearch(query);
-            break;
-        default:
-            break;
+
+<p>Example:</p>
+<code name="javascript">
+$('#search-input').keydown(function(event) {
+    if ( event.keyCode === keyCodes.ENTER ):
+        event.preventDefault();
+        var query = $('#search-input').val();
+        ajaxSearch(query);
     }
 });
 </code>

@@ -3,13 +3,15 @@
 <code>
 $ echo -n ✓ | hexdump
 0000000 e2 9c 93
-0000003</code>
+0000003
+</code>
 
 <p>To print the character, escape the 6-digit / 3 byte unicode sequence. Use -e with echo to interpret the escaped characters.</p>
 
 <code>
 $ echo -e "\xE2\x9c\x93"
 ✓</code>
+
 
 <p>Example with color and subscripts on the command line:</p>
 
