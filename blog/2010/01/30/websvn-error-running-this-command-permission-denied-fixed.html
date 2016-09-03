@@ -1,4 +1,4 @@
-<h2>Example error:</h2>
+<p>Example error:</p>
 <code>
 Error running this command:
 
@@ -9,26 +9,24 @@ Unable to open repository 'file:///mnt/example/www.example.com/web/repository'
 Can't open file '/mnt/example/www.example.com/web/repository/format': Permission denied
 </code>
 
-<h2>How to fix:</h2>
-Edit quoteCommand() in ../include/command.php
-quoteCommand() should read:
+<p>How to fix:</p>
+<p>Edit quoteCommand() in ../include/command.php quoteCommand() should read:</p>
 
 <code name="php">
 function quoteCommand($cmd) {
-	global $config;
+    global $config;
 
-	// On Windows machines, the whole line needs quotes round it so that it's
-	// passed to cmd.exe correctly
+    // On Windows machines, the whole line needs quotes round it so that it's
+    // passed to cmd.exe correctly
 
-	if ($config->serverIsWindows) {
-		$cmd = '"'.$cmd.'"';
-	}
-	else {
-		$cmd = 'sudo -u root ' . $cmd;
-	}
+    if ($config->serverIsWindows) {
+        $cmd = '"'.$cmd.'"';
+    } else {
+        $cmd = 'sudo -u root ' . $cmd;
+    }
 
-	return $cmd;
+    return $cmd;
 }
 </code>
 
-Add: else { $cmd = 'sudo -u root ' . $cmd; } to give svn permission.
+<p>Add: else { $cmd = 'sudo -u root ' . $cmd; } to give svn permission.</p>
