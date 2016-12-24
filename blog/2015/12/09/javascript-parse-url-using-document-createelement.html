@@ -1,5 +1,24 @@
-<p>Parse a url using plain JavaScript.</p>
+<p>Parse a url into components using plain vanilla JavaScript.</p>
 
+<code name="javascript">
+var parser = document.createElement('a');
+parser.href = window.location.toString();
+
+console.log('hash:', parser.hash);
+console.log('host:', parser.host);
+console.log('hostname:', parser.hostname);
+console.log('href:', parser.href);
+console.log('origin:', parser.origin);
+console.log('password:', parser.password);
+console.log('pathname:', parser.pathname);
+console.log('port:', parser.port);
+console.log('protocol:', parser.protocol);
+console.log('search:', parser.search);
+console.log('toString():', parser.toString());
+console.log('username:', parser.username);
+</code>
+
+<p>Example JavaScript script run with Node.js using jsdom.</p>
 <code name="javascript">
 var jsdom = require('jsdom').jsdom;
 var document = jsdom();
