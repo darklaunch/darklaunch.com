@@ -4,10 +4,10 @@
 
 <code name="python">
 try:
-  thing_that_raises_exception()
+    thing_that_raises_exception()
 except Exception as e:
-  print(e.__class__)
-  print(e.__module__)
+    print('Class: %s' % e.__class__)
+    print('Module: %s' % e.__module__)
 </code>
 
 <p>keywords: Django, MySQL, except ProgrammingError, django.db.utils.ProgrammingError</p>
