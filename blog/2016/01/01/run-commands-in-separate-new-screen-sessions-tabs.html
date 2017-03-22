@@ -19,3 +19,29 @@ screen -S "${screen_name}" -p "my_screen_2" -X stuff $'bash script_2.sh\n'
 screen -S "${screen_name}" -X "screen" -t "my_screen_3"
 screen -S "${screen_name}" -p "my_screen_3" -X stuff $'bash script_3.sh\n'
 </code>
+
+<p>Quick screen reference</p>
+<table>
+  <tr>
+    <td>Create new window</td>
+    <td>Control-a + c</td>
+  </tr>
+  <tr>
+    <td>Next window</td>
+    <td>Control-a + n</td>
+  </tr>
+  <tr>
+    <td>Previous window</td>
+    <td>Control-a + p</td>
+  </tr>
+  <tr>
+    <td>Detach</td>
+    <td>Control-a + d</td>
+  </tr>
+</table>
+
+<p>List screen sessions<p>
+<code>$ screen -ls</code>
+
+<p>Attach to screen</p>
+<code>$ screen -x</code>
