@@ -35,10 +35,13 @@ var buttonCode = {
 <p>Example:</p>
 <code name="javascript">
 $('#search-input').keydown(function(event) {
-    if ( event.which === keyCode.ENTER ):
+    if ( event.which === keyCode.ENTER ) {
         event.preventDefault();
         var query = $('#search-input').val();
         ajaxSearch(query);
     }
 });
 </code>
+
+https://github.com/jquery/jquery-ui/blob/master/external/jquery-simulate/jquery.simulate.js
+https://api.jquery.com/event.which/
