@@ -1,0 +1,10 @@
+<p>Sort an unordered dictionary in python using sorted.</p>
+
+<code name="python">
+>>> from collections import OrderedDict
+>>> d = {'a': 1, 'c': 3, 'b': 2}
+>>> OrderedDict(d)
+OrderedDict([('a', 1), ('c', 3), ('b', 2)])
+>>> OrderedDict(sorted(d.items()))
+OrderedDict([('a', 1), ('b', 2), ('c', 3)])
+</code>
