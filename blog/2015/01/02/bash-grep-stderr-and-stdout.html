@@ -1,10 +1,10 @@
 <p>Grep stderr by redirecting stderr to stdout.</p>
 
-<code>my_command 2>&1 | grep my_keyword</code>
+<code name="bash">my_command 2>&1 | grep --color my_keyword</code>
 
 <p>Grep only stderr by redirecting stderr to stdout and redirecting stdout to /dev/null.</p>
 
-<code>my_command 2>&1 > /dev/null | grep my_keyword</code>
+<code name="bash">my_command 2>&1 > /dev/null | grep --color my_keyword</code>
 
 <a href="/img/uploads/2015-01/php-grep-stderr-stdout.png"><img alt="" src="/img/uploads/2015-01/php-grep-stderr-stdout.png" /></a>
 
