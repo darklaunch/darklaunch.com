@@ -1,11 +1,36 @@
-<p>To run a multiline python script in a bash shell script from the commandline, do the following</p>
+<p>To run a multiline python script in a bash shell script from the command line, do the following:</p>
 
 <code name="sh">
-cat <<EOF | python -
-import sys
-from pprint import pprint
-pprint(sys.path)
+python - <<EOF
+import random
+print(random.random())
 EOF
 </code>
 
-<p>This will allow running python code inside a self-contained bash script.</p>
+<p>Using cat:</p>
+
+<code name="sh">
+cat <<EOF | python -
+import random
+print(random.random())
+EOF
+</code>
+
+<p>Pass bash variable to python script:</p>
+
+<code name="sh">
+some_bash_var='world'
+
+python - <<EOF
+import random
+s = """${some_bash_var}"""
+print('Hello ' + s)
+EOF
+</code>
+
+<p>Output:</p>
+
+<code>
+$ bash test.sh
+Hello world
+</code>
