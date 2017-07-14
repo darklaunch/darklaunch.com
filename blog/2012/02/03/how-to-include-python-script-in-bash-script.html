@@ -16,21 +16,28 @@ print(random.random())
 EOF
 </code>
 
-<p>Pass bash variable to python script:</p>
+<p>Pass bash variable to python script through stdin:</p>
 
 <code name="sh">
-some_bash_var='world'
+some_bash_var="world"
 
-python - <<EOF
-import random
-s = """${some_bash_var}"""
-print('Hello ' + s)
-EOF
+script="
+import sys
+name = sys.stdin.read().rstrip()
+print('hello ' + name)
+"
+echo "${some_bash_var}" | python -c "${script}"
 </code>
 
 <p>Output:</p>
 
-<code>
-$ bash test.sh
-Hello world
+<code name="sh">
+$ some_bash_var="world"
+$ script="
+→ import sys
+→ name = sys.stdin.read().rstrip()
+→ print('hello ' + name)
+→ "
+$ echo "${some_bash_var}" | python -c "${script}"
+hello world
 </code>
