@@ -1,0 +1,7 @@
+<p>Enable MySQL strict mode to fix possible data integrity issues.</p>
+
+<code name="python">
+DATABASES['default']['OPTIONS'] = {
+    'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+}
+</code>
