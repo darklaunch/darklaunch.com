@@ -11,7 +11,7 @@ import csv
 
 with open('data.csv') as f:
     reader = csv.reader(f)
-    headers = next(reader)
+    headers = reader.next()
     print('headers found: ' + str(headers))
     for row_list in reader:
         row_dict = dict(zip(headers, row_list))
@@ -26,7 +26,8 @@ headers found: ['first', 'last', 'sex']
 {'sex': 'female', 'last': 'Xenia', 'first': 'Florina'}
 </code>
 
-<p>You can also read the next line by doing reader.next():</p>
+<p>You can also read the next line by doing either reader.next() or next(reader):</p>
 <code name="python">
 headers = reader.next()
+headers = next(reader)
 </code>
