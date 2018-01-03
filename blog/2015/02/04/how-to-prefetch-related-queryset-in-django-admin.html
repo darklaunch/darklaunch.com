@@ -5,7 +5,7 @@ from django.contrib import admin
 
 class MyModelAdmin(admin.ModelAdmin):
   def get_queryset(self, request):
-    my_model = super(MyModelAdmin, self).queryset(request)
-    my_model = my_model.prefetch_related('user')
-    return my_model
+    queryset = super(MyModelAdmin, self).get_queryset(request)
+    queryset = my_model.prefetch_related('user')
+    return queryset
 </code>
