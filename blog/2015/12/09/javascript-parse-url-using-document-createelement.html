@@ -20,9 +20,10 @@ console.log('username:', parser.username);
 
 <p>Example JavaScript script run with Node.js using jsdom.</p>
 <code name="javascript">
-var jsdom = require('jsdom').jsdom;
-var document = jsdom();
-var window = document.defaultView;
+var jsdom = require('jsdom');
+var dom = new jsdom.JSDOM();
+var window = dom.window;
+var document = window.document;
 
 var parser = document.createElement('a');
 parser.href = 'https://username:password@www.example.com:9000/path?arg=value#anchor';
