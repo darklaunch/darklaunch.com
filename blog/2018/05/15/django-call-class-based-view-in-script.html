@@ -1,0 +1,49 @@
+<p>Call a Django view with query parameters using querydict in a python script.</p>
+
+<p>A simple view we want to call from a script:</p>
+
+<code name="python">
+from django.http import HttpResponse
+from django.utils import timezone
+from django.views import View
+
+
+class MyView(View):
+    def get(self, request):
+        now = timezone.now()
+        html = "<html><body>It is now %s.</body></html>" % now
+        return HttpResponse(html)
+</code>
+
+<p>The script where we call the class-based view:</p>
+
+<code name="python">
+from django.contrib.auth.models import User
+from django.http import HttpRequest
+from django.http.request import QueryDict
+
+from myapp.views import MyView
+
+
+user = User.objects.get(username='admin')
+
+get = QueryDict('defer=0&id=1234&force')
+
+request = HttpRequest()
+request.method = 'GET'
+request.user = user
+request.GET = get
+
+result = MyView.as_view()(request)
+print('result:')
+print(result)
+</code>
+
+<p>The output when the script is run:</p>
+
+<code>
+result:
+Content-Type: text/html; charset=utf-8
+
+<html><body>It is now 2018-05-15 00:00:00.000000+00:00.</body></html>
+</code>
