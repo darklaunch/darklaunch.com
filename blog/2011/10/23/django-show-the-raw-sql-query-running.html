@@ -9,9 +9,12 @@ DEBUG = True
 
 <p>Then import connection from django.db and print connection.queries</p>
 <code name="py">
+import pprint
+
 from django.db import connection
-from pprint import pprint
-pprint(connection.queries)
+
+
+pprint.pprint(connection.queries)
 </code>
 
 <p>If your queries are slowing you down, look into using select_related() to follow foreign keys</p>

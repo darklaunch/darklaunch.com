@@ -73,7 +73,7 @@ function colorize($str, $attributes) {
     );
 
     $ansi = '';
-    foreach (explode(';', $attributes) as $attribute) {
+    foreach (preg_split('/(,|;|\|)/', $attributes) as $attribute) {
         $ansi .= "\033[" . $ANSI_ESCAPE_CODES[$attribute] . 'm';
     }
     $ansi .= $str . "\033[" . $ANSI_ESCAPE_CODES['reset'] . 'm';
