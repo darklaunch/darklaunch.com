@@ -11,10 +11,11 @@ $ wf page.html "open https://www.example.com/"
 </code>
 
 <code name="bash">
-watch_file () 
-{ 
+watch_file ()
+{
     filename="${1}";
     cmd="${2}";
+    cols=$(tput cols);
     if [[ "${OSTYPE}" == "linux-gnu" ]]; then
         python_script=$(cat <<'EOF'
 import os
@@ -26,7 +27,9 @@ _, file_extension = os.path.splitext(filename)
 filepath = os.path.abspath(filename)
 cmd = sys.argv[2]
 if not cmd:
-    if file_extension == '.php':
+    if file_extension == '.js':
+        cmd = 'node {0}'.format(pipes.quote(filename))
+    elif file_extension == '.php':
         cmd = 'php {0}'.format(pipes.quote(filename))
     elif file_extension == '.py':
         cmd = 'python {0}'.format(pipes.quote(filename))
@@ -38,7 +41,7 @@ EOF
         cmd=$(python -c "${python_script}" "${filename}" "${cmd}");
         echo;
         while inotifywait --event modify --quiet "${filename}"; do
-            printf -- '-=%.0s' {1..40};
+            printf -- '-=%.0s' $(eval echo {1.."${cols}"});
             echo;
             if [ ! -z "${cmd}" ]; then
                 bash -c "${cmd}";
@@ -48,6 +51,7 @@ EOF
         if [[ "${OSTYPE}" == "darwin"* ]]; then
             echo -e '\x1b[0;93mWARNING\x1b[0m: watch using polling';
             python_script=$(cat <<'EOF'
+import math
 import os
 import pipes
 import random
@@ -55,6 +59,9 @@ import shlex
 import subprocess
 import sys
 import time
+
+cols = int(sys.stdin.read().rstrip())
+separator = '-=' * int(math.floor(cols / 2))
 
 filename = sys.argv[1]
 _, file_extension = os.path.splitext(filename)
@@ -79,7 +86,7 @@ while True:
         cur = os.path.getmtime(filepath)
         if cur != last:
             last = cur
-            print('-=' * 40)
+            print(separator)
             proc = subprocess.Popen(cmd_parts)
             proc.communicate()[0]
             print('return code: %s' % proc.returncode)
@@ -90,7 +97,7 @@ while True:
         print('failed to get file modification time (%s)' % e.message)
 EOF
 );
-            python -c "${python_script}" "${filename}" "${cmd}";
+            echo "${cols}" | python -c "${python_script}" "${filename}" "${cmd}";
         fi;
     fi
 }
