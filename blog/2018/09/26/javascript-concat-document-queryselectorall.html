@@ -1,0 +1,21 @@
+<p>Merge two lists of elements returned by document.querySelectorAll().</p>
+
+<p>Given the following html, select the div and list items.</p>
+
+<code name="html">
+<div>A</div>
+<ul>
+    <li>B</li>
+    <li>C</li>
+    <li>D</li>
+</ul>
+</code>
+
+<code name="javascript">
+var someNode = document.querySelector('div');
+var moreNodes = document.querySelectorAll('li');
+var combined = [someNode].concat(Array.prototype.slice.call(moreNodes));
+console.assert(combined.length === 4);
+</code>
+
+<p>The combined variable now contains [div, li, li, li].</p>
