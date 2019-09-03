@@ -60,6 +60,7 @@ with open(filename, 'r') as source_file:
                     parts.append(value)
                 version = tuple(parts)
 
+print('type: {}'.format(type(version)))
 print('version: {}'.format(version))
 </code>
 
@@ -67,15 +68,18 @@ print('version: {}'.format(version))
 
 <code name="bash">
 tuple found on line number 1
+type: <type 'tuple'>
 version: (3, 0, 0, 'alpha', 0)
 </code>
 
 <code name="bash">
 number found on line number 1
+type: <type 'float'>
 version: 3.0
 </code>
 
 <code name="bash">
 string found on line number 1
+type: <type 'str'>
 version: 3.0
 </code>
