@@ -1,6 +1,8 @@
 <p>To fix the NameError OrderedDict is not defined error, do the following:</p>
 
 <code name="python">
+import collections
+
 try:
     from collections import OrderedDict
 except ImportError:
