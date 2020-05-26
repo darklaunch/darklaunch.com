@@ -15,70 +15,91 @@ elapsed_time = end_time - start_time
 <p>Another way to measure multiple durations:</p>
 
 <code name="python">
-from collections import OrderedDict
+# logging_timer.py
 import logging
 import time
 
 
 class Timer(object):
-  def __init__(self):
-    self.starts = OrderedDict()
-    self.starts['start'] = time.time()
+    def __init__(self):
+        self.tasks = {}
+        self.level = 0
+        self.task_count = 0
+        self._next_task_name = ''
 
-  def round(self, number):
-    return '{0:>5} {1}'.format(int(number * 1000), 'ms')
+    def __enter__(self):
+        self.level += 1
+        self.task_count += 1
 
-  def columns(self, count):
-    return u'{0}  '.format(u'\u2502') * count
+        if self._next_task_name:
+            task_name = self._next_task_name
+            self._next_task_name = ''
+        else:
+            task_name = 'task %s' % self.task_count
 
-  def start(self, thing):
-    self.starts[thing] = time.time()
-    logging.debug(u'{0} {1}{2} {3}'.format(' ' * 8, self.columns(len(self.starts) - 2), u'\u250c', thing))
+        self.tasks['entered%s' % self.level] = {
+            'start_time': time.time(),
+            'name': task_name,
+        }
+        logging.debug('        %s %s %s' % (
+            self.columns(self.level - 1),
+            '\u250c',
+            '%s' % task_name,
+            ))
 
-  def stop(self):
-    thing, started = self.starts.popitem()
-    elapsed = self.round(time.time() - started)
-    logging.debug(u'{0} {1}{2} {3}'.format(elapsed, self.columns(len(self.starts) - 1), u'\u2514', thing))
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        task = self.tasks['entered%s' % self.level]
+        number = time.time() - task['start_time']
+        elapsed = '{0:>5} {1}'.format(int(number * 1000), 'ms')
+        logging.debug('%s%s %s %s' % (
+            elapsed,
+            self.columns(self.level - 1),
+            '\u2514',
+            '%s' % task['name'],
+            ))
+        self.level -= 1
+
+    def columns(self, count):
+        return ' {0} '.format('\u2502') * count
+
+    def name(self, task_name):
+        self._next_task_name = task_name
+        return self
 </code>
 
 <code name="python">
+# test.py
 import logging
 import time
 
-import Timer
+import logging_timer
 
 
 logging.getLogger().setLevel(logging.DEBUG)
 
-timer = Timer.Timer()
-timer.start('Tasks')
-timer.start('First task')
-time.sleep(1)
-timer.stop()
+timer = logging_timer.Timer()
+with timer.name('Tasks'):
+    with timer.name('First task'):
+        time.sleep(1)
 
-timer.start('Task 2')
-timer.start('Another task')
-time.sleep(4)
-timer.stop()
+    with timer.name('Task 2'):
+        with timer.name('Another task'):
+            time.sleep(4)
 
-timer.start('Yet another task')
-time.sleep(.5)
+        with timer.name('Yet another task'):
+            time.sleep(.5)
 
-timer.start('Do something')
-time.sleep(3)
-timer.start('Last task')
-time.sleep(.5)
-timer.stop()
-timer.stop()
-timer.stop()
-timer.stop()
-timer.stop()
+            with timer.name('Do something'):
+                time.sleep(3)
+
+                with timer.name('Last task'):
+                    time.sleep(.5)
 </code>
 
 <p>Example run output:</p>
 
 <code>
-$ python timer.py
+$ python test.py
 DEBUG:root:         ┌ Tasks
 DEBUG:root:         │  ┌ First task
 DEBUG:root: 1001 ms │  └ First task
