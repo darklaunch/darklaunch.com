@@ -5,7 +5,7 @@ Simply chain the query parameters with ->run(); as the last parameter.
 
 <code name="php">
 // Basic select
-$q=new Query;
+$q = new Query;
 $q
 	->select()
 	->from('`user`')
@@ -13,9 +13,10 @@ $q
 
 // -> SELECT * FROM `user`
 </code>
+
 <code name="php">
 // Select using page
-$q=new Query;
+$q = new Query;
 $q
 	->select()
 	->from('`user`')
@@ -28,8 +29,9 @@ $q
 Query using more advanced parameters:
 <code name="php">
 require 'class-query.php';
-$user_id=123456;
-$q=new Query;
+
+$user_id = 123456;
+$q = new Query;
 $q
 	->select(
 		array(
@@ -46,15 +48,14 @@ $q
 	)
 	->limit(1)
 	->run();
-if($q){
-	$user=$q->get_selected();
+if ($q) {
+	$user = $q->get_selected();
 	echo
 		'Hello '.$user['name'].',<br />'.
 		'Your email is currently set to '.$user['name'].' '.
 		'and your user id is '.$user['user_id'].'.<br />'.
 		'';
-}
-else{
+} else {
 	echo 'Sorry, user '.$user_id.' not found.';
 }
 </code>
