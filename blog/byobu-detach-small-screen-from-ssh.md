@@ -1,0 +1,1 @@
+Use `Alt` + `F6` to detach all clients in Byobu.
