@@ -1,11 +1,11 @@
-<p>Encode Django model, queryset, and user in json. Fixes:</p>
+Encode Django model, queryset, and user in json. Fixes:
 <ul>
   <li>TypeError: &lt;Model: Model object> is not JSON serializable</li>
   <li>TypeError: &lt;QuerySet []> is not JSON serializable</li>
   <li>TypeError: &lt;User: username> is not JSON serializable</li>
 </ul>
 
-<code name="python">
+```python
 import json
 
 from django.core import serializers
@@ -27,9 +27,9 @@ class JsonEncoder(DjangoJSONEncoder):
 
 def json_encode(data):
     return json.dumps(data, cls=JsonEncoder, indent=2, separators=(',', ': '))
-</code>
+```
 
-<code name="python">
+```python
 >>> import datetime
 >>> from django.contrib.auth.models import User
 >>> print(json_encode(User.objects.create(username='alice')))
@@ -69,4 +69,4 @@ def json_encode(data):
     }
   }
 ]
-</code>
+```

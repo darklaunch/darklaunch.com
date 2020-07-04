@@ -1,6 +1,6 @@
-<p>To create a last day of month event in Google Calendar, create a new file "myevent.ics" with the contents:</p>
+To create a last day of month event in Google Calendar, create a new file "myevent.ics" with the contents:
 
-<code>
+```
 BEGIN:VCALENDAR
 CALSCALE:GREGORIAN
 VERSION:2.0
@@ -12,16 +12,16 @@ SEQUENCE:0
 DESCRIPTION:Description here.
 END:VEVENT
 END:VCALENDAR
-</code>
+```
 
-<p>Update "SUMMARY:Title here.", "DESCRIPTION:Description here.", and "DTSTART;VALUE=DATE:20160331" as needed.</p>
+Update "SUMMARY:Title here.", "DESCRIPTION:Description here.", and "DTSTART;VALUE=DATE:20160331" as needed.
 
-<p>The recurrence rule (RRULE) field with BYSETPOS=-1 causes the event to be the first day of the month less 1 day.</p>
+The recurrence rule (RRULE) field with BYSETPOS=-1 causes the event to be the first day of the month less 1 day.
 
-<p>Import into Google Calendar:</p>
+Import into Google Calendar:
 
-<p><img alt="" src="/img/uploads/2016-06/google-calendar-import-calendar.png" /></p>
-<p><img alt="" src="/img/uploads/2016-06/google-calendar-import.png" /></p>
-<p><img alt="" src="/img/uploads/2016-06/google-calendar-event-repeat.png" /></p>
+<img alt="" src="/img/uploads/2016-06/google-calendar-import-calendar.png" />
+<img alt="" src="/img/uploads/2016-06/google-calendar-import.png" />
+<img alt="" src="/img/uploads/2016-06/google-calendar-event-repeat.png" />
 
-<p>Google Calendar warning: "This event has a recurrence rule that cannot be edited in Google Calendar".</p>
+Google Calendar warning: "This event has a recurrence rule that cannot be edited in Google Calendar".

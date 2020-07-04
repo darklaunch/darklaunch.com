@@ -1,16 +1,16 @@
-<p>Watch a file for file modifications and run a command. For known file extensions, the script may run itself. For all other extensions, specify a command to run.</p>
+Watch a file for file modifications and run a command. For known file extensions, the script may run itself. For all other extensions, specify a command to run.
 
-<p>Usage:</p>
+Usage:
 
-<code name="bash">
+```bash
 $ watch_file path/to/script.py
 $ wf script.py "python script.py"
 $ wf script.py
 $ wf script.py "bash run.sh"
 $ wf page.html "open https://www.example.com/"
-</code>
+```
 
-<code name="bash">
+```bash
 watch_file ()
 {
     filename="${1}";
@@ -103,6 +103,6 @@ EOF
 }
 
 alias wf="watch_file"
-</code>
+```
 
 Part of https://github.com/dot-star/dot-star

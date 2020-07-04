@@ -1,4 +1,4 @@
-<code name="javascript">
+```javascript
 function dump(arr, level) {
     // dump() from openjs.com
     var dumped_text = "";
@@ -52,4 +52,4 @@ function dbg(msg, level) {
         .find("> div")
             .scrollTop($debugbox.find('> div').prop('scrollHeight'));
 }
-</code>
+```

@@ -1,6 +1,6 @@
-<p>Use Object.assign to merge objects.</p>
+Use Object.assign to merge objects.
 
-<code name="javascript">
+```javascript
 const original = {
     'a': 1,
     'b': 2,
@@ -14,13 +14,13 @@ const updates = {
 
 const result = Object.assign(original, updates);
 console.log('result:', result);
-</code>
+```
 
-<code>result: { a: 1, b: 2, c: 3, d: 4 }</code>
+```result: { a: 1, b: 2, c: 3, d: 4 }```
 
-<p>Create a function that has default options by using Object.assign.</p>
+Create a function that has default options by using Object.assign.
 
-<code name="javascript">
+```javascript
 function doThing(options) {
     var defaults = {
         'debug': false,
@@ -29,9 +29,9 @@ function doThing(options) {
     options = Object.assign(defaults, options);
     console.log(options);
 }
-</code>
+```
 
-<code name="javascript">
+```javascript
 doThing();
 // { debug: false, retryCount: 0 }
 
@@ -40,4 +40,4 @@ doThing({'debug': false, 'retryCount': 1});
 
 doThing({'debug': true, 'retryCount': 5});
 // { debug: true, retryCount: 5 }
-</code>
+```

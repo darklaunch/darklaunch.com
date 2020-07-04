@@ -1,14 +1,14 @@
 CSRF ("sea-surf").
 
 Example:
-<code name="html">
+```html
 /* from http://malicious-site.com/index.php */
 <html>
 	<body>
 		<img alt="you have just been signed out" src="http://example.com/signout" />
 	</body>
 </html>
-</code>
+```
 
 What's going on?
 You just requested an image and it signed you out of example.com.

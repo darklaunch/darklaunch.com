@@ -1,6 +1,6 @@
 To time and measure the duration of a JavaScript event.
 
-<code name="js">
+```js
 function start() {
     startTime = new Date().getTime();
 }
@@ -9,10 +9,10 @@ function stop() {
     var endTime = new Date().getTime();
     return endTime - startTime;
 }
-</code>
+```
 
 Example:
-<code name="js">
+```js
 function start() {
     startTime = new Date().getTime();
 }
@@ -27,8 +27,8 @@ function doSomething() {
         // Do something
     }
 }
-</code>
+```
 
-<code name="html">
+```html
 <input value="Click me" onclick="start(); doSomething(); alert(stop() + 'ms');" type="button" />
-</code>
+```

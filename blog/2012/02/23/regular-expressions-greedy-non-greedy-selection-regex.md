@@ -1,6 +1,6 @@
-<p>If your regex pattern is too greedy, that is, it finds the largest matching case when you want it to find the smallest matching pattern, use a non-greedy selection.</p>
+If your regex pattern is too greedy, that is, it finds the largest matching case when you want it to find the smallest matching pattern, use a non-greedy selection.
 
-<p>Replace the greedy quantifier with the corresponding non-greedy version.</p>
+Replace the greedy quantifier with the corresponding non-greedy version.
 
 <blockquote>
 "...change * , + , ? , and {} into *? , +? , ?? , and {}? , respectively"
@@ -23,5 +23,5 @@
 </table>
 </div>
 
-<p>More from the Perl Cookbook
-http://docstore.mik.ua/orelly/perl/cookbook/ch06_16.htm</p>
+More from the Perl Cookbook
+http://docstore.mik.ua/orelly/perl/cookbook/ch06_16.htm

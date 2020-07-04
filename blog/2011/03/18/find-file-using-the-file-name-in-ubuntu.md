@@ -1,9 +1,9 @@
 To find a file by the filename, do the following:
-<code>
-find . -name "filename*"</code>
+```
+find . -name "filename*"```
 
 Do a case-insensitive search using -iname:
-<code>
-find . -iname "filename*"</code>
+```
+find . -iname "filename*"```
 
 The asterisk ("*") may be used as a wildcard.

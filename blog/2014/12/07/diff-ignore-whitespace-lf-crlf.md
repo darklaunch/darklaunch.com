@@ -1,3 +1,3 @@
-<p>Diff ignoring whitespace characters.</p>
+Diff ignoring whitespace characters.
 
-<code>diff -u --ignore-all-space file.txt file2.txt</code>
+```diff -u --ignore-all-space file.txt file2.txt```

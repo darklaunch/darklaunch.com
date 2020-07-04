@@ -1,6 +1,6 @@
-<p>Read stdin using php on the command line.</p> 
+Read stdin using php on the command line. 
 
-<code name="sh">
+```sh
 listdir ()
 {
     ls | sort | php -r '
@@ -11,6 +11,6 @@ listdir ()
         }
     '
 }
-</code>
+```
 
 <img alt="" src="/img/uploads/2014-06/bash-stdin-php-command-line.png" />

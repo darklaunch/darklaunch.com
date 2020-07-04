@@ -1,5 +1,5 @@
-<p>To find the a word in vim, move the cursor over to one of the characters in the word you wish to search for and press <kbd>*</kbd> to look up the word forward or <kbd>#</kbd> to search backwards.</p>
+To find the a word in vim, move the cursor over to one of the characters in the word you wish to search for and press `*` to look up the word forward or `#` to search backwards.
 
-<p><kbd>*</kbd> - search forward</p>
+`*` - search forward
 
-<p><kbd>#</kbd> - search backward</p>
+`#` - search backward

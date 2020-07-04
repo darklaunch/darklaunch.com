@@ -1,9 +1,9 @@
-<p>Use ssh to run a local bash script on a remote computer.</p>
+Use ssh to run a local bash script on a remote computer.
 
-<p>Use the following syntax:</p>
-<code>
+Use the following syntax:
+```
 ssh user@host sh < myscript.sh
 ssh user@host bash < myscript.sh
-</code>
+```
 
-<p>If using bash, include "#!/bin/bash" at the top of myscript.sh and be sure to call `bash' instead of `sh' or you may get commands not found.</p>
+If using bash, include "#!/bin/bash" at the top of myscript.sh and be sure to call `bash' instead of `sh' or you may get commands not found.

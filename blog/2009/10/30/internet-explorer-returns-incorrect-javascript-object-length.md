@@ -1,5 +1,5 @@
 Internet Explorer will incorrectly give an object length off by one if the object contains a trailing comma. In the example below, the alerts return 5 and 6, respectively.
-<code name="html">
+```html
 <!doctype html>
 <html>
 <head>
@@ -29,4 +29,4 @@ Internet Explorer will incorrectly give an object length off by one if the objec
 	</script>
 </body>
 </html>
-</code>
+```

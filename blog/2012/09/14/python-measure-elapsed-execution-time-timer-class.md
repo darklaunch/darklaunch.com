@@ -1,6 +1,6 @@
-<p>Measure elapsed time duration using python.</p>
+Measure elapsed time duration using python.
 
-<code name="python">
+```python
 import time
 
 start_time = time.time()
@@ -10,11 +10,11 @@ time.sleep(1.234)
 
 end_time = time.time()
 elapsed_time = end_time - start_time
-</code>
+```
 
-<p>Another way to measure multiple durations:</p>
+Another way to measure multiple durations:
 
-<code name="python">
+```python
 # logging_timer.py
 import logging
 import time
@@ -65,9 +65,9 @@ class Timer(object):
     def name(self, task_name):
         self._next_task_name = task_name
         return self
-</code>
+```
 
-<code name="python">
+```python
 # test.py
 import logging
 import time
@@ -94,30 +94,30 @@ with timer.name('Tasks'):
 
                 with timer.name('Last task'):
                     time.sleep(.5)
-</code>
+```
 
-<p>Example run output:</p>
+Example run output:
 
-<code>
+```
 $ python test.py
-DEBUG:root:         ┌ Tasks
-DEBUG:root:         │  ┌ First task
-DEBUG:root: 1001 ms │  └ First task
-DEBUG:root:         │  ┌ Task 2
-DEBUG:root:         │  │  ┌ Another task
-DEBUG:root: 4000 ms │  │  └ Another task
-DEBUG:root:         │  │  ┌ Yet another task
-DEBUG:root:         │  │  │  ┌ Do something
-DEBUG:root:         │  │  │  │  ┌ Last task
-DEBUG:root:  501 ms │  │  │  │  └ Last task
-DEBUG:root: 3503 ms │  │  │  └ Do something
-DEBUG:root: 4004 ms │  │  └ Yet another task
-DEBUG:root: 8005 ms │  └ Task 2
-DEBUG:root: 9007 ms └ Tasks</code>
+DEBUG:root:         ? Tasks
+DEBUG:root:         ?  ? First task
+DEBUG:root: 1001 ms ?  ? First task
+DEBUG:root:         ?  ? Task 2
+DEBUG:root:         ?  ?  ? Another task
+DEBUG:root: 4000 ms ?  ?  ? Another task
+DEBUG:root:         ?  ?  ? Yet another task
+DEBUG:root:         ?  ?  ?  ? Do something
+DEBUG:root:         ?  ?  ?  ?  ? Last task
+DEBUG:root:  501 ms ?  ?  ?  ?  ? Last task
+DEBUG:root: 3503 ms ?  ?  ?  ? Do something
+DEBUG:root: 4004 ms ?  ?  ? Yet another task
+DEBUG:root: 8005 ms ?  ? Task 2
+DEBUG:root: 9007 ms ? Tasks```
 
-<p>More tests:</p>
+More tests:
 
-<code name="python">
+```python
 import logging
 import time
 
@@ -130,8 +130,8 @@ timer = logging_timer.Timer()
 with timer:
     time.sleep(5)
 """
-        ┌ task 1 start
-5000 ms └ task 1 stop
+        ? task 1 start
+5000 ms ? task 1 stop
 """
 
 timer = logging_timer.Timer()
@@ -141,10 +141,10 @@ with timer:
     with timer:
         time.sleep(2)
 """
-        ┌ task 1 start
-        │  ┌ task 2 start
-2000 ms │  └ task 2 stop
-7000 ms └ task 1 stop
+        ? task 1 start
+        ?  ? task 2 start
+2000 ms ?  ? task 2 stop
+7000 ms ? task 1 stop
 """
 
 timer = logging_timer.Timer()
@@ -157,12 +157,12 @@ with timer:
     with timer:
         time.sleep(1)
 """
-        ┌ task 1 start
-        │  ┌ task 2 start
-2000 ms │  └ task 2 stop
-        │  ┌ task 3 start
-1000 ms │  └ task 3 stop
-8000 ms └ task 1 stop
+        ? task 1 start
+        ?  ? task 2 start
+2000 ms ?  ? task 2 stop
+        ?  ? task 3 start
+1000 ms ?  ? task 3 stop
+8000 ms ? task 1 stop
 """
 
 timer = logging_timer.Timer()
@@ -178,22 +178,22 @@ with timer:
     with timer:
         time.sleep(1)
 """
-        ┌ task 1 start
-        │  ┌ task 2 start
-        │  │  ┌ task 3 start
-1000 ms │  │  └ task 3 stop
-3000 ms │  └ task 2 stop
-        │  ┌ task 4 start
-1000 ms │  └ task 4 stop
-9000 ms └ task 1 stop
+        ? task 1 start
+        ?  ? task 2 start
+        ?  ?  ? task 3 start
+1000 ms ?  ?  ? task 3 stop
+3000 ms ?  ? task 2 stop
+        ?  ? task 4 start
+1000 ms ?  ? task 4 stop
+9000 ms ? task 1 stop
 """
 
 timer = logging_timer.Timer()
 with timer.name('My Task A'):
     time.sleep(5)
 """
-        ┌ My Task A start
-5000 ms └ My Task A stop
+        ? My Task A start
+5000 ms ? My Task A stop
 """
 
 timer = logging_timer.Timer()
@@ -203,10 +203,10 @@ with timer.name('My Task B'):
     with timer:
         time.sleep(2)
 """
-        ┌ My Task B start
-        │  ┌ task 2 start
-2000 ms │  └ task 2 stop
-7000 ms └ My Task B stop
+        ? My Task B start
+        ?  ? task 2 start
+2000 ms ?  ? task 2 stop
+7000 ms ? My Task B stop
 """
 
 timer = logging_timer.Timer()
@@ -219,12 +219,12 @@ with timer.name('My Task C'):
     with timer:
         time.sleep(1)
 """
-        ┌ My Task C start
-        │  ┌ task 2 start
-2000 ms │  └ task 2 stop
-        │  ┌ task 3 start
-1000 ms │  └ task 3 stop
-8000 ms └ My Task C stop
+        ? My Task C start
+        ?  ? task 2 start
+2000 ms ?  ? task 2 stop
+        ?  ? task 3 start
+1000 ms ?  ? task 3 stop
+8000 ms ? My Task C stop
 """
 
 timer = logging_timer.Timer()
@@ -240,14 +240,14 @@ with timer.name('My Task D'):
     with timer:
         time.sleep(1)
 """
-        ┌ My Task D start
-        │  ┌ task 2 start
-        │  │  ┌ task 3 start
-1000 ms │  │  └ task 3 stop
-3000 ms │  └ task 2 stop
-        │  ┌ task 4 start
-1000 ms │  └ task 4 stop
-9000 ms └ My Task D stop
+        ? My Task D start
+        ?  ? task 2 start
+        ?  ?  ? task 3 start
+1000 ms ?  ?  ? task 3 stop
+3000 ms ?  ? task 2 stop
+        ?  ? task 4 start
+1000 ms ?  ? task 4 stop
+9000 ms ? My Task D stop
 """
 
 timer = logging_timer.Timer()
@@ -257,10 +257,10 @@ with timer.name('My Task E'):
     with timer.name('Another task'):
         time.sleep(2)
 """
-        ┌ My Task E start
-        │  ┌ Another task start
-2000 ms │  └ Another task stop
-7000 ms └ My Task E stop
+        ? My Task E start
+        ?  ? Another task start
+2000 ms ?  ? Another task stop
+7000 ms ? My Task E stop
 """
 
 timer = logging_timer.Timer()
@@ -273,12 +273,12 @@ with timer.name('My Task F'):
     with timer:
         time.sleep(1)
 """
-        ┌ My Task F start
-        │  ┌ Another task start
-2000 ms │  └ Another task stop
-        │  ┌ task 3 start
-1000 ms │  └ task 3 stop
-8000 ms └ My Task F stop
+        ? My Task F start
+        ?  ? Another task start
+2000 ms ?  ? Another task stop
+        ?  ? task 3 start
+1000 ms ?  ? task 3 stop
+8000 ms ? My Task F stop
 """
 
 timer = logging_timer.Timer()
@@ -291,12 +291,12 @@ with timer.name('My Task G'):
     with timer.name('Another task'):
         time.sleep(1)
 """
-        ┌ My Task G start
-        │  ┌ task 2 start
-2000 ms │  └ task 2 stop
-        │  ┌ Another task start
-1000 ms │  └ Another task stop
-8000 ms └ My Task G stop
+        ? My Task G start
+        ?  ? task 2 start
+2000 ms ?  ? task 2 stop
+        ?  ? Another task start
+1000 ms ?  ? Another task stop
+8000 ms ? My Task G stop
 """
 
 timer = logging_timer.Timer()
@@ -312,14 +312,14 @@ with timer.name('My Task H'):
     with timer:
         time.sleep(1)
 """
-        ┌ My Task H start
-        │  ┌ task 2 start
-        │  │  ┌ Inner task start
-1000 ms │  │  └ Inner task stop
-3000 ms │  └ task 2 stop
-        │  ┌ task 4 start
-1000 ms │  └ task 4 stop
-9000 ms └ My Task H stop
+        ? My Task H start
+        ?  ? task 2 start
+        ?  ?  ? Inner task start
+1000 ms ?  ?  ? Inner task stop
+3000 ms ?  ? task 2 stop
+        ?  ? task 4 start
+1000 ms ?  ? task 4 stop
+9000 ms ? My Task H stop
 """
 
 timer = logging_timer.Timer()
@@ -335,13 +335,13 @@ with timer.name('My Task I'):
     with timer.name('Last task'):
         time.sleep(1)
 """
-        ┌ My Task I start
-        │  ┌ task 2 start
-        │  │  ┌ Inner task start
-1000 ms │  │  └ Inner task stop
-3000 ms │  └ task 2 stop
-        │  ┌ Last task start
-1000 ms │  └ Last task stop
-9000 ms └ My Task I stop
+        ? My Task I start
+        ?  ? task 2 start
+        ?  ?  ? Inner task start
+1000 ms ?  ?  ? Inner task stop
+3000 ms ?  ? task 2 stop
+        ?  ? Last task start
+1000 ms ?  ? Last task stop
+9000 ms ? My Task I stop
 """
-</code>
+```

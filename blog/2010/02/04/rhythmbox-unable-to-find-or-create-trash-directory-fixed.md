@@ -1,41 +1,41 @@
 Rhythmbox with debugging turned on displayed this when attempting to "Move to Trash":
-<code>
+```
 rhythmbox --debug
 ...
 [0x1072040] [rhythmdb_entry_move_to_trash] rhythmdb.c:3848: trashing file:///mnt/path/to/file.mp3 failed: Unable to find or create trash directory
 ...
-</code>
+```
 Reason: the mount had the incorrect (default) uid and gid.
 This will show the current uid and guid for the files:
-<code>
+```
 ls -n /mnt/path/to/
-</code>
+```
 
 How To Fix: remount the drive and explicitly set the uid and gid:
-<code>
+```
 sudo mount -v -t cifs //10.20.1.20/Volume_1 /mnt/server --verbose -o user=myusername,pass=mypassword,uid=1000,gid=1000
-</code>
+```
 
 Now run
-<code>
+```
 ls -n /mnt/path/to/
-</code>
+```
 and the uid and gid will be 1000 and 1000 and moving files to the trash in Rhythmbox will work.
 
 NOTE: run "id"
-<code>
+```
 >>>
 id
 <<<
 uid=1000(user) gid=1000(user)...
-</code>
+```
 to print user and group information.
 
 NOTE: more information about mounting using mount and cifs:
-<code>
+```
 man mount
-</code>
+```
 AND
-<code>
+```
 man 8 mount.cifs
-</code>
+```

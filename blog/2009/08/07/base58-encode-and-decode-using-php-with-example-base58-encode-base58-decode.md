@@ -1,22 +1,22 @@
-<p>Base58 is base62 with ambiguous characters removed. These removed are 0, O, l, I for the Flickr Base58 character set.</p>
+Base58 is base62 with ambiguous characters removed. These removed are 0, O, l, I for the Flickr Base58 character set.
 
-<code>
+```
 Alphabet:       0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
 Bitcoin Base58: 123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz
 Base62:         0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
 Flickr Base58:  123456789abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ
-</code>
+```
 
-<p>Alphabets aligned for comparison:</p>
+Alphabets aligned for comparison:
 
-<code>
+```
 Alphabet:       0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
 Bitcoin Base58:  123456789ABCDEFGH JKLMN PQRSTUVWXYZabcdefghijk mnopqrstuvwxyz
 Base62:         0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
 Flickr Base58:   123456789abcdefghijk mnopqrstuvwxyzABCDEFGH JKLMN PQRSTUVWXYZ
-</code>
+```
 
-<code name="php">
+```php
 function base58_encode($num) {
     $alphabet = '123456789abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ';
     $base_count = strlen($alphabet);
@@ -49,9 +49,9 @@ function base58_decode($num) {
 
     return $decoded;
 }
-</code>
+```
 
-<code name="php">
+```php
 $array =
     array(
         // base10 => base58
@@ -72,9 +72,9 @@ foreach ($array as $base10 => $base58) {
     echo 'base58_encode(\'', $base10, '\') => ' . base58_encode($base10) . "\n";
     echo 'base58_decode(\'', $base58, '\') => ' . base58_decode($base58) . "\n";
 }
-</code>
+```
 
-<code>
+```
 base58_encode('3429289555') => 6e31iZ
 base58_decode('6e31iZ') => 3429289555
 base58_encode('3368') => 215
@@ -96,4 +96,4 @@ base58_decode('44') => 177
 base58_encode('193') => 4k
 base58_decode('4k') => 193
 base58_encode('195') => 4n
-base58_decode('4n') => 195</code>
+base58_decode('4n') => 195```

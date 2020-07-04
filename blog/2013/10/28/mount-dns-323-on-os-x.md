@@ -1,12 +1,12 @@
 <img alt="" src="/img/uploads/2013-10/dns-323-network-drive.png" />
 
-<p>To mount your DNS-323 on OS X, do the following on the command line.</p>
+To mount your DNS-323 on OS X, do the following on the command line.
 
-<code>
+```
 mkdir --parents /Volumes/dns323
-mount -t smbfs -o nodev,nosuid //username:password@192.168.1.20/Volume_1 /Volumes/dns323/</code>
+mount -t smbfs -o nodev,nosuid //username:password@192.168.1.20/Volume_1 /Volumes/dns323/```
 
-<p>To fix the error: "mount: realpath /Volumes/dns323: No such file or directory", create the destination mount directory using mkdir.</p>
+To fix the error: "mount: realpath /Volumes/dns323: No such file or directory", create the destination mount directory using mkdir.
 
-<code>
-mkdir --parents /Volumes/dns323</code>
+```
+mkdir --parents /Volumes/dns323```

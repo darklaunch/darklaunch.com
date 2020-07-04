@@ -1,17 +1,17 @@
-<p>To git clone a specific branch without downloading the entire repository, do the following:</p>
+To git clone a specific branch without downloading the entire repository, do the following:
 
-<code>
+```
 REPOSITORY=https://github.com/django/django
 BRANCH=master
 mkdir $BRANCH
 cd $BRANCH
 git init
 git remote add -t $BRANCH -f origin $REPOSITORY
-git checkout $BRANCH</code>
+git checkout $BRANCH```
 
-<p>This will download only the requested branch without fetching the full repository.</p>
+This will download only the requested branch without fetching the full repository.
 
-<code>
+```
 $ git branch --all
 * master
-  remotes/origin/master</code>
+  remotes/origin/master```

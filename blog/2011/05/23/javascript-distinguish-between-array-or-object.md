@@ -1,51 +1,51 @@
-<p>The typeof operator will say that an array is an "object". To accurately identify an array from an object in JavaScript, use the following solution:</p>
+The typeof operator will say that an array is an "object". To accurately identify an array from an object in JavaScript, use the following solution:
 
-<code name="javascript">
+```javascript
 function isArray(var) {
     return Object.prototype.toString.apply(var) === "[object Array]";
 }
-</code>
+```
 
-<p>Instead of using typeof or instanceof, use the Object.prototype.toString.apply method to check if a variable is an object or is an array in JavaScript.</p>
+Instead of using typeof or instanceof, use the Object.prototype.toString.apply method to check if a variable is an object or is an array in JavaScript.
 
-<code name="javascript">
+```javascript
 Object.prototype.toString.apply( $("body") )
 // "[object Object]"
 
 Object.prototype.toString.apply( [{foo:"bar"}] )
 // "[object Array]"
-</code>
+```
 
-<p>As an alternate solution, use the toString.call(element) method.</p>
+As an alternate solution, use the toString.call(element) method.
 
-<code name="javascript">
+```javascript
 toString.call( $("body") )
 // "[object Object]"
 
 toString.call( [{foo:"bar"}] )
 // "[object Array]"
-</code>
+```
 
-<p>jQuery type, isArray and isPlainObject functions are also available.</p>
+jQuery type, isArray and isPlainObject functions are also available.
 
-<code name="javascript">
+```javascript
 $.type(element)
 $.isArray(element)
 $.isPlainObject(element)
-</code>
+```
 
-<code name="javascript">
+```javascript
 $.type( [{foo:"bar"}] )
 // "array"
 
 $.type( $("body") )
 // "object"
-</code>
+```
 
-<code name="javascript">
+```javascript
 $.isArray( [{foo:"bar"}] )
 // true
 
 $.isArray( $("body") )
 // false
-</code>
+```

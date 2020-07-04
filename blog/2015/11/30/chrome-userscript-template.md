@@ -1,6 +1,6 @@
-<p>Chrome userscript template.</p>
+Chrome userscript template.
 
-<code name="javascript">
+```javascript
 // ==UserScript==
 // @name   Name
 // @match  https://www.example.com/*
@@ -13,4 +13,4 @@ console.info('start');
 
 console.info('done');
 console.groupEnd();
-</code>
+```

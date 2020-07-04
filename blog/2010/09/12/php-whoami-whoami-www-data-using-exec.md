@@ -1,6 +1,6 @@
-<p>PHP scripts typically runs under the www-data user. Verify this using the following code:</p>
+PHP scripts typically runs under the www-data user. Verify this using the following code:
 
-<code name="php">
+```php
 $command = 'whoami';
 echo exec($command) . "\n";
-</code>
+```

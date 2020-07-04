@@ -1,9 +1,9 @@
-<p>Bind to window.onkeydown natively without jQuery.</p>
+Bind to window.onkeydown natively without jQuery.
 
-<code name="javascript">
-window.onkeydown = function( event ) {
-    if ( event.keyCode === 27 ) {
-        console.log( 'escape pressed' );
+```javascript
+window.onkeydown = function(event) {
+    if (event.keyCode === 27) {
+        console.log('escape pressed');
     }
 };
-</code>
+```

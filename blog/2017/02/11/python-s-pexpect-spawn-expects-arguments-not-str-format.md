@@ -1,6 +1,6 @@
-<p>Use list of arguments with pexpect.spawn instead of str.format.</p>
+Use list of arguments with pexpect.spawn instead of str.format.
 
-<code name="python">
+```python
 import pexpect
 
 # Incorrect.
@@ -26,9 +26,9 @@ path = '/tmp/dir with spaces'
 child = pexpect.spawn('ls', [path])
 print(child.read())
 child.close()
-</code>
+```
 
-<code name="bash">
+```bash
 $ mkdir -p "/tmp/dir-without-spaces"
 $ mkdir -p "/tmp/dir with spaces"
 $ touch "/tmp/dir-without-spaces/file"{1,2,3}".txt"
@@ -43,4 +43,4 @@ ls: cannot access 'spaces': No such file or directory
 file1.txt  file2.txt  file3.txt
 
 file1.txt  file2.txt  file3.txt
-</code>
+```

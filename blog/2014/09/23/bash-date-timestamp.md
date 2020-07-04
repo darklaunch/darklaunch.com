@@ -1,6 +1,6 @@
-<p>Bash timestamp with seconds.</p>
+Bash timestamp with seconds.
 
-<code name="bash">
+```bash
 $ date "+%Y-%m-%d_%H%M%S"
 2014-09-22_173619
-</code>
+```

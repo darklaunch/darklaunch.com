@@ -1,12 +1,12 @@
 Add an Xfce shortcut by going to Applications > Settings > Keyboard. Select the Application Shortcuts tab. Click Add to set volume up, volume down and toggle mute shortcuts:
-<code>
+```
 amixer set Master 3+
-</code>
-<code>
+```
+```
 amixer set Master 3-
-</code>
+```
 For toggling mute:
-<code>
+```
 amixer set Master toggle
-</code>
+```
 After each code shortcut command is added, press a hotkey to associate it with the command.

@@ -1,6 +1,6 @@
-<p>To touch a file in python, do the following:</p>
+To touch a file in python, do the following:
 
-<code name="python">
+```python
 import os
 
 
@@ -16,6 +16,6 @@ if __name__ == '__main__':
         filename = 'somefile{i}.txt'.format(i=i)
         print filename
         touch(filename)
-</code>
+```
 
 <img alt="" src="/img/uploads/2012-07/python-touch-file.png" />

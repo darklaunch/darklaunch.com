@@ -1,4 +1,4 @@
-<code name="php">
+```php
 function escape($str) {
     return str_replace(
         array( '&',     '<',    '>',    '"',      '\''),
@@ -6,6 +6,6 @@ function escape($str) {
         $str
     );
 }
-</code>
+```
 
 NOTE: &amp;apos; is not used as it is not a valid HTML entity reference.

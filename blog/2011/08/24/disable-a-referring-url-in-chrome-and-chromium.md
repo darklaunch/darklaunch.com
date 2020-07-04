@@ -3,29 +3,29 @@ UPDATE:
 Use Referer Control: https://chrome.google.com/webstore/detail/referer-control/hnkcfpcejkafcihlgbojoidoihckciin
 </blockquote>
 
-<p>---<hr /></p>
+---<hr />
 
-<p>To permanently disable a referring url in Google Chrome and Chromium, use the following setting in your "Preferences" file to stop sending a referer header on HTTP requests.</p>
+To permanently disable a referring url in Google Chrome and Chromium, use the following setting in your "Preferences" file to stop sending a referer header on HTTP requests.
 
-<p>A handy script is available at http://darklaunch.com/scripts/disable-chromium-referrers.py</p>
+A handy script is available at http://darklaunch.com/scripts/disable-chromium-referrers.py
 
-<code>
+```
 wget http://darklaunch.com/scripts/disable-chromium-referrers.py
 chmod +x disable-chromium-referrers.py
 python ./disable-chromium-referrers.py
-</code>
+```
 
-<p>The setting is called "enable_referrers" and it needs to be set to false (no quotes) in the json-encoded Preferences ( ~/.config/chromium/Default/Preferences ) file. For Google Chrome look in ~/.config/google-chrome/Default/Preferences</p>
+The setting is called "enable_referrers" and it needs to be set to false (no quotes) in the json-encoded Preferences ( ~/.config/chromium/Default/Preferences ) file. For Google Chrome look in ~/.config/google-chrome/Default/Preferences
 
-<code name="javascript">
+```javascript
 {
    ...
    "enable_referrers": false,
    ...
 }
-</code>
+```
 
-<code name="py">
+```py
 import json
 import os
 import time
@@ -50,17 +50,16 @@ prefs.write(new_json_prefs)
 prefs.close()
 
 print 'DONE'
-</code>
+```
 
 Notes:
-<code>
+```
 # http://src.chromium.org/svn/trunk/src/chrome/common/pref_names.cc
 // Whether to enable sending referrers.
 const char kEnableReferrers[] = "enable_referrers";
-</code>
+```
 
-<p>Other files containing references to "enable_referrers":
+Other files containing references to "enable_referrers":
 http://src.chromium.org/svn/trunk/src/content/common/view_messages.h
 http://src.chromium.org/svn/trunk/src/content/common/renderer_preferences.h
 http://src.chromium.org/svn/trunk/src/chrome/browser/net/chrome_network_delegate.cc
-</p>

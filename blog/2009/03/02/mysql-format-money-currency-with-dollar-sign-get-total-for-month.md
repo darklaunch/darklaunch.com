@@ -1,6 +1,6 @@
-<p>Format the mysql select with a dollar sign and two decimal places.</p>
+Format the mysql select with a dollar sign and two decimal places.
 
-<code name="sql">
+```sql
 SELECT
     CONCAT('$',FORMAT(SUM(`invoice_total`),2)) AS month_total
 FROM
@@ -10,4 +10,4 @@ WHERE
     `invoices`.`timestamp` < DATE_ADD(LAST_DAY('2009-02-01'), INTERVAL 1 DAY)
 LIMIT
     1
-</code>
+```

@@ -1,1 +1,1 @@
-<p>Undo pane splits in tmux, type <kbd>Ctrl</kbd> + <kbd>a</kbd> + <kbd>:break-pane</kbd> and press <kbd>Enter</kbd> or <kbd>Return</kbd>.</p>
+Undo pane splits in tmux, type `Ctrl` + `a` + `:break-pane` and press `Enter` or `Return`.

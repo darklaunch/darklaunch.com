@@ -1,9 +1,9 @@
-<p>To view the diff changes of the last commit, use the following:</p>
+To view the diff changes of the last commit, use the following:
 
-<code>git diff @~1</code>
+```git diff @~1```
 
-<p>OR</p>
+OR
 
-<code>git diff @{1} @{0}</code>
+```git diff @{1} @{0}```
 
 <img alt="" src="/img/uploads/2013-02/git-diff-last.png" />

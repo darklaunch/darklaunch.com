@@ -1,14 +1,14 @@
-<p>Write manageable CSS using Sass / SCSS. Compile to CSS with these options:</p>
+Write manageable CSS using Sass / SCSS. Compile to CSS with these options:
 
-<code name="sh">
+```sh
 sass --watch style.scss:style.css --unix-newlines --style expanded
-</code>
+```
 
-<code name="sh">
+```sh
 sass \
     --watch style.scss:style.css \ # Watch files or directories for changes.
     --unix-newlines              \ # Use Unix newlines in files written.
     --style expanded             \ # Use the expanded css style.
-</code>
+```
 
-<p>Learn more at <a href="http://sass-lang.com/">http://sass-lang.com/</a></p>
+Learn more at <a href="http://sass-lang.com/">http://sass-lang.com/</a>

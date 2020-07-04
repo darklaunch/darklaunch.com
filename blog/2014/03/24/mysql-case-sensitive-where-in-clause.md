@@ -1,10 +1,10 @@
-<p>MySQL WHERE IN case sensitive select clause.</p>
+MySQL WHERE IN case sensitive select clause.
 
-<code name="sql">
+```sql
 SELECT
     *
 FROM
     `table`
 WHERE
     CAST(`column` AS BINARY) NOT IN ('Foo', 'Bar', 'Baz');
-</code>
+```

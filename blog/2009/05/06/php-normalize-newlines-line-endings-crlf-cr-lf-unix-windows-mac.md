@@ -1,10 +1,10 @@
-<code name="php">
+```php
 define('CR', "\r");          // Carriage Return: Mac
 define('LF', "\n");          // Line Feed: Unix
 define('CRLF', "\r\n");      // Carriage Return and Line Feed: Windows
 define('BR', '&lt;br />' . LF); // HTML Break
-</code>
-<code name="php">
+```
+```php
 function normalize($s) {
 	// Normalize line endings using Global
 	// Convert all line-endings to UNIX format
@@ -14,8 +14,8 @@ function normalize($s) {
 	$s = preg_replace("/\n{2,}/", LF . LF, $s);
 	return $s;
 }
-</code>
-<code name="php">
+```
+```php
 function normalize($s) {
 	// Normalize line endings
 	// Convert all line-endings to UNIX format
@@ -25,4 +25,4 @@ function normalize($s) {
 	$s = preg_replace("/\n{2,}/", "\n\n", $s);
 	return $s;
 }
-</code>
+```

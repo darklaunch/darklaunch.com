@@ -1,30 +1,30 @@
-<p>Merge two lists of elements returned by document.querySelectorAll().</p>
+Merge two lists of elements returned by document.querySelectorAll().
 
-<p>Given the following html, select the div and list items.</p>
+Given the following html, select the div and list items.
 
-<code name="html">
+```html
 <div>A</div>
 <ul>
     <li>B</li>
     <li>C</li>
     <li>D</li>
 </ul>
-</code>
+```
 
-<code name="javascript">
+```javascript
 var someNode = document.querySelector('div');
 var moreNodes = document.querySelectorAll('li');
 var combined = [someNode].concat(Array.prototype.slice.call(moreNodes));
 console.assert(combined.length === 4);
-</code>
+```
 
-<p>The combined variable now contains [div, li, li, li].</p>
+The combined variable now contains [div, li, li, li].
 
-<p>Here is a real-world example where comments of a thread are obtained by specifying a target element.</p>
+Here is a real-world example where comments of a thread are obtained by specifying a target element.
 
-<p>A list of nested comments with one "current" comment.</p>
+A list of nested comments with one "current" comment.
 
-<code name="html">
+```html
 <div class="comment">
     comment 1
     <div class="comment">
@@ -55,11 +55,11 @@ console.assert(combined.length === 4);
 <div class="comment">
     comment 10
 </div>
-</code>
+```
 
-<p>Obtain the list of comments from the "current" target thread.</p>
+Obtain the list of comments from the "current" target thread.
 
-<code name="javascript">
+```javascript
 function getCommentsFromThread(targetNode) {
     var childNodes = targetNode.querySelectorAll('.comment');
     var targetAndChildNodes = [targetNode].concat(Array.prototype.slice.call(childNodes));
@@ -81,4 +81,4 @@ var expected = [
     'comment 9',
 ];
 console.assert(JSON.stringify(expected) === JSON.stringify(threadComments));
-</code>
+```

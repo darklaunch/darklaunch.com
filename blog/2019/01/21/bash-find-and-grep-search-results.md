@@ -1,7 +1,7 @@
-<p>Use the find command to locate certain files and grep to search for strings within the files found.</p>
+Use the find command to locate certain files and grep to search for strings within the files found.
 
-<p>Find todo tasks in recently modified files:</p>
+Find todo tasks in recently modified files:
 
-<code name="bash">
+```bash
 $ find . -mmin -$((60*24)) -exec grep --color --with-filename "TODO" {} \;
-</code>
+```

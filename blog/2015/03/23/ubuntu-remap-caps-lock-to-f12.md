@@ -1,10 +1,10 @@
-<p>To remap Caps Lock to F12, go to Ubuntu > Startup Applications > Add > enter the command:</p>
+To remap Caps Lock to F12, go to Ubuntu > Startup Applications > Add > enter the command:
 
-<code>xmodmap -e "keycode 66 = F12"</code>
+```xmodmap -e "keycode 66 = F12"```
 
-<p>This will remap caps lock to f12 at every startup.</p>
-<p>Also, ensure that the caps lock is does not actually type in all caps:</p>
+This will remap caps lock to f12 at every startup.
+Also, ensure that the caps lock is does not actually type in all caps:
 
-<code>$ sudo apt-get install -y gnome-tweak-tool</code>
+```$ sudo apt-get install -y gnome-tweak-tool```
 
-<p>Tweaks > Typing > Caps Lock key behavior :: Caps Lock is disabled</p>
+Tweaks > Typing > Caps Lock key behavior :: Caps Lock is disabled

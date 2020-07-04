@@ -1,13 +1,13 @@
 <img alt="" src="/img/uploads/2020-05/shell-colors.png" />
 <img alt="" src="/img/uploads/2020-05/shell-256-colors.png" />
 
-<p>Print 256 colors in the terminal using this script. Run with the following command and scroll using the arrow keys:</p>
+Print 256 colors in the terminal using this script. Run with the following command and scroll using the arrow keys:
 
-<code name="sh">
+```sh
 $ bash terminal_colors.sh | less -R --chop-long-lines
-</code>
+```
 
-<code name="sh">
+```sh
 print_16_colors() {
     declare -A attributes
     attributes["0"]="default"
@@ -143,4 +143,4 @@ print_256() {
 
 print_16_colors
 print_256
-</code>
+```

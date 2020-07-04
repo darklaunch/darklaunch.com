@@ -1,4 +1,4 @@
-<code name="php">
+```php
 <?php
 # server.php
 $content_length_bytes = 1e6; // 1 megabyte.
@@ -20,14 +20,14 @@ for ($i = 0; $i < $length; $i++) {
     // Slow the download.
     usleep($micro_seconds);
 }
-</code>
+```
 
-<p>Start the server.</p>
+Start the server.
 
-<code name="bash">
+```bash
 $ php -S 127.0.0.1:8080 server.php
-</code>
+```
 
-<p>Show the download progress including Total, Received, Xferd, Average Dload, Speed Upload, Time Total, Time Spent, Time Left, Current Speed:</p>
+Show the download progress including Total, Received, Xferd, Average Dload, Speed Upload, Time Total, Time Spent, Time Left, Current Speed:
 
-<code>curl -i http://127.0.0.1:8080/server.php -o /dev/null</code>
+```curl -i http://127.0.0.1:8080/server.php -o /dev/null```

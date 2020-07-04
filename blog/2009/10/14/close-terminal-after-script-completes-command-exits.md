@@ -7,7 +7,7 @@ For "When command exists:" select "Exit the terminal".
 
 NOTE:
 myscript.py required user input. So I added  a Keyboard Shortcut with the "Command" of:
-<code>
+```
 gnome-terminal --command=/path/to/myscript.py
-</code>
+```
 The shortcut opens a terminal window for the input. The scripts then runs and the Terminal window closes after the script completes.

@@ -1,32 +1,32 @@
-<p>Fix "bind: address already in use" error by finding the process in use and stopping it.</p>
+Fix "bind: address already in use" error by finding the process in use and stopping it.
 
-<p>Example error message:</p>
+Example error message:
 
-<code name="bash">
+```bash
 $ my_command
 2019/04/24 17:09:14 listen tcp 127.0.0.1:3306: bind: address already in use
-</code>
+```
 
-<p>Stop the process using port 3306:</p>
+Stop the process using port 3306:
 
-<code name="bash">
+```bash
 $ sudo kill $(sudo lsof -t -i:3306)
-</code>
+```
 
-<p>Alternate method:</p>
+Alternate method:
 
-<p>Clear the port, by finding the process using the port.</p>
+Clear the port, by finding the process using the port.
 
-<p>For example, find a process using port 8000.</p>
+For example, find a process using port 8000.
 
-<code name="bash">
+```bash
 $ netstat -tulpn | grep 8000
-</code>
+```
 
-<p>Running the netstat command will show an id on the far right. Stop the process by passing this process id to the kill command.</p>
+Running the netstat command will show an id on the far right. Stop the process by passing this process id to the kill command.
 
-<p>For example, if the id was 3746, run the following command.</p>
+For example, if the id was 3746, run the following command.
 
-<code name="bash">
+```bash
 $ kill 3746
-</code>
+```

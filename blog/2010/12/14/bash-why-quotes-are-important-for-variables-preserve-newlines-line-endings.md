@@ -1,4 +1,4 @@
-<code name="sh">#!/bin/bash
+```sh#!/bin/bash
 
 str=$(cat <<EOF
 foo
@@ -9,13 +9,13 @@ EOF
 
 echo $str
 echo "$str"
-</code>
+```
 
-<p>Newlines are ignored when echoing the variable without surrounding quotes. Newlines are preserved when using echo and quoting the variable. The script produces the following output.</p>
+Newlines are ignored when echoing the variable without surrounding quotes. Newlines are preserved when using echo and quoting the variable. The script produces the following output.
 
-<code name="sh">
+```sh
 foo bar baz
 foo
 bar
 baz
-</code>
+```

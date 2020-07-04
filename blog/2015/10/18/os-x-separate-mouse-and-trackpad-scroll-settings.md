@@ -1,6 +1,6 @@
-<p>Use Karabiner (https://github.com/tekezo/Karabiner) to change mouse and trackpad scroll settings. Edit private.xml.</p>
+Use Karabiner (https://github.com/tekezo/Karabiner) to change mouse and trackpad scroll settings. Edit private.xml.
 
-<code>
+```
 <?xml version="1.0"?>
 <root>
   <devicevendordef>
@@ -17,13 +17,13 @@
     <device_only>DeviceVendor::SOMEVENDOR, DeviceProduct::SOMEPRODUCT</device_only>
     <autogen>__FlipScrollWheel__ Option::FLIPSCROLLWHEEL_VERTICAL</autogen>
   </item>
-</root></code>
+</root>```
 
-<p>Replace vendor id 0x0001 and product id 0x0002 with the values from EventViewer. Save private.xml and click the Reload XML button <img alt="" src="/img/uploads/2015-10/reload-xml-button.png" /> under the Change Key tab <img alt="" src="/img/uploads/2015-10/change-key-tab.png" />.</p>
+Replace vendor id 0x0001 and product id 0x0002 with the values from EventViewer. Save private.xml and click the Reload XML button <img alt="" src="/img/uploads/2015-10/reload-xml-button.png" /> under the Change Key tab <img alt="" src="/img/uploads/2015-10/change-key-tab.png" />.
 
-<p>Open EventViewer.app using</p>
+Open EventViewer.app using
 
-<code>
-$ open /Applications/Karabiner.app/Contents/Applications/EventViewer.app</code>
+```
+$ open /Applications/Karabiner.app/Contents/Applications/EventViewer.app```
 
 <img alt="" src="/img/uploads/2015-10/os-x-eventviewer.png" />

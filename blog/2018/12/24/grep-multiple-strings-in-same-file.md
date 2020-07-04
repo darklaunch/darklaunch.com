@@ -1,15 +1,15 @@
-<p>Find multiple strings in the same file using grep. Pass the results of grep to xargs with grep.</p>
+Find multiple strings in the same file using grep. Pass the results of grep to xargs with grep.
 
-<p>Find files containing both the add() method and the create() method.</p>
+Find files containing both the add() method and the create() method.
 
-<code name="bash">
+```bash
 $ grep -r -l "def add(" . | xargs grep -l "def create("
 ./db/models/fields/related_descriptors.py
 ./contrib/contenttypes/fields.p
-</code>
+```
 
-<p>Edit the resulting files by enclosing the grep command in $().
+Edit the resulting files by enclosing the grep command in $().
 
-<code name="bash">
+```bash
 $ vim $(grep -r -l "def add(" . | xargs grep -l "def create(")
-</code>
+```

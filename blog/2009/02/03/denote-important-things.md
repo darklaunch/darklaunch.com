@@ -1,14 +1,14 @@
-<code name="php">
-header('location: http://example.org');
+```php
+header('Location: https://example.org');
 exit; // !important
 
 // OR SIMPLY
 
-header('location: http://example.org');
+header('Location: https://example.org');
 exit; // !
-</code>
+```
 
-<code name="javascript">
+```javascript
 // snippet...
 switch(e.keyCode){
     case 13:
@@ -19,4 +19,4 @@ switch(e.keyCode){
         break; // !
 }
 return true;
-</code>
+```

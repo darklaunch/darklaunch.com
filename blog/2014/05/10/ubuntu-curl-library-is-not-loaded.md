@@ -1,5 +1,5 @@
-<p>Fix cURL library is not loaded on Ubuntu:</p>
+Fix cURL library is not loaded on Ubuntu:
 
-<code name="sh">
+```sh
 sudo apt-get install php5-curl
-</code>
+```

@@ -1,26 +1,26 @@
-<p>OS X Window Manager: ShiftIt</p>
+OS X Window Manager: ShiftIt
 
-<code>
+```
 $ git clone https://github.com/fikovnik/ShiftIt.git
 $ cd ShiftIt/ShiftIt
 $ xcodebuild -target "ShiftIt NoX11" -configuration Release
 ** BUILD SUCCEEDED **
 $ cd build/Release
-$ cp ShiftIt.app /Applications</code>
+$ cp ShiftIt.app /Applications```
 
 https://github.com/fikovnik/ShiftIt
 
-<p>Configuration:</p>
+Configuration:
 
-<p>To remap Command + Ctrl + d, disable displaying a definition of the selected word in the Dictionary application. System Preferences > Keyboard > Keyboard Shortcuts tab > Services.</p>
+To remap Command + Ctrl + d, disable displaying a definition of the selected word in the Dictionary application. System Preferences > Keyboard > Keyboard Shortcuts tab > Services.
 
-<p>Run this command:</p>
+Run this command:
 
-<code>defaults write com.apple.symbolichotkeys AppleSymbolicHotKeys
--dict-add 70 '<dict><key>enabled</key><false/></dict>'</code>
+```defaults write com.apple.symbolichotkeys AppleSymbolicHotKeys
+-dict-add 70 '<dict><key>enabled</key><false/></dict>'```
 
-<p>Then logout and remap Command + Ctrl + d in ShiftIt preferences.</p>
+Then logout and remap Command + Ctrl + d in ShiftIt preferences.
 
 <img alt="" src="/img/uploads/2014-02/shiftit-preferences.png" />
 
-<p>https://superuser.com/questions/326223/</p>
+https://superuser.com/questions/326223/

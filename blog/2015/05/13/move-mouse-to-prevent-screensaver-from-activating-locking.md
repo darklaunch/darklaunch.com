@@ -1,17 +1,17 @@
-<p>Automatically move your mouse to keep your screen from locking.</p>
+Automatically move your mouse to keep your screen from locking.
 
-<p>Ubuntu</p>
-<code name="sh">
+Ubuntu
+```sh
 while :; do
   xdotool mousemove_relative -- 1 0
   sleep 1
   xdotool mousemove_relative -- -1 0
   sleep 60
 done
-</code>
+```
 
-<p>OS X</p>
-<code name="sh">
+OS X
+```sh
 timeout=$((10 * 60))
 while :; do
   last_mouse_position=$(cliclick "p")
@@ -30,4 +30,4 @@ while :; do
       cliclick "m:-1,+0"
   fi
 done
-</code>
+```

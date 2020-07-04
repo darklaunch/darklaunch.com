@@ -1,6 +1,6 @@
-<p>Display the current Django project settings.</p>
+Display the current Django project settings.
 
-<code name="python">
+```python
 >>> from django.conf import settings
 >>> settings
 <LazySettings "myproject.settings">
@@ -25,4 +25,4 @@
  'WSGI_APPLICATION': 'myproject.wsgi.application',
  'X_FRAME_OPTIONS': u'SAMEORIGIN',
  'YEAR_MONTH_FORMAT': u'F Y'}
-</code>
+```

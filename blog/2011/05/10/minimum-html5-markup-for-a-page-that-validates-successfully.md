@@ -1,6 +1,6 @@
-<p>Minimum HTML Markup that validates. The following is valid HTML5 markup and will validate.</p>
+Minimum HTML Markup that validates. The following is valid HTML5 markup and will validate.
 
-<code name="html">
+```html
 <!doctype html>
 <html>
 <head>
@@ -10,11 +10,11 @@
 <body>
 </body>
 </html>
-</code>
+```
 
-<p>Success! "This document was successfully checked as HTML5!"</p>
+Success! "This document was successfully checked as HTML5!"
 
-<p>Note that you will may get the "experimental feature" warning.</p>
+Note that you will may get the "experimental feature" warning.
 
 See the Markup Validation Service:
 http://validator.w3.org/

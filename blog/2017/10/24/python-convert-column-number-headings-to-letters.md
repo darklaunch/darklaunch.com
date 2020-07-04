@@ -1,4 +1,4 @@
-<code name="python">
+```python
 def col_num_to_char(col):
     char = ''
     div = col
@@ -6,8 +6,8 @@ def col_num_to_char(col):
         div, mod = divmod(div - 1, 26)
         char = chr(mod + 65) + char
     return char
-</code>
-<code name="python">
+```
+```python
 >>> print(col_num_to_char(1))
 A
 >>> print(col_num_to_char(2))
@@ -23,5 +23,5 @@ Z
 >>> print(col_num_to_char(27))
 AA
 >>>
-</code>
+```
 kw: Microsoft Excel, Google Sheets, A1, R1C1, spreadsheet, column, row

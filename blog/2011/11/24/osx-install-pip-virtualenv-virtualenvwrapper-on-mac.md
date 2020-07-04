@@ -1,25 +1,25 @@
-<p>To install pip, virtual environment (virtualenv, virtualenvwrapper) on OS X, do the following on the command line:</p>
+To install pip, virtual environment (virtualenv, virtualenvwrapper) on OS X, do the following on the command line:
 
-<code>
+```
 sudo easy_install pip
 sudo pip install virtualenv
-sudo pip install virtualenvwrapper</code>
+sudo pip install virtualenvwrapper```
 
-<p>To enable the workon tab-completion feature, append the following to your profile file (located at ~/.profile):</p>
+To enable the workon tab-completion feature, append the following to your profile file (located at ~/.profile):
 
-<code>
-source /usr/local/bin/virtualenvwrapper.sh</code>
+```
+source /usr/local/bin/virtualenvwrapper.sh```
 
-<p>Create a directory to house the virtual environments:</p>
+Create a directory to house the virtual environments:
 
-<code>
-mkdir ~/.virtualenvs</code>
+```
+mkdir ~/.virtualenvs```
 
-<p>Create a new virtual environment for your project:</p>
+Create a new virtual environment for your project:
 
-<code>
+```
 cd ~/.virtualenvs
-virtualenv --no-site-packages myproject</code>
+virtualenv --no-site-packages myproject```
 
 <ul>
 <li>NOTE: Apple's development tools needs to be installed: Xcode

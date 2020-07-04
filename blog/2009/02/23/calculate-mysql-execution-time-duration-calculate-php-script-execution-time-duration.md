@@ -1,4 +1,4 @@
-<code name="php">
+```php
 <?php
 $stats = array();
 function start(){
@@ -14,8 +14,8 @@ function stop() {
     exit;
 }
 ?>
-</code>
-<code name="php">
+```
+```php
 <?php // example usage
 start();
 
@@ -24,6 +24,6 @@ for ($i = 0; $i <= 1000; $i++) {
 }
 
 stop();
-</code>
+```
 
-<p>You may may interested in the <a href="http://darklaunch.com/2013/01/30/php-measure-execution-elapsed-time-for-functions-or-scripts">PHP Measure Execution &amp; Elapsed Time for Functions or Scripts</a></p>
+You may may interested in the <a href="http://darklaunch.com/2013/01/30/php-measure-execution-elapsed-time-for-functions-or-scripts">PHP Measure Execution &amp; Elapsed Time for Functions or Scripts</a>

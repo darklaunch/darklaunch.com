@@ -1,12 +1,12 @@
-<p>To remove all trailing spaces in vim, use the following command:</p>
+To remove all trailing spaces in vim, use the following command:
 
-<code>
+```
 :%s/ \{1,}\n/\r/gc
-</code>
+```
 
-<p>Explained:</p>
+Explained:
 
-<code>
+```
 : - command
 %s - entire selection
 / - separator
@@ -16,4 +16,4 @@
 / - separator
 g - global replace
 c - confirm replacements (type y (yes) to confirm replacements)
-</code>
+```

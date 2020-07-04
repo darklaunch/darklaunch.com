@@ -1,6 +1,6 @@
-<p>Encode XML using xml_encode(); similar to json_encode().</p>
+Encode XML using xml_encode(); similar to json_encode().
 
-<code name="php">
+```php
 function xml_encode($mixed, $domElement=null, $DOMDocument=null) {
     if (is_null($DOMDocument)) {
         $DOMDocument =new DOMDocument;
@@ -39,10 +39,10 @@ function xml_encode($mixed, $domElement=null, $DOMDocument=null) {
         }
     }
 }
-</code>
+```
 
 Example:
-<code name="php">
+```php
 $data = array();
 for ($i = 0; $i < 3; $i++) {
     $data['users'][] = array(
@@ -75,10 +75,10 @@ echo xml_encode($data);
   </user>
 </users>
 */
-</code>
+```
 
 json_encode() example for comparison:
-<code name="php">
+```php
 header('Content-Type: application/json');
 echo json_encode($data);
 
@@ -101,11 +101,11 @@ echo json_encode($data);
     }]
 }
 */
-</code>
+```
 
 NOTE: for objects use something like:
-<code name="php">
+```php
 if (is_object($data)) {
     $data = get_object_vars($data);
 }
-</code>
+```

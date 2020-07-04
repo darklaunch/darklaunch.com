@@ -1,6 +1,6 @@
-<p>A http build query in python that is similar to php's http_build_query().</p>
+A http build query in python that is similar to php's http_build_query().
 
-<code name="python">
+```python
 import collections
 import urllib
 
@@ -13,4 +13,4 @@ def http_build_query(data):
             for index, v in enumerate(value):
                 dct['{0}[{1}]'.format(key, index)] = v
     return urllib.urlencode(dct)
-</code>
+```

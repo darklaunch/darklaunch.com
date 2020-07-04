@@ -1,4 +1,4 @@
-<code name="xml">
+```xml
 <color name="AliceBlue" value="#F0F8FF"/>
 <color name="AntiqueWhite" value="#FAEBD7"/>
 <color name="Aqua" value="#00FFFF"/>
@@ -139,6 +139,6 @@
 <color name="WhiteSmoke" value="#F5F5F5"/>
 <color name="Yellow" value="#FFFF00"/>
 <color name="YellowGreen" value="#9ACD32"/>
-</code>
+```
 
 I used these for gEdit themes.

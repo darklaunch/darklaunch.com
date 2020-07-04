@@ -1,6 +1,6 @@
-<p>Use python subprocess to communicate between python scripts.</p>
+Use python subprocess to communicate between python scripts.
 
-<code name="python">
+```python
 # script.py
 import subprocess
 
@@ -9,22 +9,22 @@ process = subprocess.Popen(
     stdin=subprocess.PIPE, stdout=subprocess.PIPE)
 result = process.stdout.readline()
 print(result)
-</code>
+```
 
-<code name="python">
+```python
 # my_other_script.py
 print('hello, world!')
-</code>
+```
 
-<code name="bash">
+```bash
 $ python script.py 
 hello, world!
 
-</code>
+```
 
-<p>Here's an example game in which the player tries to guess the dealer's number.</p>
+Here's an example game in which the player tries to guess the dealer's number.
 
-<code name="python">
+```python
 # Dealer (dealer.py)
 import random
 import sys
@@ -49,9 +49,9 @@ def main():
 
 if __name__ == '__main__':
     main()
-</code>
+```
 
-<code name="python">
+```python
 # Player (player.py)
 import random
 import subprocess
@@ -73,9 +73,9 @@ for i in xrange(8):
 process.stdin.write('0\n')
 result = process.stdout.readline()
 sys.stdout.write(result)
-</code>
+```
 
-<code name="bash">
+```bash
 $ python player.py 
 player betting 4
 number is 4: player wins!
@@ -94,4 +94,4 @@ number is 7: player wins!
 player betting 8
 number is 3: dealer wins
 Ok. Thanks for playing.
-</code>
+```

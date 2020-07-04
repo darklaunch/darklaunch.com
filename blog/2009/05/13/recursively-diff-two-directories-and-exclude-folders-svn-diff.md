@@ -1,3 +1,3 @@
-<p>Exclude .svn folders when diffing two directories.</p>
+Exclude .svn folders when diffing two directories.
 
-<code>diff --exclude=".svn" -rq ~/mounts/www.example.com/ /var/www/www.example.com/</code>
+```diff --exclude=".svn" -rq ~/mounts/www.example.com/ /var/www/www.example.com/```

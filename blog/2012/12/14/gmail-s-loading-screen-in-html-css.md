@@ -1,6 +1,6 @@
-<p>Here is an example of the Gmail Loading Progress Screen written in HTML5</p>
+Here is an example of the Gmail Loading Progress Screen written in HTML5
 
-<p>View the example demo here:</p>
+View the example demo here:
 
 <a href="/gmail-progress-bar-example.html">
 <img alt="" src="/img/uploads/2012-12/gmail-loading-progress-bar.png" />

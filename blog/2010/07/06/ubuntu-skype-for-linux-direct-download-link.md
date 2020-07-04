@@ -1,6 +1,6 @@
-<p>Here is the direct link to download Skype for Ubuntu:</p>
+Here is the direct link to download Skype for Ubuntu:
 http://www.skype.com/intl/en-us/get-skype/on-your-computer/linux/post-download/
 
-<p>To test if you webcam is working, luvcview is a good program to use.</code>
+To test if you webcam is working, luvcview is a good program to use.```
 
-<code>sudo apt-get install luvcview && luvcview</code>
+```sudo apt-get install luvcview && luvcview```

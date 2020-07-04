@@ -1,4 +1,4 @@
-<code name="php">
+```php
 <?php
 /**
  * Define MyClass
@@ -65,4 +65,4 @@ protected function _loadRegex() {
     $oct = '(?:25[0-5]|2[0-4][0-9]|1[0-9]{2}|[1-9][0-9]|[0-9])'; // 0-255
     $this->ip4 = "(?:{$oct}\\.{$oct}\\.{$oct}\\.{$oct})"; // PHP complex variable
 }
-</code>
+```

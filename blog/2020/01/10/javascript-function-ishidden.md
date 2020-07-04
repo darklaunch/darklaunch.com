@@ -1,6 +1,6 @@
-<p>Determine if an element is effectively hidden in JavaScript.</p>
+Determine if an element is effectively hidden in JavaScript.
 
-<code name="javascript">
+```javascript
 function isHidden(e) {
     const style = window.getComputedStyle(e);
     if (
@@ -13,6 +13,6 @@ function isHidden(e) {
     }
     return false;
 }
-</code>
+```
 
 from https://github.com/tiratatp/facebook_adblock/blob/master/src/main.js

@@ -1,7 +1,7 @@
 FIRST to test that your webcam at least works, run
-<code>
+```
 gstreamer-properties
-</code>
+```
 
 go to the "Video" tab.
 try changing the "Plugin:" setting under "Default Input"
@@ -15,9 +15,9 @@ Pipeline: v4l2src
 ---
 
 NEXT, get your webcam working with Skype
-<code>
+```
 env LD_PRELOAD=/usr/lib/libv4l/v4l1compat.so skype
-</code>
+```
 
 this will open up an instance of Skype.
 go to Options > Video Devices.
@@ -29,7 +29,7 @@ if you see the webcam in the box works, your webcam will now work during calls.
 
 Here are some of the errors that came up:
 
-<code>
+```
 $ luvcview 
 luvcview 0.2.6
 
@@ -39,9 +39,9 @@ SDL information:
 Device information:
   Device path:  /dev/video0
 ERROR opening V4L interface: No such file or directory
-</code>
+```
 
-<code>
+```
 $ luvcview 
 luvcview 0.2.6
 
@@ -53,7 +53,7 @@ Device information:
 Stream settings:
 ERROR: Requested frame format MJPG is not available and no fallback format was found.
  Init v4L2 failed !! exit fatal
-</code>
+```
 
 
 ---

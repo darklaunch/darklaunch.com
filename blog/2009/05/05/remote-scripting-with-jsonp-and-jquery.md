@@ -1,10 +1,10 @@
-<p>Using JSONP allows for cross-domain HTTP GET requests. The following code uses jQuery to call the Flickr API for a list of photos returned in JSON.</p>
+Using JSONP allows for cross-domain HTTP GET requests. The following code uses jQuery to call the Flickr API for a list of photos returned in JSON.
 
-<code name="html">
+```html
 <div id="photos"></div>
-</code>
+```
 
-<code name="javascript">
+```javascript
 $.ajax({
 	type: 'GET',
 	url: 'http://api.flickr.com/services/feeds/photos_public.gne?format=json&jsoncallback=?',
@@ -15,6 +15,6 @@ $.ajax({
 		});
 	}
 });
-</code>
+```
 
 NOTE: Updating is also possible using a GET request, but limited to around 2000 characters for some browsers and not recommended.

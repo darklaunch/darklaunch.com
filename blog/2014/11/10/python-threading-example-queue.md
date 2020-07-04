@@ -1,6 +1,6 @@
-<p>Use python threads and queues together to execute code in parallel (python multithreading, concurrency, and parallelism).</p>
+Use python threads and queues together to execute code in parallel (python multithreading, concurrency, and parallelism).
 
-<code name="python">
+```python
 import Queue
 import threading
 
@@ -29,4 +29,4 @@ for obj in MyModel.objects.all():
     queue.put(obj)
 
 queue.join()
-</code>
+```

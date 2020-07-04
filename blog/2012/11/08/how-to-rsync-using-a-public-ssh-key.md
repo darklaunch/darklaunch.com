@@ -1,23 +1,23 @@
-<p>You can use `ssh -i identity_file' method with rsync by specifying the
-remote shell to use.</p>
+You can use `ssh -i identity_file' method with rsync by specifying the
+remote shell to use.
 
-<code>
-$ rsync --rsh "ssh -i identity_file" --checksum --recursive --verbose --progress "myfolder" "ubuntu@10.20.1.10:/home/ubuntu/"</code>
+```
+$ rsync --rsh "ssh -i identity_file" --checksum --recursive --verbose --progress "myfolder" "ubuntu@10.20.1.10:/home/ubuntu/"```
 
-<p>Alternatively, modify your ssh config file. Add the following to your ~/.ssh/config file:</p>
+Alternatively, modify your ssh config file. Add the following to your ~/.ssh/config file:
 
-<code>
+```
 Host 10.20.1.10
 Hostname 10.20.1.10
 IdentityFile ~/.ssh/mykey
-User ubuntu</code>
+User ubuntu```
 
-<p>Now you can omit the "--rsh" parameter and do:</p>
+Now you can omit the "--rsh" parameter and do:
 
-<code>
-$ rsync --checksum --recursive --verbose --progress "myfolder" "ubuntu@10.20.1.10:/home/ubuntu/"</code>
+```
+$ rsync --checksum --recursive --verbose --progress "myfolder" "ubuntu@10.20.1.10:/home/ubuntu/"```
 
-<p>And now passwordless ssh-ing into the machine also works with the ssh config additions. e.g.:</p>
+And now passwordless ssh-ing into the machine also works with the ssh config additions. e.g.:
 
-<code>
-$ ssh 10.20.1.10</code>
+```
+$ ssh 10.20.1.10```

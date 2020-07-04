@@ -1,35 +1,35 @@
-<p>Use hexdump to lookup the 6-digit unicode sequence. Examples for bash and python are given.</p>
+Use hexdump to lookup the 6-digit unicode sequence. Examples for bash and python are given.
 
-<code>
-$ echo -n ✓ | hexdump
+```
+$ echo -n ? | hexdump
 0000000 e2 9c 93
 0000003
-</code>
+```
 
-<p>To print the character, escape the 6-digit / 3 byte unicode sequence. Use -e with echo to interpret the escaped characters.</p>
+To print the character, escape the 6-digit / 3 byte unicode sequence. Use -e with echo to interpret the escaped characters.
 
-<code>
+```
 $ echo -e "\xE2\x9c\x93"
-✓</code>
+?```
 
 
-<p>Example with color and subscripts on the command line:</p>
+Example with color and subscripts on the command line:
 
-<code>
+```
 $ echo -e 'O\xe2\x82\x82 Sensor: \x1b[1;32m\xE2\x9c\x93\x1b[0m'
-O₂ Sensor: ✓</code>
+O? Sensor: ?```
 
 <img alt="" src="/img/uploads/2013-04/bash-echo-unicode-characters.png" />
 
-<p>To print the unicode character in python, do the following:</p>
+To print the unicode character in python, do the following:
 
-<code name="python">
+```python
 >>> print "\xE2\x9c\x93"
-✓</code>
+?```
 
-<p>List of colors for bash prompt:</p>
+List of colors for bash prompt:
 
-<code name="sh">
+```sh
 # Reset
 Color_Off='\e[0m'       # Text Reset
 
@@ -102,4 +102,4 @@ On_IBlue='\e[0;104m'    # Blue
 On_IPurple='\e[0;105m'  # Purple
 On_ICyan='\e[0;106m'    # Cyan
 On_IWhite='\e[0;107m'   # White
-</code>
+```

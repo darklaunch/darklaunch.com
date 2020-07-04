@@ -1,6 +1,6 @@
-<p>Enable MySQL strict mode to fix possible data integrity issues.</p>
+Enable MySQL strict mode to fix possible data integrity issues.
 
-<code name="python">
+```python
 DATABASES = {
     'default': {
         'ENGINE': '...',
@@ -13,11 +13,11 @@ DATABASES = {
         },
     },
 }
-</code>
+```
 
-<p>Support full Unicode in MySQL databases by using utf8mb4 instead of utf8.</p>
+Support full Unicode in MySQL databases by using utf8mb4 instead of utf8.
 
-<code name="python">
+```python
 DATABASES = {
     'default': {
         'ENGINE': '...',
@@ -30,11 +30,11 @@ DATABASES = {
         },
     },
 }
-</code>
+```
 
-<p>Use MySQL's READ COMMITTED isolation level rather than the default of REPEATABLE READ.</p>
+Use MySQL's READ COMMITTED isolation level rather than the default of REPEATABLE READ.
 
-<code name="python">
+```python
 DATABASES = {
     'default': {
         'ENGINE': '...',
@@ -48,15 +48,15 @@ DATABASES = {
         },
     },
 }
-</code>
+```
 
-<p>Optionally, configure all database settings.</p>
+Optionally, configure all database settings.
 
-<code name="python">
+```python
 for key in list(DATABASES.keys()):
     DATABASES[key]['OPTIONS'] = {
         'charset': 'utf8mb4',
         'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
         'isolation_level': 'read committed',
     }
-</code>
+```

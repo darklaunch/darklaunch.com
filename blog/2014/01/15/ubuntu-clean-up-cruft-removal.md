@@ -1,6 +1,6 @@
-<p>Remove unwanted applications in Ubuntu.</p>
+Remove unwanted applications in Ubuntu.
 
-<code>
+```
 sudo apt-get --yes remove --purge ubuntuone*
 sudo apt-get --yes remove brasero*
 sudo apt-get --yes remove gwibber*
@@ -19,4 +19,4 @@ sudo apt-get install ubuntu-tweak
 # then Janitor > check all items and click the Clean button
 
 # Finally
-sudo apt-get autoremove</code>
+sudo apt-get autoremove```

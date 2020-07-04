@@ -1,6 +1,6 @@
-<p>Django track changes to a model.</p>
+Django track changes to a model.
 
-<code name="py">
+```py
 # models.py
 from django.contrib.auth.models import User
 from django.db import models
@@ -53,9 +53,9 @@ class PersonChange(models.Model):
     new_value = models.TextField(blank=True, null=True)
     changed_by = models.ForeignKey(User, blank=True, null=True)
     changed_at = models.DateTimeField(auto_now_add=True)
-</code>
+```
 
-<code name="py">
+```py
 # admin.py
 from django.contrib import admin
 
@@ -78,4 +78,4 @@ class PersonChangeAdmin(admin.ModelAdmin):
 
 admin.site.register(Person, PersonAdmin)
 admin.site.register(PersonChange, PersonChangeAdmin)
-</code>
+```

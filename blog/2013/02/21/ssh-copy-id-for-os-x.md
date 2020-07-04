@@ -1,24 +1,24 @@
-<p>To use ssh-copy-id in OS X, do the following on the command line.</p>
+To use ssh-copy-id in OS X, do the following on the command line.
 
-<code name="sh">
+```sh
 $ cd
 $ curl https://gist.github.com/darklaunch/5045167/raw --output ssh-copy-id
 $ chmod +x ssh-copy-id
 $ ./ssh-copy-id -i ~/.ssh/id_rsa.pub username@hostname
-</code>
+```
 
-<p>Also, if haven't created key for a specific email address, do this first:</p>
+Also, if haven't created key for a specific email address, do this first:
 
-<code name="sh">
+```sh
 $ ssh-keygen -t rsa -C "username@example.com"
-</code>
+```
 
-<p>And wherever you save the key, specify that in the ssh-copy-id command
-by replacing "~/.ssh/id_rsa.pub" with the appropriate path</p>
+And wherever you save the key, specify that in the ssh-copy-id command
+by replacing "~/.ssh/id_rsa.pub" with the appropriate path
 
-<p>Here's a copy of the script for reference</p>
+Here's a copy of the script for reference
 
-<code name="sh">
+```sh
 #!/bin/sh
  
 # Shell script to install your public key on a remote machine
@@ -75,4 +75,4 @@ Now try logging into the machine, with "ssh '$host'", and check in:
 to make sure we haven't added extra keys that you weren't expecting.
  
 EOF
-</code>
+```

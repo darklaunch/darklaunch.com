@@ -1,6 +1,6 @@
-<p>PHP File Upload Error Codes</p>
+PHP File Upload Error Codes
 
-<code name="php">
+```php
 // UPLOAD_ERR_OK         Value: 0
 // There is no error, the file uploaded with success.
 
@@ -24,9 +24,9 @@
 
 // UPLOAD_ERR_EXTENSION  Value: 8
 // A PHP extension stopped the file upload. Introduced in PHP 5.2.0.
-</code>
+```
 
-<code name="php">
+```php
 <?php
 error_reporting(E_ALL | E_STRICT);
 ini_set('display_errors', 1);
@@ -78,4 +78,4 @@ else {
         '</form>' .
         '';
 }
-</code>
+```

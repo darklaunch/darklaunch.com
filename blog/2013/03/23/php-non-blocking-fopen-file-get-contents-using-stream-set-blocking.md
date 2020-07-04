@@ -1,6 +1,6 @@
-<p>Here is a php script that calls a urls without blocking and returns immediately.</p>
+Here is a php script that calls a urls without blocking and returns immediately.
 
-<code name="php">
+```php
 function call_url($url) {
     // Call the url and return immediately with the length of the data read.
     // Useful for firing off scripts by calling a url.
@@ -13,4 +13,4 @@ function call_url($url) {
     // Return the amount of data read
     return strlen($data);
 }
-</code>
+```

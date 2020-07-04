@@ -1,5 +1,5 @@
-<p>Hello again.</p>
+Hello again.
 
-<p>Learned quite a bit since this site started, hope you did too.</p>
+Learned quite a bit since this site started, hope you did too.
 
-<p>Let's keep going.</p>
+Let's keep going.

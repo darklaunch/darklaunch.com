@@ -1,12 +1,12 @@
 The textarea or input. This is inline via onkeydown.
 
-<code name="html">
+```html
 <textarea cols="50" onkeydown="return interceptTabs(event,this);" rows="15"></textarea>
-</code>
+```
 
 The javascript
 
-<code name="javascript">
+```javascript
 function interceptTabs(evt,control){
 	key=evt.keyCode?evt.keyCode:evt.which?evt.which:evt.charCode;
 	if(key==9){
@@ -40,7 +40,7 @@ function insertAtCursor(myField, myValue){
 		myField.value+=myValue;
 	}
 }
-</code>
+```
 
 EDIT: see the jQuery version of this http://darklaunch.com/2009/02/03/javascript-insert-tabs-into-textarea-insert-tabs-into-input-javascript-tab-indent
 

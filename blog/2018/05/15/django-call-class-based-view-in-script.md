@@ -1,8 +1,8 @@
-<p>Call a Django view with query parameters using querydict in a python script.</p>
+Call a Django view with query parameters using querydict in a python script.
 
-<p>A simple view we want to call from a script:</p>
+A simple view we want to call from a script:
 
-<code name="python">
+```python
 from django.http import HttpResponse
 from django.utils import timezone
 from django.views import View
@@ -13,11 +13,11 @@ class MyView(View):
         now = timezone.now()
         html = "<html><body>It is now %s.</body></html>" % now
         return HttpResponse(html)
-</code>
+```
 
-<p>The script where we call the class-based view:</p>
+The script where we call the class-based view:
 
-<code name="python">
+```python
 from django.contrib.auth.models import User
 from django.http import HttpRequest
 from django.http.request import QueryDict
@@ -37,20 +37,20 @@ request.GET = get
 result = MyView.as_view()(request)
 print('result:')
 print(result)
-</code>
+```
 
-<p>The output when the script is run:</p>
+The output when the script is run:
 
-<code>
+```
 result:
 Content-Type: text/html; charset=utf-8
 
 <html><body>It is now 2018-05-15 00:00:00.000000+00:00.</body></html>
-</code>
+```
 
-<p>Pass additional arguments to the view.</p>
+Pass additional arguments to the view.
 
-<code name="python">
+```python
 from django.http import HttpResponse
 from django.views import View
 
@@ -61,9 +61,9 @@ class MyBlogView(View):
             page = 1
         html = "<html><body>You are on page %s.</body></html>" % page_number
         return HttpResponse(html)
-</code>
+```
 
-<code name="python">
+```python
 from django.http import HttpRequest
 
 from myapp.views import MyBlogView
@@ -76,11 +76,11 @@ page_number = 2
 result = MyBlogView.as_view()(request, page_number)
 print('result:')
 print(result)
-</code>
+```
 
-<code>
+```
 result:
 Content-Type: text/html; charset=utf-8
 
 <html><body>You are on page 2.</body></html>
-</code>
+```

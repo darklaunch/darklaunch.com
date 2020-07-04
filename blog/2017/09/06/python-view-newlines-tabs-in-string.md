@@ -1,6 +1,6 @@
-<p>View a string's newlines and tabs in Python.</p>
+View a string's newlines and tabs in Python.
 
-<code name="python">
+```python
 >>> import pprint
 >>> s = 'a\n\tb\nc'
 >>> print(s)
@@ -9,4 +9,4 @@ a
 c
 >>> print(pprint.pformat(s))
 'a\n\tb\nc'
-</code>
+```

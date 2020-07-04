@@ -1,20 +1,20 @@
-<p>A relative URL without a scheme is perfectly valid.</p>
+A relative URL without a scheme is perfectly valid.
 
-<code name="javascript">
+```javascript
 <script src="//www.example.com/script.js"></script>
-</code>
+```
 
-<code name="html">
+```html
 <link href="//www.example.com/style.css" rel="stylesheet" type="text/css" />
-</code>
+```
 
-<code name="html">
+```html
 <img alt="" src="//www.example.com/image.png" />
-</code>
+```
 
-<code>
+```
 https://www.example.com:8080/some/resource?key=value#hash
 \___/   \_____________/ \__/ \___________/ \_______/ \__/
   |            |         |         |           |      |
 scheme        host      port      path       query   fragment
-</code>
+```

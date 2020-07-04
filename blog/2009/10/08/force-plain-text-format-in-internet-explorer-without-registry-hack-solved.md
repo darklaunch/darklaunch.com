@@ -1,13 +1,13 @@
 Internet Explorer uses MIME sniffing to parse pages and will erroneously render the following page as html:
-<code name="php">
+```php
 header('Content-Type: text/plain');
 echo '<body>';
 echo '<span style="font-size:600%;">';
 echo 'normal <strong>bold</strong>';
 echo '</span>';
-</code>
+```
 To force Internet Explorer to render the page as plain text, add the following before any text is output:
-<code name="php">
+```php
 header('Content-Type: text/plain');
 echo '                                                  ';
 echo '                                                  ';
@@ -15,10 +15,10 @@ echo '                                                  ';
 echo '                                                  ';
 echo '                                                  ';
 echo "\n";
-</code>
+```
 Example:
 The following will render as plain text in Internet Explorer:
-<code name="php">
+```php
 header('Content-Type: text/plain');
 echo '                                                  ';
 echo '                                                  ';
@@ -30,18 +30,18 @@ echo '<body>';
 echo '<span style="font-size:600%;">';
 echo 'normal <strong>bold</strong>';
 echo '</span>';
-</code>
+```
 Or simply:
-<code name="php">
+```php
 header('Content-Type: text/plain');
 echo str_repeat(' ', 250) . "\n";
 echo '<body>';
 echo '<span style="font-size:600%;">';
 echo 'normal <strong>bold</strong>';
 echo '</span>';
-</code>
+```
 
 UPDATE: Sending the X-Content-Type-Options response header will stop MIME-sniffing.
-<code name="php">
+```php
 header('X-Content-Type-Options: nosniff');
-</code>
+```

@@ -1,15 +1,15 @@
-<p>Grep stderr by redirecting stderr to stdout.</p>
+Grep stderr by redirecting stderr to stdout.
 
-<code name="bash">my_command 2>&1 | grep --color my_keyword</code>
+```bashmy_command 2>&1 | grep --color my_keyword```
 
-<p>Grep only stderr by redirecting stderr to stdout and redirecting stdout to /dev/null.</p>
+Grep only stderr by redirecting stderr to stdout and redirecting stdout to /dev/null.
 
-<code name="bash">my_command 2>&1 > /dev/null | grep --color my_keyword</code>
+```bashmy_command 2>&1 > /dev/null | grep --color my_keyword```
 
 <a href="/img/uploads/2015-01/php-grep-stderr-stdout.png"><img alt="" src="/img/uploads/2015-01/php-grep-stderr-stdout.png" /></a>
 
-<code name="sh">
+```sh
 php -r 'fwrite(STDOUT, "stdout\n");fwrite(STDERR, "stderr\n");' | grep --color std
 php -r 'fwrite(STDOUT, "stdout\n");fwrite(STDERR, "stderr\n");' 2>&1 | grep --color std
 php -r 'fwrite(STDOUT, "stdout\n");fwrite(STDERR, "stderr\n");' 2>&1 > /dev/null | grep --color std
-</code>
+```

@@ -1,11 +1,11 @@
-<p>Disable OS X spotlight indexing.</p>
+Disable OS X spotlight indexing.
 
-<code>
+```
 # Disable indexing
-$ sudo mdutil -a -i off</code>
+$ sudo mdutil -a -i off```
 
-<code>
+```
 # Enable indexing
-$ sudo mdutil -a -i on</code>
+$ sudo mdutil -a -i on```
 
 <img alt="" src="/img/uploads/2014-06/osx-spotlight.png" />

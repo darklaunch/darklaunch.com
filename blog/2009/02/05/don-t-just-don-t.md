@@ -1,8 +1,8 @@
-<p>don't use short open tags: <? ?>; always use the long form of the PHP open tag (<?php ?>)</p>
+don't use short open tags: <? ?>; always use the long form of the PHP open tag (<?php ?>)
 
-<p>don't use print; use echo</p>
+don't use print; use echo
 
-<code name="php">
+```php
 <?
 // bad
 print $var;
@@ -12,4 +12,4 @@ print $var;
 // good
 echo $var;
 ?>
-</code>
+```

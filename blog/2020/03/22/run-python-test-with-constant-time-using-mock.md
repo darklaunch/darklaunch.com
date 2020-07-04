@@ -1,4 +1,4 @@
-<code name="python">
+```python
 import datetime
 import time
 
@@ -12,10 +12,10 @@ with mock.patch.object(datetime, 'datetime', mock.Mock(wraps=datetime.datetime))
     print(datetime.datetime.now())
     time.sleep(3)
     print(datetime.datetime.now())
-</code>
+```
 
-<code name="bash">
+```bash
 $ python run_test.py
 2020-01-01 00:00:00
 2020-01-01 00:00:00
-</code>
+```

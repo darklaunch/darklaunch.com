@@ -12,8 +12,8 @@ Go to:
 https://addons.mozilla.org/en-US/firefox/downloads/latest/5369
 
 NOTE: redirect
-<code>
+```
 curl -i "https://addons.mozilla.org/en-US/firefox/downloads/latest/5369"
 HTTP/1.1 302 Found
 Location: https://addons.mozilla.org/en-US/firefox/downloads/file/52151/xpi/yslow-2.0.0b3-fx.xpi
-</code>
+```

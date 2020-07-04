@@ -1,4 +1,4 @@
-<code name="js">
+```js
 // from http://widgets.twimg.com/j/1/widget.js
 var K = function () {
 	var a = navigator.userAgent;
@@ -52,4 +52,4 @@ var H = function (a) {
 
 console.log(H("Wed, 08 Apr 2009 19:22:10 +0000"));
 console.log(H("Thu, 20 May 2010 19:22:10 +0000"));
-</code>
+```

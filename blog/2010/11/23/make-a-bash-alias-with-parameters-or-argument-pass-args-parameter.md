@@ -1,23 +1,23 @@
-<p>Bash aliases do not accept parameters. Thus, we need to change aliases that use parameters into functions.</p>
+Bash aliases do not accept parameters. Thus, we need to change aliases that use parameters into functions.
 
-<code name="sh">
+```sh
 cd() {
     builtin cd $1
     pwd
 }
-</code>
+```
 
-<p>Now you can call cd(): cd /path/to/some/dir/ and cd will change to the directory and pwd will print name of current/working directory.</p>
+Now you can call cd(): cd /path/to/some/dir/ and cd will change to the directory and pwd will print name of current/working directory.
 
-<p>Using parameters as required:</p>
+Using parameters as required:
 
-<code name="sh">
+```sh
 findpy() {
     find . -name '*.py' -exec grep --line-number --with-filename --recursive "$1" {} \; ;
 }
-</code>
+```
 
-<code name="sh">
+```sh
 # handy extract
 extract() {
     if [ -f $1 ] ; then
@@ -39,14 +39,14 @@ extract() {
         echo "'$1' is not a valid file"
     fi
 }
-</code>
+```
 
-<code name="sh">
+```sh
 # mkdir, cd into it
 mkcd () {
     mkdir -p "\$*"
     cd "\$*"
 }
-</code>
+```
 
-<p>NOTE: use $@ to pass the full parameter. instead of alias foo="somecommand $1 $2 $3 $4 $5 $6", use alias foo="somecommand $@" without quotes around $@.</p>
+NOTE: use $@ to pass the full parameter. instead of alias foo="somecommand $1 $2 $3 $4 $5 $6", use alias foo="somecommand $@" without quotes around $@.

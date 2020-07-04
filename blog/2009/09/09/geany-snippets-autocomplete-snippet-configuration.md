@@ -1,16 +1,16 @@
 Geany snippets configuration file is located in:
-<code>
+```
 /usr/share/geany/snippets.conf
-</code>
+```
 
 Edit the file:
-<code>
+```
 sudo geany /usr/share/geany/snippets.conf
-</code>
+```
 
 Save and restart geany. Now type the word if and the tab key. This will autocomplete an if statement.
 
-<code name="ini">
+```ini
 # from http://citizen.ovh.org/stuff/snippets.conf
 # Geany's snippets configuration file
 # use \n or %newline% for a new line (it will be replaced by the used EOL char(s) - LF, CR/LF, CR)
@@ -137,10 +137,10 @@ h3=<h3>%cursor%</h3>
 h4=<h4>%cursor%</h4>
 h5=<h5>%cursor%</h5>
 h6=<h6>%cursor%</h6>
-p=<p>%cursor%</p>
+p=%cursor%
 pre=<pre>\n%cursor%\n</pre>
-code=<code>\n%cursor%\n</code>
-quote=<blockquote>\n\t<p>\n\t\t%cursor%\n\t</p>\n</blockquote>
+code=```\n%cursor%\n```
+quote=<blockquote>\n\t\n\t\t%cursor%\n\t\n</blockquote>
 # other
 cmt=<!--\n\t%cursor%\n-->
 br=<br/>
@@ -155,4 +155,4 @@ for={% for sth in %cursor% %}\n\t\n{% endfor %}
 dv={{ %cursor% }}
 # Django block
 db={% %cursor% %}
-</code>
+```

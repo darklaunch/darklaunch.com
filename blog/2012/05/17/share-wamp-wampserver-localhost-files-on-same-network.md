@@ -1,18 +1,18 @@
-<p>To share your localhost and allow files to be available from other computers, do the following:</p>
+To share your localhost and allow files to be available from other computers, do the following:
 
-<p>Open httpd.conf by selecting the WampServer tray icon. Select "PHP" and "php.ini"
+Open httpd.conf by selecting the WampServer tray icon. Select "PHP" and "php.ini"
 
-Change the lines "Deny from all" and the next line "Allow from 127.0.0.1" to just "Allow from all" and restart Apache.</p>
+Change the lines "Deny from all" and the next line "Allow from 127.0.0.1" to just "Allow from all" and restart Apache.
 
-<p>To restart Apache: WampServer tray icon and "Restart All Services".</p>
+To restart Apache: WampServer tray icon and "Restart All Services".
 
-<p>Now all computers on the network can access your pages served by your WampServer my going to http://&lt;your_ip_address&gt;/</p>
+Now all computers on the network can access your pages served by your WampServer my going to http://&lt;your_ip_address&gt;/
 
-<p>To find your local network ip address, run ipconfig on the command line.</p>
+To find your local network ip address, run ipconfig on the command line.
 
-<code>ipconfig</code>
+```ipconfig```
 
-<code>
+```
 <Directory "c:/wamp/www/">
    #
    # Possible values for the Options directive are "None", "All",
@@ -45,4 +45,4 @@ Change the lines "Deny from all" and the next line "Allow from 127.0.0.1" to jus
    #Allow from 127.0.0.1
    Allow from all
 
-</Directory></code>
+</Directory>```

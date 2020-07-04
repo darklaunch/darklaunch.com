@@ -1,12 +1,12 @@
-<p>jQuery file selector works in 1.2.6</p>
+jQuery file selector works in 1.2.6
 
-<p>$('#myform :file[value!='']') works in 1.2.6, but not in 1.3.x</p>
+$('#myform :file[value!='']') works in 1.2.6, but not in 1.3.x
 
-<p>Selector is looking for inputs of type file with value not empty.</p>
+Selector is looking for inputs of type file with value not empty.
 
-<p>Test case where "uncaught exception: Syntax error, unrecognized expression: value!='']":</p>
+Test case where "uncaught exception: Syntax error, unrecognized expression: value!='']":
 
-<code name="html">
+```html
 <div id="myform">
     <form action="test-selector.php" enctype="multipart/form-data" method="post">
         <div>
@@ -36,7 +36,7 @@ function submit_form() {
     }
 }
 &lt;/script>
-</code>
+```
 
 Why doesn't value expression work in the current release?
 RE: http://dev.jquery.com/ticket/4083

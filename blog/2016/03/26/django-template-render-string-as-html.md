@@ -1,13 +1,13 @@
-<p>Render a template filename with context to an html string in Django.</p>
+Render a template filename with context to an html string in Django.
 
-<code name="python">
+```python
 from django.template.loader import render_to_string
 html = render_to_string('relative/path/to/my_template.html', {'foo': 'bar'})
-</code>
+```
 
-<p>Render template from a string.</p>
+Render template from a string.
 
-<code name="python">
+```python
 >>> from django.template import Context
 >>> from django.template import Template
 >>> template = Template('Hello, {{ thing }}!')
@@ -19,11 +19,11 @@ u'Hello, World!'
 >>> context = Context({'thing': 'Internet'})
 >>> template.render(context)
 u'Hello, Internet!'
-</code>
+```
 
-<p>Render template from a string with the request context available for use.</p>
+Render template from a string with the request context available for use.
 
-<code name="python">
+```python
 # myapp/views.py
 from django.http import HttpResponse
 from django.template import RequestContext
@@ -36,10 +36,10 @@ def index(request):
         'thing': 'World',
     })
     return HttpResponse(template.render(context))
-</code>
+```
 
-<p>Response:</p>
+Response:
 
-<code>
+```
 Hello, World and alice!
-</code>
+```

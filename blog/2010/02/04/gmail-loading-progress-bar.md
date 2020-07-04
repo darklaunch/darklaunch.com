@@ -1,4 +1,4 @@
-<code name="html">
+```html
 &lt;!doctype html>
 &lt;html>
 &lt;head>
@@ -94,4 +94,4 @@
 	&lt;/div>
 &lt;/body>
 &lt;/html>
-</code>
+```

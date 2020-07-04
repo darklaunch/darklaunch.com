@@ -1,6 +1,6 @@
-<p>The user-select CSS Property determines whether the content of an element is selectable. To loosely disable this ability, use the following cross-browser solution.</p>
+The user-select CSS Property determines whether the content of an element is selectable. To loosely disable this ability, use the following cross-browser solution.
 
-<code name="css">
+```css
 .unselectable {
    -moz-user-select: -moz-none;
    -ms-user-select: none;
@@ -10,9 +10,9 @@
    -o-user-select: none;
    user-select: none;
 }
-</code>
+```
 
-<code name="css">
+```css
 /* override unselectable */
 .unselectable {
    -moz-user-select: auto !important;
@@ -23,4 +23,4 @@
    -o-user-select: auto !important;
    user-select: auto !important;
 }
-</code>
+```

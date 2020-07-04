@@ -1,6 +1,6 @@
-<p>Transparency using CSS:</p>
+Transparency using CSS:
 
-<code name="css">
+```css
 .transparent {
     -khtml-opacity: .5;
     -moz-opacity: .5;
@@ -8,6 +8,6 @@
     filter: alpha(opacity=50);
     opacity: .5;
 }
-</code>
+```
 
 <blockquote>NOTE: Please use sass.</blockquote>

@@ -1,8 +1,8 @@
-<p>Unable to catch the python exception?</p>
+Unable to catch the python exception?
 
-<p>First, use a catch all exception and see what exception it throws. The class and module will hint at where you may import the exception to catch from.</p>
+First, use a catch all exception and see what exception it throws. The class and module will hint at where you may import the exception to catch from.
 
-<code name="python">
+```python
 import logging
 
 try:
@@ -12,6 +12,6 @@ except Exception as error:
         'unhandled exception (class=%s; module=%s)',
         error.__class__ if hasattr(error, '__class__') else 'unknown',
         error.__module__ if hasattr(error, '__module__') else 'unknown')
-</code>
+```
 
-<p>keywords: Django, MySQL, except ProgrammingError, django.db.utils.ProgrammingError</p>
+keywords: Django, MySQL, except ProgrammingError, django.db.utils.ProgrammingError

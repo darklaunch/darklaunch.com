@@ -1,22 +1,22 @@
-<p>A regular assert statement could be more verbose:</p>
+A regular assert statement could be more verbose:
 
-<code name="python">
+```python
 first = 'a'
 second = 'aa'
 assert first == second
-</code>
+```
 
-<code name="bash">
+```bash
 $ python script.py
 Traceback (most recent call last):
   File "script.py", line 3, in <module>
     assert first == second
 AssertionError
-</code>
+```
 
-<p>Here is a top-level function to test an assertion condition in more detail:</p>
+Here is a top-level function to test an assertion condition in more detail:
 
-<code name="python">
+```python
 import unittest
 
 
@@ -32,9 +32,9 @@ def assert_equal(first, second):
 first = 'a'
 second = 'aa'
 assert_equal(first, second)
-</code>
+```
 
-<code name="bash">
+```bash
 $ python script.py
 F
 ======================================================================
@@ -49,27 +49,27 @@ AssertionError: 'a' != 'aa'
 Ran 1 test in 0.000s
 
 FAILED (failures=1)
-</code>
+```
 
-<p>Basic assert in:</p>
+Basic assert in:
 
-<code name="python">
+```python
 first = 'z'
 second = ['a', 'b', 'c']
 assert first in second
-</code>
+```
 
-<code name="bash">
+```bash
 $ python script.py
 Traceback (most recent call last):
   File "script.py", line 3, in <module>
     assert first in second
 AssertionError
-</code>
+```
 
-<p>Improved assert in:</p>
+Improved assert in:
 
-<code name="python">
+```python
 import unittest
 
 
@@ -85,9 +85,9 @@ def assert_in(first, second):
 first = 'z'
 second = ['a', 'b', 'c']
 assert_in(first, second)
-</code>
+```
 
-<code name="bash">
+```bash
 $ python script.py
 F
 ======================================================================
@@ -102,4 +102,4 @@ AssertionError: 'z' not found in ['a', 'b', 'c']
 Ran 1 test in 0.000s
 
 FAILED (failures=1)
-</code>
+```

@@ -1,9 +1,9 @@
-<p>Bind a function to the hash change event.</p>
+Bind a function to the hash change event.
 
-<code name="javascript">
+```javascript
 function hashChange() {
     console.info('hash changed!');
 }
 
 window.addEventListener('hashchange', hashChange, false);
-</code>
+```

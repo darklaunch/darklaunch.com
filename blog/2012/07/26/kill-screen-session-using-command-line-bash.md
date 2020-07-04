@@ -1,16 +1,16 @@
-<p>To kill an active screen, use the following command:</p>
+To kill an active screen, use the following command:
 
-<code>
+```
 $ screen -S myscreen -X quit
-</code>
+```
 
-<p>To use this in a bash script, use the following:</p>
+To use this in a bash script, use the following:
 
-<code name="sh">
+```sh
 # Kill screen if running
 sessionname="myscreen"
 if [ $(screen -list | grep "$sessionname" | wc --lines) -ge 1 ]; then
     echo "screen session $sessionname is running"
     screen -S "$sessionname" -X "quit"
 fi
-</code>
+```

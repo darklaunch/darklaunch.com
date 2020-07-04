@@ -1,8 +1,8 @@
-<p>Why are spreadsheet cells not equal? Here are some tests.</p>
+Why are spreadsheet cells not equal? Here are some tests.
 
-<p>Test cell A1 and B1:</p>
+Test cell A1 and B1:
 
-<code name="sh">
+```sh
 =ISNUMBER(A1)
 =ISNUMBER(B1)
 
@@ -15,4 +15,4 @@
 =VALUE(A1)=B1
 =A1=VALUE(B1)
 =VALUE(A1)=VALUE(B1)
-</code>
+```

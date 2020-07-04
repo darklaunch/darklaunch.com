@@ -1,17 +1,17 @@
 Best option:
-<code name="javascript">
+```javascript
 &lt;script type="text/javascript">
 /* <![CDATA[ */
 var someScriptHere;
 /* ]]> */
 </script>
-</code>
+```
 Can be written on one line:
-<code name="javascript">
+```javascript
 &lt;script type="text/javascript">/* <![CDATA[ */var someScriptHere;/* ]]> */</script>
-</code>
+```
 Further Testing:
-<code name="php">
+```php
 <?php
 $javascript =
 	'var foo = 1, bar = 2;' .
@@ -107,10 +107,10 @@ echo
 		'</body>' .
 	'</html>' .
 	'';
-</code>
+```
 
 NOTE: HTML5 doesn't need CDATA tags to validate. The following successfully validates:
-<code name="php">
+```php
 echo
 	'<!doctype html>' .
 	'<html>' .
@@ -128,4 +128,4 @@ echo
 		'</body>' .
 	'</html>' .
 	'';
-</code>
+```

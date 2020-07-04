@@ -1,6 +1,6 @@
-<p>although it may sound like a good idea to use php's wordwrap() for user comments+, use css to control long strings</p>
+although it may sound like a good idea to use php's wordwrap() for user comments+, use css to control long strings
 
-<code name="php">
+```php
 <?php
 // from database, already sanitized
 $comment = <<<EOF
@@ -11,10 +11,10 @@ echo
         $comment .
     '</div>' .
     '';
-</code>
+```
 
-<code name="css">
+```css
 .comment{
     overflow-x: auto;
 }
-</code>
+```

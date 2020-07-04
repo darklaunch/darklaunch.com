@@ -1,6 +1,6 @@
-<p>To undo a commit in Mercurial, use the strip command.</p>
+To undo a commit in Mercurial, use the strip command.
 
-<code>
+```
 $ hg strip
 hg: unknown command 'strip'
 'strip' is provided by the following extension:
@@ -8,11 +8,11 @@ hg: unknown command 'strip'
     mq            manage a stack of patches
 
 use "hg help extensions" for information on enabling extensions
-</code>
+```
 
-<p>Fix by enabling the mq extension. Edit the hgrc in the root directory of the repository. The hgrc file is located .hg/hgrc</p>
+Fix by enabling the mq extension. Edit the hgrc in the root directory of the repository. The hgrc file is located .hg/hgrc
 
-<code>
+```
 $ cat .hg/hgrc
 [paths]
 default=ssh://hg@bitbucket.org/username/myproject
@@ -22,10 +22,10 @@ $ cat .hg/hgrc
 default=ssh://hg@bitbucket.org/username/myproject
 [extensions]
 hgext.mq =
-</code>
+```
 
-<p>Then remove the commit using `hg strip'.</p>
+Then remove the commit using `hg strip'.
 
-<code>$ hg strip <hash_id></code>
+```$ hg strip <hash_id>```
 
-<p>kw: hg undo commit, rollback, backout, strip</p>
+kw: hg undo commit, rollback, backout, strip

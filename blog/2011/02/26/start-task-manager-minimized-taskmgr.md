@@ -1,3 +1,3 @@
-<p>To start the Windows task manager minimized, use the following command:</p>
+To start the Windows task manager minimized, use the following command:
 
-<code>cmd /c start /min taskmgr</code>
+```cmd /c start /min taskmgr```

@@ -1,4 +1,4 @@
-<code>
+```
 1360x768 monitor:
 
 Top Left:
@@ -27,4 +27,4 @@ wmctrl -r :ACTIVE: -b remove,maximized_vert,maximized_horz; wmctrl -r :ACTIVE: -
 
 Bottom right:
 wmctrl -r :ACTIVE: -b remove,maximized_vert,maximized_horz; wmctrl -r :ACTIVE: -e 1,680,366,672,341
-</code>
+```

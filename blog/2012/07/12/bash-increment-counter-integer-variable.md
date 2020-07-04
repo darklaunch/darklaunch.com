@@ -1,6 +1,6 @@
-<p>To increment a counter in bash, use any of the following:</p>
+To increment a counter in bash, use any of the following:
 
-<code name="sh">
+```sh
 #!/bin/bash
 
 set -x
@@ -19,9 +19,9 @@ echo $x
 
 x=$(echo "$x + 1" | bc)
 echo $x
-</code>
+```
 
-<code>
+```
 + x=1
 + echo 1
 1
@@ -39,6 +39,6 @@ echo $x
 + x=5
 + echo 5
 5
-</code>
+```
 
 kw: addition, add, subtraction, subtract, mathematics, math

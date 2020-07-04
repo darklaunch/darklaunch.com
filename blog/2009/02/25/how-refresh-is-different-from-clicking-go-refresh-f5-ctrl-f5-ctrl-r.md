@@ -1,4 +1,4 @@
-<code>
+```
 cached refresh:
 	form:
 		input retains value
@@ -20,4 +20,4 @@ no cache refresh:
 		input value reset
 		textarea value reset
 		select selected reset
-</code>
+```

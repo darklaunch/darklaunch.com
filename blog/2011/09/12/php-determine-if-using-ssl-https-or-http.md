@@ -1,8 +1,8 @@
-<p>To determine if SSL is used, the is_ssl() function will return True
+To determine if SSL is used, the is_ssl() function will return True
 if the page is using SSL (HTTPS or on Port 443), False if not
-used.</p>
+used.
 
-<code name="php">
+```php
 // From wordpress/wp-includes/load.php
 // Previously wordpress/wp-includes/functions.php
 function is_ssl() {
@@ -18,4 +18,4 @@ function is_ssl() {
     }
     return false;
 }
-</code>
+```

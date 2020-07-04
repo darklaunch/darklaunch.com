@@ -1,6 +1,6 @@
-<p>Access the first element in a python dict in a non-destructive fashion.</p>
+Access the first element in a python dict in a non-destructive fashion.
 
-<code name="python">
+```python
 from collections import OrderedDict
 
 d = OrderedDict([
@@ -10,12 +10,12 @@ d = OrderedDict([
 ])
 key = dict.iterkeys().next()
 print(key) # "a"
-</code>
+```
 
-<p>Note: Be careful with unordered dictionaries.</p>
+Note: Be careful with unordered dictionaries.
 
-<code name="python">
+```python
 dict = {'a': 1, 'b': 2, 'c': 3}
 key = dict.iterkeys().next()
 print(key) # Not always "a"
-</code>
+```

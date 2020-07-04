@@ -1,3 +1,3 @@
-<p>Save screen scrollback history text in Byobu using a shortcut:</p>
+Save screen scrollback history text in Byobu using a shortcut:
 
-<p><kbd>Shift</kbd> + <kbd>F7</kbd></p>
+`Shift` + `F7`

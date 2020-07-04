@@ -1,6 +1,6 @@
-<p>Call all() on a previously evaluated QuerySet to get updated results.</p>
+Call all() on a previously evaluated QuerySet to get updated results.
 
-<code name="python">
+```python
 from myapp.models import Question
 
 
@@ -30,25 +30,25 @@ if questions.all():
     print('questions still found')
 else:
     print('questions not found') # <-- HERE
-</code>
+```
 
 Output
-<code>
+```
 questions found
 questions still found
 questions not found
-</code>
+```
 
-<p>Alternatively, manually clear the QuerySet results cache.</p>
+Alternatively, manually clear the QuerySet results cache.
 
-<code>
+```
 my_queryset._result_cache = None
 my_queryset.count()
-</code>
+```
 
-<p>For an individual object, use refresh_from_db().</p>
+For an individual object, use refresh_from_db().
 
-<code name="python">
+```python
 obj = MyModel.objects.get(pk=1)
 obj.refresh_from_db()
-</code>
+```

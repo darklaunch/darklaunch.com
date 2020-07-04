@@ -1,8 +1,8 @@
-<p>JavaScript window.onerror logging and error handling.</p>
+JavaScript window.onerror logging and error handling.
 
-<code name="javascript">
+```javascript
 (function() {
-    window.onerror = function( errorMsg, url, lineNumber ) {
+    window.onerror = function(errorMsg, url, lineNumber) {
         (new Image).src = '/error/?' + [
             // Error message (string).
             'message=' + encodeURIComponent( errorMsg ),
@@ -10,12 +10,12 @@
             'url=' + encodeURIComponent( url ),
             // Line number where error was raised (number).
             'line=' + encodeURIComponent( lineNumber ),
-        ].join( '&' );
+        ].join('&');
 
         // Return true to prevent the firing of the default event handler.
         return true;
     }
 })();
-</code>
+```
 
-<p>More notes on error event fires can be found on http://www.quirksmode.org/dom/events/error.html</p>
+More notes on error event fires can be found on http://www.quirksmode.org/dom/events/error.html

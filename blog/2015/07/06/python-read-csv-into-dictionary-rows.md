@@ -1,14 +1,14 @@
-<p>Read a csv with headers in python into dictionary rows mapping to the headers.</p>
+Read a csv with headers in python into dictionary rows mapping to the headers.
 
-<code>
+```
 first,last,sex
 Liberia,Mariana,female
 Eligius,Prosperus,male
-Florina,Xenia,female</code>
+Florina,Xenia,female```
 
-<p>Use csv.DictReader to read each row into a dictionary.</p>
+Use csv.DictReader to read each row into a dictionary.
 
-<code name="python">
+```python
 import csv
 
 with open('data.csv') as f:
@@ -16,19 +16,19 @@ with open('data.csv') as f:
     print('headers: {}'.format(reader.fieldnames))
     for row in reader:
         print(row)
-</code>
+```
 
-<code name="sh">
+```sh
 $ python read_csv.py 
 headers found: ['first', 'last', 'sex']
 {'sex': 'female', 'last': 'Mariana', 'first': 'Liberia'}
 {'sex': 'male', 'last': 'Prosperus', 'first': 'Eligius'}
 {'sex': 'female', 'last': 'Xenia', 'first': 'Florina'}
-</code>
+```
 
-<p>Alternatively, use csv.reader to read the rows.</p>
+Alternatively, use csv.reader to read the rows.
 
-<code name="python">
+```python
 import csv
 
 with open('data.csv') as f:
@@ -38,10 +38,10 @@ with open('data.csv') as f:
     for row_list in reader:
         row_dict = dict(zip(headers, row_list))
         print(row_dict)
-</code>
+```
 
-<p>You can also read the next line by doing either reader.next() or next(reader):</p>
-<code name="python">
+You can also read the next line by doing either reader.next() or next(reader):
+```python
 headers = reader.next()
 headers = next(reader)
-</code>
+```

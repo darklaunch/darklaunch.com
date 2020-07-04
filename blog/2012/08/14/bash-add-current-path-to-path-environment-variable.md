@@ -1,7 +1,7 @@
-<p>To add the current path the the $PATH environment variable, do the following:</p>
+To add the current path the the $PATH environment variable, do the following:
 
-<code>
+```
 $ PATH=$(pwd):$PATH
-</code>
+```
 
-<p>This will take the current/working directory and add it to $PATH.</p>
+This will take the current/working directory and add it to $PATH.

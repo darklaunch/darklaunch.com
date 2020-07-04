@@ -8,24 +8,24 @@ UPDATE 2:
 Use Referer Control: https://chrome.google.com/webstore/detail/referer-control/hnkcfpcejkafcihlgbojoidoihckciin
 </blockquote>
 
-<p>---<hr /></p>
+---<hr />
 
-<p>Google Chrome and Chromium send referring headers when you click on a link, submit a form, etc. To disable this "feature", run Chrome or Chromium with the "no-referrers" option.</p>
+Google Chrome and Chromium send referring headers when you click on a link, submit a form, etc. To disable this "feature", run Chrome or Chromium with the "no-referrers" option.
 
-<code>
+```
 chromium-browser --no-referrers
-</code>
+```
 
 <h3>Allowing Referer Headers</h3>
-<p>Using the default settings of including referring information may present a privacy/security risk. Requests to web pages may include this information as part of the HTTP Protocol and it tells what page you came from -- this additional information may also be used to track you.</p>
+Using the default settings of including referring information may present a privacy/security risk. Requests to web pages may include this information as part of the HTTP Protocol and it tells what page you came from -- this additional information may also be used to track you.
 
 <h3>Available Chromium Switches</h3>
-<p>The full list of available chromium switches is listed here under: "Don't send HTTP-Referer headers"</p>
-<p>http://src.chromium.org/svn/trunk/src/content/common/content_switches.cc
-</p>
+The full list of available chromium switches is listed here under: "Don't send HTTP-Referer headers"
+http://src.chromium.org/svn/trunk/src/content/common/content_switches.cc
+
 
 <h3>Firefox send referer header setting</h3>
-<p>In Firefox, the option is available in about:config under "network.http.sendRefererHeader" and you want to set this to 0.</p>
+In Firefox, the option is available in about:config under "network.http.sendRefererHeader" and you want to set this to 0.
 
 <ol>
     <li>0 - Never send the Referer header or set document.referrer.</li>
@@ -34,4 +34,4 @@ chromium-browser --no-referrers
 </ol>
 
 <h3>JavaScript document.referrer field</h3>
-<p>The referring url is available from the document.referrer field.</p>
+The referring url is available from the document.referrer field.

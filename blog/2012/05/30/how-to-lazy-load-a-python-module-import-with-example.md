@@ -1,13 +1,13 @@
-<p>To dynamically load or lazy-load a python module, do the following:</p>
+To dynamically load or lazy-load a python module, do the following:
 
-<code name="python">
+```python
 import_str = 'from pprint import pprint'
 exec import_str
-</code>
+```
 
-<p>A more complete example with error catching.</p>
+A more complete example with error catching.
 
-<code name="python">
+```python
 module_name = 'bar'
 definition = 'my_method'
 import_str = 'from foo.{0} import {1}'.format(module_name, definition)
@@ -19,4 +19,4 @@ except ImportError:
 else:
     from pprint import pprint
     pprint(locals())
-</code>
+```

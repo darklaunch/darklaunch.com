@@ -1,9 +1,9 @@
-<p>View a string's newlines and tabs in PHP.</p>
+View a string's newlines and tabs in PHP.
 
-<code name="php">
+```php
 function raw($str) {
     $str = str_replace(array("\t", "\r\n", "\r", "\n"),
                        array('\t', '\r\n', '\r', '\n'), $str);
     return $str;
 }
-</code>
+```

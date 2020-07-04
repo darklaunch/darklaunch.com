@@ -1,6 +1,6 @@
-<p>To measure execution times or duration of a php function or script, use the following:</p>
+To measure execution times or duration of a php function or script, use the following:
 
-<code name="php">
+```php
 function start($name) {
     global $stats;
 
@@ -61,10 +61,10 @@ function stop($name='', $return=false, $precision=2) {
         }
     }
 }
-</code>
+```
 
-<p>Example usage:</p>
-<code name="php">
+Example usage:
+```php
 function some_task() {
     sleep(2);
 }
@@ -99,14 +99,14 @@ stop('yet another task');
 
 // summary
 stop();
-</code>
+```
 
-<p>The above code will output something similar to this.</p>
-<code>
+The above code will output something similar to this.
+```
 (
     [duration] => 5.16
     [some task] => 2
     [another task] => 0.12
     [yet another task] => 3.04
 )
-</code>
+```

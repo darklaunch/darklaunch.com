@@ -1,7 +1,7 @@
-<p>To enable page selecting if the page disabled it via JavaScript, enter the following on the JavaScript command line:</p>
+To enable page selecting if the page disabled it via JavaScript, enter the following on the JavaScript command line:
 
-<code name="javascript">
+```javascript
 document.onselectstart = true;
-</code>
+```
 
 <img alt="" src="/img/uploads/2012-06/enable-text-select-using-javascript.png" />

@@ -1,6 +1,6 @@
-<p>Order query parameters using urlencode.</p>
+Order query parameters using urlencode.
 
-<code name="python">
+```python
 from collections import OrderedDict
 
 from django.utils.http import urlencode
@@ -20,4 +20,4 @@ params = [
   ('c', 3),
 ]
 print(urlencode(OrderedDict(params))) # a=1&b=2&c=3 (correct)
-</code>
+```

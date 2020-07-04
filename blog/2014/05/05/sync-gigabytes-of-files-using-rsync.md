@@ -1,6 +1,6 @@
-<p>Use rsync to sync gigabytes, terabytes of files.</p>
+Use rsync to sync gigabytes, terabytes of files.
 
-<code name="sh">
+```sh
 # sync.sh
 time rsync \
     --compress \
@@ -11,9 +11,9 @@ time rsync \
     --partial \
     /path/to/source/ \
     user@127.0.0.1:/path/to/destination/
-</code>
+```
 
-<code name="sh">
+```sh
 # run.sh
 while :; do date; bash sync.sh; sleep 1; done
-</code>
+```

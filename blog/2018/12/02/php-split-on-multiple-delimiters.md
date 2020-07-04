@@ -1,13 +1,13 @@
-<p>Use php to split a string using multiple characters like pipe, comma, semicolon, etc.</p>
+Use php to split a string using multiple characters like pipe, comma, semicolon, etc.
 
-<code name="php">
+```php
 <?php
 $input = 'a,b|c;d';
 $parts = preg_split('/(,|;|\|)/', $input);
 var_dump($parts);
-</code>
+```
 
-<code name="bash">
+```bash
 $ php split.php
 array(4) {
   [0]=>
@@ -19,4 +19,4 @@ array(4) {
   [3]=>
   string(1) "d"
 }
-</code>
+```

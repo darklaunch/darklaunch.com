@@ -1,7 +1,7 @@
 Type about:config in the address bar of Firefox.
 In the Filter field type in middlemouse
 Set the following:
-<code>
+```
 middlemouse.paste=false
 middlemouse.contentLoadURL=false
-</code>
+```

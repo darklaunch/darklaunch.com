@@ -1,12 +1,12 @@
-<p>Disable ipython's exit confirmation. Create an ipython profile.</p>
+Disable ipython's exit confirmation. Create an ipython profile.
 
-<code name="bash">
+```bash
 $ ipython profile create
-</code>
+```
 
-<p>Change TerminalInteractiveShell.confirm_exit to False.</p>
+Change TerminalInteractiveShell.confirm_exit to False.
 
-<code>
+```
 $ vim ~/.ipython/profile_default/ipython_config.py
 c.TerminalInteractiveShell.confirm_exit = False
-</code>
+```

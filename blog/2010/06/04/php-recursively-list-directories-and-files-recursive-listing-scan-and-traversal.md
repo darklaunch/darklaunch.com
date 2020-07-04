@@ -1,6 +1,6 @@
-<p>PHP List directory files and folders.</p>
+PHP List directory files and folders.
 
-<code name="php">
+```php
 error_reporting(E_ALL | E_STRICT);
 ini_set('display_errors', 1);
 
@@ -13,4 +13,4 @@ foreach (new RecursiveIteratorIterator(new RecursiveDirectoryIterator($dir)) as 
         echo $item . PHP_EOL;
     }
 }
-</code>
+```

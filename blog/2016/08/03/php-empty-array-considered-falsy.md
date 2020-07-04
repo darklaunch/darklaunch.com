@@ -1,8 +1,8 @@
-<p>Empty arrays in PHP are falsy.</p>
+Empty arrays in PHP are falsy.
 
-<code name="sh">
+```sh
 $ php -r 'var_dump((bool)array());'
 bool(false)
-</code>
+```
 
 https://secure.php.net/manual/en/types.comparisons.php

@@ -1,10 +1,10 @@
 Open Firefox and enter about:support in the address bar.
-<code>
+```
 about:support
-</code>
+```
 
 This will list the installed extensions. Example:
-<code>
+```
 Extensions  Name    Version Enabled ID
 Adblock Plus	1.1.3	true	{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}
 DownThemAll!	1.1.8	false	{DDC359D1-844A-42a7-9AA1-88A850A938A8}
@@ -29,4 +29,4 @@ User Agent Switcher	0.7.2	false	{e968fc70-8f95-4ab9-9e79-304de2a71ee1}
 Sanitisminau	1.0	true	{772C5315-9ECA-4aad-81E6-2A3BB86ED14E}
 Open With	3.8.3	true	openwith@darktrojan.net
 about:me	0.4.1	false	aboutme@test.mozilla.com
-</code>
+```

@@ -1,6 +1,6 @@
-<p>Fix the Django error: "AttributeError: This QueryDict instance is immutable".</p>
+Fix the Django error: "AttributeError: This QueryDict instance is immutable".
 
-<code name="python">
+```python
 from django.contrib.admin.sites import AdminSite
 
 
@@ -10,4 +10,4 @@ def my_view(request):
     request.GET['_popup'] = '1'
     request.GET._mutable = False
     return admin_site.add_view(request)
-</code>
+```

@@ -1,48 +1,48 @@
-<p>Wrap jQuery next and prev functions with $.nextWrap() and $.prevWrap().</p>
+Wrap jQuery next and prev functions with $.nextWrap() and $.prevWrap().
 
-<code name="javascript">
+```javascript
 (function( $ ) {
-    $.fn.nextWrap = function( selector ) {
-        var $next = $(this).next( selector );
+    $.fn.nextWrap = function(selector) {
+        var $next = $(this).next(selector);
 
-        if ( ! $next.length ) {
-            $next = $(this).parent().children( selector ).first();
+        if (!$next.length) {
+            $next = $(this).parent().children(selector).first();
         }
 
         return $next;
     };
 
-    $.fn.prevWrap = function( selector ) {
-        var $previous = $(this).prev( selector );
+    $.fn.prevWrap = function(selector) {
+        var $previous = $(this).prev(selector);
 
-        if ( ! $previous.length ) {
-            $previous = $(this).parent().children( selector ).last();
+        if (!$previous.length) {
+            $previous = $(this).parent().children(selector).last();
         }
 
         return $previous;
     };
-})( jQuery );
-</code>
+})(jQuery);
+```
 
-<p>Given the following markup:</p>
-<code name="html">
+Given the following markup:
+```html
 <ul>
     <li class="one"></li>
     <li class="two"></li>
     <li class="three"></li>
 </ul>
-</code>
+```
 
-<p>These all evaluate to true.</p>
+These all evaluate to true.
 
-<code name="javascript">
+```javascript
 &lt;script>
-console.log( $( '.one' ).nextWrap().is( '.two' ) ); // true
-console.log( $( '.two' ).nextWrap().is( '.three' ) ); // true
-console.log( $( '.three' ).nextWrap().is( '.one' ) ); // true
+console.log($('.one').nextWrap().is('.two')); // true
+console.log($('.two').nextWrap().is('.three')); // true
+console.log($('.three').nextWrap().is('.one')); // true
 
-console.log( $( '.three' ).prevWrap().is( '.two' ) ); // true
-console.log( $( '.two' ).prevWrap().is( '.one' ) ); // true
-console.log( $( '.one' ).prevWrap().is( '.three' ) ); // true
+console.log($('.three').prevWrap().is('.two')); // true
+console.log($('.two').prevWrap().is('.one')); // true
+console.log($('.one').prevWrap().is('.three')); // true
 </script>
-</code>
+```

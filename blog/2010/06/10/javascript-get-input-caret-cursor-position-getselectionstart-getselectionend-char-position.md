@@ -1,5 +1,5 @@
 To get the input field character position using JavaScript, use the following:
-<code name="js">
+```js
 function getSelectionStart(o) {
     if (o.createTextRange) {
         var r = document.selection.createRange().duplicate();
@@ -26,4 +26,4 @@ function getSelectionEnd(o) {
         return o.selectionEnd;
     }
 }
-</code>
+```

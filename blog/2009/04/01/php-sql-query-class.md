@@ -3,7 +3,7 @@ http://code.google.com/p/class-query/
 Class Query makes it easy to run a query.
 Simply chain the query parameters with ->run(); as the last parameter.
 
-<code name="php">
+```php
 // Basic select
 $q = new Query;
 $q
@@ -12,9 +12,9 @@ $q
 	->run();
 
 // -> SELECT * FROM `user`
-</code>
+```
 
-<code name="php">
+```php
 // Select using page
 $q = new Query;
 $q
@@ -25,9 +25,9 @@ $q
 	->run();
 
 // -> SELECT * FROM `user` LIMIT 60,20
-</code>
+```
 Query using more advanced parameters:
-<code name="php">
+```php
 require 'class-query.php';
 
 $user_id = 123456;
@@ -58,9 +58,9 @@ if ($q) {
 } else {
 	echo 'Sorry, user '.$user_id.' not found.';
 }
-</code>
+```
 
 Class Query
 http://code.google.com/p/class-query/
 
-<p>NOTE: This is old, please use PDO.</p>
+NOTE: This is old, please use PDO.

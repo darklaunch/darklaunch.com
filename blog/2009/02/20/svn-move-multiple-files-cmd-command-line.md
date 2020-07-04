@@ -1,9 +1,9 @@
-<code name="bash">
+```bash
 for %i in (*.php) do svn move "C:\wamp\www\old_dir\%i" "C:\wamp\www\new_dir"
-</code>
+```
 
-<code name="bash">
+```bash
 for i in *.js; do svn mv "$i" "/var/www/www.example.com/include/js/old/"; done
-</code>
+```
 
 <blockquote>Note: Please use git.</blockquote>

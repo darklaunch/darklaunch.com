@@ -1,13 +1,13 @@
-<p>This will format a number into a dollar amount.</p>
+This will format a number into a dollar amount.
 
-<code name="php">
+```php
 function money_format($amount) {
     return number_format($amount, 2, '.', ',');
 }
-</code>
+```
 
-<p>Example:</p>
-<code name="php">
+Example:
+```php
 $amount = 123456;
 echo money_format($amount); // 123,456.00
-</code>
+```

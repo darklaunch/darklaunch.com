@@ -1,6 +1,6 @@
-<p>Run a command in php and get standard output (stdout), standard error (stderr), and the return code / return value.</p>
+Run a command in php and get standard output (stdout), standard error (stderr), and the return code / return value.
 
-<code name="php">
+```php
 function pipe_exec($cmd, $input='') {
     $proc = proc_open($cmd, array(array('pipe', 'r'),
                                   array('pipe', 'w'),
@@ -18,9 +18,9 @@ function pipe_exec($cmd, $input='') {
 
     return array($return_code, $stdout, $stderr);
 }
-</code>
+```
 
-<code name="php">
+```php
 // Example usage.
 list($return_code, $stdout, $stderr) = pipe_exec('ls');
-</code>
+```

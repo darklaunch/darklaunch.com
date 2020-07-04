@@ -1,11 +1,11 @@
 How to insert tabs and auto-indent using jQuery.
 
-<code name="html">
+```html
 <textarea cols="50" id="mytextarea" rows="15"></textarea>
-</code>
+```
 
 Case 13 is the indenting.
-<code name="javascript">
+```javascript
 $(document).ready(function(){
 	$('#mytextarea').keydown(
 		function(e){
@@ -35,4 +35,4 @@ $(document).ready(function(){
 		}
 	);
 });
-</code>
+```

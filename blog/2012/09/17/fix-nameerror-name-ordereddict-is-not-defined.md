@@ -1,20 +1,20 @@
-<p>To fix the NameError OrderedDict is not defined error, do the following:</p>
+To fix the NameError OrderedDict is not defined error, do the following:
 
-<code name="python">
+```python
 import collections
 
 try:
     from collections import OrderedDict
 except ImportError:
     OrderedDict = dict
-</code>
+```
 
-<p>The OrderedDict is available in more recent versions of python. Use this as a fallback for OrderedDict support.</p>
+The OrderedDict is available in more recent versions of python. Use this as a fallback for OrderedDict support.
 
-<code>
+```
 $ python test.py
 Traceback (most recent call last):
   File "test.py", line 8, in <module>
     foo = OrderedDict()
 NameError: name 'OrderedDict' is not defined
-</code>
+```

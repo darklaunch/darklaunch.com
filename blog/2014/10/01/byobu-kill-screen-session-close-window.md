@@ -1,5 +1,5 @@
-<p>To force close a window in byobu, type Ctrl-a then type the letter k.</p>
+To force close a window in byobu, type Ctrl-a then type the letter k.
 
-<code>Ctrl-a + k</code>
+```Ctrl-a + k```
 
 <img alt="" src="/img/uploads/2014-10/byobu-kill-window-confirmation.png" />

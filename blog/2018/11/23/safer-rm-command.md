@@ -1,6 +1,6 @@
-<p>Prevent accidental deletion caused by rm with wildcards. This replaces your rm command so that it prevents certain deletions.</p>
+Prevent accidental deletion caused by rm with wildcards. This replaces your rm command so that it prevents certain deletions.
 
-<code name="bash">
+```bash
 safer_rm(){
     # Prohibited: rm *
     # Prohibited: rm * foo.txt
@@ -36,8 +36,8 @@ safer_rm(){
     command rm "${args[@]}"
 }
 alias rm="set -f && safer_rm"
-</code>
+```
 
 Sources:
-<p>https://github.com/dot-star/dot-star/blob/master/bash/.safer_rm.sh</p>
-<p>https://github.com/dot-star/dot-star/blob/master/bash/.safer_rm_test.sh</p>
+https://github.com/dot-star/dot-star/blob/master/bash/.safer_rm.sh
+https://github.com/dot-star/dot-star/blob/master/bash/.safer_rm_test.sh

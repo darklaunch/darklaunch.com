@@ -1,9 +1,9 @@
 To get the position of a window in Ubuntu, in terminal:
-<code>
+```
 xwininfo
-</code>
+```
 
-<code>
+```
 xwininfo: Please select the window about which you
           would like information by clicking the
           mouse in that window.
@@ -29,4 +29,4 @@ xwininfo: Window id: 0x20ffa54 "Dark Launch - Mozilla Firefox"
   Override Redirect State: no
   Corners:  +1039+48  -865+48  -865-402  +1039-402
   -geometry 800x600+1039+48
-</code>
+```

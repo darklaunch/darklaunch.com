@@ -1,13 +1,13 @@
-<p>Import a module from a path containing a reserved keyword like "is".</p>
+Import a module from a path containing a reserved keyword like "is".
 
-<p>This import statement fails because the word "is" is a reserved in python.</p>
-<code name="python">
+This import statement fails because the word "is" is a reserved in python.
+```python
 from foo.com.example.is.path.somewhere.api.v1 import resources
-</code>
+```
 
-<p>Use importlib to import.</p>
-<code name="python">
+Use importlib to import.
+```python
 import importlib
 
 mymodule = importlib.import_module('foo.com.example.is.path.somewhere.api.v1.resources')
-</code>
+```

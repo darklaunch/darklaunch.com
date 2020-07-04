@@ -1,6 +1,6 @@
-<p>To connect to an Amazon RDS instance on OS X, do the following:</p>
+To connect to an Amazon RDS instance on OS X, do the following:
 
-<code>
+```
 # cd to www root
 cd /Library/WebServer/Documents
 
@@ -19,8 +19,8 @@ vim config.inc.php
 
 # edit host:
 $cfg['Servers'][$i]['host'] = 'xxxxxxxxx.xxxxxxxxxxxx.us-east-1.rds.amazonaws.com';
-</code>
+```
 
-<p>Login to Amazon RDS admin ( https://console.aws.amazon.com/rds/ ) and go to "DB Security Groups" to add a "CIDR/IP" with the ip address you'll be connecting from. (e.g. 12.34.567.89/32)</p>
+Login to Amazon RDS admin ( https://console.aws.amazon.com/rds/ ) and go to "DB Security Groups" to add a "CIDR/IP" with the ip address you'll be connecting from. (e.g. 12.34.567.89/32)
 
-<p>Go to http://127.0.0.1/phpmyadmin/</p>
+Go to http://127.0.0.1/phpmyadmin/

@@ -1,8 +1,8 @@
-<p>Trim JavaScript string function.</p>
+Trim JavaScript string function.
 
-<p>Similar to PHP's trim().</p>
+Similar to PHP's trim().
 
-<code name="javascript">
+```javascript
 /**
  * String Trim
  * 
@@ -41,4 +41,4 @@ function rtrim(str, chars){
 	chars = chars || "\\s";
 	return str.replace(new RegExp("[" + chars + "]+$", "g"), "");
 }
-</code>
+```

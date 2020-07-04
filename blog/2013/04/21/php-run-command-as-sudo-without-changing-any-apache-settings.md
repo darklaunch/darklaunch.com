@@ -1,8 +1,8 @@
-<p>Here is how to run a php script as sudo without changing apache settings.</p>
+Here is how to run a php script as sudo without changing apache settings.
 
-<p>Save the following snippet as <em>receiver.sh</em>. This will act as the receiving script to run commands with sudo permissions.</p>
+Save the following snippet as <em>receiver.sh</em>. This will act as the receiving script to run commands with sudo permissions.
 
-<code name="sh">
+```sh
 #!/bin/bash
 
 while :; do
@@ -16,37 +16,37 @@ while :; do
 
     echo -e "\nreturn code: ${?}"
 done
-</code>
+```
 
-<p>Run this script with sudo and keep the script running:</p>
+Run this script with sudo and keep the script running:
 
-<code>$ sudo bash receiver.sh</code>
+```$ sudo bash receiver.sh```
 
-<p>Now send a command to be run. Here are two examples to issue commands:</p>
+Now send a command to be run. Here are two examples to issue commands:
 
-<p>Inside a php script</p>
+Inside a php script
 
-<code name="php">
+```php
 <?php
 $data = 'whoami'; // Command to send
 $fp = stream_socket_client('tcp://127.0.0.1:1234');
 fwrite($fp, $data);
 fclose($fp);
-</code>
+```
 
-<p>On the command line</p>
+On the command line
 
-<code name="sh">
+```sh
 $ echo "whoami" >/dev/tcp/localhost/1234
-</code>
+```
 
-<p>Example response:</p>
+Example response:
 
-<code>
+```
 $ sudo bash receiver.sh 
 [Sun Apr 21 16:16:54 PDT 2013] "whoami"
 root
 
-return code: 0</code>
+return code: 0```
 
 <img alt="" src="/img/uploads/2013-04/run-php-sudo.png" />

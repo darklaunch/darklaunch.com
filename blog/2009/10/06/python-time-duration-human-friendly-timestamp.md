@@ -1,4 +1,4 @@
-<code name="python">
+```python
 def duration_human(seconds):
     seconds = long(round(seconds))
     minutes, seconds = divmod(seconds, 60)
@@ -24,9 +24,9 @@ def duration_human(seconds):
         if seconds > 0:
             duration.append('%d second' % seconds + 's'*(seconds != 1))
     return ' '.join(duration)
-</code>
+```
 Example:
-<code name="python">
+```python
 seconds = [
     1,
     2,
@@ -44,9 +44,9 @@ seconds = [
 ]
 for s in seconds:
     print str(s).rjust(10, ' '), '=>', duration_human(s)
-</code>
+```
 Example Output:
-<code>
+```
 .        1 => 1 second
          2 => 2 seconds
       3600 => 1 hour
@@ -59,10 +59,10 @@ Example Output:
   31697026 => 1 year
   63200000 => 2 years
   95000000 => 3 years
- 999999999 => 31 years</code>
+ 999999999 => 31 years```
 
 Example 2:
-<code name="python">
+```python
 import time
 
 start = time.time()
@@ -72,7 +72,7 @@ time.sleep(1)
 end = time.time()
 elapsed = end - start
 print duration_human(elapsed), 'has passed'
-</code>
+```
 
 Example 2 Output:
-<code>1 second has passed</code>
+```1 second has passed```

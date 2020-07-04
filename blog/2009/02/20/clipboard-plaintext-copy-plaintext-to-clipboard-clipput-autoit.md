@@ -1,6 +1,6 @@
-<p>AutoIt: Put plaintext in clipboard using Ctrl + Shift + C.</p>
+AutoIt: Put plaintext in clipboard using Ctrl + Shift + C.
 
-<code name="autoit">
+```autoit
 #include <GuiConstantsEx.au3>
 
 ; AutoIt Code: http://www.autoitscript.com/
@@ -27,7 +27,7 @@ While 1
 			Exit
 	EndSwitch
 WEnd
-</code>
+```
 
 This script basically does the same thing as pasting your clipboard into notepad and then copying it back into the clipboard.
 

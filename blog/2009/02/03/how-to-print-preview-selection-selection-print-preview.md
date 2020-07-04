@@ -1,15 +1,15 @@
-<p>install a pdf writer like pdf995 or win2pdf</p>
+install a pdf writer like pdf995 or win2pdf
 
-<p>file> print</p>
-<p>--- select the pdf writer as the printer</p>
-<p>--- set print range> selection</p>
+file> print
+--- select the pdf writer as the printer
+--- set print range> selection
 
-<p>print.</p>
-
-
+print.
 
 
-<p>...</p>
 
 
-<p>this would be a nice feature as a browser add-on</p>
+...
+
+
+this would be a nice feature as a browser add-on

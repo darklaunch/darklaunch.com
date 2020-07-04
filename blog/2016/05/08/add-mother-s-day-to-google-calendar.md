@@ -1,8 +1,8 @@
-<p>Create calendar event for Mother's Day celebrated on the 2nd Sunday of May.</p>
+Create calendar event for Mother's Day celebrated on the 2nd Sunday of May.
 
-<p>Create a new ics (iCalendar) file like "mothersday.ics".</p>
+Create a new ics (iCalendar) file like "mothersday.ics".
 
-<code>
+```
 BEGIN:VCALENDAR
 BEGIN:VEVENT
 RRULE:FREQ=YEARLY;INTERVAL=1;BYMONTH=5;BYDAY=2SU
@@ -11,13 +11,13 @@ SUMMARY:Mother's Day
 DTSTART;TZID=America/Los_Angeles:20160508T000000
 END:VEVENT
 END:VCALENDAR
-</code>
+```
 
-<p>Or you can use Apple Calendar.</p>
+Or you can use Apple Calendar.
 
 <img alt="" src="/img/uploads/2016-05/mothers-day-calendar-event.png" />
 
-<p>Import ics file into Google Calendar:</p>
+Import ics file into Google Calendar:
 
 <img alt="" src="/img/uploads/2016-05/google-calendar-import-calendar.png" />
 <img alt="" src="/img/uploads/2016-05/google-calendar-select-ics-file.png" />

@@ -1,5 +1,5 @@
-<p>Example error:</p>
-<code>
+Example error:
+```
 Error running this command:
 
 svn --non-interactive --config-dir /tmp list --xml 'file:///mnt/example/www.example.com/web/repository/@'
@@ -7,12 +7,12 @@ svn --non-interactive --config-dir /tmp list --xml 'file:///mnt/example/www.exam
 Unable to open an ra_local session to URL
 Unable to open repository 'file:///mnt/example/www.example.com/web/repository'
 Can't open file '/mnt/example/www.example.com/web/repository/format': Permission denied
-</code>
+```
 
-<p>How to fix:</p>
-<p>Edit quoteCommand() in ../include/command.php quoteCommand() should read:</p>
+How to fix:
+Edit quoteCommand() in ../include/command.php quoteCommand() should read:
 
-<code name="php">
+```php
 function quoteCommand($cmd) {
     global $config;
 
@@ -27,6 +27,6 @@ function quoteCommand($cmd) {
 
     return $cmd;
 }
-</code>
+```
 
-<p>Add: else { $cmd = 'sudo -u root ' . $cmd; } to give svn permission.</p>
+Add: else { $cmd = 'sudo -u root ' . $cmd; } to give svn permission.

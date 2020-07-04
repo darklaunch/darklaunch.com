@@ -1,12 +1,12 @@
-<p>To replace all 2 space indentations, use the following command:</p>
+To replace all 2 space indentations, use the following command:
 
-<code>
+```
 :%s/\n \{2\}\([^ ]\)/\r    \1/gc
-</code>
+```
 
-<p>Explained:</p>
+Explained:
 
-<code>
+```
 : - command
 %s - entire selection
 / - separator
@@ -16,4 +16,4 @@
 / - separator
 g - global replace
 c - confirm replacements (type y (yes) to confirm replacements)
-</code>
+```

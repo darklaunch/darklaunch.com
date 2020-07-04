@@ -1,19 +1,19 @@
-<p>If the MySQL ALTER TABLE command is taking too long, this may help.</p>
+If the MySQL ALTER TABLE command is taking too long, this may help.
 
-<code name="sql">
+```sql
 show processlist;
-</code>
+```
 
-<p>If you see "Waiting for table metadata lock", you may attempt to kill other processes.</p>
+If you see "Waiting for table metadata lock", you may attempt to kill other processes.
 
-<code name="sql">
+```sql
 kill 1372
-</code>
+```
 
-<p>Then proceed with your ALTER TABLE MySQL query.</p>
+Then proceed with your ALTER TABLE MySQL query.
 
-<code name="sql">
+```sql
 SHOW DATABASES;
 USE `mydatabase`;
 ALTER TABLE `mytable` DROP `thecolumn`;
-</code>
+```

@@ -1,6 +1,6 @@
-<p>Open multiple files in python using file context managers.</p>
+Open multiple files in python using file context managers.
 
-<code name="python">
+```python
 import csv
 
 
@@ -11,4 +11,4 @@ with open('in.csv', 'r') as fr, open('out.csv', 'w') as fw:
     for i, row in enumerate(reader):
         row.insert(0, i)
         writer.writerow(row)
-</code>
+```

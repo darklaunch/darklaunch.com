@@ -1,6 +1,6 @@
-<p>Get the common prefix from a list of strings using Python.</p>
+Get the common prefix from a list of strings using Python.
 
-<code name="python">
+```python
 import os
 
 words = [
@@ -10,6 +10,6 @@ words = [
     'alphanumeric',
 ]
 print(os.path.commonprefix(words))
-</code>
+```
 
-<samp>alpha</samp>
+`alpha`

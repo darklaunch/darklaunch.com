@@ -1,14 +1,14 @@
-<p>To update sass, do the following on the command line:</p>
+To update sass, do the following on the command line:
 
-<code>
+```
 # update all gems
 sudo gem update
 
 # update sass
-sudo gem update sass</code>
+sudo gem update sass```
 
-<p>Check your current version of sass:</p>
+Check your current version of sass:
 
-<code>
+```
 # sass version
-sass -v</code>
+sass -v```

@@ -1,6 +1,6 @@
-<p>Output your desired HTTP status code using the status code and the header() function.</p>
+Output your desired HTTP status code using the status code and the header() function.
 
-<code name="php">
+```php
 function HTTPStatus($num) {
     $http = array(
         100 => 'HTTP/1.1 100 Continue',
@@ -52,4 +52,4 @@ function HTTPStatus($num) {
         'error' => $http[$num],
     );
 }
-</code>
+```

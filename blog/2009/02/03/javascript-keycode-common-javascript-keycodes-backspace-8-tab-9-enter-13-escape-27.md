@@ -1,5 +1,5 @@
-<p>JavaScript keycodes.</p>
-<code name="javascript">
+JavaScript keycodes.
+```javascript
 var keyCode = {
     BACKSPACE: 8,
     TAB: 9,
@@ -108,10 +108,10 @@ var buttonCode = {
     MIDDLE: 1,
     RIGHT: 2,
 };
-</code>
+```
 
-<p>Example:</p>
-<code name="javascript">
+Example:
+```javascript
 $('#search-input').keydown(function(event) {
     if (event.which === keyCode.ENTER) {
         event.preventDefault();
@@ -119,7 +119,7 @@ $('#search-input').keydown(function(event) {
         ajaxSearch(query);
     }
 });
-</code>
+```
 
 https://github.com/jquery/jquery-ui/blob/master/external/jquery-simulate/jquery.simulate.js
 https://api.jquery.com/event.which/

@@ -1,11 +1,11 @@
 Their GET looks suspicious:
-<code>
+```
 HTTP_USER_AGENT: panscient.com
 IP: 38.100.8.50
 GET: http://darklaunch.com/.replace(/%20/g,
-</code>
+```
 
-<code>
+```
 OrgName:    PSINet, Inc. 
 OrgID:      PSI
 Address:    1015 31st St NW
@@ -48,4 +48,4 @@ OrgTechHandle: IPALL-ARIN
 OrgTechName:   IP Allocation 
 OrgTechPhone:  +1-877-875-4311
 OrgTechEmail:  ipalloc@cogentco.com
-</code>
+```

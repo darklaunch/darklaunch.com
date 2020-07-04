@@ -1,4 +1,4 @@
-<code name="html">
+```html
 <div id="splash">
     <table height="90%" width="100%">
         <tbody>
@@ -10,9 +10,9 @@
         </tbody>
     </table>
 </div>
-</code>
+```
 
-<code name="css">
+```css
 #splash{
     cursor:wait;
     height:100%;
@@ -30,4 +30,4 @@
     height:80px;
     width:200px;
 }
-</code>
+```

@@ -1,6 +1,6 @@
-<p>Call php code from a Python script. The following Python script executes a PHP script and outputs the results.</p>
+Call php code from a Python script. The following Python script executes a PHP script and outputs the results.
 
-<code name="python">
+```python
 # script.py
 import subprocess
 
@@ -9,20 +9,20 @@ command = ['php', '-r', php_script,]
 proc = subprocess.Popen(command, shell=False, stdout=subprocess.PIPE, stdin=subprocess.PIPE)
 stdout, stderr = proc.communicate(input='hello, world!')
 print stdout
-</code>
+```
 
-<code name="bash">
+```bash
 $ python script.py
 string(13) "hello, world!"
-</code>
+```
 
-<p>Note: Python 3 may require input value to be string encoded using str.encode().</p>
+Note: Python 3 may require input value to be string encoded using str.encode().
 
-<code name="python">
+```python
 try:
     # Python 3
     input = str.encode(modified)
 except TypeError:
     # Python 2
     input = modified
-</code>
+```

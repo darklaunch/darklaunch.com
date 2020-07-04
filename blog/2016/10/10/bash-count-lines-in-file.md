@@ -1,6 +1,6 @@
-<p>Use wc or grep to count the number of lines.</p>
+Use wc or grep to count the number of lines.
 
-<code>
+```
 $ echo "" | wc -l
 1
 
@@ -21,9 +21,9 @@ $ echo -e "a\nb\nc" | wc -l
 
 $ echo -e "a\nb\nc\n" | wc -l
 4
-</code>
+```
 
-<code>
+```
 $ echo "" | grep --count ^
 1
 
@@ -44,4 +44,4 @@ $ echo -e "a\nb\nc" | grep --count ^
 
 $ echo -e "a\nb\nc\n" | grep --count ^
 4
-</code>
+```

@@ -1,21 +1,21 @@
-<code>$ ./adb install ~/my_app.apk
+```$ ./adb install ~/my_app.apk
 error: more than one device and emulator
-- waiting for device -</code>
+- waiting for device -```
 
-<p>Fix by installing to a specific device.</p>
+Fix by installing to a specific device.
 
-<p>List devices</p>
-<code>$ ./adb devices -l
+List devices
+```$ ./adb devices -l
 List of devices attached 
 emulator-5554          device
-emulator-5556          device</code>
+emulator-5556          device```
 
-<p>Install to each device</p>
-<code>$ ./adb -s emulator-5554 install ~/my_app.apk
-$ ./adb -s emulator-5556 install ~/my_app.apk</code>
+Install to each device
+```$ ./adb -s emulator-5554 install ~/my_app.apk
+$ ./adb -s emulator-5556 install ~/my_app.apk```
 
-<p>Notes</p>
+Notes
 
-<p>Fix "can't find 'emulator-5554' to install" by using the correct syntax / parameter order.</p>
-<code>$ ./adb install -s emulator-5554 ~/my_app.apk =>
-$ ./adb -s emulator-5554 install ~/my_app.apk</code>
+Fix "can't find 'emulator-5554' to install" by using the correct syntax / parameter order.
+```$ ./adb install -s emulator-5554 ~/my_app.apk =>
+$ ./adb -s emulator-5554 install ~/my_app.apk```

@@ -1,6 +1,6 @@
-<p>Detect changes to document.title using JavaScript.</p>
+Detect changes to document.title using JavaScript.
 
-<code name="javascript">
+```javascript
 var target = document.querySelector('title');
 var observer = new MutationObserver(function(mutations) {
     mutations.forEach(function(mutation) {
@@ -11,11 +11,11 @@ var config = {
     childList: true,
 };
 observer.observe(target, config);
-</code>
+```
 
-<p>Full example:</p>
+Full example:
 
-<code name="html">
+```html
 <html>
 <head>
 <title>My Page Title</title>
@@ -41,4 +41,4 @@ setTimeout(function() {
 
 </body>
 </html>
-</code>
+```

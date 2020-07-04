@@ -1,6 +1,6 @@
-<p>Use an in-memory database when running Django tests.</p>
+Use an in-memory database when running Django tests.
 
-<code name="python">
+```python
 # settings.py
 TEST_ENV = len(sys.argv) >= 2 and sys.argv[1] == 'test'
 
@@ -13,6 +13,6 @@ if TEST_ENV:
             'NAME': 'mydatabase',
         }
     }
-</code>
+```
 
 kw: sqlite3, :memory:, mode=memory

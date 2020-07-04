@@ -1,13 +1,13 @@
-<p>To skip the system prompt for the administrator's password, add the following to your sudoers file:</p>
+To skip the system prompt for the administrator's password, add the following to your sudoers file:
 
-<code>
+```
 # Don't prompt for password when using sudo.
-user ALL=(ALL) NOPASSWD: ALL</code>
+user ALL=(ALL) NOPASSWD: ALL```
 
-<p>This will modify the sudoers file to skip the sudo password prompt for the current user.</p>
+This will modify the sudoers file to skip the sudo password prompt for the current user.
 
-<p>Or in one step, do this on the command line:</p>
+Or in one step, do this on the command line:
 
-<code>
+```
 whoami=$(whoami)
-sudo bash -c 'echo -e "# Don'\''t prompt for password when using sudo.\n'$whoami' ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers'</code>
+sudo bash -c 'echo -e "# Don'\''t prompt for password when using sudo.\n'$whoami' ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers'```

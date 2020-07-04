@@ -1,6 +1,6 @@
-<p>To capture the function's response or output to a variable, use the following function:</p>
+To capture the function's response or output to a variable, use the following function:
 
-<code name="php">
+```php
 function get_contents($function) {
     ob_start();
     $function();
@@ -9,13 +9,13 @@ function get_contents($function) {
 
     return $contents;
 }
-</code>
+```
 
-<p>To use, pass an anonymous function to get_contents().</p>
+To use, pass an anonymous function to get_contents().
 
-<p>Examples:</p>
+Examples:
 
-<code name="php">
+```php
 // Example: get function's response to variable.
 function add($this, $that) {
     echo $this . ' + ' . $that . ' = ' . ($this + $that);
@@ -26,8 +26,8 @@ $example = get_contents(function() {
 });
 
 echo $example . "\n"; // 1 + 1 = 2
-</code>
-<code name="php">
+```
+```php
 // Example 2: get function's response using return. Even if the function echos output, it can be captured to a variable.
 // Compare print_r() that has a return parameter to var_dump() that has no such parameter.
 
@@ -48,6 +48,6 @@ echo $example3;
 //   [2]=>
 //   string(1) "c"
 // }
-</code>
+```
 
-<p>Note: Anonymous functions are available since PHP 5.3.0.</p>
+Note: Anonymous functions are available since PHP 5.3.0.

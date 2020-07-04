@@ -6,7 +6,7 @@ https://addons.mozilla.org/en-US/firefox/addon/5364/
 2. Open addon-5364-latest.xpi in an archive manager (like File Roller).
 3. Edit addon-5364-latest.xpi/chrome/sanitisminau.jar/content/sanitisminau.js
 4. Replace the code with:
-<code name="javascript">
+```javascript
 var Sanitisminau = {
 	onLoad: function() {
 		document.getElementById("Tools:Sanitize").setAttribute("oncommand", "Sanitisminau.goansanitismi();");
@@ -30,7 +30,7 @@ var Sanitisminau = {
 }; 
 
 window.addEventListener("load", function(e) { Sanitisminau.onLoad(e); }, false); 
-</code>
+```
 5. Install the addon you updated. Type something like file:///home/user/Downloads/addon-5364-latest.xpi (or wherever you saved the addon) into the Firefox url bar and a software installation confirmation will appear. Click "Install Now" after the count down. Restart Firefox.
 
 ---
@@ -40,7 +40,7 @@ To clear private data in Firefox without the confirmation window, do the followi
 1. Install Keyconfig.
 2. Add a new key named Clear Private Data.
 3. Add the following code:
-<code name="javascript">
+```javascript
 function evalScript(script, callback){
 	try {
 		eval.call(window, script);
@@ -76,7 +76,7 @@ getScript("sanitize.js",
 		}
 	}
 );
-</code>
+```
 
 4. Set your preferred hotkey. Something like Alt+Ctrl+Shift+Del.
 5. Open a new window for the new hotkey to work. Press the hotkey you set and a notification in the corner will appear.

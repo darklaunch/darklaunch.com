@@ -1,10 +1,10 @@
-<code name="autoit">
+```autoit
 Func implode($glue, $pieces)
 	Return _ArrayToString($pieces, $glue)
 EndFunc   ;==>implode
-</code>
+```
 
-<code name="autoit">
+```autoit
 #include <String.au3>
 #include <Array.au3>
 
@@ -18,4 +18,4 @@ Next
 
 ConsoleWrite(implode(",", $array) & @CRLF)
 ; foo,bar,baz
-</code>
+```

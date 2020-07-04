@@ -1,18 +1,18 @@
-<p>Geany allows you to reorder the document tabs using ALT+Page Up (Move document left) and ALT+Page Down (Move document right). To mimic this behavior in Firefox, do the following:</p>
+Geany allows you to reorder the document tabs using ALT+Page Up (Move document left) and ALT+Page Down (Move document right). To mimic this behavior in Firefox, do the following:
 
 1. Install Keyconfig (if not already installed).
 2. Open Keyconfig and "Add a new key".
 
 Name: Move Tab Right
 Code:
-<code name="javascript">
+```javascript
 if (gBrowser.mCurrentTab.nextSibling) {
     gBrowser.moveTabTo(gBrowser.mCurrentTab, gBrowser.mCurrentTab._tPos + 1);
 }
 else{
     gBrowser.moveTabTo(gBrowser.mCurrentTab, 0);
 }
-</code>
+```
 
 3. Select the "Move Tab Right" shortcut and assign it the keyboard shortcut of ALT+Page Down. Click Apply.
 
@@ -20,14 +20,14 @@ else{
 
 Name: Move Tab Left
 Code:
-<code name="javascript">
+```javascript
 if (gBrowser.mCurrentTab.previousSibling) {
     gBrowser.moveTabTo(gBrowser.mCurrentTab, gBrowser.mCurrentTab._tPos - 1);
 }
 else {
     gBrowser.moveTabTo(gBrowser.mCurrentTab, gBrowser.mTabContainer.childNodes.length - 1);
 }
-</code>
+```
 
 5. Select the "Move Tab Left" shortcut and assign it the keyboard shortcut of ALT+Page Up. Click Apply.
 

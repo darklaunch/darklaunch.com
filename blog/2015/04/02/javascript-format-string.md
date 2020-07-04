@@ -1,13 +1,13 @@
-<p>JavaScript format string similarly to python's string format.</p>
+JavaScript format string similarly to python's string format.
 
-<code name="javascript">
+```javascript
 String.format = function(format) {
     var args = Array.prototype.slice.call(arguments, 1);
     return format.replace(/{(\d+)}/g, function(match, number) {
         return typeof args[number] != 'undefined' ? args[number] : match;
     });
 };
-</code>
+```
 
-<p>https://docs.python.org/3/library/stdtypes.html#str.format</p>
-<p>http://stackoverflow.com/questions/610406/</p>
+https://docs.python.org/3/library/stdtypes.html#str.format
+http://stackoverflow.com/questions/610406/

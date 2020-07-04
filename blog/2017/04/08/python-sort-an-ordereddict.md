@@ -1,17 +1,17 @@
-<p>Sort an unordered dictionary in python using sorted.</p>
+Sort an unordered dictionary in python using sorted.
 
-<code name="python">
+```python
 >>> from collections import OrderedDict
 >>> d = {'a': 1, 'c': 3, 'b': 2}
 >>> OrderedDict(d)
 OrderedDict([('a', 1), ('c', 3), ('b', 2)])
 >>> OrderedDict(sorted(d.items()))
 OrderedDict([('a', 1), ('b', 2), ('c', 3)])
-</code>
+```
 
-<p>Using strings for keys may cause unexpected ordering.</p>
+Using strings for keys may cause unexpected ordering.
 
-<code name="python">
+```python
 >>> from collections import OrderedDict
 >>> d = {str(x): chr(x + 96) for x in range(1, 15)}
 >>> d = OrderedDict(sorted(d.items()))
@@ -32,11 +32,11 @@ OrderedDict([('a', 1), ('b', 2), ('c', 3)])
 ('7', 'g')
 ('8', 'h')
 ('9', 'i')
-</code>
+```
 
-<p>Use the "key" parameter when calling sorted() to sort a dictionary into numerical ascending order.</p>
+Use the "key" parameter when calling sorted() to sort a dictionary into numerical ascending order.
 
-<code name="python">
+```python
 >>> from collections import OrderedDict
 >>> d = {str(x): chr(x + 96) for x in range(1, 15)}
 >>> d = OrderedDict(sorted(d.items(), key=lambda k: int(k[0])))
@@ -57,4 +57,4 @@ OrderedDict([('a', 1), ('b', 2), ('c', 3)])
 ('12', 'l')
 ('13', 'm')
 ('14', 'n')
-</code>
+```

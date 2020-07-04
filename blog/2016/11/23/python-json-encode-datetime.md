@@ -1,6 +1,6 @@
-<p>Fix TypeError: datetime.datetime is not JSON serializable error.</p>
+Fix TypeError: datetime.datetime is not JSON serializable error.
 
-<code name="python">
+```python
 import datetime
 import json
 
@@ -10,4 +10,4 @@ from django.core.serializers.json import DjangoJSONEncoder
 print json.dumps({
     'timestamp': datetime.datetime.now(),
 }, cls=DjangoJSONEncoder, indent=2)
-</code>
+```

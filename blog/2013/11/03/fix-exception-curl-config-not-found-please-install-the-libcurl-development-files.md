@@ -1,10 +1,10 @@
-<p>Fix the Exception error that `curl-config' is not found. Do the following to fix:</p>
+Fix the Exception error that `curl-config' is not found. Do the following to fix:
 
-<code>
+```
 $ sudo apt-get install python2.7-dev
-$ sudo apt-get install libcurl4-openssl-dev</code>
+$ sudo apt-get install libcurl4-openssl-dev```
 
-<p>Now you can continue with the pycurl install</p>
+Now you can continue with the pycurl install
 
-<code>
-$ pip install pycurl</code>
+```
+$ pip install pycurl```

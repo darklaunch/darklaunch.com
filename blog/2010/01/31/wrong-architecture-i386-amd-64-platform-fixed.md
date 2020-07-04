@@ -1,6 +1,6 @@
-<code>
+```
 sudo apt-get install libnspr4-dev
-</code>
-<code>
+```
+```
 sudo dpkg -i --force-architecture install_flash_player_10_linux.deb
-</code>
+```

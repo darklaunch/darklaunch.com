@@ -1,14 +1,14 @@
-<p>Recursively create directories in PHP with mkdir().</p>
+Recursively create directories in PHP with mkdir().
 
-<code name="sh">
+```sh
 $ mkdir --parents
-</code>
+```
 
-<code name="php">
+```php
 function mkdir_p($directory, $mode=0700) {
     $recursive = TRUE;
     return @mkdir($directory, $mode, $recursive);
 }
-</code>
+```
 
-<p>Note the @ is to ignore any existing folder.</p>
+Note the @ is to ignore any existing folder.

@@ -1,10 +1,10 @@
-<p>This will allow you to mount a remote ssh filesystem using sshfs (Secure SHell FileSystem):</p>
+This will allow you to mount a remote ssh filesystem using sshfs (Secure SHell FileSystem):
 
-<code name="bash">echo mypassword | sshfs myuser@ftp.mysite.com:/ ~/mnt/mysite -o workaround=rename -o password_stdin</code>
+```bashecho mypassword | sshfs myuser@ftp.mysite.com:/ ~/mnt/mysite -o workaround=rename -o password_stdin```
 
-<p>Replace mypassword, myuser, ftp.mysite.com and mysite.</p>
-<p>Example:</p>
-<code name="bash">echo 4ghNZGpk182q8SvY0kw021JbRb34THaPDN8wyXY679BQPSit5A | sshfs jsmith@ftp.example.com:/ ~/mnt/example -o workaround=rename -o password_stdin</code>
+Replace mypassword, myuser, ftp.mysite.com and mysite.
+Example:
+```bashecho 4ghNZGpk182q8SvY0kw021JbRb34THaPDN8wyXY679BQPSit5A | sshfs jsmith@ftp.example.com:/ ~/mnt/example -o workaround=rename -o password_stdin```
 
-<p>NOTE: Make sure the mount folder ~/mnt/example exists or create it:</p>
-<code name="bash">mkdir -p ~/mnt/example</code>
+NOTE: Make sure the mount folder ~/mnt/example exists or create it:
+```bashmkdir -p ~/mnt/example```

@@ -1,39 +1,39 @@
-<p>Count number of ops in a script.</p>
+Count number of ops in a script.
 
-<p>Install php with pear.</p>
+Install php with pear.
 
-<code name="bash">
+```bash
 $ brew uninstall php71
 $ brew install php71 --with-pear
-</code>
+```
 
-<p>Add to bashrc file.</p>
+Add to bashrc file.
 
-<code name="bash">
+```bash
 $ vim ~/.bashrc
-</code>
+```
 
-<code name="bash">
+```bash
 # Swap the PHP you use on the command line.
 export PATH="$(brew --prefix homebrew/php/php71)/bin:$PATH"
-</code>
+```
 
-<p>Ensure we are using the correct version of php. Close and reopen terminal if necessary.</p>
+Ensure we are using the correct version of php. Close and reopen terminal if necessary.
 
-<code name="bash">
+```bash
 $ which php
 /usr/local/opt/php71/bin/php
-</code>
+```
 
-<p>Install vld.</p>
+Install vld.
 
-<code name="bash">
+```bash
 $ pecl install vld-0.14.0
-</code>
+```
 
-<p>Create script.</p>
+Create script.
 
-<code name="bash">
+```bash
 $ cat /tmp/script.php 
 <?php
 $bool = true;
@@ -42,11 +42,11 @@ if ($bool) {
 } else {
     echo 'nay';
 }
-</code>
+```
 
-<p>Run script with custom php.ini settings to view the number of ops.</p>
+Run script with custom php.ini settings to view the number of ops.
 
-<code name="bash">
+```bash
 $ php -dextension=vld.so -dvld.active=1 -dvld.dump_paths=1 -dvld.execute=0 -dvld.save_paths=1 -dvld.verbosity=0 /tmp/script.php
 filename:       /private/tmp/script.php
 function name:  (null)
@@ -67,9 +67,9 @@ branch: #  4; line:     6-    8; sop:     4; eop:     4; out1:   5
 branch: #  5; line:     8-    8; sop:     5; eop:     5; out1:  -2
 path #1: 0, 2, 5, 
 path #2: 0, 4, 5,
-</code>
+```
 
-<code name="bash">
+```bash
 $ php \
     -dextension=vld.so \
     -dvld.active=1     \
@@ -78,33 +78,33 @@ $ php \
     -dvld.save_paths=1 \
     -dvld.verbosity=0  \
     /tmp/script.php
-</code>
+```
 
-<code name="bash">
+```bash
 -dextension=vld.so # Enable vld extension.
 -dvld.active=1     # Activate vld extension.
 -dvld.dump_paths=1 # Dump paths.
 -dvld.execute=0    # Execute script.
 -dvld.save_paths=1 # Save paths. Will save paths to "/tmp/paths.dot".
 -dvld.verbosity=0  # Set verbosity (0, 1, 2, 3).
-</code>
+```
 
-<p>Install graphviz.</p>
+Install graphviz.
 
-<code name="bash">
+```bash
 $ brew install graphviz
-</code>
+```
 
-<p>Render graphic. The -Tpng option renders png.</p>
+Render graphic. The -Tpng option renders png.
 
-<code name="bash">
+```bash
 $ dot -Tpng /tmp/paths.dot > /tmp/paths.png
-</code>
+```
 
-<p>Open the paths image</p>
+Open the paths image
 
-<code name="bash">
+```bash
 $ open /tmp/paths.png
-</code>
+```
 
 <img alt="" src="/img/uploads/2017-05/paths.png" />

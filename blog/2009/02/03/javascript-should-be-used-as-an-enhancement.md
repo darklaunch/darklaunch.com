@@ -1,3 +1,3 @@
-<p>With few exceptions, JavaScript should be used to enhance a site.</p>
+With few exceptions, JavaScript should be used to enhance a site.
 
-<p>Develop sites so that they work with JavaScript disabled.</p>
+Develop sites so that they work with JavaScript disabled.

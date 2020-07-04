@@ -1,46 +1,46 @@
-<p>Use an ANSI escape sequence to display color in the curl output.</p>
+Use an ANSI escape sequence to display color in the curl output.
 
 <img alt="" src="/img/uploads/2018-07/colorized-curl-http-response.png" />
 
-<code>
+```
 The SGR control sequence: CSI + number + m
 The CSI escape sequence: ESC [
 The ASCII escape character octal: \033
-</code>
+```
 
-<p>Starting with the the SGR control sequence to colorize the html response:</p>
-<code>CSI + number + m</code>
+Starting with the the SGR control sequence to colorize the html response:
+```CSI + number + m```
 
-<p>Replace CSI with the CSI escape sequence:</p>
-<code>ESC [ + number + m</code>
+Replace CSI with the CSI escape sequence:
+```ESC [ + number + m```
 
-<p>Replace ESC with the escape character octal:</p>
-<code>\033[ + number + m</code>
+Replace ESC with the escape character octal:
+```\033[ + number + m```
 
-<p>Using the green foreground color code (32) and the reset code (0), construct a message in green.</p>
+Using the green foreground color code (32) and the reset code (0), construct a message in green.
 
-<code>
+```
 \033[ + 32 + m +
 text +
 \033[ + 0 + m
-</code>
+```
 
-<code name="php">
+```php
 <?php
 echo "\033[32m" . 'Success!' . "\033[0m\n";
 exit;
-</code>
+```
 
 <img alt="" src="/img/uploads/2018-07/colorized-curl-http-success-response.png" />
 
-<p>Use the colorize function like this:</p>
+Use the colorize function like this:
 
-<code name="php">
+```php
 echo colorize('Success!', 'green_fg') . "\n";
 echo colorize('Warning!', 'yellow_fg;underline') . "\n";
-</code>
+```
 
-<code name="php">
+```php
 <?php
 function colorize($str, $attributes) {
     $ANSI_ESCAPE_CODES = array(
@@ -79,4 +79,4 @@ function colorize($str, $attributes) {
     $ansi .= $str . "\033[" . $ANSI_ESCAPE_CODES['reset'] . 'm';
     return $ansi;
 }
-</code>
+```

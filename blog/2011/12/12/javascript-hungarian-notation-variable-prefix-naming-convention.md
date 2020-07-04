@@ -1,6 +1,6 @@
-<p>Hungarian Notation is a language agnostic naming convention that prefixes variables with the variable's type. This allows the reader to determine the type and use of a variable by such an identifier.</p>
+Hungarian Notation is a language agnostic naming convention that prefixes variables with the variable's type. This allows the reader to determine the type and use of a variable by such an identifier.
 
-<p>JavaScript Hungarian Prefixes:</p>
+JavaScript Hungarian Prefixes:
 
 <ul>
 <li>a - array</li>
@@ -13,7 +13,7 @@
 <li>s - string</li>
 </ul>
 
-<code name="javascript">
+```javascript
 var aData = [1, 2, 3];
 var bFound = false;
 var fGoldenRatio = 1.618;
@@ -26,24 +26,24 @@ var oSettings = {
     dataType: "jsonp"
 };
 var sLabel = "First Name";
-</code>
+```
 
-<p>Prefixes may also be combined where appropriate.</p>
+Prefixes may also be combined where appropriate.
 
-<code name="javascript">
+```javascript
 var asData = "foo,bar,baz".split(","); // Array of type String.
-</code>
+```
 
-<p>Examples in other languages:</p>
+Examples in other languages:
 
-<code name="cpp">
+```cpp
 int iNumber = 2;
-</code>
+```
 
-<code name="php">
+```php
 $sQuote = "Imagination is more important than knowledge.";
-</code>
+```
 
-<code name="autoit">
+```autoit
 $sMsg = "Example message string."
-</code>
+```

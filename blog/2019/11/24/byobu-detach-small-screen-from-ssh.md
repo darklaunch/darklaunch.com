@@ -1,1 +1,1 @@
-<p>Use <kbd>Alt</kbd> + <kbd>F6</kbd> to detach all clients in Byobu.</p>
+Use `Alt` + `F6` to detach all clients in Byobu.

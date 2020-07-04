@@ -1,14 +1,14 @@
-<p>To view the current alias from the command line, do the following:</p>
+To view the current alias from the command line, do the following:
 
-<p>Given an alias ll</p>
+Given an alias ll
 
-<code>
+```
 alias ll='ls -al'
-</code>
+```
 
-<p>Type alias ll on the command line to view its current alias.</p>
+Type alias ll on the command line to view its current alias.
 
-<code>
+```
 $ alias ll
 >>> alias ll='ls -al'
-</code>
+```

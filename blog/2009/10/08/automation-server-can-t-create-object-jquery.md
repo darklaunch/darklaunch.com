@@ -3,14 +3,14 @@
 Run your script with jquery-1.3.2.js (not compressed version) and the error is occurring on line 3382.
 
 Lines 3381, 3382, 3383:
-<code name="javascript">
+```javascript
 xhr:function(){
 	return window.ActiveXObject ? new ActiveXObject("Microsoft.XMLHTTP") : new XMLHttpRequest();
 },
-</code>
+```
 
 Replace the xhr function with:
-<code name="javascript">
+```javascript
 xhr:function(){
 	if (window.XMLHttpRequest) {
 		return new XMLHttpRequest();
@@ -29,10 +29,10 @@ xhr:function(){
 		}
 	}
 },
-</code>
+```
 
 The following code reproduces the error message in Internet Explorer 8:
-<code name="html">
+```html
 <!doctype html>
 <html>
 <head>
@@ -49,6 +49,6 @@ The following code reproduces the error message in Internet Explorer 8:
 	</script>
 </body>
 </html>
-</code>
+```
 
 <img alt="image" src="/img/uploads/2009-10/Iq0Wu.png" />

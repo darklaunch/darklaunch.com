@@ -1,6 +1,6 @@
-<p>Fix by installing mysql-server.</p>
+Fix by installing mysql-server.
 
-<code>
+```
 $ python manage.py dbshell
 CommandError: You appear not to have the 'mysql' program installed or on your path.
 
@@ -10,4 +10,4 @@ $ which mysql
 /usr/bin/mysql
 
 $ python manage.py dbshell
-mysql></code>
+mysql>```

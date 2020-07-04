@@ -1,22 +1,22 @@
-<p>Delete a file only if it is a regular file without needing to use the force option (-f/--force).</p>
+Delete a file only if it is a regular file without needing to use the force option (-f/--force).
 
-<code name="bash">
+```bash
 set -x
 
 filename="myfile.txt" &&
   ([[ -f "${filename}" ]] && rm --recursive --verbose "${filename}" || exit 0) &&
   echo "done"
-</code>
+```
 
-<p>Test the script. First, create the file referenced in the script.</p>
+Test the script. First, create the file referenced in the script.
 
-<code name="bash">
+```bash
 $ touch myfile.txt
-</code>
+```
 
-<p>Run the script and the file is removed because it is a regular file.</p>
+Run the script and the file is removed because it is a regular file.
 
-<code name="bash">
+```bash
 $ bash run.sh
 + filename=myfile.txt
 + [[ -f myfile.txt ]]
@@ -24,15 +24,15 @@ $ bash run.sh
 removed 'myfile.txt'
 + echo done
 done
-</code>
+```
 
-<p>Run the script again and the file is not removed because it has already been deleted.</p>
+Run the script again and the file is not removed because it has already been deleted.
 
-<code name="bash">
+```bash
 $ bash run.sh
 + filename=myfile.txt
 + [[ -f myfile.txt ]]
 + exit 0
 + echo done
 done
-</code>
+```

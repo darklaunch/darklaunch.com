@@ -1,12 +1,12 @@
-<p>To find files and execute a command on the files found, do the following:</p>
+To find files and execute a command on the files found, do the following:
 
-<code>cd /path/to/directory
-find ./ ! -iname "*.mp3" -type f -exec echo {} \;</code>
+```cd /path/to/directory
+find ./ ! -iname "*.mp3" -type f -exec echo {} \;```
 
-<p>The above command finds any non-mp3 (! -iname *.mp3) file (-type f) in the current directory (./) and prints the file found (-exec echo {}). The curly brackets are replaced with the found files. "\;" signals the end of the command to execute.</p>
+The above command finds any non-mp3 (! -iname *.mp3) file (-type f) in the current directory (./) and prints the file found (-exec echo {}). The curly brackets are replaced with the found files. "\;" signals the end of the command to execute.
 
-<p>The tests may be chained to together:</p>
-<code>find ./ ! -iname "*.mp3" ! -iname "*.m3u" ! -iname "*.pls" -type f -exec echo {} \;</code>
+The tests may be chained to together:
+```find ./ ! -iname "*.mp3" ! -iname "*.m3u" ! -iname "*.pls" -type f -exec echo {} \;```
 
-<p>To remove or perform another action on the files found, change the exec action. The following will remove the files found:</p>
-<code>find ./ ! -iname "*.mp3" ! -iname "*.m3u" ! -iname "*.pls" -type f -exec rm {} \;</code>
+To remove or perform another action on the files found, change the exec action. The following will remove the files found:
+```find ./ ! -iname "*.mp3" ! -iname "*.m3u" ! -iname "*.pls" -type f -exec rm {} \;```

@@ -1,8 +1,8 @@
-<p>Create calendar event for Thanksgiving celebrated on the fourth Thursday of November.</p>
+Create calendar event for Thanksgiving celebrated on the fourth Thursday of November.
 
-<p>Create a new ics (iCalendar) file like "thanksgiving.ics".</p>
+Create a new ics (iCalendar) file like "thanksgiving.ics".
 
-<code>
+```
 BEGIN:VCALENDAR
 BEGIN:VEVENT
 RRULE:FREQ=YEARLY;INTERVAL=1;BYMONTH=11;BYDAY=4TH
@@ -12,4 +12,4 @@ SUMMARY:Thanksgiving title here.
 DESCRIPTION:Thanksgiving description here.
 END:VEVENT
 END:VCALENDAR
-</code>
+```

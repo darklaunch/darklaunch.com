@@ -1,14 +1,14 @@
-<p>To add a comma thousands separator every 3 digits in a number using JavaScript, use the following function:</p>
+To add a comma thousands separator every 3 digits in a number using JavaScript, use the following function:
 
-<code name="javascript">
+```javascript
 function addThousandsSeparator(value) {
     return value.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,");
 }
-</code>
+```
 
-<p>Example output</p>
+Example output
 
-<code name="javascript">
+```javascript
 var list = [
     1,
     1.03,
@@ -28,9 +28,9 @@ for (var i in list) {
     var num = list[i];
     console.log(num, "=>", addThousandsSeparator(num));
 }
-</code>
+```
 
-<code name="javascript">// Example output
+```javascript// Example output
         1 => '1'
      1.03 => '1.03'
        10 => '10'
@@ -43,4 +43,4 @@ for (var i in list) {
   1000000 => '1,000,000'
  10000000 => '10,000,000'
 100000000 => '100,000,000'
-</code>
+```

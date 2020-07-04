@@ -1,43 +1,43 @@
-<p>Find unicode or non-ascii characters using grep.</p>
+Find unicode or non-ascii characters using grep.
 
-<code name="bash">
+```bash
 $ cat myfile.txt 
 Lorem
-ipsūm
+ips?m
 dolor
 sit
 amet,
-pōnderum
+p?nderum
 tritani
 onstituto
 in
 duo.
-</code>
+```
 
-<p>Find line numbers</p>
+Find line numbers
 
-<code name="bash">
+```bash
 $ grep --line-number --perl-regexp '[^\x00-\x7F]+' myfile.txt 
-2:ipsūm
-6:pōnderum
-</code>
+2:ips?m
+6:p?nderum
+```
 
-<p>Find characters</p>
+Find characters
 
-<code name="bash">
+```bash
 $ grep --line-number --only-matching --perl-regexp '[^\x00-\x7F]+' myfile.txt 
-2:ū
-6:ō
-</code>
+2:?
+6:?
+```
 
-<p>Use grep to find unicode characters</p>
+Use grep to find unicode characters
 
-<code name="bash">
+```bash
 $ grep "$(printf %b '\u2013')" myfile.txt
-</code>
+```
 
-<p>Find unicode characters in vim</p>
+Find unicode characters in vim
 
-<code>
+```
 /\%u2013
-</code>
+```

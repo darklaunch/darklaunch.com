@@ -1,9 +1,9 @@
-<p>To install a pdf printer in Ubuntu, simply do the following:</p>
+To install a pdf printer in Ubuntu, simply do the following:
 
 <ol>
 <li>
 Install printer:
-<code>sudo apt-get install cups-pdf</code>
+```sudo apt-get install cups-pdf```
 </li>
 
 <li>Print something and make sure to select PDF as the printer.</li>

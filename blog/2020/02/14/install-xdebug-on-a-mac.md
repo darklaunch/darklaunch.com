@@ -1,9 +1,9 @@
-<p>Use pecl instead of brew to install xdebug on a Mac.</p>
+Use pecl instead of brew to install xdebug on a Mac.
 
-<p>Install</p>
-<code>$ pecl install xdebug</code>
+Install
+```$ pecl install xdebug```
 
-<p>Confirm installed:</p>
-<code>$ php -i | grep xdebug</code>
+Confirm installed:
+```$ php -i | grep xdebug```
 
-<p>Fixes errors: "Error: No code coverage driver is available" and "Error:  Incorrect whitelist config, no code coverage will be generated."</p>
+Fixes errors: "Error: No code coverage driver is available" and "Error:  Incorrect whitelist config, no code coverage will be generated."

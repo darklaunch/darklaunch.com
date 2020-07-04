@@ -1,18 +1,18 @@
-<p>Fake a module import by adding a fake module to sys.modules.</p>
+Fake a module import by adding a fake module to sys.modules.
 
-<code name="python">
+```python
 import sys
 
 class FakeModule(object):
     PIPE = None
     Popen = None
 sys.modules['subprocess'] = FakeModule
-</code>
+```
 
-<p>Now the following python import from nltk will not fail on App Engine:</p>
+Now the following python import from nltk will not fail on App Engine:
 
-<code name="python">
+```python
 from subprocess import PIPE, Popen
-</code>
+```
 
-<p>Fixes: "ImportError: cannot import name PIPE"</p>
+Fixes: "ImportError: cannot import name PIPE"

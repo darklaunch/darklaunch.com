@@ -1,6 +1,6 @@
-<p>Send commands to tabs in screen.</p>
+Send commands to tabs in screen.
 
-<code name="sh">
+```sh
 screen_name="my_screen"
 
 # Start screen in "detached" mode with a session name.
@@ -18,9 +18,9 @@ screen -S "${screen_name}" -p "my_screen_2" -X stuff $'bash script_2.sh\n'
 
 screen -S "${screen_name}" -X "screen" -t "my_screen_3"
 screen -S "${screen_name}" -p "my_screen_3" -X stuff $'bash script_3.sh\n'
-</code>
+```
 
-<p>Quick screen reference</p>
+Quick screen reference
 <table>
   <tr>
     <td>Create new window</td>
@@ -40,8 +40,8 @@ screen -S "${screen_name}" -p "my_screen_3" -X stuff $'bash script_3.sh\n'
   </tr>
 </table>
 
-<p>List screen sessions<p>
-<code>$ screen -ls</code>
+List screen sessions
+```$ screen -ls```
 
-<p>Attach to screen</p>
-<code>$ screen -x</code>
+Attach to screen
+```$ screen -x```

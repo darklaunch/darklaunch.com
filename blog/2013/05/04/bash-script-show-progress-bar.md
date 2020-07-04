@@ -1,6 +1,6 @@
-<p>To show a bash script progress while loading:</p>
+To show a bash script progress while loading:
 
-<code name="sh">
+```sh
 #!/bin/bash
 
 function loading {
@@ -36,4 +36,4 @@ wait $pid 2>/dev/null # Supress "Killed" message
 echo -en "\r\033[K" # Completely overwrite last line
 
 echo "Done."
-</code>
+```

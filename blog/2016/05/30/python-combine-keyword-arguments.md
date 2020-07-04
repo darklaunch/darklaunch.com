@@ -1,6 +1,6 @@
-<p>To merge kwargs options, use the dictionary update method.</p>
+To merge kwargs options, use the dictionary update method.
 
-<code name="python">
+```python
 def fetch_page(**kwargs):
     options = {
         'method': 'GET',
@@ -23,4 +23,4 @@ fetch_page(url='https://www.example.com/login', method='POST', data={
     'password': 'mypassword'
 })
 # {'url': 'https://www.example.com/login', 'follow_redirects': False, 'data': {'username': 'myusername', 'password': 'mypassword'}, 'method': 'POST'}
-</code>
+```

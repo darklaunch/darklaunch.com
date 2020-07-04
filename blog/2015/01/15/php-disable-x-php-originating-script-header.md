@@ -1,3 +1,3 @@
-<p>Disable php's X-PHP-Originating-Script header in php.ini</p>
+Disable php's X-PHP-Originating-Script header in php.ini
 
-<code>mail.add_x_header = Off</code>
+```mail.add_x_header = Off```

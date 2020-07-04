@@ -1,6 +1,6 @@
-<p>Run several PHP development servers on different ports by sending commands to tabs in screen.</p>
+Run several PHP development servers on different ports by sending commands to tabs in screen.
 
-<code name="sh">
+```sh
 screen_name="my_screen"
 server_count=5
 # screen_binary="screen"
@@ -25,14 +25,14 @@ for i in $(seq 1 "${server_count}"); do
 done
 
 screen -r "${screen_name}"
-</code>
+```
 
-<p>The following commands will be run in separate tabs:</p>
+The following commands will be run in separate tabs:
 
-<code name="bash">
+```bash
 php -S 127.0.0.1:8001
 php -S 127.0.0.1:8002
 php -S 127.0.0.1:8003
 php -S 127.0.0.1:8004
 php -S 127.0.0.1:8005
-</code>
+```

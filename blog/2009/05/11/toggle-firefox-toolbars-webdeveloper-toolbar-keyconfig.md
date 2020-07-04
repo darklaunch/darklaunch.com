@@ -1,4 +1,4 @@
-<code name="javascript">
+```javascript
 // Toggle the Bookmarks toolbar
 var toolbar = document.getElementById('PersonalToolbar');
 toolbar.collapsed = !toolbar.collapsed;
@@ -7,4 +7,4 @@ toolbar.collapsed = !toolbar.collapsed;
 // see web_developer.xpi/chrome/webdeveloper.jar/content/webdeveloper/webdeveloper.js
 var toolbar = document.getElementById('webdeveloper-toolbar');
 toolbar.collapsed = !toolbar.collapsed;
-</code>
+```

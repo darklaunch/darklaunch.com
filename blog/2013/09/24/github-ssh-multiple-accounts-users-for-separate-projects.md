@@ -1,39 +1,39 @@
-<p>Use multiple accounts for separate github projects.</p>
+Use multiple accounts for separate github projects.
 
-<p>Create private and public keys. This command will create an RSA key with an empty comment (as it's not required). Run this command and save the id_rsa file using different names for each project.</p>
-<code>
-$ ssh-keygen -t rsa -C ""</code>
+Create private and public keys. This command will create an RSA key with an empty comment (as it's not required). Run this command and save the id_rsa file using different names for each project.
+```
+$ ssh-keygen -t rsa -C ""```
 
-<p>Edit the ssh config to add separate configurations for each project.</p>
-<code>
-$ vim ~/.ssh/config</code>
+Edit the ssh config to add separate configurations for each project.
+```
+$ vim ~/.ssh/config```
 
-<p>Add your first project to the configuration.</p>
-<code>
+Add your first project to the configuration.
+```
 Host github.com-some-project
 HostName github.com
 User git
-IdentityFile ~/.ssh/some-project_id_rsa</code>
+IdentityFile ~/.ssh/some-project_id_rsa```
 
-<p>Add the second project to the configuration. The "Host" in each ssh configuration group needs to be unique.</p>
-<code>
+Add the second project to the configuration. The "Host" in each ssh configuration group needs to be unique.
+```
 Host github.com-another-project
 HostName github.com
 User git
-IdentityFile ~/.ssh/another-project_id_rsa</code>
+IdentityFile ~/.ssh/another-project_id_rsa```
 
-<p>Clone the project. Note that we are using a modified clone command that uses the "Host" specified in the configuration ("github.com-some-project"). Also set the user name and email for the project that will be used when committing changes.</p>
-<code>
+Clone the project. Note that we are using a modified clone command that uses the "Host" specified in the configuration ("github.com-some-project"). Also set the user name and email for the project that will be used when committing changes.
+```
 $ cd ~/Projects
 $ git clone git@github.com-some-project:some-project/some-project.git
 $ cd ~/Projects/some-project
 $ git config user.name "some-project"
-$ git config user.email "username+some-project@example.com"</code>
+$ git config user.email "username+some-project@example.com"```
 
-<p>Repeat the git clone for the next project. This time changing the "Host" again to the other project's "Host" specified in the configuration.</p>
-<code>
+Repeat the git clone for the next project. This time changing the "Host" again to the other project's "Host" specified in the configuration.
+```
 $ cd ~/Projects/
 $ git clone git@github.com-another-project:another-project/another-project.git
 $ cd ~/Projects/another-project
 $ git config user.name "another-project"
-$ git config user.email "username+another-project@example.com"</code>
+$ git config user.email "username+another-project@example.com"```

@@ -1,5 +1,5 @@
 <blockquote>Base 36 is the most compact case-insensitive alphanumeric numeral system using ASCII characters.</blockquote>
-<code name="php">
+```php
 function base36_encode($base10) {
     return base_convert($base10, 10, 36);
 }
@@ -7,9 +7,9 @@ function base36_encode($base10) {
 function base36_decode($base36) {
     return base_convert($base36, 36, 10);
 }
-</code>
+```
 
-<code name="php">
+```php
 header('Content-Type: text/plain');
 $array = array(
     // base10 => base36
@@ -42,9 +42,9 @@ foreach ($array as $base10 => $base36) {
     echo "base36_decode('" . strtolower($base36) . "') => " .
         base36_decode(strtolower($base36)) . "\n";
 }
-</code>
+```
 
-<code>
+```
 base36_encode('1') => 1
 base36_encode('10') => a
 base36_encode('100') => 2s
@@ -74,4 +74,4 @@ base36_decode('255s') => 100000
 base36_decode('lfls') => 1000000
 base36_decode('gjdgxs') => 1000000000
 base36_decode('cre66i9s') => 1000000000000
-</code>
+```

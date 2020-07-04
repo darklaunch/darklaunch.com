@@ -1,12 +1,12 @@
-<p>To replace all tabs with 4 spaces in vim using the following command:</p>
+To replace all tabs with 4 spaces in vim using the following command:
 
-<code>
+```
 :%s/\t/    /g
-</code>
+```
 
-<p>Explained:</p>
+Explained:
 
-<code>
+```
 : - command
 %s - entire selection
 / - separator
@@ -15,4 +15,4 @@
 "    " - replace with 4 spaces
 / - separator
 g - global replace
-</code>
+```

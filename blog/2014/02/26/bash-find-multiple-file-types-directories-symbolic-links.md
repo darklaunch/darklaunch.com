@@ -1,7 +1,7 @@
-<p>To find two or more file types, use the logical OR operator.</p>
+To find two or more file types, use the logical OR operator.
 
-<code>$ find . -type d -o -type l</code>
+```$ find . -type d -o -type l```
 
-<p>This example finds all directories and symbolic links in the current directory.</p>
+This example finds all directories and symbolic links in the current directory.
 
 <img alt="" src="/img/uploads/2014-02/bash-find-multiple-types.png" />

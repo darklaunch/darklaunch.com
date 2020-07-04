@@ -1,6 +1,6 @@
-<p>Capture stdout output in python using a context manager.</p>
+Capture stdout output in python using a context manager.
 
-<code name="python">
+```python
 import cStringIO
 import sys
 
@@ -15,11 +15,11 @@ class CaptureOutput(list):
         self.extend(self._stringio.getvalue().splitlines())
         del self._stringio
         sys.stdout = self._stdout
-</code>
+```
 
-<p>Usage:</p>
+Usage:
 
-<code name="python">
+```python
 def count_to_3():
     for i in range(1, 4):
         print(i)
@@ -31,20 +31,20 @@ print('done counting')
 
 for line in lines:
     print('line: %s' % line)
-</code>
+```
 
-<p>Output:</p>
+Output:
 
-<code>
+```
 done counting
 line: 1
 line: 2
 line: 3
-</code>
+```
 
-<p>Capture stdout output in php.</p>
+Capture stdout output in php.
 
-<code name="php">
+```php
 <?php
 function count_to_3() {
     for ($i = 1; $i <= 3; $i++) {
@@ -62,15 +62,15 @@ echo 'done counting' . "\n";
 foreach ($lines as $line) {
     echo 'line: ' . $line . "\n";
 }
-</code>
+```
 
-<p>Output:</p>
+Output:
 
-<code>
+```
 done counting
 line: 1
 line: 2
 line: 3
-</code>
+```
 
 https://stackoverflow.com/questions/16571150/

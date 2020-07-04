@@ -1,6 +1,6 @@
 <img alt="" src="/img/uploads/2013-10/xcode-install-command-line-tools.png" />
 
-<p>To fix error: command 'clang' failed with exit status 1 when running `pip install pycurl', install Command Line Tools from Xcode.</p>
+To fix error: command 'clang' failed with exit status 1 when running `pip install pycurl', install Command Line Tools from Xcode.
 
 <ol>
     <li>Open Xcode</li>
@@ -9,6 +9,6 @@
     <li>Install Command Line Tools</li>
 </ol>
 
-<p>Then pip install with ARCHFLAGS set:</p>
+Then pip install with ARCHFLAGS set:
 
-<code>$ env ARCHFLAGS="-arch x86_64" pip install pycurl</code>
+```$ env ARCHFLAGS="-arch x86_64" pip install pycurl```

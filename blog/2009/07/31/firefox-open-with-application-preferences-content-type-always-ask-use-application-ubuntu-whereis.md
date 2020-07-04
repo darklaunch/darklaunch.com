@@ -11,12 +11,12 @@ Now anytime a file where Content-Type=text/x-python comes up, geany will be the 
 
 NOTE:
 If you don't know the location of your application, open a terminal and type:
-<code>
+```
 whereis myapplication
-</code>
+```
 That is:
-<code>
+```
 whereis geany
 >>> geany: /usr/bin/geany /usr/lib/geany /usr/lib64/geany /usr/include/geany /usr/share/geany /usr/share/man/man1/geany.1.gz
-</code>
+```
 Now we know the location of geany is "/usr/bin/geany".

@@ -1,17 +1,17 @@
-<p>To fix the "No module named MySQLdb" error, you need to install MySQL support for Python; do the following:</p>
+To fix the "No module named MySQLdb" error, you need to install MySQL support for Python; do the following:
 
-<code name="sh">
+```sh
 pip install MySQL-python
-</code>
+```
 
-<p>NOTE: Don't use sudo with pip. Fix your directory permissions if you find yourself needing to use sudo.</p>
+NOTE: Don't use sudo with pip. Fix your directory permissions if you find yourself needing to use sudo.
 
-<p>Other errors:</p>
+Other errors:
 
-<code>EnvironmentError: mysql_config not found</code>
-<p>fix with:</p>
-<code>sudo apt-get install libmysqlclient15-dev</code>
+```EnvironmentError: mysql_config not found```
+fix with:
+```sudo apt-get install libmysqlclient15-dev```
 
-<code>Python.h: No such file or directory</code>
-<p>fix with</p>
-<code>sudo apt-get install python2.7-dev</code>
+```Python.h: No such file or directory```
+fix with
+```sudo apt-get install python2.7-dev```

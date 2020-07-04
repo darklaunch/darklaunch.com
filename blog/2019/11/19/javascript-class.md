@@ -1,6 +1,6 @@
-<p>Here is a JavaScript class example.</p>
+Here is a JavaScript class example.
 
-<code name="javascript">
+```javascript
 'use strict';
 
 class MyClass {
@@ -48,11 +48,11 @@ var mc = new MyClass({
 var result = mc.getCharacterFromNumber('b');
 console.log('mc.result:', result);
 console.log('mc.publicVariable:', mc.publicVariable);
-</code>
+```
 
-<p>Output:</p>
+Output:
 
-<code name="javascript">
+```javascript
 MyClass.constructor
 MyClass.constructor.options: { debug: true, some_option: 'some_value' }
 MyClass.displayOptions
@@ -63,4 +63,4 @@ MyClass.getCharacterFromNumber.number: b
 MyClass.getCharacterFromNumber.character: 2
 mc.result: 2
 mc.publicVariable: some public value
-</code>
+```

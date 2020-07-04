@@ -1,4 +1,4 @@
-<p>Bookmark a specific url to create a new Google Document in a particular folder.</p>
+Bookmark a specific url to create a new Google Document in a particular folder.
 
 <ol>
   <li>Get folder's id
