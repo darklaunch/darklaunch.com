@@ -1,5 +1,4 @@
 JavaScript iframe killer
-
 ```javascript
 // iframe killer
 while ((el=document.getElementsByTagName('iframe')).length) {

@@ -1,5 +1,4 @@
 Transparency using CSS:
-
 ```css
 .transparent {
     -khtml-opacity: .5;

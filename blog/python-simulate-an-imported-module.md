@@ -1,5 +1,4 @@
 Fake a module import by adding a fake module to sys.modules.
-
 ```python
 import sys
 
@@ -10,7 +9,6 @@ sys.modules['subprocess'] = FakeModule
 ```
 
 Now the following python import from nltk will not fail on App Engine:
-
 ```python
 from subprocess import PIPE, Popen
 ```

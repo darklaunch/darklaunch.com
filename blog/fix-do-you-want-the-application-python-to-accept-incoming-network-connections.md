@@ -19,8 +19,9 @@ Create a self-signed certificate.
 
 
 Now sign your application
-
-```codesign -s "My Certificate" -f $(which python)```
+```
+codesign -s "My Certificate" -f $(which python)
+```
 
 In the dialog that appears, click "Allow".
 

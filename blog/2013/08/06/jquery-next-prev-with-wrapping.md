@@ -1,5 +1,4 @@
 Wrap jQuery next and prev functions with $.nextWrap() and $.prevWrap().
-
 ```javascript
 (function( $ ) {
     $.fn.nextWrap = function(selector) {
@@ -34,7 +33,6 @@ Given the following markup:
 ```
 
 These all evaluate to true.
-
 ```javascript
 &lt;script>
 console.log($('.one').nextWrap().is('.two')); // true

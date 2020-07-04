@@ -1,11 +1,9 @@
 To kill an active screen, use the following command:
-
 ```
 $ screen -S myscreen -X quit
 ```
 
 To use this in a bash script, use the following:
-
 ```sh
 # Kill screen if running
 sessionname="myscreen"

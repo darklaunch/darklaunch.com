@@ -1,13 +1,12 @@
 Read a csv with headers in python into dictionary rows mapping to the headers.
-
 ```
 first,last,sex
 Liberia,Mariana,female
 Eligius,Prosperus,male
-Florina,Xenia,female```
+Florina,Xenia,female
+```
 
 Use csv.DictReader to read each row into a dictionary.
-
 ```python
 import csv
 
@@ -17,7 +16,6 @@ with open('data.csv') as f:
     for row in reader:
         print(row)
 ```
-
 ```sh
 $ python read_csv.py 
 headers found: ['first', 'last', 'sex']
@@ -27,7 +25,6 @@ headers found: ['first', 'last', 'sex']
 ```
 
 Alternatively, use csv.reader to read the rows.
-
 ```python
 import csv
 

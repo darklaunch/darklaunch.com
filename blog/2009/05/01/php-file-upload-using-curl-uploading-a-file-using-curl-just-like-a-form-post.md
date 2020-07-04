@@ -1,5 +1,4 @@
 Upload a file using PHP and cURL.
-
 ```php
 <?php
 $ch = curl_init();

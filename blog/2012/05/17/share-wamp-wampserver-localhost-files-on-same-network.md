@@ -9,9 +9,9 @@ To restart Apache: WampServer tray icon and "Restart All Services".
 Now all computers on the network can access your pages served by your WampServer my going to http://&lt;your_ip_address&gt;/
 
 To find your local network ip address, run ipconfig on the command line.
-
-```ipconfig```
-
+```
+ipconfig
+```
 ```
 <Directory "c:/wamp/www/">
    #
@@ -45,4 +45,5 @@ To find your local network ip address, run ipconfig on the command line.
    #Allow from 127.0.0.1
    Allow from all
 
-</Directory>```
+</Directory>
+```

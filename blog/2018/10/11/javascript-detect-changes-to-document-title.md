@@ -1,5 +1,4 @@
 Detect changes to document.title using JavaScript.
-
 ```javascript
 var target = document.querySelector('title');
 var observer = new MutationObserver(function(mutations) {
@@ -14,7 +13,6 @@ observer.observe(target, config);
 ```
 
 Full example:
-
 ```html
 <html>
 <head>

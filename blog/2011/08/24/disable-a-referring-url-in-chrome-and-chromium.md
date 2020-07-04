@@ -7,7 +7,6 @@ UPDATE:
 To permanently disable a referring url in Google Chrome and Chromium, use the following setting in your "Preferences" file to stop sending a referer header on HTTP requests.
 
 A handy script is available at http://darklaunch.com/scripts/disable-chromium-referrers.py
-
 ```
 wget http://darklaunch.com/scripts/disable-chromium-referrers.py
 chmod +x disable-chromium-referrers.py
@@ -15,7 +14,6 @@ python ./disable-chromium-referrers.py
 ```
 
 The setting is called "enable_referrers" and it needs to be set to false (no quotes) in the json-encoded Preferences ( ~/.config/chromium/Default/Preferences ) file. For Google Chrome look in ~/.config/google-chrome/Default/Preferences
-
 ```javascript
 {
    ...
@@ -23,7 +21,6 @@ The setting is called "enable_referrers" and it needs to be set to false (no quo
    ...
 }
 ```
-
 ```py
 import json
 import os

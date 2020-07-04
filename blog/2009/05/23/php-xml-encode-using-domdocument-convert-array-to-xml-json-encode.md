@@ -1,5 +1,4 @@
 Encode XML using xml_encode(); similar to json_encode().
-
 ```php
 function xml_encode($mixed, $domElement=null, $DOMDocument=null) {
     if (is_null($DOMDocument)) {

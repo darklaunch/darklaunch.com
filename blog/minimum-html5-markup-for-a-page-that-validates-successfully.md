@@ -1,5 +1,4 @@
 Minimum HTML Markup that validates. The following is valid HTML5 markup and will validate.
-
 ```html
 <!doctype html>
 <html>

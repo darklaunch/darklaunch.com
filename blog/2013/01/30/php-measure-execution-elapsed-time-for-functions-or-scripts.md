@@ -1,5 +1,4 @@
 To measure execution times or duration of a php function or script, use the following:
-
 ```php
 function start($name) {
     global $stats;

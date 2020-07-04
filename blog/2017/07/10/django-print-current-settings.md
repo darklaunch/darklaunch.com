@@ -1,5 +1,4 @@
 Display the current Django project settings.
-
 ```python
 >>> from django.conf import settings
 >>> settings

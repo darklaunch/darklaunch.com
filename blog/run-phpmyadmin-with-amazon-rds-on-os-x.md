@@ -1,5 +1,4 @@
 To connect to an Amazon RDS instance on OS X, do the following:
-
 ```
 # cd to www root
 cd /Library/WebServer/Documents

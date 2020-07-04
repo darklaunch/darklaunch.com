@@ -6,12 +6,10 @@ perl -pe "s/find/replace/g"
 ```
 
 Parentheses for grouping and capturing is also supported.
-
 ```sh
 $ echo "myfile.txt" | perl -pe "s/(.*)\.txt/\1.log/"
 myfile.log
 ```
-
 ```sh
 $ find=".*(\d{4})\/(\d{2})\/(\d{2})\/.*"
 $ replace="year: \1; month: \2; day: \3"

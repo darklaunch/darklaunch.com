@@ -1,5 +1,4 @@
 To show a bash script progress while loading:
-
 ```sh
 #!/bin/bash
 

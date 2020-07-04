@@ -1,5 +1,4 @@
 You can limit a Google search to a specific domain using the following code. Change the value of the hidden input to the site of your choice.
-
 ```html
 <form action="https://www.google.com/search">
 	<div>

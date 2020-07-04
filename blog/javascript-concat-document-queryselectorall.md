@@ -1,7 +1,6 @@
 Merge two lists of elements returned by document.querySelectorAll().
 
 Given the following html, select the div and list items.
-
 ```html
 <div>A</div>
 
@@ -10,7 +9,6 @@ Given the following html, select the div and list items.
     <li>D
 
 ```
-
 ```javascript
 var someNode = document.querySelector('div');
 var moreNodes = document.querySelectorAll('li');
@@ -23,7 +21,6 @@ The combined variable now contains [div, li, li, li].
 Here is a real-world example where comments of a thread are obtained by specifying a target element.
 
 A list of nested comments with one "current" comment.
-
 ```html
 <div class="comment">
     comment 1
@@ -58,7 +55,6 @@ A list of nested comments with one "current" comment.
 ```
 
 Obtain the list of comments from the "current" target thread.
-
 ```javascript
 function getCommentsFromThread(targetNode) {
     var childNodes = targetNode.querySelectorAll('.comment');

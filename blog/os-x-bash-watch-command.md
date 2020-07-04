@@ -1,5 +1,4 @@
 To run a command similar to the Linux "watch" command on Mac OSX, do the following:
-
 ```
 while :; do your_command; done
 ```

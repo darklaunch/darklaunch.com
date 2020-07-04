@@ -1,5 +1,4 @@
 Use python subprocess to communicate between python scripts.
-
 ```python
 # script.py
 import subprocess
@@ -10,12 +9,10 @@ process = subprocess.Popen(
 result = process.stdout.readline()
 print(result)
 ```
-
 ```python
 # my_other_script.py
 print('hello, world!')
 ```
-
 ```bash
 $ python script.py 
 hello, world!
@@ -23,7 +20,6 @@ hello, world!
 ```
 
 Here's an example game in which the player tries to guess the dealer's number.
-
 ```python
 # Dealer (dealer.py)
 import random
@@ -50,7 +46,6 @@ def main():
 if __name__ == '__main__':
     main()
 ```
-
 ```python
 # Player (player.py)
 import random
@@ -74,7 +69,6 @@ process.stdin.write('0\n')
 result = process.stdout.readline()
 sys.stdout.write(result)
 ```
-
 ```bash
 $ python player.py 
 player betting 4

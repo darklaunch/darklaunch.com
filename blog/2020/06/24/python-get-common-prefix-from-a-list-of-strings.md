@@ -1,5 +1,4 @@
 Get the common prefix from a list of strings using Python.
-
 ```python
 import os
 

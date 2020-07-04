@@ -1,5 +1,4 @@
 The most compatible way to add a favicon is to use a self-closing link element with the rel property containing the words "shortcut" and "icon".
-
 ```html
 <link rel="shortcut icon" href="path/to/favicon.ico" />
 ```

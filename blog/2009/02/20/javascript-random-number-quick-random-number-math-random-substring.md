@@ -1,5 +1,4 @@
 I wanted to avoid specifying a max and min.
-
 ```javascript
 // Math.random(): produces integer -> 0.473239055961688
 // toString(): from integer to string -> '0.473239055961688'
@@ -9,7 +8,6 @@ alert(str);
 ```
 
 This example function requires a max and min.
-
 ```javascript
 // https://developer.mozilla.org/en/Core_JavaScript_1.5_Reference/Global_Objects/Math/random#Examples
 function getRandomInt(min, max){

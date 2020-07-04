@@ -1,5 +1,4 @@
 To run downloaded apps with the iPhone Simulator, do the following:
-
 ```
 Open Finder and go to the "Applications" directory for the iPhone Simulator.
 $ cd /Users/user/Library/Application Support/iPhone Simulator/5.1/Applications

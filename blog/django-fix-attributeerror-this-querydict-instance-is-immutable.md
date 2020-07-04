@@ -1,5 +1,4 @@
 Fix the Django error: "AttributeError: This QueryDict instance is immutable".
-
 ```python
 from django.contrib.admin.sites import AdminSite
 

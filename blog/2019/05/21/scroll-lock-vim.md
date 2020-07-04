@@ -1,5 +1,4 @@
 Lock scrolling in vim by running the following command in each open file:
-
 ```
 :set scb!
 ```

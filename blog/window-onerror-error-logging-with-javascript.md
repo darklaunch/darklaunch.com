@@ -1,5 +1,4 @@
 JavaScript window.onerror logging and error handling.
-
 ```javascript
 (function() {
     window.onerror = function(errorMsg, url, lineNumber) {

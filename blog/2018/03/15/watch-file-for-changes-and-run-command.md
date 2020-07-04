@@ -1,7 +1,6 @@
 Watch a file for file modifications and run a command. For known file extensions, the script may run itself. For all other extensions, specify a command to run.
 
 Usage:
-
 ```bash
 $ watch_file path/to/script.py
 $ wf script.py "python script.py"
@@ -9,7 +8,6 @@ $ wf script.py
 $ wf script.py "bash run.sh"
 $ wf page.html "open https://www.example.com/"
 ```
-
 ```bash
 watch_file ()
 {

@@ -1,5 +1,4 @@
 To fix the "terminal is not fully functional" warning, do the following:
-
 ```
 export TERM=screen
 ```

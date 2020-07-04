@@ -1,5 +1,4 @@
 To select an option by searching for the option's text value, <s>use the :contains selector</s> <ins>use the filter method</ins>.
-
 ```javascript
 // Select the option using the option's exact text value
 var selectOptionText = "Baz";
@@ -15,7 +14,6 @@ $("#select-2").find("option").filter(function(index) {
     return selectOptionText === $(this).text();
 }).prop("selected", "selected");
 ```
-
 ```html
 &lt;!doctype html>
 &lt;html>

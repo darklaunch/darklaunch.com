@@ -59,7 +59,8 @@ Example Output:
   31697026 => 1 year
   63200000 => 2 years
   95000000 => 3 years
- 999999999 => 31 years```
+ 999999999 => 31 years
+```
 
 Example 2:
 ```python
@@ -75,4 +76,5 @@ print duration_human(elapsed), 'has passed'
 ```
 
 Example 2 Output:
-```1 second has passed```
+```1 second has passed
+```

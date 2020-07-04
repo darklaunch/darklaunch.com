@@ -1,5 +1,4 @@
 Determine if an element is effectively hidden in JavaScript.
-
 ```javascript
 function isHidden(e) {
     const style = window.getComputedStyle(e);

@@ -7,7 +7,6 @@ To clear Firefox's cache using a simple hotkey, do the following:
 1. Install Keyconfig.
 2. Add a new key named Clear Cache.
 3. Add the following code:
-
 ```javascript
 var cacheService = Components.classes["@mozilla.org/network/cache-service;1"].getService(Components.interfaces.nsICacheService);
 var alertsService = Components.classes["@mozilla.org/alerts-service;1"].getService(Components.interfaces.nsIAlertsService);

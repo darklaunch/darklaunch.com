@@ -9,7 +9,6 @@ UPDATE 2:
 ---
 
 Google Chrome and Chromium send referring headers when you click on a link, submit a form, etc. To disable this "feature", run Chrome or Chromium with the "no-referrers" option.
-
 ```
 chromium-browser --no-referrers
 ```

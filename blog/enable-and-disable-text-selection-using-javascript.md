@@ -1,5 +1,4 @@
 To enable page selecting if the page disabled it via JavaScript, enter the following on the JavaScript command line:
-
 ```javascript
 document.onselectstart = true;
 ```

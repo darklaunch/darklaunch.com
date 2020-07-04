@@ -1,5 +1,4 @@
 Use an in-memory database when running Django tests.
-
 ```python
 # settings.py
 TEST_ENV = len(sys.argv) >= 2 and sys.argv[1] == 'test'

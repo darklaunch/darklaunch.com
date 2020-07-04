@@ -1,19 +1,15 @@
 Find variable assignments in a python file using the ast module without executing the file.
 
 Given any of the following 3 files, we can find the value of the "VERSION" variable.
-
 ```python
 VERSION = (3, 0, 0, 'alpha', 0)
 ```
-
 ```python
 VERSION = 3.0
 ```
-
 ```python
 VERSION = '3.0'
 ```
-
 ```python
 from __future__ import print_function
 
@@ -65,19 +61,16 @@ print('version: {}'.format(version))
 ```
 
 Output:
-
 ```bash
 tuple found on line number 1
 type: <type 'tuple'>
 version: (3, 0, 0, 'alpha', 0)
 ```
-
 ```bash
 number found on line number 1
 type: <type 'float'>
 version: 3.0
 ```
-
 ```bash
 string found on line number 1
 type: <type 'str'>

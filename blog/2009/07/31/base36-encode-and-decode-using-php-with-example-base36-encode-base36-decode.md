@@ -8,7 +8,6 @@ function base36_decode($base36) {
     return base_convert($base36, 36, 10);
 }
 ```
-
 ```php
 header('Content-Type: text/plain');
 $array = array(
@@ -43,7 +42,6 @@ foreach ($array as $base10 => $base36) {
         base36_decode(strtolower($base36)) . "\n";
 }
 ```
-
 ```
 base36_encode('1') => 1
 base36_encode('10') => a

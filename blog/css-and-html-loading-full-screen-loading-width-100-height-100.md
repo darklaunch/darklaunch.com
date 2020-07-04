@@ -11,7 +11,6 @@
     </table>
 </div>
 ```
-
 ```css
 #splash{
     cursor:wait;

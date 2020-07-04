@@ -1,11 +1,9 @@
 A regular assert statement could be more verbose:
-
 ```python
 first = 'a'
 second = 'aa'
 assert first == second
 ```
-
 ```bash
 $ python script.py
 Traceback (most recent call last):
@@ -15,7 +13,6 @@ AssertionError
 ```
 
 Here is a top-level function to test an assertion condition in more detail:
-
 ```python
 import unittest
 
@@ -33,7 +30,6 @@ first = 'a'
 second = 'aa'
 assert_equal(first, second)
 ```
-
 ```bash
 $ python script.py
 F
@@ -52,13 +48,11 @@ FAILED (failures=1)
 ```
 
 Basic assert in:
-
 ```python
 first = 'z'
 second = ['a', 'b', 'c']
 assert first in second
 ```
-
 ```bash
 $ python script.py
 Traceback (most recent call last):
@@ -68,7 +62,6 @@ AssertionError
 ```
 
 Improved assert in:
-
 ```python
 import unittest
 
@@ -86,7 +79,6 @@ first = 'z'
 second = ['a', 'b', 'c']
 assert_in(first, second)
 ```
-
 ```bash
 $ python script.py
 F

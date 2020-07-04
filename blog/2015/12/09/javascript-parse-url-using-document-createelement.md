@@ -4,7 +4,6 @@ https://developer.mozilla.org/en-US/docs/Web/API/URL/URL
 
 
 Parse a url into components using plain vanilla JavaScript.
-
 ```javascript
 var parser = document.createElement('a');
 parser.href = window.location.toString();
@@ -46,7 +45,6 @@ console.log('search:', parser.search);
 console.log('toString():', parser.toString());
 console.log('username:', parser.username);
 ```
-
 ```bash
 $ node test.js 
 hash: #anchor

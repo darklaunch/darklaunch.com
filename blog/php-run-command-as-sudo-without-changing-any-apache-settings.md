@@ -1,7 +1,6 @@
 Here is how to run a php script as sudo without changing apache settings.
 
 Save the following snippet as <em>receiver.sh</em>. This will act as the receiving script to run commands with sudo permissions.
-
 ```sh
 #!/bin/bash
 
@@ -19,13 +18,12 @@ done
 ```
 
 Run this script with sudo and keep the script running:
-
-```$ sudo bash receiver.sh```
+```$ sudo bash receiver.sh
+```
 
 Now send a command to be run. Here are two examples to issue commands:
 
 Inside a php script
-
 ```php
 <?php
 $data = 'whoami'; // Command to send
@@ -35,18 +33,17 @@ fclose($fp);
 ```
 
 On the command line
-
 ```sh
 $ echo "whoami" >/dev/tcp/localhost/1234
 ```
 
 Example response:
-
 ```
 $ sudo bash receiver.sh 
 [Sun Apr 21 16:16:54 PDT 2013] "whoami"
 root
 
-return code: 0```
+return code: 0
+```
 
 <img alt="" src="/img/uploads/2013-04/run-php-sudo.png" />

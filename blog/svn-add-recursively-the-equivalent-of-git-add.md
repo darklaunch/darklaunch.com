@@ -1,9 +1,12 @@
 One solution to add files recursively with svn is to use the --force option. An example of this is:
-
-```svn add * --force```
+```
+svn add * --force
+```
 
 There is another solution. This is what I came up with:
-```php -r '$files = array(); foreach (simplexml_load_string($argv["1"])->target->entry as $entry) { if ($entry->{"wc-status"}->attributes()->item == "unversioned") { $files[] = chr(34) . (string)$entry->attributes()->path . chr(34); }; } echo implode(" ", $files) . "\n"; ' "$(svn status --xml)" | xargs svn add```
+```php -r '$files = array(); foreach (simplexml_load_string($argv["1"])->target->entry as $entry) { if ($entry->{"wc-status"}->attributes()->item == "unversioned") { $files[] = chr(34) . (string)$entry->attributes()->
+path . chr(34); }; } echo implode(" ", $files) . "\n"; ' "$(svn status --xml)" | xargs svn add
+```
 
 <h4>How this Works</h4>
 1. svn status is passed/piped to php via xml.

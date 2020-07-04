@@ -1,5 +1,4 @@
 Measure elapsed time duration using python.
-
 ```python
 import time
 
@@ -13,7 +12,6 @@ elapsed_time = end_time - start_time
 ```
 
 Another way to measure multiple durations:
-
 ```python
 # logging_timer.py
 import logging
@@ -66,7 +64,6 @@ class Timer(object):
         self._next_task_name = task_name
         return self
 ```
-
 ```python
 # test.py
 import logging
@@ -97,7 +94,6 @@ with timer.name('Tasks'):
 ```
 
 Example run output:
-
 ```
 $ python test.py
 DEBUG:root:         ? Tasks
@@ -113,10 +109,10 @@ DEBUG:root:  501 ms ?  ?  ?  ?  ? Last task
 DEBUG:root: 3503 ms ?  ?  ?  ? Do something
 DEBUG:root: 4004 ms ?  ?  ? Yet another task
 DEBUG:root: 8005 ms ?  ? Task 2
-DEBUG:root: 9007 ms ? Tasks```
+DEBUG:root: 9007 ms ? Tasks
+```
 
 More tests:
-
 ```python
 import logging
 import time

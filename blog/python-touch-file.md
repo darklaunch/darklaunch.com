@@ -1,5 +1,4 @@
 To touch a file in python, do the following:
-
 ```python
 import os
 

@@ -1,7 +1,6 @@
 Example of Django CSRF exempt class based views.
 
 Bypasses "HTTP/1.0 403 Forbidden", "Forbidden (CSRF cookie not set.)", "Forbidden (403) CSRF verification failed. Request aborted."
-
 ```python
 from django.http import HttpResponse
 from django.utils.decorators import method_decorator

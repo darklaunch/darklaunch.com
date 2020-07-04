@@ -1,5 +1,4 @@
 Fix a garbled base64 decoded string by trying this base64 url decoder:
-
 ```php
 <?php
 function base64url_decode($base64url) {

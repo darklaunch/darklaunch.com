@@ -1,5 +1,4 @@
 Read stdin using php on the command line. 
-
 ```sh
 listdir ()
 {

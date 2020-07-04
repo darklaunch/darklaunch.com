@@ -1,5 +1,4 @@
 AutoIt: Put plaintext in clipboard using Ctrl + Shift + C.
-
 ```autoit
 #include <GuiConstantsEx.au3>
 

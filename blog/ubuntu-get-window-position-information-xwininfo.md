@@ -2,7 +2,6 @@ To get the position of a window in Ubuntu, in terminal:
 ```
 xwininfo
 ```
-
 ```
 xwininfo: Please select the window about which you
           would like information by clicking the

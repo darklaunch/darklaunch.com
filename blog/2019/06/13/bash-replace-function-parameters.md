@@ -1,5 +1,4 @@
 Shift and unshift a bash function's parameters by creating a new variable to hold the arguments passed to the function.
-
 ```bash
 debug_command() {
     echo "  arg 1: ${args[0]}"
@@ -22,7 +21,6 @@ my_func() {
 
 my_func "first" "2nd" "and third"
 ```
-
 ```
 $ bash replace_func_arg.sh
 original args:

@@ -1,6 +1,6 @@
 To list the functions available for the imported module, use inspect.getmembers:
-
-```$ python```
+```$ python
+```
 ```python
 >>> import inspect
 >>> import pprint

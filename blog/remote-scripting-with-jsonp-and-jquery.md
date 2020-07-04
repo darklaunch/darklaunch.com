@@ -1,9 +1,7 @@
 Using JSONP allows for cross-domain HTTP GET requests. The following code uses jQuery to call the Flickr API for a list of photos returned in JSON.
-
 ```html
 <div id="photos"></div>
 ```
-
 ```javascript
 $.ajax({
 	type: 'GET',

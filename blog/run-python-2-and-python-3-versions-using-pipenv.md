@@ -1,5 +1,4 @@
 Run python 2.7 using pipenv:
-
 ```python
 $ mkdir python2
 $ cd python2
@@ -11,7 +10,6 @@ Type "help", "copyright", "credits" or "license" for more information.
 ```
 
 Run python 3 using pipenv:
-
 ```python
 $ mkdir python3
 $ cd python3
@@ -23,7 +21,6 @@ Type "help", "copyright", "credits" or "license" for more information.
 ```
 
 Run python 3.6 using pipenv:
-
 ```python
 $ mkdir python3.6
 $ cd python3.6

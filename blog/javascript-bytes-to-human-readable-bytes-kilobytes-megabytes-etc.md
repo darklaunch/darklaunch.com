@@ -7,7 +7,6 @@ function prettySize(bytes) {
     return size + ' ' + unit;
 }
 ```
-
 ```javascript
 console.log(prettySize('1024'));             // 1.00 kb
 console.log(prettySize('10240'));            // 10.00 kb

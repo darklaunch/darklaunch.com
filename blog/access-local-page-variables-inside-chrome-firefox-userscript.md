@@ -1,5 +1,4 @@
 To access a page's local variables from a userscript, use a callback:
-
 ```javascript
 // ==UserScript==
 // @name  Example Script

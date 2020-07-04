@@ -1,7 +1,6 @@
 To determine if SSL is used, the is_ssl() function will return True
 if the page is using SSL (HTTPS or on Port 443), False if not
 used.
-
 ```php
 // From wordpress/wp-includes/load.php
 // Previously wordpress/wp-includes/functions.php

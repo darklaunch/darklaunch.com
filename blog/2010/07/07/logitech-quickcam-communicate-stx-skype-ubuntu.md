@@ -28,7 +28,6 @@ if you see the webcam in the box works, your webcam will now work during calls.
 ---
 
 Here are some of the errors that came up:
-
 ```
 $ luvcview 
 luvcview 0.2.6
@@ -40,7 +39,6 @@ Device information:
   Device path:  /dev/video0
 ERROR opening V4L interface: No such file or directory
 ```
-
 ```
 $ luvcview 
 luvcview 0.2.6

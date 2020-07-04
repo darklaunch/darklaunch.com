@@ -1,12 +1,12 @@
 To fix brew "Failure while executing: git pull":
-
 ```
 $ sudo chmod -R 777 /usr/local/
 $ cd /usr/local/
 $ git config core.filemode false
 $ git stash -u
 $ git fetch
-$ git merge origin/master```
+$ git merge origin/master
+```
 
 Possible errors that this fixes:
 

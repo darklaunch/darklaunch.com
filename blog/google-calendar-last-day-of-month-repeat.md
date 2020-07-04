@@ -1,5 +1,4 @@
 To create a last day of month event in Google Calendar, create a new file "myevent.ics" with the contents:
-
 ```
 BEGIN:VCALENDAR
 CALSCALE:GREGORIAN

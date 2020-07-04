@@ -1,5 +1,4 @@
 To add the current path the the $PATH environment variable, do the following:
-
 ```
 $ PATH=$(pwd):$PATH
 ```

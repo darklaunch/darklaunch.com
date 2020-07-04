@@ -1,5 +1,4 @@
 To check if a date is greater than today in JavaScript, use the following:
-
 ```javascript
 var day = '15';
 var month = '01';

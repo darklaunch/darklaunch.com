@@ -1,5 +1,4 @@
 Remove unwanted applications in Ubuntu.
-
 ```
 sudo apt-get --yes remove --purge ubuntuone*
 sudo apt-get --yes remove brasero*
@@ -19,4 +18,5 @@ sudo apt-get install ubuntu-tweak
 # then Janitor > check all items and click the Clean button
 
 # Finally
-sudo apt-get autoremove```
+sudo apt-get autoremove
+```

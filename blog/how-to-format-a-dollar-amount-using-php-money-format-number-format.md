@@ -1,5 +1,4 @@
 This will format a number into a dollar amount.
-
 ```php
 function money_format($amount) {
     return number_format($amount, 2, '.', ',');

@@ -1,5 +1,4 @@
 Display a loading animation using php.
-
 ```php
 $spin_marks = array('?', '?', '?', '?', '?', '?');
 $ticks = 0;

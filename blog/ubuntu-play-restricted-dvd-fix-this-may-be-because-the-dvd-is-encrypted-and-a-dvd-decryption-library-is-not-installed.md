@@ -1,7 +1,6 @@
 To fix the following DVD error: "This may be because the DVD is encrypted and a DVD decryption library is not installed.", you need to install libdvdread4 to play your DVD as it is likely encrypted.
 
 Open the Terminal and on the command line, copy and paste the following commands to run them:
-
 ```
 sudo apt-get install libdvdread4
 cd /usr/share/doc/libdvdread4

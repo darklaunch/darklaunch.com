@@ -23,11 +23,11 @@ for ($i = 0; $i < $length; $i++) {
 ```
 
 Start the server.
-
 ```bash
 $ php -S 127.0.0.1:8080 server.php
 ```
 
 Show the download progress including Total, Received, Xferd, Average Dload, Speed Upload, Time Total, Time Spent, Time Left, Current Speed:
-
-```curl -i http://127.0.0.1:8080/server.php -o /dev/null```
+```
+curl -i http://127.0.0.1:8080/server.php -o /dev/null
+```

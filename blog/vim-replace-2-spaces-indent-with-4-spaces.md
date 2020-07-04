@@ -1,11 +1,9 @@
 To replace all 2 space indentations, use the following command:
-
 ```
 :%s/\n \{2\}\([^ ]\)/\r    \1/gc
 ```
 
 Explained:
-
 ```
 : - command
 %s - entire selection

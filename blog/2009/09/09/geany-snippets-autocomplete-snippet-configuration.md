@@ -9,7 +9,6 @@ sudo geany /usr/share/geany/snippets.conf
 ```
 
 Save and restart geany. Now type the word if and the tab key. This will autocomplete an if statement.
-
 ```ini
 # from http://citizen.ovh.org/stuff/snippets.conf
 # Geany's snippets configuration file
@@ -139,7 +138,9 @@ h5=<h5>%cursor%</h5>
 h6=<h6>%cursor%</h6>
 p=%cursor%
 pre=<pre>\n%cursor%\n</pre>
-code=```\n%cursor%\n```
+code=```
+\n%cursor%\n
+```
 quote=> \n\t\n\t\t%cursor%\n\t\n
 # other
 cmt=<!--\n\t%cursor%\n-->

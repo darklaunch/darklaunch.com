@@ -1,5 +1,4 @@
 To launch byobu automatically at login, on the command line, run byobu-enable. byobu-enable is a "wrapper script for enabling/disabling automatic startup of byobu after login into text console".
-
 ```
 $ byobu-enable
 ```

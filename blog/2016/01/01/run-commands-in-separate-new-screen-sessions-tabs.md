@@ -1,5 +1,4 @@
 Send commands to tabs in screen.
-
 ```sh
 screen_name="my_screen"
 
@@ -41,7 +40,9 @@ Quick screen reference
 </table>
 
 List screen sessions
-```$ screen -ls```
+```$ screen -ls
+```
 
 Attach to screen
-```$ screen -x```
+```$ screen -x
+```

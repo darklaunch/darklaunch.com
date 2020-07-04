@@ -6,7 +6,6 @@ SELECT (
 ) AS seconds
 >>> 3600
 ```
-
 ```sql
 SELECT (
     (UNIX_TIMESTAMP("2009-08-17 10:00") -

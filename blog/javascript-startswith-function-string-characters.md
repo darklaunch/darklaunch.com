@@ -1,5 +1,4 @@
 JavaScript starts with a string.
-
 ```javascript
 function startsWith(data, input) {
     return data.substring(0, input.length) === input;
@@ -9,7 +8,6 @@ String.prototype.startsWith = function (input) {
     return this.substring(0, input.length) === input;
 };
 ```
-
 ```javascript
 var url = "https://www.example.com/";
 

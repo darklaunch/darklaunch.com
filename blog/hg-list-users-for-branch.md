@@ -1,5 +1,4 @@
 To list users for a specific branch in hg/Mercurial, use the following:
-
 ```
 $ hg log --only-branch $(hg branch) --template "{author}\n" | sort | uniq
 Alice <alice@example.com>

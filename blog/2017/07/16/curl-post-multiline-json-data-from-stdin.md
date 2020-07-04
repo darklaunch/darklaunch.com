@@ -1,5 +1,4 @@
 POST json data with Curl from the command line via STDIN.
-
 ```bash
 $ curl https://api.example.com/posts/create --data @- <<REQUEST_BODY
 {
@@ -8,7 +7,6 @@ $ curl https://api.example.com/posts/create --data @- <<REQUEST_BODY
 }
 REQUEST_BODY
 ```
-
 ```php
 <?php
 $data = json_decode(file_get_contents('php://input'));
@@ -16,7 +14,6 @@ var_dump($data);
 ```
 
 Response
-
 ```
 object(stdClass)#1 (2) {
   ["title"]=>

@@ -16,5 +16,7 @@ echo 'Roll the ' . plural($count, 'die', 'dice') . "\n";
 ```
 
 Output:
-```And then I found 5 dollars
-Roll the die```
+```
+And then I found 5 dollars
+Roll the die
+```

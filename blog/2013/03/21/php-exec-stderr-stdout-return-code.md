@@ -1,5 +1,4 @@
 Run a command in php and get standard output (stdout), standard error (stderr), and the return code / return value.
-
 ```php
 function pipe_exec($cmd, $input='') {
     $proc = proc_open($cmd, array(array('pipe', 'r'),
@@ -19,7 +18,6 @@ function pipe_exec($cmd, $input='') {
     return array($return_code, $stdout, $stderr);
 }
 ```
-
 ```php
 // Example usage.
 list($return_code, $stdout, $stderr) = pipe_exec('ls');

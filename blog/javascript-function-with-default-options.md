@@ -1,5 +1,4 @@
 Use Object.assign to merge objects.
-
 ```javascript
 const original = {
     'a': 1,
@@ -15,11 +14,11 @@ const updates = {
 const result = Object.assign(original, updates);
 console.log('result:', result);
 ```
-
-```result: { a: 1, b: 2, c: 3, d: 4 }```
+```
+result: { a: 1, b: 2, c: 3, d: 4 }
+```
 
 Create a function that has default options by using Object.assign.
-
 ```javascript
 function doThing(options) {
     var defaults = {
@@ -30,7 +29,6 @@ function doThing(options) {
     console.log(options);
 }
 ```
-
 ```javascript
 doThing();
 // { debug: false, retryCount: 0 }

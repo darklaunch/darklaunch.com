@@ -11,7 +11,6 @@ Can't open file '/mnt/example/www.example.com/web/repository/format': Permission
 
 How to fix:
 Edit quoteCommand() in ../include/command.php quoteCommand() should read:
-
 ```php
 function quoteCommand($cmd) {
     global $config;

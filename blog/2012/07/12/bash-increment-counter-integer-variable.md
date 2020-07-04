@@ -1,5 +1,4 @@
 To increment a counter in bash, use any of the following:
-
 ```sh
 #!/bin/bash
 
@@ -20,7 +19,6 @@ echo $x
 x=$(echo "$x + 1" | bc)
 echo $x
 ```
-
 ```
 + x=1
 + echo 1

@@ -1,5 +1,4 @@
 Empty arrays in PHP are falsy.
-
 ```sh
 $ php -r 'var_dump((bool)array());'
 bool(false)

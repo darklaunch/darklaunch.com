@@ -2,7 +2,6 @@ http://code.google.com/p/class-query/
 
 Class Query makes it easy to run a query.
 Simply chain the query parameters with ->run(); as the last parameter.
-
 ```php
 // Basic select
 $q = new Query;
@@ -13,7 +12,6 @@ $q
 
 // -> SELECT * FROM `user`
 ```
-
 ```php
 // Select using page
 $q = new Query;

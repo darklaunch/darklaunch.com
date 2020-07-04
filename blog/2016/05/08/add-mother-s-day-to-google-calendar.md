@@ -1,7 +1,6 @@
 Create calendar event for Mother's Day celebrated on the 2nd Sunday of May.
 
 Create a new ics (iCalendar) file like "mothersday.ics".
-
 ```
 BEGIN:VCALENDAR
 BEGIN:VEVENT

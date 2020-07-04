@@ -1,5 +1,4 @@
 The iPhone and iPod Touch support overflow, but no scroll bars will appear. Use two fingers to scroll within the overflowed area.
-
 ```css
 .mydiv {
     overflow-x: auto;

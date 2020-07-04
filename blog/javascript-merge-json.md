@@ -1,5 +1,4 @@
 Use Array.concat() to merge multiple JSON objects.
-
 ```javascript
 var first = [
     {

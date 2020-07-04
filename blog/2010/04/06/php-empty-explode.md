@@ -1,5 +1,4 @@
 Explode a string with no empty elements. Similar to C# Split String: StringSplitOptions.RemoveEmptyEntries.
-
 ```php
 function eexplode($separator, $string) {
 	$array = explode($separator, $string);

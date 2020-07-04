@@ -1,9 +1,7 @@
 Write manageable CSS using Sass / SCSS. Compile to CSS with these options:
-
 ```sh
 sass --watch style.scss:style.css --unix-newlines --style expanded
 ```
-
 ```sh
 sass \
     --watch style.scss:style.css \ # Watch files or directories for changes.

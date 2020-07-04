@@ -1,5 +1,4 @@
 Use prefetch_related and select_related in Django admin. Implement a custom get_queryset method.
-
 ```py
 from django.contrib import admin
 

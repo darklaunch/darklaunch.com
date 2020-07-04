@@ -1,5 +1,4 @@
 Here is a JavaScript class example.
-
 ```javascript
 'use strict';
 
@@ -51,7 +50,6 @@ console.log('mc.publicVariable:', mc.publicVariable);
 ```
 
 Output:
-
 ```javascript
 MyClass.constructor
 MyClass.constructor.options: { debug: true, some_option: 'some_value' }

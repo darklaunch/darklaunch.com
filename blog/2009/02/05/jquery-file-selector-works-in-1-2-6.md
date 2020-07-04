@@ -5,7 +5,6 @@ $('#myform :file[value!='']') works in 1.2.6, but not in 1.3.x
 Selector is looking for inputs of type file with value not empty.
 
 Test case where "uncaught exception: Syntax error, unrecognized expression: value!='']":
-
 ```html
 <div id="myform">
     <form action="test-selector.php" enctype="multipart/form-data" method="post">

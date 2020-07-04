@@ -1,5 +1,4 @@
 JavaScript format string similarly to python's string format.
-
 ```javascript
 String.format = function(format) {
     var args = Array.prototype.slice.call(arguments, 1);
