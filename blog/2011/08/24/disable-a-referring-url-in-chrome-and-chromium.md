@@ -1,9 +1,8 @@
 UPDATE:
-<blockquote>
-Use Referer Control: https://chrome.google.com/webstore/detail/referer-control/hnkcfpcejkafcihlgbojoidoihckciin
-</blockquote>
+> Use Referer Control: https://chrome.google.com/webstore/detail/referer-control/hnkcfpcejkafcihlgbojoidoihckciin
 
----<hr />
+
+---
 
 To permanently disable a referring url in Google Chrome and Chromium, use the following setting in your "Preferences" file to stop sending a referer header on HTTP requests.
 

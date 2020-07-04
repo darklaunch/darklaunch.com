@@ -4,11 +4,11 @@ Given the following html, select the div and list items.
 
 ```html
 <div>A</div>
-<ul>
-    <li>B</li>
-    <li>C</li>
-    <li>D</li>
-</ul>
+
+    <li>B
+    <li>C
+    <li>D
+
 ```
 
 ```javascript

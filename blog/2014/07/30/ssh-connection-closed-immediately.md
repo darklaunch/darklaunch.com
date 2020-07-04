@@ -19,9 +19,9 @@ instead of:
 do this:
 ```$ ssh -v user@host -i ~/.ssh/id_rsa```
 
-<ul>
-<li>use `ssh -v'  to enable verbose mode. This will show you what authentications methods attempted and the corresponding files read, among other things.</li>
-</ul>
+
+* use `ssh -v'  to enable verbose mode. This will show you what authentications methods attempted and the corresponding files read, among other things.
+
 
 Things to try on the remote machine that you are trying to connect to using ssh:
 
@@ -32,11 +32,11 @@ $ sudo /etc/init.d/ssh status
 $ sudo /etc/init.d/ssh start
 * Starting OpenBSD Secure Shell server sshd```
 
-<ul>
-<li>Ensure that wrapping is off in vim (or editor) if editing the authorized_keys file manually</li>
-<li>Ensure that no spaces exist in authorized_keys file</li>
-<li>Ensure that the correct authorized_keys file exists and is readable
-by the ssh deamon (sshd) using sshd with the -d Debug mode enabled</li>
-</ul>
+
+* Ensure that wrapping is off in vim (or editor) if editing the authorized_keys file manually
+* Ensure that no spaces exist in authorized_keys file
+* Ensure that the correct authorized_keys file exists and is readable
+by the ssh deamon (sshd) using sshd with the -d Debug mode enabled
+
 
 Possible errors: "debug1: Could not open authorized keys '/.../.ssh/authorized_keys2': No such file or directory"

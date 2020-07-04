@@ -1,4 +1,4 @@
-<h3>Signature</h3>
+### Signature
 
 [COMPANY] will accept the signature that appears below as legal and binding only if it is that of a principal or designated principal of the payee. Do not sign this form if you are not a principal or designated principal. This form must be signed by a principal or designated principal.
 

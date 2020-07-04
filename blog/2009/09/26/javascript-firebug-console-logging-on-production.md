@@ -65,6 +65,6 @@ console.exception(error-object[, object, ...])
 console.table(data[, columns])
 ```
 
-<h3>More about Firebug, the Command Line and the Console API</h3>
+### More about Firebug, the Command Line and the Console API
 http://getfirebug.com/commandline
 http://getfirebug.com/wiki/index.php/Console_API

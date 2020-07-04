@@ -34,7 +34,7 @@ var is now 5
 
 The reason is that the code is evaluated at runtime. When the first setTimeout function fires, the referenced variable i is now set to 5; the same is true for the subsequent firings of setTimeout functions.
 
-<h3>Option #1: Use JavaScript Closures</h3>
+### Option #1: Use JavaScript Closures
 
 Use setTimeout with a JavaScript for loop:
 
@@ -50,7 +50,7 @@ for (var i = 0; i < 5; i++) {
 }
 ```
 
-<h3>Option #2: Replace var with let</h3>
+### Option #2: Replace var with let
 
 Replace "var" with "let". Unlike the "var" keyword, which defines a variable globally, using "let" declares a block scope local variable. Each iteration causes a separate instance of the variable.
 

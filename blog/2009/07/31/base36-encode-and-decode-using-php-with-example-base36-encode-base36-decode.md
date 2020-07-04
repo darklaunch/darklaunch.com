@@ -1,4 +1,4 @@
-<blockquote>Base 36 is the most compact case-insensitive alphanumeric numeral system using ASCII characters.</blockquote>
+> Base 36 is the most compact case-insensitive alphanumeric numeral system using ASCII characters.
 ```php
 function base36_encode($base10) {
     return base_convert($base10, 10, 36);

@@ -26,11 +26,11 @@ Wrap jQuery next and prev functions with $.nextWrap() and $.prevWrap().
 
 Given the following markup:
 ```html
-<ul>
-    <li class="one"></li>
-    <li class="two"></li>
-    <li class="three"></li>
-</ul>
+
+    <li class="one">
+    <li class="two">
+    <li class="three">
+
 ```
 
 These all evaluate to true.

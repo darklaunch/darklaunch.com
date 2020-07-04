@@ -118,9 +118,9 @@ select=<select name="%cursor%" id="">\n\t<option value=""></option>\n</select>
 radio=<input type="radio" name="%cursor%" value="" />
 checkbox=<input type="checkbox" name="%cursor%" value="" />
 # list
-ul=<ul class="%cursor%">\n\t<li></li>\n</ul>
-ol=<ol class="%cursor%">\n\t<li></li>\n</ol>
-li=<li>%cursor%</li>
+ul=<ul class="%cursor%">\n\t<li></li>\n
+ol=<ol class="%cursor%">\n\t<li></li>\n
+li=<li>%cursor%
 # inline
 span=<span class="%cursor%"></span>
 em=<em>%cursor%</em>
@@ -133,14 +133,14 @@ thumb=<a href="%cursor%"><img src="" /></a>
 div=<div class="%cursor%"></div>
 h1=<h1>%cursor%</h1>
 h2=<h2>%cursor%</h2>
-h3=<h3>%cursor%</h3>
+h3=<h3>%cursor%
 h4=<h4>%cursor%</h4>
 h5=<h5>%cursor%</h5>
 h6=<h6>%cursor%</h6>
 p=%cursor%
 pre=<pre>\n%cursor%\n</pre>
 code=```\n%cursor%\n```
-quote=<blockquote>\n\t\n\t\t%cursor%\n\t\n</blockquote>
+quote=> \n\t\n\t\t%cursor%\n\t\n
 # other
 cmt=<!--\n\t%cursor%\n-->
 br=<br/>

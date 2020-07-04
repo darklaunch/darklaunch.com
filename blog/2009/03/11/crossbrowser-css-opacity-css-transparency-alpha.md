@@ -10,4 +10,4 @@ Transparency using CSS:
 }
 ```
 
-<blockquote>NOTE: Please use sass.</blockquote>
+> NOTE: Please use sass.

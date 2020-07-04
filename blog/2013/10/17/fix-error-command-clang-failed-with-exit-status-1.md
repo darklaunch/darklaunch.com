@@ -2,12 +2,12 @@
 
 To fix error: command 'clang' failed with exit status 1 when running `pip install pycurl', install Command Line Tools from Xcode.
 
-<ol>
-    <li>Open Xcode</li>
-    <li>Go to Preferences (Command + ,)</li>
-    <li>Select the Downloads tab / Components subtab</li>
-    <li>Install Command Line Tools</li>
-</ol>
+
+    <li>Open Xcode
+    <li>Go to Preferences (Command + ,)
+    <li>Select the Downloads tab / Components subtab
+    <li>Install Command Line Tools
+
 
 Then pip install with ARCHFLAGS set:
 

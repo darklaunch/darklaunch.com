@@ -41,4 +41,4 @@ function submit_form() {
 Why doesn't value expression work in the current release?
 RE: http://dev.jquery.com/ticket/4083
 
-<blockquote>UPDATE: $('#myform :file[value!=\'\']') selector works again with the release of jQuery 1.3.2</blockquote>
+> UPDATE: $('#myform :file[value!=\'\']') selector works again with the release of jQuery 1.3.2

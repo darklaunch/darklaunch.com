@@ -1,7 +1,7 @@
 Update: Use the URL() constructor to parse urls.
 https://developer.mozilla.org/en-US/docs/Web/API/URL/URL
 
-<hr />
+
 
 Parse a url into components using plain vanilla JavaScript.
 

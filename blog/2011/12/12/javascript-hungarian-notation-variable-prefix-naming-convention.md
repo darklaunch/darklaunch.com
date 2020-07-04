@@ -2,16 +2,16 @@ Hungarian Notation is a language agnostic naming convention that prefixes variab
 
 JavaScript Hungarian Prefixes:
 
-<ul>
-<li>a - array</li>
-<li>b - boolean</li>
-<li>f - float</li>
-<li>fn - function</li>
-<li>i - integer</li>
-<li>n - node</li>
-<li>o - object</li>
-<li>s - string</li>
-</ul>
+
+* a - array
+* b - boolean
+* f - float
+* fn - function
+* i - integer
+* n - node
+* o - object
+* s - string
+
 
 ```javascript
 var aData = [1, 2, 3];

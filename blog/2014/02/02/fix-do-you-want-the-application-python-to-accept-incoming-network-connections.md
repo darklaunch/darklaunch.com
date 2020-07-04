@@ -4,19 +4,19 @@ With the OS X firewall enabled, you can remove the "Do you want the application 
 
 Create a self-signed certificate.
 
-<ol>
-<li>Open Keychain Access. Applications > Utilities > Keychain Access.</li>
-<li>Keychain Access menu > Certificate Assistant > Create a Certificate...</li>
-<li>Enter a Name like "My Certificate".</li>
-<li>Select Identity Type: Self Signed Root</li>
-<li>Select Certificate Type: Code Signing</li>
-<li>Check the Let me override defaults box</li>
-<li>Click Continue</li>
-<li>Enter a unique Serial Number</li>
-<li>Enter 7300 for Validity Period.</li>
-<li>Click Continue</li>
-<li>Click Continue for the rest of the dialogs</li>
-</ol>
+
+* Open Keychain Access. Applications > Utilities > Keychain Access.
+* Keychain Access menu > Certificate Assistant > Create a Certificate...
+* Enter a Name like "My Certificate".
+* Select Identity Type: Self Signed Root
+* Select Certificate Type: Code Signing
+* Check the Let me override defaults box
+* Click Continue
+* Enter a unique Serial Number
+* Enter 7300 for Validity Period.
+* Click Continue
+* Click Continue for the rest of the dialogs
+
 
 Now sign your application
 
