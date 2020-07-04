@@ -1,9 +1,11 @@
 UPDATE:
-> Use Google Chrome and Chromium "Preferences" file to permananently disable referrer headers. http://darklaunch.com/2011/08/24/disable-a-referring-url-in-chrome-and-chromium
+> 
+Use Google Chrome and Chromium "Preferences" file to permananently disable referrer headers. http://darklaunch.com/2011/08/24/disable-a-referring-url-in-chrome-and-chromium
 
 
 UPDATE 2:
-> Use Referer Control: https://chrome.google.com/webstore/detail/referer-control/hnkcfpcejkafcihlgbojoidoihckciin
+> 
+Use Referer Control: https://chrome.google.com/webstore/detail/referer-control/hnkcfpcejkafcihlgbojoidoihckciin
 
 
 ---
@@ -12,7 +14,6 @@ Google Chrome and Chromium send referring headers when you click on a link, subm
 ```
 chromium-browser --no-referrers
 ```
-
 ### Allowing Referer Headers
 Using the default settings of including referring information may present a privacy/security risk. Requests to web pages may include this information as part of the HTTP Protocol and it tells what page you came from -- this additional information may also be used to track you.
 

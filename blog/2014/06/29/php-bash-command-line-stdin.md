@@ -11,5 +11,4 @@ listdir ()
     '
 }
 ```
-
 <img alt="" src="/img/uploads/2014-06/bash-stdin-php-command-line.png" />

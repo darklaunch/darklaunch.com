@@ -11,7 +11,6 @@ var config = {
 };
 observer.observe(target, config);
 ```
-
 Full example:
 ```html
 <html>

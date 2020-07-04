@@ -7,5 +7,4 @@ $ alias -- -foo="echo bar"
 $ -foo
 bar
 ```
-
 <img alt="" src="/img/uploads/2014-01/bash-alias-starting-with-dash.png" />

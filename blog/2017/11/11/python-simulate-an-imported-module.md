@@ -7,10 +7,8 @@ class FakeModule(object):
     Popen = None
 sys.modules['subprocess'] = FakeModule
 ```
-
 Now the following python import from nltk will not fail on App Engine:
 ```python
 from subprocess import PIPE, Popen
 ```
-
 Fixes: "ImportError: cannot import name PIPE"

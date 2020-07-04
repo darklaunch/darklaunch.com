@@ -25,7 +25,6 @@ done
 
 screen -r "${screen_name}"
 ```
-
 The following commands will be run in separate tabs:
 ```bash
 php -S 127.0.0.1:8001

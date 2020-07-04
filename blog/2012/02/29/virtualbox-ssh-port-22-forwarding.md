@@ -10,10 +10,8 @@ Connect to the virtual machine via SSH with:
 ```
 ssh -l myusername -p 2222 localhost
 ```
-
 Additionally, to transfer files to the virtual machine guest, use the following scp command:
 ```
 scp -P 2222 /path/to/source/file.txt myusername@localhost:/path/to/destination/
 ```
-
 <img alt="" src="/img/uploads/2012-02/virtual-box-ssh-port-forwarding.png" />

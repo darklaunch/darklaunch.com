@@ -2,7 +2,6 @@ FIRST to test that your webcam at least works, run
 ```
 gstreamer-properties
 ```
-
 go to the "Video" tab.
 try changing the "Plugin:" setting under "Default Input"
 and clicking the Test button.
@@ -18,7 +17,6 @@ NEXT, get your webcam working with Skype
 ```
 env LD_PRELOAD=/usr/lib/libv4l/v4l1compat.so skype
 ```
-
 this will open up an instance of Skype.
 go to Options > Video Devices.
 check "Enable Skype Video".
@@ -52,8 +50,6 @@ Stream settings:
 ERROR: Requested frame format MJPG is not available and no fallback format was found.
  Init v4L2 failed !! exit fatal
 ```
-
-
 ---
 
 http://ubuntuforums.org/showthread.php?t=914952

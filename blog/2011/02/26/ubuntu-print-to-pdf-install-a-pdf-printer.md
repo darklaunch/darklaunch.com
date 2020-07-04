@@ -6,8 +6,6 @@ Install printer:
 ```
 sudo apt-get install cups-pdf
 ```
-
-
 * Print something and make sure to select PDF as the printer.
 
 * Your printed pdfs will be now be available in ~/PDF

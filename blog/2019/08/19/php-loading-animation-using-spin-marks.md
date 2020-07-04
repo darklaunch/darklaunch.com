@@ -8,6 +8,5 @@ while (true) {
     usleep(100000);
 }
 ```
-
 Screenshot:
 <img alt="" src="/img/uploads/2019-08/php-loading-animation.png" />

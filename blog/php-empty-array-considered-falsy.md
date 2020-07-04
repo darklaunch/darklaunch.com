@@ -3,5 +3,4 @@ Empty arrays in PHP are falsy.
 $ php -r 'var_dump((bool)array());'
 bool(false)
 ```
-
 https://secure.php.net/manual/en/types.comparisons.php

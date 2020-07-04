@@ -19,6 +19,5 @@ cmd = 'ls "{0}"'.format(path)
 path = '/tmp/dir with spaces'
 cmd = 'ls {0}'.format(pipes.quote(path))
 ```
-
 Use pipes.quote() for python 2 and python 3.
 Use shlex.quote() for python 3 only.

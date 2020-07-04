@@ -14,5 +14,4 @@ class MyCsrfExemptView(View):
     def post(self, request):
         return HttpResponse('OK')
 ```
-
 NOTE: This can be unsafe. Consider using Access-Control-Allow-Origin or verifying the origin header and the referer header.

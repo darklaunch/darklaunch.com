@@ -61,7 +61,6 @@ function stop($name='', $return=false, $precision=2) {
     }
 }
 ```
-
 Example usage:
 ```php
 function some_task() {
@@ -99,7 +98,6 @@ stop('yet another task');
 // summary
 stop();
 ```
-
 The above code will output something similar to this.
 ```
 (

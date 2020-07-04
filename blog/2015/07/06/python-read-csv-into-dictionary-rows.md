@@ -5,7 +5,6 @@ Liberia,Mariana,female
 Eligius,Prosperus,male
 Florina,Xenia,female
 ```
-
 Use csv.DictReader to read each row into a dictionary.
 ```python
 import csv
@@ -23,7 +22,6 @@ headers found: ['first', 'last', 'sex']
 {'sex': 'male', 'last': 'Prosperus', 'first': 'Eligius'}
 {'sex': 'female', 'last': 'Xenia', 'first': 'Florina'}
 ```
-
 Alternatively, use csv.reader to read the rows.
 ```python
 import csv
@@ -36,7 +34,6 @@ with open('data.csv') as f:
         row_dict = dict(zip(headers, row_list))
         print(row_dict)
 ```
-
 You can also read the next line by doing either reader.next() or next(reader):
 ```python
 headers = reader.next()

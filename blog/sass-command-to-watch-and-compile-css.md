@@ -8,5 +8,4 @@ sass \
     --unix-newlines              \ # Use Unix newlines in files written.
     --style expanded             \ # Use the expanded css style.
 ```
-
 Learn more at <a href="http://sass-lang.com/">http://sass-lang.com/</a>

@@ -2,7 +2,6 @@ Nautilus bookmarks are stored in ~/.gtk-bookmarks
 ```
 vim ~/.gtk-bookmarks
 ```
-
 Nautilus uses uniform resource identifier (URI) syntax for bookmarks.
 Special URIs include:
 ```

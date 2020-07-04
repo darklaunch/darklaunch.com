@@ -13,7 +13,6 @@ class MyView(View):
         html = "<html><body>It is now %s.</body></html>" % now
         return HttpResponse(html)
 ```
-
 The script where we call the class-based view:
 ```python
 from django.contrib.auth.models import User
@@ -36,7 +35,6 @@ result = MyView.as_view()(request)
 print('result:')
 print(result)
 ```
-
 The output when the script is run:
 ```
 result:
@@ -44,7 +42,6 @@ Content-Type: text/html; charset=utf-8
 
 <html><body>It is now 2018-05-15 00:00:00.000000+00:00.</body></html>
 ```
-
 Pass additional arguments to the view.
 ```python
 from django.http import HttpResponse

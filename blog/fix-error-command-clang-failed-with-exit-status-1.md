@@ -10,5 +10,6 @@ To fix error: command 'clang' failed with exit status 1 when running `pip instal
 
 
 Then pip install with ARCHFLAGS set:
-```$ env ARCHFLAGS="-arch x86_64" pip install pycurl
+```
+$ env ARCHFLAGS="-arch x86_64" pip install pycurl
 ```

@@ -8,7 +8,6 @@ xhr:function(){
 	return window.ActiveXObject ? new ActiveXObject("Microsoft.XMLHTTP") : new XMLHttpRequest();
 },
 ```
-
 Replace the xhr function with:
 ```javascript
 xhr:function(){
@@ -30,7 +29,6 @@ xhr:function(){
 	}
 },
 ```
-
 The following code reproduces the error message in Internet Explorer 8:
 ```html
 <!doctype html>
@@ -50,5 +48,4 @@ The following code reproduces the error message in Internet Explorer 8:
 </body>
 </html>
 ```
-
 <img alt="image" src="/img/uploads/2009-10/Iq0Wu.png" />

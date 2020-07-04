@@ -6,7 +6,6 @@ $("#select-1").find("option").filter(function(index) {
     return selectOptionText === $(this).text();
 }).attr("selected", "selected");
 ```
-
 As of jQuery 1.6, use $.prop() instead of $.attr().
 ```javascript
 var selectOptionText = "wobble";

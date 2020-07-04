@@ -16,5 +16,4 @@ if __name__ == '__main__':
         print filename
         touch(filename)
 ```
-
 <img alt="" src="/img/uploads/2012-07/python-touch-file.png" />

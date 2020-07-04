@@ -27,5 +27,4 @@ def parse_range(astr):
         result.update(range(int(x[0]), int(x[-1]) + 1))
     return sorted(result)
 ```
-
 <img alt="" src="/img/uploads/2012-11/print-page-range.png" />

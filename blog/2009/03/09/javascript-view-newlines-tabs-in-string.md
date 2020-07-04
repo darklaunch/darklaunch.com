@@ -7,5 +7,4 @@ function raw(str) {
               .replace(/\n/g, '\\n');
 }
 ```
-
 The /g modifier finds and replaces all occurrences.

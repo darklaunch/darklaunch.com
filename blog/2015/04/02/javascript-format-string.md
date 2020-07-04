@@ -7,6 +7,5 @@ String.format = function(format) {
     });
 };
 ```
-
 https://docs.python.org/3/library/stdtypes.html#str.format
 http://stackoverflow.com/questions/610406/

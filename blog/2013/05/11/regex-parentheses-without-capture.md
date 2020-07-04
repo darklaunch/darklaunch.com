@@ -29,5 +29,4 @@ $matches = array(
     1 => 'en_FR'
 );
 ```
-
 <img alt="" src="/img/uploads/2013-05/regex-named-capture.png" />

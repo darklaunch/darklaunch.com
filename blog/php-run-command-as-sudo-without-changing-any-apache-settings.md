@@ -16,11 +16,10 @@ while :; do
     echo -e "\nreturn code: ${?}"
 done
 ```
-
 Run this script with sudo and keep the script running:
-```$ sudo bash receiver.sh
 ```
-
+$ sudo bash receiver.sh
+```
 Now send a command to be run. Here are two examples to issue commands:
 
 Inside a php script
@@ -31,12 +30,10 @@ $fp = stream_socket_client('tcp://127.0.0.1:1234');
 fwrite($fp, $data);
 fclose($fp);
 ```
-
 On the command line
 ```sh
 $ echo "whoami" >/dev/tcp/localhost/1234
 ```
-
 Example response:
 ```
 $ sudo bash receiver.sh 
@@ -45,5 +42,4 @@ root
 
 return code: 0
 ```
-
 <img alt="" src="/img/uploads/2013-04/run-php-sudo.png" />

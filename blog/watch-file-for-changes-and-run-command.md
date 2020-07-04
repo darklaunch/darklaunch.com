@@ -102,5 +102,4 @@ EOF
 
 alias wf="watch_file"
 ```
-
 Part of https://github.com/dot-star/dot-star

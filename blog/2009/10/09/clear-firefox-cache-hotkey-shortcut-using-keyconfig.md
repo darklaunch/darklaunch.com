@@ -19,7 +19,6 @@ catch(exception){
 	alertsService.showAlertNotification(null, "Exception", exception, false, "", null);
 }
 ```
-
 4. Set your preferred hotkey.
 5. Open a new window for the hotkey to work. Press the hotkey you set and a notification in the corner will appear.
 

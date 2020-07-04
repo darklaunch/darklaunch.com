@@ -15,5 +15,4 @@ if ($curl->error) {
 var_dump($curl->requestHeaders);
 var_dump($curl->responseHeaders);
 ```
-
 More examples and download at https://github.com/php-curl-class/php-curl-class

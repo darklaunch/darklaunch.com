@@ -37,7 +37,6 @@ This JavaScript snippet adds console.* functions to the page. Functions like con
     }
 })();
 ```
-
 The available console functions for Firebug:
 ```javascript
 console.log(object[, object, ...])
@@ -62,7 +61,6 @@ console.count([title])
 console.exception(error-object[, object, ...])
 console.table(data[, columns])
 ```
-
 ### More about Firebug, the Command Line and the Console API
 http://getfirebug.com/commandline
 http://getfirebug.com/wiki/index.php/Console_API

@@ -14,5 +14,4 @@ $.ajax({
 	}
 });
 ```
-
 NOTE: Updating is also possible using a GET request, but limited to around 2000 characters for some browsers and not recommended.

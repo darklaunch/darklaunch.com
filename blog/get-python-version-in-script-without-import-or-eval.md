@@ -59,7 +59,6 @@ with open(filename, 'r') as source_file:
 print('type: {}'.format(type(version)))
 print('version: {}'.format(version))
 ```
-
 Output:
 ```bash
 tuple found on line number 1

@@ -5,7 +5,6 @@ Install php with pear.
 $ brew uninstall php71
 $ brew install php71 --with-pear
 ```
-
 Add to bashrc file.
 ```bash
 $ vim ~/.bashrc
@@ -14,18 +13,15 @@ $ vim ~/.bashrc
 # Swap the PHP you use on the command line.
 export PATH="$(brew --prefix homebrew/php/php71)/bin:$PATH"
 ```
-
 Ensure we are using the correct version of php. Close and reopen terminal if necessary.
 ```bash
 $ which php
 /usr/local/opt/php71/bin/php
 ```
-
 Install vld.
 ```bash
 $ pecl install vld-0.14.0
 ```
-
 Create script.
 ```bash
 $ cat /tmp/script.php 
@@ -37,7 +33,6 @@ if ($bool) {
     echo 'nay';
 }
 ```
-
 Run script with custom php.ini settings to view the number of ops.
 ```bash
 $ php -dextension=vld.so -dvld.active=1 -dvld.dump_paths=1 -dvld.execute=0 -dvld.save_paths=1 -dvld.verbosity=0 /tmp/script.php
@@ -79,20 +74,16 @@ $ php \
 -dvld.save_paths=1 # Save paths. Will save paths to "/tmp/paths.dot".
 -dvld.verbosity=0  # Set verbosity (0, 1, 2, 3).
 ```
-
 Install graphviz.
 ```bash
 $ brew install graphviz
 ```
-
 Render graphic. The -Tpng option renders png.
 ```bash
 $ dot -Tpng /tmp/paths.dot > /tmp/paths.png
 ```
-
 Open the paths image
 ```bash
 $ open /tmp/paths.png
 ```
-
 <img alt="" src="/img/uploads/2017-05/paths.png" />

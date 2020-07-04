@@ -4,7 +4,6 @@ Run in terminal:
 ```
 sudo apt-get install xvkbd xbindkeys x11-utils
 ```
-
 Find the mouse keys:
 ```
 xev | grep ', button'
@@ -28,10 +27,8 @@ gedit ~/.xbindkeysrc
 "/usr/bin/xvkbd -xsendevent -text "\[Alt_L]\[Right]""
   m:0x0 + b:9
 ```
-
 Run xbindkeys in terminal:
 ```
 xbindkeys
 ```
-
 Now clicking the back and forth mouse keys will navigate back and forth in Nautilus.

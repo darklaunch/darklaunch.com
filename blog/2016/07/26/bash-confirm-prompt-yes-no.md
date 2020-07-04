@@ -5,7 +5,6 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
     echo "Continuing..."
 fi
 ```
-
 Ask the inverse by using an exclamation point to negate the if statement.
 ```sh
 read -p "Continue? [y/n] " -n 1 -r; echo

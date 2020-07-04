@@ -4,5 +4,4 @@ To display dual output on standard output (stdout) and write or append the outpu
 ```sh
 python ./myscript.py | tee -a output.log
 ```
-
 The output from the script is piped to tee and tee prints to stdout and appends to the specified log file.

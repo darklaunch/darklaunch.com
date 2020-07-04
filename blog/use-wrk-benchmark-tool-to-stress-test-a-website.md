@@ -24,5 +24,4 @@ $ ./wrk \
   --threads="1" \
   "https://www.example.com/"
 ```
-
 Example wrk scripts: https://github.com/wg/wrk/tree/master/scripts

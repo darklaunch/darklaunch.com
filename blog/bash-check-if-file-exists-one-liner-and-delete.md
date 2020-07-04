@@ -6,12 +6,10 @@ filename="myfile.txt" &&
   ([[ -f "${filename}" ]] && rm --recursive --verbose "${filename}" || exit 0) &&
   echo "done"
 ```
-
 Test the script. First, create the file referenced in the script.
 ```bash
 $ touch myfile.txt
 ```
-
 Run the script and the file is removed because it is a regular file.
 ```bash
 $ bash run.sh
@@ -22,7 +20,6 @@ removed 'myfile.txt'
 + echo done
 done
 ```
-
 Run the script again and the file is not removed because it has already been deleted.
 ```bash
 $ bash run.sh

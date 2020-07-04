@@ -8,7 +8,6 @@ Python 2.7.10
 Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
-
 Run python 3 using pipenv:
 ```python
 $ mkdir python3
@@ -19,7 +18,6 @@ Python 3.7.3
 Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
-
 Run python 3.6 using pipenv:
 ```python
 $ mkdir python3.6

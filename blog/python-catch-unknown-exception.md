@@ -12,5 +12,4 @@ except Exception as error:
         error.__class__ if hasattr(error, '__class__') else 'unknown',
         error.__module__ if hasattr(error, '__module__') else 'unknown')
 ```
-
 keywords: Django, MySQL, except ProgrammingError, django.db.utils.ProgrammingError

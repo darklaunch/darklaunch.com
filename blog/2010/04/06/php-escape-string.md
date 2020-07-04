@@ -7,5 +7,4 @@ function escape($str) {
     );
 }
 ```
-
 NOTE: &amp;apos; is not used as it is not a valid HTML entity reference.

@@ -9,10 +9,8 @@ echo 'output: ' . $output . "\n";
 input:  "Shall I compare thee to a summer's day?"
 output:  Shall I compare thee to a summer s day 
 ```
-
 Another example which replaces the delimiter character with the at symbol.
 ```php
 $str = preg_replace('@[^a-zA-Z0-9_:;\(\)\?\|\&=!<>+*/\%-]@', '', $str);
 ```
-
 Common alternate delimiters: #, @, !

@@ -5,7 +5,6 @@ shell@ghost:/ $ su
 root@ghost:/ # pm disable com.motorola.ccc.ota
 Package com.motorola.ccc.ota new state: disabled
 ```
-
 This will disable the "Motorola Update Services".
 
 https://play.google.com/store/apps/details?id=com.motorola.ccc.ota

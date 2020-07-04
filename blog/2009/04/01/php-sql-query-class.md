@@ -57,7 +57,6 @@ if ($q) {
 	echo 'Sorry, user '.$user_id.' not found.';
 }
 ```
-
 Class Query
 http://code.google.com/p/class-query/
 

@@ -10,5 +10,4 @@ words = [
 ]
 print(os.path.commonprefix(words))
 ```
-
 `alpha`

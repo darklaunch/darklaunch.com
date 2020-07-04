@@ -22,7 +22,6 @@ Now sign your application
 ```
 codesign -s "My Certificate" -f $(which python)
 ```
-
 In the dialog that appears, click "Allow".
 
 Note that when using a virtual environment, you need to activate the virtual environment before running this command.

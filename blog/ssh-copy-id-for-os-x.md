@@ -5,12 +5,10 @@ $ curl https://gist.github.com/darklaunch/5045167/raw --output ssh-copy-id
 $ chmod +x ssh-copy-id
 $ ./ssh-copy-id -i ~/.ssh/id_rsa.pub username@hostname
 ```
-
 Also, if haven't created key for a specific email address, do this first:
 ```sh
 $ ssh-keygen -t rsa -C "username@example.com"
 ```
-
 And wherever you save the key, specify that in the ssh-copy-id command
 by replacing "~/.ssh/id_rsa.pub" with the appropriate path
 

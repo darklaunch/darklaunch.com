@@ -7,7 +7,6 @@ Given the following html, select the div and list items.
     <li>B
     <li>C
     <li>D
-
 ```
 ```javascript
 var someNode = document.querySelector('div');
@@ -15,7 +14,6 @@ var moreNodes = document.querySelectorAll('li');
 var combined = [someNode].concat(Array.prototype.slice.call(moreNodes));
 console.assert(combined.length === 4);
 ```
-
 The combined variable now contains [div, li, li, li].
 
 Here is a real-world example where comments of a thread are obtained by specifying a target element.
@@ -53,7 +51,6 @@ A list of nested comments with one "current" comment.
     comment 10
 </div>
 ```
-
 Obtain the list of comments from the "current" target thread.
 ```javascript
 function getCommentsFromThread(targetNode) {

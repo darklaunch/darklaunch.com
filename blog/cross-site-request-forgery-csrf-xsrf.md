@@ -9,7 +9,6 @@ Example:
 	</body>
 </html>
 ```
-
 What's going on?
 You just requested an image and it signed you out of example.com.
 

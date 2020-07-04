@@ -6,7 +6,6 @@ I wanted to avoid specifying a max and min.
 var str=Math.random().toString().substring(2);
 alert(str);
 ```
-
 This example function requires a max and min.
 ```javascript
 // https://developer.mozilla.org/en/Core_JavaScript_1.5_Reference/Global_Objects/Math/random#Examples

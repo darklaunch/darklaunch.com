@@ -2,5 +2,4 @@ To fix the error: "fuse: device not found, try 'modprobe fuse' first", do the fo
 ```
 modprobe fuse
 ```
-
 Then retry your sshfs command.

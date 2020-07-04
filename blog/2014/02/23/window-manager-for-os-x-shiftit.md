@@ -7,7 +7,6 @@ $ xcodebuild -target "ShiftIt NoX11" -configuration Release
 $ cd build/Release
 $ cp ShiftIt.app /Applications
 ```
-
 https://github.com/fikovnik/ShiftIt
 
 Configuration:
@@ -19,7 +18,6 @@ Run this command:
 defaults write com.apple.symbolichotkeys AppleSymbolicHotKeys
 -dict-add 70 '<dict><key>enabled</key><false/></dict>'
 ```
-
 Then logout and remap Command + Ctrl + d in ShiftIt preferences.
 
 <img alt="" src="/img/uploads/2014-02/shiftit-preferences.png" />

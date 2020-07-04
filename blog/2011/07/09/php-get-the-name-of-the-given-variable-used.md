@@ -35,11 +35,9 @@ echo '$' . var_name($some_var_name) . ' = ' . $some_var_name . "\n";
 echo '$' . var_name($another_var_name) . ' = ' . $another_var_name . "\n";
 echo '$' . var_name($yet_another_var) . ' = ' . $yet_another_var . "\n";
 ```
-
 The above code will produce the following output:
 ```
 $some_var_name = some value foo
 $another_var_name = bar
 $yet_another_var = baz
 ```
-

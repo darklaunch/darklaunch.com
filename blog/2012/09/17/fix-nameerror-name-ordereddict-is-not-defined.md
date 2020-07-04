@@ -7,7 +7,6 @@ try:
 except ImportError:
     OrderedDict = dict
 ```
-
 The OrderedDict is available in more recent versions of python. Use this as a fallback for OrderedDict support.
 ```
 $ python test.py

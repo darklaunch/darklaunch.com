@@ -13,7 +13,6 @@ DATABASES = {
     },
 }
 ```
-
 Support full Unicode in MySQL databases by using utf8mb4 instead of utf8.
 ```python
 DATABASES = {
@@ -29,7 +28,6 @@ DATABASES = {
     },
 }
 ```
-
 Use MySQL's READ COMMITTED isolation level rather than the default of REPEATABLE READ.
 ```python
 DATABASES = {
@@ -46,7 +44,6 @@ DATABASES = {
     },
 }
 ```
-
 Optionally, configure all database settings.
 ```python
 for key in list(DATABASES.keys()):

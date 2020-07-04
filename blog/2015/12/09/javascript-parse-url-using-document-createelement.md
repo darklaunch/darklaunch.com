@@ -21,7 +21,6 @@ console.log('search:', parser.search);
 console.log('toString():', parser.toString());
 console.log('username:', parser.username);
 ```
-
 Example JavaScript script run with Node.js using jsdom.
 ```javascript
 var jsdom = require('jsdom');

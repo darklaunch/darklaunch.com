@@ -13,5 +13,4 @@ function isHidden(e) {
     return false;
 }
 ```
-
 from https://github.com/tiratatp/facebook_adblock/blob/master/src/main.js

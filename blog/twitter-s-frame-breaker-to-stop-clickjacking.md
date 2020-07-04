@@ -20,5 +20,4 @@ if top window is not this window{
 	when window loads, again remove page content
 }
 ```
-
 NOTE: i think they meant document.write('');

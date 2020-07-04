@@ -2,7 +2,6 @@ If you get this error like I did when installing a python virtual environment, d
 ```
 sudo apt-get install python2.7-dev
 ```
-
 And continue to install the virtual environment:
 ```
 # install python dev

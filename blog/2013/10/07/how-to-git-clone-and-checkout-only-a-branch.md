@@ -8,7 +8,6 @@ git init
 git remote add -t $BRANCH -f origin $REPOSITORY
 git checkout $BRANCH
 ```
-
 This will download only the requested branch without fetching the full repository.
 ```
 $ git branch --all

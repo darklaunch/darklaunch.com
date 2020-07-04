@@ -11,7 +11,6 @@ Traceback (most recent call last):
     assert first == second
 AssertionError
 ```
-
 Here is a top-level function to test an assertion condition in more detail:
 ```python
 import unittest
@@ -46,7 +45,6 @@ Ran 1 test in 0.000s
 
 FAILED (failures=1)
 ```
-
 Basic assert in:
 ```python
 first = 'z'
@@ -60,7 +58,6 @@ Traceback (most recent call last):
     assert first in second
 AssertionError
 ```
-
 Improved assert in:
 ```python
 import unittest

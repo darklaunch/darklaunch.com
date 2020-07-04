@@ -6,7 +6,6 @@ sudo gem update
 # update sass
 sudo gem update sass
 ```
-
 Check your current version of sass:
 ```
 # sass version

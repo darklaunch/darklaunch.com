@@ -2,7 +2,6 @@ To launch byobu automatically at login, on the command line, run byobu-enable. b
 ```
 $ byobu-enable
 ```
-
 Otherwise run byobu and type F9 to bring up the "Byobu Configuration Menu". Arrow down to "Byobu currently does not launch at login (toggle on)" and hit
 enter. Byobu will now launch at login. Hit tab to focus Exit and hit
 enter to leave the configuration menu.

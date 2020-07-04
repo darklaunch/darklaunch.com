@@ -11,5 +11,4 @@ authenticate the requests.
     WSGIScriptAlias / /home/www/mysite.com/wsgi.py
 </VirtualHost>
 ```
-
 Restart apache and the now the HTTP_AUTHORIZATION environment variable will be available in the django request.

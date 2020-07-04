@@ -27,7 +27,6 @@ While 1
 	EndSwitch
 WEnd
 ```
-
 This script basically does the same thing as pasting your clipboard into notepad and then copying it back into the clipboard.
 
 More useful hotkeys:

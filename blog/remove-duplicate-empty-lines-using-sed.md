@@ -7,7 +7,6 @@ remove_duplicate_empty_lines() {
 ```bash
 sed -i "" '/^$/N;/^\n$/D' input.txt
 ```
-
 Example:
 ```bash
 $ cat --number file.txt

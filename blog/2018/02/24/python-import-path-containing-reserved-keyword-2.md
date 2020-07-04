@@ -8,7 +8,6 @@ $ python
 SyntaxError: invalid syntax
 >>> 
 ```
-
 Use importlib to avoid SyntaxError.
 ```python
 $ python

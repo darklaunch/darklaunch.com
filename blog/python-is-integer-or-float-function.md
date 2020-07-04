@@ -8,7 +8,6 @@ def is_int_or_float(s):
     else:
         return True
 ```
-
 Test return value of is_int_or_float, isdigit, and isdecimal.
 ```python
 char_list = (

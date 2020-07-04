@@ -8,5 +8,4 @@ Chuck <chuck@example.com>
 Craig <craig@example.com>
 Eve <eve@example.com>
 ```
-
 Note: Please use git.

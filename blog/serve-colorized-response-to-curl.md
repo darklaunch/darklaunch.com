@@ -6,22 +6,18 @@ The SGR control sequence: CSI + number + m
 The CSI escape sequence: ESC [
 The ASCII escape character octal: \033
 ```
-
 Starting with the the SGR control sequence to colorize the html response:
 ```
 CSI + number + m
 ```
-
 Replace CSI with the CSI escape sequence:
 ```
 ESC [ + number + m
 ```
-
 Replace ESC with the escape character octal:
 ```
 \033[ + number + m
 ```
-
 Using the green foreground color code (32) and the reset code (0), construct a message in green.
 ```
 \033[ + 32 + m +
@@ -33,7 +29,6 @@ text +
 echo "\033[32m" . 'Success!' . "\033[0m\n";
 exit;
 ```
-
 <img alt="" src="/img/uploads/2018-07/colorized-curl-http-success-response.png" />
 
 Use the colorize function like this:

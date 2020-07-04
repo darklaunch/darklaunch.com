@@ -5,11 +5,9 @@ To replace instances of the yanked character, visual highlight (select) the char
 type :%s/ then type <C-r> + " then /replace/g
 ":%s/char/replace"
 ```
-
 The find and replace syntax is:
 ```
 :%s/find/replace/g
     ^^^^ the yanked characters will be pasted here
 ```
-
 vim paste from system clipboard: "+p

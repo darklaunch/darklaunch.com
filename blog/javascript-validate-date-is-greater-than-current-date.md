@@ -12,5 +12,4 @@ if (!(date > today)) {
     console.log('date', date, 'is greater than today', today);
 }
 ```
-
 Note that the values for month in Date() are from 0 to 11.

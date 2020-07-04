@@ -15,7 +15,6 @@ class CaptureOutput(list):
         del self._stringio
         sys.stdout = self._stdout
 ```
-
 Usage:
 ```python
 def count_to_3():
@@ -30,7 +29,6 @@ print('done counting')
 for line in lines:
     print('line: %s' % line)
 ```
-
 Output:
 ```
 done counting
@@ -38,7 +36,6 @@ line: 1
 line: 2
 line: 3
 ```
-
 Capture stdout output in php.
 ```php
 <?php
@@ -59,7 +56,6 @@ foreach ($lines as $line) {
     echo 'line: ' . $line . "\n";
 }
 ```
-
 Output:
 ```
 done counting
@@ -67,5 +63,4 @@ line: 1
 line: 2
 line: 3
 ```
-
 https://stackoverflow.com/questions/16571150/

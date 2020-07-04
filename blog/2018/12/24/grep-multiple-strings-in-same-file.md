@@ -6,7 +6,6 @@ $ grep -r -l "def add(" . | xargs grep -l "def create("
 ./db/models/fields/related_descriptors.py
 ./contrib/contenttypes/fields.p
 ```
-
 Edit the resulting files by enclosing the grep command in $().
 ```bash
 $ vim $(grep -r -l "def add(" . | xargs grep -l "def create(")

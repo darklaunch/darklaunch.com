@@ -5,7 +5,6 @@ cd() {
     pwd
 }
 ```
-
 Now you can call cd(): cd /path/to/some/dir/ and cd will change to the directory and pwd will print name of current/working directory.
 
 Using parameters as required:
@@ -44,5 +43,4 @@ mkcd () {
     cd "\$*"
 }
 ```
-
 NOTE: use $@ to pass the full parameter. instead of alias foo="somecommand $1 $2 $3 $4 $5 $6", use alias foo="somecommand $@" without quotes around $@.

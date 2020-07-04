@@ -7,7 +7,6 @@ Use one of the following resize-pane commands to resize:
 :resize-pane -L
 :resize-pane -R
 ```
-
 To increase the amount of resize, include a number after the direction flag:
 ```
 :resize-pane -D 20

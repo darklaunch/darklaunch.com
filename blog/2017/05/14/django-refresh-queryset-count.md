@@ -30,20 +30,17 @@ if questions.all():
 else:
     print('questions not found') # <-- HERE
 ```
-
 Output
 ```
 questions found
 questions still found
 questions not found
 ```
-
 Alternatively, manually clear the QuerySet results cache.
 ```
 my_queryset._result_cache = None
 my_queryset.count()
 ```
-
 For an individual object, use refresh_from_db().
 ```python
 obj = MyModel.objects.get(pk=1)

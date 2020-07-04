@@ -4,7 +4,6 @@ The iPhone and iPod Touch support overflow, but no scroll bars will appear. Use 
     overflow-x: auto;
 }
 ```
-
 Test the scrolling:
 ```
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel nulla justo. Vivamus pharetra dapibus tellus, nec faucibus massa ultrices a. Etiam imperdiet eros nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas sollicitudin varius. Vestibulum nec sapien sed ante gravida consequat. Phasellus id justo nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla ultricies malesuada metus. Curabitur tempus, magna at tempus hendrerit, sem ante vehicula sapien, in adipiscing massa ligula quis diam. Praesent convallis elit nec ligula pharetra semper. Integer iaculis placerat lacus. Sed lobortis blandit turpis et blandit. Duis eu faucibus massa. Vestibulum a turpis in eros feugiat accumsan id nec purus. Nullam est magna, vehicula congue dictum eget, egestas ut ante. Donec molestie vehicula lacus eget fermentum.

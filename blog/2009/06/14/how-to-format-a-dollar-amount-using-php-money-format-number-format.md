@@ -4,7 +4,6 @@ function money_format($amount) {
     return number_format($amount, 2, '.', ',');
 }
 ```
-
 Example:
 ```php
 $amount = 123456;

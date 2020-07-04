@@ -48,7 +48,6 @@ var result = mc.getCharacterFromNumber('b');
 console.log('mc.result:', result);
 console.log('mc.publicVariable:', mc.publicVariable);
 ```
-
 Output:
 ```javascript
 MyClass.constructor

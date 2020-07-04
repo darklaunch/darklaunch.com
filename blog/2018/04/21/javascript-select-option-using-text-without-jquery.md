@@ -7,7 +7,6 @@ To select an option by searching for the option's text value without jQuery, use
     <option value="3">Charlie</option>
 </select>
 ```
-
 Select all the options using document.querySelectorAll. Then filter by matching the innerText.
 ```javascript
 var bravoChoice = Array.from(document.querySelectorAll('option'))

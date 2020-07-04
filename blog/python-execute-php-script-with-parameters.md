@@ -13,7 +13,6 @@ print stdout
 $ python script.py
 string(13) "hello, world!"
 ```
-
 Note: Python 3 may require input value to be string encoded using str.encode().
 ```python
 try:

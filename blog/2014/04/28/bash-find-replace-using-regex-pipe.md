@@ -4,7 +4,6 @@ Find & replace using regex on the command line using perl.
 ```sh
 perl -pe "s/find/replace/g"
 ```
-
 Parentheses for grouping and capturing is also supported.
 ```sh
 $ echo "myfile.txt" | perl -pe "s/(.*)\.txt/\1.log/"

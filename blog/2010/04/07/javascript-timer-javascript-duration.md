@@ -9,7 +9,6 @@ function stop() {
     return endTime - startTime;
 }
 ```
-
 Example:
 ```js
 function start() {

@@ -4,12 +4,10 @@ Call the Byobu tmux prefix (`Ctrl` + `a`) followed by a colon.
 ```bash
 Ctrl + a + :
 ```
-
 At the prompt, run the join-pane command with the source panel using the -s flag.
 ```bash
 :join-pane -s 2
 ```
-
 This will split the current window horizontally with the current window in the top and the window in position 2 in the bottom.
 ```
      join-pane [-bdhv] [-l size | -p percentage] [-s src-pane] [-t dst-pane]

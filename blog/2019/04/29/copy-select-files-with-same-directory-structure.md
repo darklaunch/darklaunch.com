@@ -15,7 +15,6 @@ $ tree /tmp/mydir/
 
 3 directories, 5 files
 ```
-
 This is the list of files to copy. The path names are relative to the source directory. The dont-copy.txt file is not included in the list.
 ```bash
 $ cat files_to_copy.txt

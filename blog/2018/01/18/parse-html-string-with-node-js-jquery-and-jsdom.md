@@ -5,7 +5,6 @@ Install jsdom and jquery.
 $ npm install jsdom
 $ npm install jquery
 ```
-
 Write JavaScript file.
 ```javascript
 var jsdom = require('jsdom');
@@ -21,7 +20,6 @@ console.log('text:', $content.text());
 console.log('html:', $content.html());
 console.log('href:', $content.find('a').attr('href'));
 ```
-
 Run JavaScript file.
 ```bash
 $ node script.js

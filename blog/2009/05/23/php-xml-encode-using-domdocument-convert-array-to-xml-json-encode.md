@@ -39,7 +39,6 @@ function xml_encode($mixed, $domElement=null, $DOMDocument=null) {
     }
 }
 ```
-
 Example:
 ```php
 $data = array();
@@ -75,7 +74,6 @@ echo xml_encode($data);
 </users>
 */
 ```
-
 json_encode() example for comparison:
 ```php
 header('Content-Type: application/json');
@@ -101,7 +99,6 @@ echo json_encode($data);
 }
 */
 ```
-
 NOTE: for objects use something like:
 ```php
 if (is_object($data)) {

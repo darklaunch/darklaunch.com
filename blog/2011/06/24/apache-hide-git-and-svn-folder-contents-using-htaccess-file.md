@@ -4,13 +4,11 @@ php_flag display_errors on
 RedirectMatch 404 /\\.git(/.*|$)
 RedirectMatch 404 /\\.svn(/.*|$)
 ```
-
 Another useful setting is to turn on error_reporting:
 ```
 php_flag display_errors on
 php_value error_reporting 7
 ```
-
 normal errors - bit value 1
 normal warnings - bit value 2
 parser errors - bit value 4

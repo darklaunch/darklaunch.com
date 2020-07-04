@@ -7,7 +7,6 @@ Open developer tools:
 - Linux: ctrl + shift + i
 - Windows: ctrl + shift + i
 ```
-
 2. Open the command menu
 ```
 Open the command menu:
@@ -15,7 +14,6 @@ Open the command menu:
 - Linux: ctrl + shift + p
 - Windows: ctrl + shift + p
 ```
-
 3. Select "Capture full size screenshot"
 The full size screenshot is saved to you downloads folder.
 

@@ -19,7 +19,6 @@ vim config.inc.php
 # edit host:
 $cfg['Servers'][$i]['host'] = 'xxxxxxxxx.xxxxxxxxxxxx.us-east-1.rds.amazonaws.com';
 ```
-
 Login to Amazon RDS admin ( https://console.aws.amazon.com/rds/ ) and go to "DB Security Groups" to add a "CIDR/IP" with the ip address you'll be connecting from. (e.g. 12.34.567.89/32)
 
 Go to http://127.0.0.1/phpmyadmin/

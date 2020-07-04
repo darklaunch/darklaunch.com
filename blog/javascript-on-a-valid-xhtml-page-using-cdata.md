@@ -108,7 +108,6 @@ echo
 	'</html>' .
 	'';
 ```
-
 NOTE: HTML5 doesn't need CDATA tags to validate. The following successfully validates:
 ```php
 echo

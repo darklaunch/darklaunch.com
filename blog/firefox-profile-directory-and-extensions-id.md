@@ -2,7 +2,6 @@ Open Firefox and enter about:support in the address bar.
 ```
 about:support
 ```
-
 This will list the installed extensions. Example:
 ```
 Extensions  Name    Version Enabled ID

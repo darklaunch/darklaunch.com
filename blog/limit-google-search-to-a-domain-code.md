@@ -8,6 +8,5 @@ You can limit a Google search to a specific domain using the following code. Cha
 	</div>
 </form>
 ```
-
 Form is implied GET without method="get".
 The &lt;input name="sitesearch" type="hidden" value="darklaunch.com" /> targets only the specified domain.

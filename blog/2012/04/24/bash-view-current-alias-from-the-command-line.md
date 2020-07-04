@@ -4,7 +4,6 @@ Given an alias ll
 ```
 alias ll='ls -al'
 ```
-
 Type alias ll on the command line to view its current alias.
 ```
 $ alias ll

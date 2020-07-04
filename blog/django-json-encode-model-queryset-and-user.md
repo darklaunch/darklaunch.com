@@ -3,7 +3,6 @@ Encode Django model, queryset, and user in json. Fixes:
   <li>TypeError: &lt;Model: Model object> is not JSON serializable
   <li>TypeError: &lt;QuerySet []> is not JSON serializable
   <li>TypeError: &lt;User: username> is not JSON serializable
-
 ```python
 import json
 

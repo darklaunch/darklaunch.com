@@ -10,5 +10,4 @@ function eexplode($separator, $string) {
 	return $array;
 }
 ```
-
 NOTE: preg_split() using the PREG_SPLIT_NO_EMPTY flag is another option.

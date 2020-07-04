@@ -5,7 +5,6 @@ import random
 print(random.random())
 EOF
 ```
-
 Using cat:
 ```sh
 cat <<EOF | python -
@@ -13,7 +12,6 @@ import random
 print(random.random())
 EOF
 ```
-
 Pass bash variable to python script through stdin:
 ```sh
 some_bash_var="world"
@@ -25,7 +23,6 @@ print('hello ' + name)
 "
 echo "${some_bash_var}" | python -c "${script}"
 ```
-
 Output:
 ```sh
 $ some_bash_var="world"

@@ -7,7 +7,6 @@ $ git stash -u
 $ git fetch
 $ git merge origin/master
 ```
-
 Possible errors that this fixes:
 
 "Error: Failed to update tap: foo/bar"

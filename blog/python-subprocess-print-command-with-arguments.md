@@ -6,7 +6,6 @@ $ python
 >>> shlex.split(cmd)
 ['/usr/bin/binary', '-v', '--recursive', '--exclude=.git']
 ```
-
 Using a list of arguments, reconstruct the command executed into a string.
 ```python
 $ python

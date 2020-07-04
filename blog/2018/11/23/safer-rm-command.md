@@ -36,7 +36,6 @@ safer_rm(){
 }
 alias rm="set -f && safer_rm"
 ```
-
 Sources:
 https://github.com/dot-star/dot-star/blob/master/bash/.safer_rm.sh
 https://github.com/dot-star/dot-star/blob/master/bash/.safer_rm_test.sh

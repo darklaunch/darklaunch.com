@@ -10,12 +10,10 @@ This will show the current uid and guid for the files:
 ```
 ls -n /mnt/path/to/
 ```
-
 How To Fix: remount the drive and explicitly set the uid and gid:
 ```
 sudo mount -v -t cifs //10.20.1.20/Volume_1 /mnt/server --verbose -o user=myusername,pass=mypassword,uid=1000,gid=1000
 ```
-
 Now run
 ```
 ls -n /mnt/path/to/

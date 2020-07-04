@@ -2,7 +2,6 @@ To fix the "No module named MySQLdb" error, you need to install MySQL support fo
 ```sh
 pip install MySQL-python
 ```
-
 NOTE: Don't use sudo with pip. Fix your directory permissions if you find yourself needing to use sudo.
 
 Other errors:

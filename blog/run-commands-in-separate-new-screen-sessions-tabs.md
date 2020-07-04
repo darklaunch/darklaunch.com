@@ -18,7 +18,6 @@ screen -S "${screen_name}" -p "my_screen_2" -X stuff $'bash script_2.sh\n'
 screen -S "${screen_name}" -X "screen" -t "my_screen_3"
 screen -S "${screen_name}" -p "my_screen_3" -X stuff $'bash script_3.sh\n'
 ```
-
 Quick screen reference
 <table>
   <tr>
@@ -40,9 +39,10 @@ Quick screen reference
 </table>
 
 List screen sessions
-```$ screen -ls
 ```
-
+$ screen -ls
+```
 Attach to screen
-```$ screen -x
+```
+$ screen -x
 ```

@@ -8,5 +8,4 @@ Transparency using CSS:
     opacity: .5;
 }
 ```
-
 > NOTE: Please use sass.

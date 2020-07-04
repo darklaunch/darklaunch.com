@@ -7,7 +7,6 @@ Change a user's password from the command line, use the changepassword command. 
 ```py
 django-admin.py changepassword admin
 ```
-
 You can also change a password programmatically:</a>
 ```py
 from django.contrib.auth.models import User

@@ -4,7 +4,6 @@ function addThousandsSeparator(value) {
     return value.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,");
 }
 ```
-
 Example output
 ```javascript
 var list = [
@@ -27,7 +26,8 @@ for (var i in list) {
     console.log(num, "=>", addThousandsSeparator(num));
 }
 ```
-```javascript// Example output
+```javascript
+// Example output
         1 => '1'
      1.03 => '1.03'
        10 => '10'

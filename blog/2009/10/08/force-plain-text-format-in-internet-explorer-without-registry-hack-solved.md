@@ -40,7 +40,6 @@ echo '<span style="font-size:600%;">';
 echo 'normal <strong>bold</strong>';
 echo '</span>';
 ```
-
 UPDATE: Sending the X-Content-Type-Options response header will stop MIME-sniffing.
 ```php
 header('X-Content-Type-Options: nosniff');

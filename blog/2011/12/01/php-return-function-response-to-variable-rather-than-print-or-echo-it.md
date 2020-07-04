@@ -9,7 +9,6 @@ function get_contents($function) {
     return $contents;
 }
 ```
-
 To use, pass an anonymous function to get_contents().
 
 Examples:
@@ -47,5 +46,4 @@ echo $example3;
 //   string(1) "c"
 // }
 ```
-
 Note: Anonymous functions are available since PHP 5.3.0.

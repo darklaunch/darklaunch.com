@@ -38,5 +38,4 @@ echo $x
 + echo 5
 5
 ```
-
 kw: addition, add, subtraction, subtract, mathematics, math

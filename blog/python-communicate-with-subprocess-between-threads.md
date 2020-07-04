@@ -16,9 +16,7 @@ print('hello, world!')
 ```bash
 $ python script.py 
 hello, world!
-
 ```
-
 Here's an example game in which the player tries to guess the dealer's number.
 ```python
 # Dealer (dealer.py)

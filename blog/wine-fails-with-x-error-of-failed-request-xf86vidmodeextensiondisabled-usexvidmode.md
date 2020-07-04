@@ -6,7 +6,6 @@ X Error of failed request:  XF86VidModeExtensionDisabled
   Serial number of failed request:  88
   Current serial number in output stream:  88
 ```
-
 To fix, add "UseXVidMode" key to ~/.wine/user.reg
 ```sh
 cat >>"$HOME/.wine/user.reg" &lt;&lt;EOF
@@ -15,5 +14,4 @@ cat >>"$HOME/.wine/user.reg" &lt;&lt;EOF
 "UseXVidMode"="N"
 EOF
 ```
-
 Wine should now load.

@@ -36,7 +36,6 @@ function submit_form() {
 }
 &lt;/script>
 ```
-
 Why doesn't value expression work in the current release?
 RE: http://dev.jquery.com/ticket/4083
 

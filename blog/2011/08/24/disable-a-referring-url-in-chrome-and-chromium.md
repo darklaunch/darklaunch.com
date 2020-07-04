@@ -1,5 +1,6 @@
 UPDATE:
-> Use Referer Control: https://chrome.google.com/webstore/detail/referer-control/hnkcfpcejkafcihlgbojoidoihckciin
+> 
+Use Referer Control: https://chrome.google.com/webstore/detail/referer-control/hnkcfpcejkafcihlgbojoidoihckciin
 
 
 ---
@@ -12,7 +13,6 @@ wget http://darklaunch.com/scripts/disable-chromium-referrers.py
 chmod +x disable-chromium-referrers.py
 python ./disable-chromium-referrers.py
 ```
-
 The setting is called "enable_referrers" and it needs to be set to false (no quotes) in the json-encoded Preferences ( ~/.config/chromium/Default/Preferences ) file. For Google Chrome look in ~/.config/google-chrome/Default/Preferences
 ```javascript
 {
@@ -47,14 +47,12 @@ prefs.close()
 
 print 'DONE'
 ```
-
 Notes:
 ```
 # http://src.chromium.org/svn/trunk/src/chrome/common/pref_names.cc
 // Whether to enable sending referrers.
 const char kEnableReferrers[] = "enable_referrers";
 ```
-
 Other files containing references to "enable_referrers":
 http://src.chromium.org/svn/trunk/src/content/common/view_messages.h
 http://src.chromium.org/svn/trunk/src/content/common/renderer_preferences.h

@@ -14,7 +14,6 @@ Run the iPhone Simulator and your application will be displayed on one
 of the screens.
 $ /Applications/Xcode.app/Contents/Applications/iPhone\ Simulator.app/Contents/MacOS/iPhone\ Simulator
 ```
-
 <img alt="" src="/img/uploads/2012-09/search-iphone-simulator.png" />
 
 <img alt="" src="/img/uploads/2012-09/iphone-simulator.png" />

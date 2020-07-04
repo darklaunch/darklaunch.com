@@ -10,7 +10,6 @@ d = OrderedDict([
 key = dict.iterkeys().next()
 print(key) # "a"
 ```
-
 Note: Be careful with unordered dictionaries.
 ```python
 dict = {'a': 1, 'b': 2, 'c': 3}

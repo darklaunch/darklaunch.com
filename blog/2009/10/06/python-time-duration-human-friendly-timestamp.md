@@ -61,7 +61,6 @@ Example Output:
   95000000 => 3 years
  999999999 => 31 years
 ```
-
 Example 2:
 ```python
 import time
@@ -74,7 +73,7 @@ end = time.time()
 elapsed = end - start
 print duration_human(elapsed), 'has passed'
 ```
-
 Example 2 Output:
-```1 second has passed
+```
+1 second has passed
 ```

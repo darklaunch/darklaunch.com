@@ -11,7 +11,6 @@ DTSTART;TZID=America/Los_Angeles:20160508T000000
 END:VEVENT
 END:VCALENDAR
 ```
-
 Or you can use Apple Calendar.
 
 <img alt="" src="/img/uploads/2016-05/mothers-day-calendar-event.png" />

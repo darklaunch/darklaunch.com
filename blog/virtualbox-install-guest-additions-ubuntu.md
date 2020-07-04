@@ -8,7 +8,6 @@ $ sudo mount VBoxGuestAdditions_4.3.8.iso ~/vbox
 $ sudo bash ~/vbox/VBoxLinuxAdditions.run
 $ ls /media/
 ```
-
 Your shared folders will now be accessible without restarting.
 
 OR download to the host. Mount the iso on the guest and install.

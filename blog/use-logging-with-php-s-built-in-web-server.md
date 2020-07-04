@@ -15,5 +15,4 @@ Connection: close
 X-Powered-By: PHP/5.6.5
 Content-type: text/html; charset=UTF-8
 ```
-
 <img alt="" src="/img/uploads/2015-10/php-built-in-webserver-error-log.png" />

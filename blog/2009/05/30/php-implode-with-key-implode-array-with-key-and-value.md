@@ -9,5 +9,4 @@ function implode_with_key($assoc, $inglue = '>', $outglue = ',') {
     return substr($return, strlen($outglue));
 }
 ```
-
 See also <a href="http://www.php.net/manual/en/function.http-build-query.php">http_build_query()</a>.

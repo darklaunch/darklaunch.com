@@ -2,12 +2,10 @@ Geany snippets configuration file is located in:
 ```
 /usr/share/geany/snippets.conf
 ```
-
 Edit the file:
 ```
 sudo geany /usr/share/geany/snippets.conf
 ```
-
 Save and restart geany. Now type the word if and the tab key. This will autocomplete an if statement.
 ```ini
 # from http://citizen.ovh.org/stuff/snippets.conf
