@@ -1,6 +1,6 @@
 Display a loading animation using php.
 ```php
-$spin_marks = array('?', '?', '?', '?', '?', '?');
+$spin_marks = array('⠏', '⠛', '⠹', '⠼', '⠶', '⠧');
 $ticks = 0;
 while (true) {
     $ticks += 1;

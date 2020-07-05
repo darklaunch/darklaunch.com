@@ -27,10 +27,10 @@ Output:
 ```sh
 $ some_bash_var="world"
 $ script="
-? import sys
-? name = sys.stdin.read().rstrip()
-? print('hello ' + name)
-? "
+→ import sys
+→ name = sys.stdin.read().rstrip()
+→ print('hello ' + name)
+→ "
 $ echo "${some_bash_var}" | python -c "${script}"
 hello world
 ```

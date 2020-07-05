@@ -2,11 +2,11 @@ Find unicode or non-ascii characters using grep.
 ```bash
 $ cat myfile.txt 
 Lorem
-ips?m
+ipsūm
 dolor
 sit
 amet,
-p?nderum
+pōnderum
 tritani
 onstituto
 in
@@ -15,14 +15,14 @@ duo.
 Find line numbers
 ```bash
 $ grep --line-number --perl-regexp '[^\x00-\x7F]+' myfile.txt 
-2:ips?m
-6:p?nderum
+2:ipsūm
+6:pōnderum
 ```
 Find characters
 ```bash
 $ grep --line-number --only-matching --perl-regexp '[^\x00-\x7F]+' myfile.txt 
-2:?
-6:?
+2:ū
+6:ō
 ```
 Use grep to find unicode characters
 ```bash

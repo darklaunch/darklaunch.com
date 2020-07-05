@@ -4,14 +4,14 @@ This is the source directory.
 ```bash
 $ tree /tmp/mydir/
 /tmp/mydir/
-??? 1.txt
-??? files_to_copy.txt
-??? photos/
-?�� ??? photo001.jpg
-??? txt_files/
-    ??? 2019/
-        ??? dont-copy.txt
-        ??? myfile.txt
+├── 1.txt
+├── files_to_copy.txt
+├── photos/
+│   └── photo001.jpg
+└── txt_files/
+    └── 2019/
+        ├── dont-copy.txt
+        └── myfile.txt
 
 3 directories, 5 files
 ```
@@ -29,13 +29,13 @@ $ rsync --recursive --files-from=files_to_copy.txt . /tmp/destination/
 ```bash
 $ tree /tmp/destination/
 /tmp/destination/
-??? 1.txt
-??? files_to_copy.txt
-??? photos/
-?�� ??? photo001.jpg
-??? txt_files/
-    ??? 2019/
-        ??? myfile.txt
+├── 1.txt
+├── files_to_copy.txt
+├── photos/
+│   └── photo001.jpg
+└── txt_files/
+    └── 2019/
+        └── myfile.txt
 
 3 directories, 4 files
 ```

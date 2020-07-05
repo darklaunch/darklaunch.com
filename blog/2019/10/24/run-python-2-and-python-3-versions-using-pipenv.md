@@ -24,7 +24,7 @@ $ mkdir python3.6
 $ cd python3.6
 $ echo -e '[requires]\npython_version = "3.6"' > Pipfile
 $ pipenv run python
-Warning: Python 3.6 was not found on your system…
+Warning: Python 3.6 was not found on your systemâ€¦
 You can specify specific versions of Python with:
   $ pipenv --python path/to/python
 $ brew install pyenv

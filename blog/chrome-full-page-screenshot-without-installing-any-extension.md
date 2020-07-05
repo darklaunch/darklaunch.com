@@ -3,14 +3,14 @@ Create a full page screenshot in Chrome without installing any extension. Use th
 1. Open developer tools
 ```
 Open developer tools:
-- Mac: ? + alt + i
+- Mac: ⌘ + alt + i
 - Linux: ctrl + shift + i
 - Windows: ctrl + shift + i
 ```
 2. Open the command menu
 ```
 Open the command menu:
-- Mac: ? + shift + p
+- Mac: ⌘ + shift + p
 - Linux: ctrl + shift + p
 - Windows: ctrl + shift + p
 ```
