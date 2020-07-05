@@ -6,7 +6,7 @@ Use -ss for the start time.
 Use -to for the end time.
 Note: The order of the parameters is significant.
 
-From `man ffmpeg-utils', here an accepted syntax for the time fields:
+From `man ffmpeg-utils`, here an accepted syntax for the time fields:
 ```
 [-][<HH>:]<MM>:<SS>[.<m>...]
 ```

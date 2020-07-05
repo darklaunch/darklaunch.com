@@ -21,7 +21,7 @@ do this:
 ```
 $ ssh -v user@host -i ~/.ssh/id_rsa
 ```
-* use `ssh -v'  to enable verbose mode. This will show you what authentications methods attempted and the corresponding files read, among other things.
+* use `ssh -v`  to enable verbose mode. This will show you what authentications methods attempted and the corresponding files read, among other things.
 
 
 Things to try on the remote machine that you are trying to connect to using ssh:

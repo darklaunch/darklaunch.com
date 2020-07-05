@@ -1,4 +1,4 @@
-Revert a file to a specific version, by using the `git checkout' command.
+Revert a file to a specific version, by using the `git checkout` command.
 ```bash
 $ git checkout <commit> -- path/to/file.txt
 ```

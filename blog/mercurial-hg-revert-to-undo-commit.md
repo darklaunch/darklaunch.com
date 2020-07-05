@@ -20,7 +20,7 @@ default=ssh://hg@bitbucket.org/username/myproject
 [extensions]
 hgext.mq =
 ```
-Then remove the commit using `hg strip'.
+Then remove the commit using `hg strip`.
 ```
 $ hg strip <hash_id>
 ```
