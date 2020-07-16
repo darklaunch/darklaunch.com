@@ -142,8 +142,8 @@ code=```
 quote=> \n\t\n\t\t%cursor%\n\t\n
 # other
 cmt=<!--\n\t%cursor%\n-->
-br=<br/>
-hr=<hr/>
+br=&lt;br/>
+hr=&lt;hr/>
 1s=&nbsp;
 3s=&nbsp;&nbsp;&nbsp;
 7s=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

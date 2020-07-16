@@ -17,7 +17,7 @@ while :; do
 done
 ```
 Run this script with sudo and keep the script running:
-```
+```sh
 $ sudo bash receiver.sh
 ```
 Now send a command to be run. Here are two examples to issue commands:
@@ -35,7 +35,7 @@ On the command line
 $ echo "whoami" >/dev/tcp/localhost/1234
 ```
 Example response:
-```
+```sh
 $ sudo bash receiver.sh 
 [Sun Apr 21 16:16:54 PDT 2013] "whoami"
 root
