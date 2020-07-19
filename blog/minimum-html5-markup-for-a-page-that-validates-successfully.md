@@ -15,4 +15,4 @@ Success! "This document was successfully checked as HTML5!"
 Note that you will may get the "experimental feature" warning.
 
 See the Markup Validation Service:
-http://validator.w3.org/
+https://validator.w3.org/

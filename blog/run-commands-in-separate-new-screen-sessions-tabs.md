@@ -22,19 +22,19 @@ Quick screen reference
 <table>
   <tr>
     <td>Create new window</td>
-    <td>Control-a + c</td>
+    <td>`Control-a` + `c`</td>
   </tr>
   <tr>
     <td>Next window</td>
-    <td>Control-a + n</td>
+    <td>`Control-a` + `n`</td>
   </tr>
   <tr>
     <td>Previous window</td>
-    <td>Control-a + p</td>
+    <td>`Control-a` + `p`</td>
   </tr>
   <tr>
     <td>Detach</td>
-    <td>Control-a + d</td>
+    <td>`Control-a` + `d`</td>
   </tr>
 </table>
 
