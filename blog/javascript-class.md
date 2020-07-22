@@ -1,4 +1,5 @@
 Here is a JavaScript class example.
+
 ```javascript
 'use strict';
 
@@ -48,7 +49,9 @@ var result = mc.getCharacterFromNumber('b');
 console.log('mc.result:', result);
 console.log('mc.publicVariable:', mc.publicVariable);
 ```
+
 Output:
+
 ```javascript
 MyClass.constructor
 MyClass.constructor.options: { debug: true, some_option: 'some_value' }

@@ -1,4 +1,5 @@
 JavaScript format string similarly to python's string format.
+
 ```javascript
 String.format = function(format) {
     var args = Array.prototype.slice.call(arguments, 1);
@@ -7,5 +8,6 @@ String.format = function(format) {
     });
 };
 ```
+
 https://docs.python.org/3/library/stdtypes.html#str.format
 http://stackoverflow.com/questions/610406/

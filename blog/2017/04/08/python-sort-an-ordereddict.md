@@ -1,4 +1,5 @@
 Sort an unordered dictionary in python using sorted.
+
 ```python
 >>> from collections import OrderedDict
 >>> d = {'a': 1, 'c': 3, 'b': 2}
@@ -7,7 +8,9 @@ OrderedDict([('a', 1), ('c', 3), ('b', 2)])
 >>> OrderedDict(sorted(d.items()))
 OrderedDict([('a', 1), ('b', 2), ('c', 3)])
 ```
+
 Using strings for keys may cause unexpected ordering.
+
 ```python
 >>> from collections import OrderedDict
 >>> d = {str(x): chr(x + 96) for x in range(1, 15)}
@@ -30,7 +33,9 @@ Using strings for keys may cause unexpected ordering.
 ('8', 'h')
 ('9', 'i')
 ```
+
 Use the "key" parameter when calling sorted() to sort a dictionary into numerical ascending order.
+
 ```python
 >>> from collections import OrderedDict
 >>> d = {str(x): chr(x + 96) for x in range(1, 15)}

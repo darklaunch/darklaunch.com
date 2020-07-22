@@ -9,6 +9,7 @@ while :; do
   sleep 60
 done
 ```
+
 OS X
 ```sh
 timeout=$((10 * 60))

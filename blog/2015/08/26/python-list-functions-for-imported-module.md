@@ -1,4 +1,5 @@
-To list the functions available for the imported module, use inspect.getmembers:
+To list the functions available for the imported module, use `inspect.getmembers()`:
+
 ```
 $ python
 ```
@@ -21,7 +22,8 @@ $ python
   <module 'django.utils' from '/Library/Python/2.7/site-packages/django/utils/__init__.pyc'>)]
 >>>
 ```
-Alternatively, use dir:
+
+Alternatively, use `dir()`:
 ```python
 import pprint
 import django

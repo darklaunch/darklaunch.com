@@ -1,4 +1,5 @@
 Run several PHP development servers on different ports by sending commands to tabs in screen.
+
 ```sh
 screen_name="my_screen"
 server_count=5
@@ -25,7 +26,9 @@ done
 
 screen -r "${screen_name}"
 ```
+
 The following commands will be run in separate tabs:
+
 ```bash
 php -S 127.0.0.1:8001
 php -S 127.0.0.1:8002

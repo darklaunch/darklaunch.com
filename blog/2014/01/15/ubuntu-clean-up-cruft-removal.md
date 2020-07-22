@@ -1,5 +1,6 @@
 Remove unwanted applications in Ubuntu.
-```
+
+```bash
 sudo apt-get --yes remove --purge ubuntuone*
 sudo apt-get --yes remove brasero*
 sudo apt-get --yes remove gwibber*

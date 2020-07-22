@@ -1,4 +1,5 @@
 PHP Curl Class: an object-oriented wrapper for curl functions. Supports REST request methods: GET, POST, PUT, PATCH, and DELETE. Examples:
+
 ```php
 require __DIR__ . '/vendor/autoload.php';
 
@@ -15,4 +16,5 @@ if ($curl->error) {
 var_dump($curl->requestHeaders);
 var_dump($curl->responseHeaders);
 ```
+
 More examples and download at https://github.com/php-curl-class/php-curl-class

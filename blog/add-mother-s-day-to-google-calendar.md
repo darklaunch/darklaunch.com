@@ -1,6 +1,7 @@
 Create calendar event for Mother's Day celebrated on the 2nd Sunday of May.
 
 Create a new ics (iCalendar) file like "mothersday.ics".
+
 ```
 BEGIN:VCALENDAR
 BEGIN:VEVENT
@@ -11,6 +12,7 @@ DTSTART;TZID=America/Los_Angeles:20160508T000000
 END:VEVENT
 END:VCALENDAR
 ```
+
 Or you can use Apple Calendar.
 
 <img alt="" src="/img/uploads/2016-05/mothers-day-calendar-event.png" />

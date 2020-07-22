@@ -1,17 +1,21 @@
 Base58 is base62 with ambiguous characters removed. These removed are 0, O, l, I for the Flickr Base58 character set.
+
 ```
 Alphabet:       0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
 Bitcoin Base58: 123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz
 Base62:         0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
 Flickr Base58:  123456789abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ
 ```
+
 Alphabets aligned for comparison:
+
 ```
 Alphabet:       0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
 Bitcoin Base58:  123456789ABCDEFGH JKLMN PQRSTUVWXYZabcdefghijk mnopqrstuvwxyz
 Base62:         0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
 Flickr Base58:   123456789abcdefghijk mnopqrstuvwxyzABCDEFGH JKLMN PQRSTUVWXYZ
 ```
+
 ```php
 function base58_encode($num) {
     $alphabet = '123456789abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ';
@@ -46,6 +50,7 @@ function base58_decode($num) {
     return $decoded;
 }
 ```
+
 ```php
 $array =
     array(
@@ -68,6 +73,7 @@ foreach ($array as $base10 => $base58) {
     echo 'base58_decode(\'', $base58, '\') => ' . base58_decode($base58) . "\n";
 }
 ```
+
 ```
 base58_encode('3429289555') => 6e31iZ
 base58_decode('6e31iZ') => 3429289555

@@ -1,4 +1,5 @@
 Django track changes to a model.
+
 ```py
 # models.py
 from django.contrib.auth.models import User
@@ -53,6 +54,7 @@ class PersonChange(models.Model):
     changed_by = models.ForeignKey(User, blank=True, null=True)
     changed_at = models.DateTimeField(auto_now_add=True)
 ```
+
 ```py
 # admin.py
 from django.contrib import admin

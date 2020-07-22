@@ -1,4 +1,5 @@
 This JavaScript snippet adds console.* functions to the page. Functions like console.log() will not fail even without debugging support. For example, some older versions of Internet Explorer will throw an error if you use a console.log(). Add this script to the top of you script and you will not need to remove any `console` functions.
+
 ```javascript
 (function() {
     try {
@@ -37,7 +38,9 @@ This JavaScript snippet adds console.* functions to the page. Functions like con
     }
 })();
 ```
+
 The available console functions for Firebug:
+
 ```javascript
 console.log(object[, object, ...])
 console.debug(object[, object, ...])
@@ -61,6 +64,7 @@ console.count([title])
 console.exception(error-object[, object, ...])
 console.table(data[, columns])
 ```
+
 ### More about Firebug, the Command Line and the Console API
 http://getfirebug.com/commandline
 http://getfirebug.com/wiki/index.php/Console_API

@@ -1,9 +1,12 @@
 To dynamically load or lazy-load a python module, do the following:
+
 ```python
 import_str = 'from pprint import pprint'
 exec import_str
 ```
+
 A more complete example with error catching.
+
 ```python
 module_name = 'bar'
 definition = 'my_method'

@@ -11,6 +11,8 @@ JavaScript Hungarian Prefixes:
 * n - node
 * o - object
 * s - string
+
+
 ```javascript
 var aData = [1, 2, 3];
 var bFound = false;
@@ -25,17 +27,23 @@ var oSettings = {
 };
 var sLabel = "First Name";
 ```
+
 Prefixes may also be combined where appropriate.
+
 ```javascript
 var asData = "foo,bar,baz".split(","); // Array of type String.
 ```
+
 Examples in other languages:
+
 ```cpp
 int iNumber = 2;
 ```
+
 ```php
 $sQuote = "Imagination is more important than knowledge.";
 ```
+
 ```autoit
 $sMsg = "Example message string."
 ```

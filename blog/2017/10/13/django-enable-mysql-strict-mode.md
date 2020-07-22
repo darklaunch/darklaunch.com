@@ -1,4 +1,5 @@
 Enable MySQL strict mode to fix possible data integrity issues.
+
 ```python
 DATABASES = {
     'default': {
@@ -13,7 +14,9 @@ DATABASES = {
     },
 }
 ```
+
 Support full Unicode in MySQL databases by using utf8mb4 instead of utf8.
+
 ```python
 DATABASES = {
     'default': {
@@ -28,7 +31,9 @@ DATABASES = {
     },
 }
 ```
+
 Use MySQL's READ COMMITTED isolation level rather than the default of REPEATABLE READ.
+
 ```python
 DATABASES = {
     'default': {
@@ -44,7 +49,9 @@ DATABASES = {
     },
 }
 ```
+
 Optionally, configure all database settings.
+
 ```python
 for key in list(DATABASES.keys()):
     DATABASES[key]['OPTIONS'] = {

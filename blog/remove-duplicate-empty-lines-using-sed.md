@@ -1,13 +1,17 @@
 Use sed to remove duplicate empty lines from a file and replace them with a single empty line.
+
 ```bash
 remove_duplicate_empty_lines() {
     sed '/^$/N;/^\n$/D'
 }
 ```
+
 ```bash
 sed -i "" '/^$/N;/^\n$/D' input.txt
 ```
+
 Example:
+
 ```bash
 $ cat --number file.txt
      1	1

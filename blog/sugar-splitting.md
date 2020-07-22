@@ -2,7 +2,7 @@
 
 Recently, I have seen far too much "sugar splitting". Unhealthy ingredients, typically sugars, are being strategically placed later in the ingredient list with the intent of making the product appear healthier.
 
-By law, ingredients must be listed in descending order of predominance. From a provision from the Code of Federal Regulations Title 21:
+By law, ingredients must be listed in descending order of predominance. From a provision in the Code of Federal Regulations Title 21:
 
 > 
 Ingredients required to be declared on the label or labeling of a food [...] shall be listed by common or usual name in descending order of predominance by weight [...]

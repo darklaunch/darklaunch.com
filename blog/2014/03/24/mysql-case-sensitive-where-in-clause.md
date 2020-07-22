@@ -1,4 +1,5 @@
 MySQL WHERE IN case sensitive select clause.
+
 ```sql
 SELECT
     *

@@ -1,4 +1,5 @@
 To merge kwargs options, use the dictionary update method.
+
 ```python
 def fetch_page(**kwargs):
     options = {

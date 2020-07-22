@@ -8,8 +8,10 @@ Unable to open an ra_local session to URL
 Unable to open repository 'file:///mnt/example/www.example.com/web/repository'
 Can't open file '/mnt/example/www.example.com/web/repository/format': Permission denied
 ```
+
 How to fix:
 Edit quoteCommand() in ../include/command.php quoteCommand() should read:
+
 ```php
 function quoteCommand($cmd) {
     global $config;
@@ -26,4 +28,5 @@ function quoteCommand($cmd) {
     return $cmd;
 }
 ```
+
 Add: else { $cmd = 'sudo -u root ' . $cmd; } to give svn permission.

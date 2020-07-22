@@ -1,4 +1,5 @@
 Prevent accidental deletion caused by rm with wildcards. This replaces your rm command so that it prevents certain deletions.
+
 ```bash
 safer_rm(){
     # Prohibited: rm *
@@ -36,6 +37,7 @@ safer_rm(){
 }
 alias rm="set -f && safer_rm"
 ```
+
 Sources:
 https://github.com/dot-star/dot-star/blob/master/bash/.safer_rm.sh
 https://github.com/dot-star/dot-star/blob/master/bash/.safer_rm_test.sh

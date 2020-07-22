@@ -1,4 +1,5 @@
 Format the mysql select with a dollar sign and two decimal places.
+
 ```sql
 SELECT
     CONCAT('$',FORMAT(SUM(`invoice_total`),2)) AS month_total

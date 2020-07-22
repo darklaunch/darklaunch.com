@@ -10,6 +10,7 @@ if (!in_array(trim(fgets(STDIN)), array('y', 'Y'))) {
 
 echo 'Continuing' . "\n";
 ```
+
 Examples
 ```sh
 $ php confirm.php 

@@ -1,4 +1,5 @@
 Using the command string, parse command into a list of arguments.
+
 ```python
 $ python
 >>> import shlex
@@ -6,7 +7,9 @@ $ python
 >>> shlex.split(cmd)
 ['/usr/bin/binary', '-v', '--recursive', '--exclude=.git']
 ```
+
 Using a list of arguments, reconstruct the command executed into a string.
+
 ```python
 $ python
 >>> import subprocess

@@ -1,4 +1,5 @@
 To create a last day of month event in Google Calendar, create a new file "myevent.ics" with the contents:
+
 ```
 BEGIN:VCALENDAR
 CALSCALE:GREGORIAN
@@ -12,6 +13,7 @@ DESCRIPTION:Description here.
 END:VEVENT
 END:VCALENDAR
 ```
+
 Update "SUMMARY:Title here.", "DESCRIPTION:Description here.", and "DTSTART;VALUE=DATE:20160331" as needed.
 
 The recurrence rule (RRULE) field with BYSETPOS=-1 causes the event to be the first day of the month less 1 day.

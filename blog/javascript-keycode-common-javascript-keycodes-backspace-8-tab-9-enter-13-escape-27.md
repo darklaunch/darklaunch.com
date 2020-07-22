@@ -109,6 +109,7 @@ var buttonCode = {
     RIGHT: 2,
 };
 ```
+
 Example:
 ```javascript
 $('#search-input').keydown(function(event) {
@@ -119,5 +120,6 @@ $('#search-input').keydown(function(event) {
     }
 });
 ```
+
 https://github.com/jquery/jquery-ui/blob/master/external/jquery-simulate/jquery.simulate.js
 https://api.jquery.com/event.which/

@@ -1,4 +1,5 @@
 Upload more than 1 file using curl.
+
 ```bash
 curl \
     --request POST \
@@ -8,6 +9,7 @@ curl \
     --form "attachment[]=@/path/to/file2.txt"
 ```
 The brackets used in this first request are shorthand for indexing the multiple files. "file1.txt" will be processed as attachment[0]. "file2.txt" will be processed as attachment[1].
+
 ```bash
 curl \
     --request POST \

@@ -1,6 +1,7 @@
 Call a Django view with query parameters using querydict in a python script.
 
 A simple view we want to call from a script:
+
 ```python
 from django.http import HttpResponse
 from django.utils import timezone
@@ -13,7 +14,9 @@ class MyView(View):
         html = "<html><body>It is now %s.</body></html>" % now
         return HttpResponse(html)
 ```
+
 The script where we call the class-based view:
+
 ```python
 from django.contrib.auth.models import User
 from django.http import HttpRequest
@@ -35,14 +38,18 @@ result = MyView.as_view()(request)
 print('result:')
 print(result)
 ```
+
 The output when the script is run:
+
 ```
 result:
 Content-Type: text/html; charset=utf-8
 
 <html><body>It is now 2018-05-15 00:00:00.000000+00:00.</body></html>
 ```
+
 Pass additional arguments to the view.
+
 ```python
 from django.http import HttpResponse
 from django.views import View
@@ -55,6 +62,7 @@ class MyBlogView(View):
         html = "<html><body>You are on page %s.</body></html>" % page_number
         return HttpResponse(html)
 ```
+
 ```python
 from django.http import HttpRequest
 
@@ -69,6 +77,7 @@ result = MyBlogView.as_view()(request, page_number)
 print('result:')
 print(result)
 ```
+
 ```
 result:
 Content-Type: text/html; charset=utf-8

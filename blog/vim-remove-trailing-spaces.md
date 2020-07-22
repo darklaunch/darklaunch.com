@@ -1,8 +1,11 @@
 To remove all trailing spaces in vim, use the following command:
+
 ```
 :%s/ \{1,}\n/\r/gc
 ```
+
 Explained:
+
 ```
 : - command
 %s - entire selection

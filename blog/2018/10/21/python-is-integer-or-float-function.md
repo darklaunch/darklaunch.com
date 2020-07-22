@@ -1,4 +1,5 @@
 Return true when the string is an integer or float.
+
 ```python
 def is_int_or_float(s):
     try:
@@ -8,7 +9,9 @@ def is_int_or_float(s):
     else:
         return True
 ```
+
 Test return value of is_int_or_float, isdigit, and isdecimal.
+
 ```python
 char_list = (
     [None, '', '0', '0.0', '0.1', '0.123456789', '1.0'] +
@@ -43,6 +46,7 @@ for char in char_list:
             checkmark if char_isdecimal else '',
         ))
 ```
+
 ```
 -------------------------------------------------------
 | char        | is_int_or_float | isdigit | isdecimal |

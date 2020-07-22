@@ -1,4 +1,5 @@
 wrk is an HTTP benchmarking tool. https://github.com/wg/wrk
+
 ```lua
 -- config.lua
 wrk.headers["Cookie"] = "sessionid=123; foo=bar"
@@ -16,6 +17,7 @@ response = function(status, headers, body)
     end
 end
 ```
+
 ```sh
 $ ./wrk \
   --connections="1" \
@@ -24,4 +26,5 @@ $ ./wrk \
   --threads="1" \
   "https://www.example.com/"
 ```
+
 Example wrk scripts: https://github.com/wg/wrk/tree/master/scripts

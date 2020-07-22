@@ -1,7 +1,10 @@
+> Update: This is outdated, please use prepared statements / PHP Data Objects (PDO).
+
 http://code.google.com/p/class-query/
 
 Class Query makes it easy to run a query.
 Simply chain the query parameters with ->run(); as the last parameter.
+
 ```php
 // Basic select
 $q = new Query;
@@ -12,6 +15,7 @@ $q
 
 // -> SELECT * FROM `user`
 ```
+
 ```php
 // Select using page
 $q = new Query;
@@ -57,7 +61,6 @@ if ($q) {
 	echo 'Sorry, user '.$user_id.' not found.';
 }
 ```
+
 Class Query
 http://code.google.com/p/class-query/
-
-NOTE: This is old, please use PDO.

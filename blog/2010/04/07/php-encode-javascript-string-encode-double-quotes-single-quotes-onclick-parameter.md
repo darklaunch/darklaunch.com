@@ -6,6 +6,7 @@ function js_escape($str) {
 	return $new_str;
 }
 ```
+
 Example:
 ```php
 $var = '"Convinced myself, I seek not to convince." -Edgar Allan Poe';

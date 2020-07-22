@@ -1,4 +1,5 @@
 Upload a file using PHP and cURL.
+
 ```php
 <?php
 $ch = curl_init();
@@ -12,4 +13,5 @@ curl_setopt($ch, CURLOPT_HEADER, true);
 curl_setopt($ch, CURLOPT_POSTFIELDS, array( 'image' => '@' . getcwd() . '/image.jpg',));
 echo curl_exec($ch);
 ```
+
 NOTE: Avoid using curl_setopt_array(). Use curl_setopt() instead.

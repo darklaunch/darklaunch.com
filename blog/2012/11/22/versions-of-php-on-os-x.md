@@ -1,4 +1,4 @@
-```
+```bash
 $ which php
 /opt/local/bin/php
 

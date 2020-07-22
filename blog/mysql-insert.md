@@ -1,4 +1,5 @@
 To safely save data to a database and safely print data stored in a database
+
 ```php
 // Safely save data to a database
 $query = sprintf('
@@ -14,6 +15,7 @@ $query = sprintf('
     mysql_real_escape_string($bar)
 );
 ```
+
 ```php
 // Safely print data stored in a database
 echo htmlspecialchars($foo, ENT_QUOTES, 'UTF-8');

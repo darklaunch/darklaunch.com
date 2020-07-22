@@ -140,4 +140,5 @@
 <color name="Yellow" value="#FFFF00"/>
 <color name="YellowGreen" value="#9ACD32"/>
 ```
+
 I used these for gEdit themes.

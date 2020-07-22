@@ -1,4 +1,5 @@
 Fix TypeError: datetime.datetime is not JSON serializable error.
+
 ```python
 import datetime
 import json

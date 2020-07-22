@@ -1,4 +1,5 @@
 To capture the function's response or output to a variable, use the following function:
+
 ```php
 function get_contents($function) {
     ob_start();
@@ -9,9 +10,11 @@ function get_contents($function) {
     return $contents;
 }
 ```
-To use, pass an anonymous function to get_contents().
+
+To use, pass an anonymous function to `get_contents()`.
 
 Examples:
+
 ```php
 // Example: get function's response to variable.
 function add($this, $that) {
@@ -46,4 +49,5 @@ echo $example3;
 //   string(1) "c"
 // }
 ```
+
 Note: Anonymous functions are available since PHP 5.3.0.

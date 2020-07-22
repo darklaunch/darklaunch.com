@@ -1,4 +1,5 @@
 Use sed to remove lines starting at BEGIN and ending with END line markers.
+
 ```sh
 $ cat myfile.txt
 1
@@ -17,6 +18,7 @@ END IGNORE
 14
 15
 ```
+
 ```sh
 $ cat myfile.txt | sed '/BEGIN IGNORE/,/END IGNORE/d'
 1

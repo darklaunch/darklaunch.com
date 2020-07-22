@@ -9,9 +9,11 @@ UPDATE 2:
 ---
 
 Google Chrome and Chromium send referring headers when you click on a link, submit a form, etc. To disable this "feature", run Chrome or Chromium with the "no-referrers" option.
+
 ```
 chromium-browser --no-referrers
 ```
+
 ### Allowing Referer Headers
 Using the default settings of including referring information may present a privacy/security risk. Requests to web pages may include this information as part of the HTTP Protocol and it tells what page you came from -- this additional information may also be used to track you.
 

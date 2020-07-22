@@ -1,4 +1,5 @@
-Output your desired HTTP status code using the status code and the header() function.
+Output your desired HTTP status code using the status code and the `header()` function.
+
 ```php
 function HTTPStatus($num) {
     $http = array(

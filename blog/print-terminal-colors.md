@@ -2,9 +2,11 @@
 <img alt="" src="/img/uploads/2020-05/shell-256-colors.png" />
 
 Print 256 colors in the terminal using this script. Run with the following command and scroll using the arrow keys:
+
 ```sh
 $ bash terminal_colors.sh | less -R --chop-long-lines
 ```
+
 ```sh
 print_16_colors() {
     declare -A attributes

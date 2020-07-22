@@ -1,6 +1,7 @@
 Using PHP it is possible to get the given variable name as a string -- similar to using the function get_defined_vars() for a traceback.
 
 A possible use case is a situation like a traceback where you call a function with a parameter and you need to know which variable was passed to the original function.
+
 ```php
 <?php
 function var_name(&$var) {
@@ -24,6 +25,7 @@ function var_name(&$var) {
    return $diff[0];
 }
 ```
+
 ```php
 header('Content-Type: text/plain');
 
@@ -35,9 +37,12 @@ echo '$' . var_name($some_var_name) . ' = ' . $some_var_name . "\n";
 echo '$' . var_name($another_var_name) . ' = ' . $another_var_name . "\n";
 echo '$' . var_name($yet_another_var) . ' = ' . $yet_another_var . "\n";
 ```
+
 The above code will produce the following output:
+
 ```
 $some_var_name = some value foo
 $another_var_name = bar
 $yet_another_var = baz
 ```
+

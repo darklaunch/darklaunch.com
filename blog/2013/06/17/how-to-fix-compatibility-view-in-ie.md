@@ -1,4 +1,5 @@
 To fix Compatibility View in Internet Explorer, force IE to use the latest rendering engine.
+
 ```php
 <?php
 // Avoid Compatibility View and force IE to use the latest rendering engine.

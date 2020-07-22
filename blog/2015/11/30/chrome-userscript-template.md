@@ -1,4 +1,5 @@
 Chrome userscript template.
+
 ```javascript
 // ==UserScript==
 // @name   Name

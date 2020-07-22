@@ -1,4 +1,5 @@
 Switch to the next most recently used window of the front app by typing tilde instead of command + tilde. Use the following with Karabiner's private.xml file.
+
 ```xml
 <?xml version="1.0"?>
 <root>

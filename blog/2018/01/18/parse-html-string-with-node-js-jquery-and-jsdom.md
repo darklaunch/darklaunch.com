@@ -1,11 +1,14 @@
 Parse an html string using Node.js, jQuery, and jsdom.
 
 Install jsdom and jquery.
+
 ```javascript
 $ npm install jsdom
 $ npm install jquery
 ```
+
 Write JavaScript file.
+
 ```javascript
 var jsdom = require('jsdom');
 var dom = new jsdom.JSDOM();
@@ -20,7 +23,9 @@ console.log('text:', $content.text());
 console.log('html:', $content.html());
 console.log('href:', $content.find('a').attr('href'));
 ```
+
 Run JavaScript file.
+
 ```bash
 $ node script.js
 version: 3.2.1

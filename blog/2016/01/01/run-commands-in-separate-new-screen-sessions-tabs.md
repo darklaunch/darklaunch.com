@@ -1,4 +1,5 @@
 Send commands to tabs in screen.
+
 ```sh
 screen_name="my_screen"
 
@@ -18,6 +19,7 @@ screen -S "${screen_name}" -p "my_screen_2" -X stuff $'bash script_2.sh\n'
 screen -S "${screen_name}" -X "screen" -t "my_screen_3"
 screen -S "${screen_name}" -p "my_screen_3" -X stuff $'bash script_3.sh\n'
 ```
+
 Quick screen reference
 <table>
   <tr>
@@ -42,6 +44,7 @@ List screen sessions
 ```
 $ screen -ls
 ```
+
 Attach to screen
 ```
 $ screen -x

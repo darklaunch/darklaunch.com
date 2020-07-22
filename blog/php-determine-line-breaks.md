@@ -1,10 +1,12 @@
 To see whitespace characters in php, use the following function:
+
 ```php
 function raw($str) {
     $str = str_replace(array("\t", "\r\n", "\r", "\n"),
                        array('\t', '\r\n', '\r', '\n'), $str);
 }
 ```
+
 ```php
 // line endings are replaced with literal characters
 $str = str_replace("\t", '\t', $str);

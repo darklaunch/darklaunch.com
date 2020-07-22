@@ -1,4 +1,5 @@
 JavaScript window.onerror logging and error handling.
+
 ```javascript
 (function() {
     window.onerror = function(errorMsg, url, lineNumber) {
@@ -16,4 +17,5 @@ JavaScript window.onerror logging and error handling.
     }
 })();
 ```
+
 More notes on error event fires can be found on http://www.quirksmode.org/dom/events/error.html

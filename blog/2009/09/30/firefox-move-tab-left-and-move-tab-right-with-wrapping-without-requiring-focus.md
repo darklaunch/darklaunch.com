@@ -13,6 +13,7 @@ else{
     gBrowser.moveTabTo(gBrowser.mCurrentTab, 0);
 }
 ```
+
 3. Select the "Move Tab Right" shortcut and assign it the keyboard shortcut of ALT+Page Down. Click Apply.
 
 4. Add another key.
@@ -27,6 +28,7 @@ else {
     gBrowser.moveTabTo(gBrowser.mCurrentTab, gBrowser.mTabContainer.childNodes.length - 1);
 }
 ```
+
 5. Select the "Move Tab Left" shortcut and assign it the keyboard shortcut of ALT+Page Up. Click Apply.
 
 4. Now open a new Firefox window (for changes to take effect) with 3 different tabs open. With the first tab focused, press ALT+Page Down and the tab will move to the right. Move it all the way past the last tab and it will wrap and move to the first tab position.

@@ -1,4 +1,5 @@
 Determine if an element is effectively hidden in JavaScript.
+
 ```javascript
 function isHidden(e) {
     const style = window.getComputedStyle(e);
@@ -13,4 +14,5 @@ function isHidden(e) {
     return false;
 }
 ```
+
 from https://github.com/tiratatp/facebook_adblock/blob/master/src/main.js

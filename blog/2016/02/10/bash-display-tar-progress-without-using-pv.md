@@ -1,4 +1,5 @@
 Display progress while creating a tar file.
+
 ```bash
 tar czf my_file.tar.gz large_file.bin another_large_file.bin &
 pid="${!}"

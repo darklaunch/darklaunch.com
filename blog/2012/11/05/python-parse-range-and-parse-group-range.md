@@ -1,4 +1,5 @@
 Parse a page range or number range in python. This is similar to the Print page in Microsoft Word or Office that allows you to select the page or page range to print. Use the following code to parse such a string.
+
 ```python
 from itertools import groupby
 from operator import itemgetter
@@ -27,4 +28,5 @@ def parse_range(astr):
         result.update(range(int(x[0]), int(x[-1]) + 1))
     return sorted(result)
 ```
+
 <img alt="" src="/img/uploads/2012-11/print-page-range.png" />

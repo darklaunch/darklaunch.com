@@ -1,4 +1,5 @@
 Here is a php script that calls a urls without blocking and returns immediately.
+
 ```php
 function call_url($url) {
     // Call the url and return immediately with the length of the data read.

@@ -1,6 +1,7 @@
 Extract dollar amounts using PHP.
 
 Input file:
+
 ```
 New statement balance: $24.99
 New statement balance: $99
@@ -8,12 +9,14 @@ New statement balance: $100.20
 New statement balance: $730.59
 New statement balance: $1,067.94
 ```
+
 ```php
 <?php
 $input = file_get_contents('input.txt');
 preg_match_all('/(\$?\d{1,3}(?:,?\d{3})*(?:\.\d{2})?)/', $input, $matches);
 var_dump($matches);
 ```
+
 Output:
 
 `array(2) {

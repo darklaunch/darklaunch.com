@@ -6,6 +6,7 @@ For Windows:
 ```
 C:\Documents and Settings\YOURUSER\Application Data\Mozilla\Firefox\Profiles\YOURPROFILE\chrome\userContent.css
 ```
+
 Add the following
 ```css
 @-moz-document domain(google.com) {

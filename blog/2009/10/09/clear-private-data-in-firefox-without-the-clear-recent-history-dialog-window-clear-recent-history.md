@@ -77,5 +77,6 @@ getScript("sanitize.js",
 	}
 );
 ```
+
 4. Set your preferred hotkey. Something like Alt+Ctrl+Shift+Del.
 5. Open a new window for the new hotkey to work. Press the hotkey you set and a notification in the corner will appear.

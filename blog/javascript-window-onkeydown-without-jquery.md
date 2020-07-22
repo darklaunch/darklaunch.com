@@ -1,4 +1,5 @@
-Bind to window.onkeydown natively without jQuery.
+Bind to `window.onkeydown` natively without jQuery.
+
 ```javascript
 window.onkeydown = function(event) {
     if (event.keyCode === 27) {

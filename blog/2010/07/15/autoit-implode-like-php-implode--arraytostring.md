@@ -3,6 +3,7 @@ Func implode($glue, $pieces)
 	Return _ArrayToString($pieces, $glue)
 EndFunc   ;==>implode
 ```
+
 ```autoit
 #include <String.au3>
 #include <Array.au3>

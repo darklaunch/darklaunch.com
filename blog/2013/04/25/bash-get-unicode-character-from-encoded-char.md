@@ -1,27 +1,37 @@
 Use hexdump to lookup the 6-digit unicode sequence. Examples for bash and python are given.
-```
+
+```bash
 $ echo -n ✓ | hexdump
 0000000 e2 9c 93
 0000003
 ```
+
 To print the character, escape the 6-digit / 3 byte unicode sequence. Use -e with echo to interpret the escaped characters.
-```
+
+```bash
 $ echo -e "\xE2\x9c\x93"
 ✓
 ```
+
+
 Example with color and subscripts on the command line:
-```
+
+```bash
 $ echo -e 'O\xe2\x82\x82 Sensor: \x1b[1;32m\xE2\x9c\x93\x1b[0m'
 O₂ Sensor: ✓
 ```
+
 <img alt="" src="/img/uploads/2013-04/bash-echo-unicode-characters.png" />
 
 To print the unicode character in python, do the following:
+
 ```python
 >>> print "\xE2\x9c\x93"
 ✓
 ```
+
 List of colors for bash prompt:
+
 ```sh
 # Reset
 Color_Off='\e[0m'       # Text Reset

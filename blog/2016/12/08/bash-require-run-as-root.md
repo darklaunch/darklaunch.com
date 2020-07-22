@@ -1,4 +1,5 @@
 Require a bash script to run with root permissions.
+
 ```sh
 #!/bin/bash
 

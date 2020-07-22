@@ -1,5 +1,6 @@
 Fix by installing mysql-server.
-```
+
+```bash
 $ python manage.py dbshell
 CommandError: You appear not to have the 'mysql' program installed or on your path.
 

@@ -1,4 +1,5 @@
 To fix brew "Failure while executing: git pull":
+
 ```
 $ sudo chmod -R 777 /usr/local/
 $ cd /usr/local/
@@ -7,6 +8,7 @@ $ git stash -u
 $ git fetch
 $ git merge origin/master
 ```
+
 Possible errors that this fixes:
 
 "Error: Failed to update tap: foo/bar"
