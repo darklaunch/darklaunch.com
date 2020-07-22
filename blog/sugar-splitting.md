@@ -4,9 +4,7 @@ Recently, I have seen far too much "sugar splitting". Unhealthy ingredients, typ
 
 By law, ingredients must be listed in descending order of predominance. From a provision in the Code of Federal Regulations Title 21:
 
-> 
-Ingredients required to be declared on the label or labeling of a food [...] shall be listed by common or usual name in descending order of predominance by weight [...]
-
+> Ingredients required to be declared on the label or labeling of a food [...] shall be listed by common or usual name in descending order of predominance by weight [...]
 
 Through the creative splitting of ingredients, sugars are made to appear less prevalent. Here is the crafty ingredient list:
 

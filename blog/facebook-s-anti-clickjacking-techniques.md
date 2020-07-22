@@ -1,4 +1,4 @@
-Facebook uses a frame breaker to help mitigate clickjacking: X-Frame-Options with "deny". They send off analytics in the process.
+Facebook uses a frame breaker to help mitigate clickjacking: `X-Frame-Options` with "deny". They send off analytics in the process.
 
 ```javascript
 &lt;script type="text/javascript">
@@ -20,7 +20,7 @@ if (top != self) {
 &lt;/script>
 ```
 
-They also specify X-Frame-Options in a meta tag. The value deny is to block the content from rendering if it is contained in a frame.
+They also specify `X-Frame-Options` in a meta tag. The value deny is to block the content from rendering if it is contained in a frame.
 
 ```
 <noscript><meta http-equiv="X-Frame-Options" content="deny"/></noscript>

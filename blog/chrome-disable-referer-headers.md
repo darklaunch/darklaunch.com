@@ -1,10 +1,8 @@
 UPDATE:
 > Use Google Chrome and Chromium "Preferences" file to permananently disable referrer headers. http://darklaunch.com/2011/08/24/disable-a-referring-url-in-chrome-and-chromium
 
-
 UPDATE 2:
 > Use Referer Control: https://chrome.google.com/webstore/detail/referer-control/hnkcfpcejkafcihlgbojoidoihckciin
-
 
 ---
 

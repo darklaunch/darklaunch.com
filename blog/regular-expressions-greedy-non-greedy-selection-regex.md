@@ -2,9 +2,7 @@ If your regex pattern is too greedy, that is, it finds the largest matching case
 
 Replace the greedy quantifier with the corresponding non-greedy version.
 
-> 
-"...change * , + , ? , and {} into *? , +? , ?? , and {}? , respectively"
-
+> "...change * , + , ? , and {} into *? , +? , ?? , and {}? , respectively"
 
 <div style="padding: 39px 19px 14px;">
 <table>
