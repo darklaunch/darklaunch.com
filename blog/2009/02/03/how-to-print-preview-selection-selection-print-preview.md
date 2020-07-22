@@ -6,10 +6,6 @@ file &gt; print
 
 print.
 
-
-
-
 ...
-
 
 this would be a nice feature as a browser add-on

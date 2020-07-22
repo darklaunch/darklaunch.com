@@ -19,7 +19,6 @@ Another way to measure multiple durations:
 import logging
 import time
 
-
 class Timer(object):
     def __init__(self):
         self.tasks = {}
@@ -74,7 +73,6 @@ import time
 
 import logging_timer
 
-
 logging.getLogger().setLevel(logging.DEBUG)
 
 timer = logging_timer.Timer()
@@ -123,7 +121,6 @@ import logging
 import time
 
 import logging_timer
-
 
 logging.getLogger().setLevel(logging.DEBUG)
 

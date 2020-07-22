@@ -6,7 +6,6 @@ import json
 
 from django.core.serializers.json import DjangoJSONEncoder
 
-
 print json.dumps({
     'timestamp': datetime.datetime.now(),
 }, cls=DjangoJSONEncoder, indent=2)

@@ -4,7 +4,6 @@ With the OS X firewall enabled, you can remove the "Do you want the application 
 
 Create a self-signed certificate.
 
-
 * Open Keychain Access. Applications > Utilities > Keychain Access.
 * Keychain Access menu > Certificate Assistant > Create a Certificate...
 * Enter a Name like "My Certificate".
@@ -16,7 +15,6 @@ Create a self-signed certificate.
 * Enter 7300 for Validity Period.
 * Click Continue
 * Click Continue for the rest of the dialogs
-
 
 Now sign your application
 

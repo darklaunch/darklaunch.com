@@ -7,7 +7,6 @@ from django.http import HttpResponse
 from django.utils import timezone
 from django.views import View
 
-
 class MyView(View):
     def get(self, request):
         now = timezone.now()
@@ -23,7 +22,6 @@ from django.http import HttpRequest
 from django.http.request import QueryDict
 
 from myapp.views import MyView
-
 
 user = User.objects.get(username='admin')
 
@@ -54,7 +52,6 @@ Pass additional arguments to the view.
 from django.http import HttpResponse
 from django.views import View
 
-
 class MyBlogView(View):
     def get(self, request, page_number=None):
         if not page_number:
@@ -67,7 +64,6 @@ class MyBlogView(View):
 from django.http import HttpRequest
 
 from myapp.views import MyBlogView
-
 
 request = HttpRequest()
 request.method = 'GET'

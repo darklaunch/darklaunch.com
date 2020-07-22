@@ -6,5 +6,4 @@ tables.
 .
 .
 
-
 for now css is best at stylizing

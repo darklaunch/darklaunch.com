@@ -8,7 +8,6 @@ Then close the Firefox Preferences window.
 
 Now anytime a file where Content-Type=text/x-python comes up, geany will be the associated application in Firefox.
 
-
 NOTE:
 If you don't know the location of your application, open a terminal and type:
 ```

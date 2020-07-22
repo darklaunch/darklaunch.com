@@ -4,7 +4,6 @@ import time
 
 import mock
 
-
 # Ensure constant time.
 with mock.patch.object(datetime, 'datetime', mock.Mock(wraps=datetime.datetime)) as patched:
     patched.now.return_value = datetime.datetime(2020, 1, 1)

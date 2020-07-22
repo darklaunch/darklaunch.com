@@ -8,7 +8,6 @@
 * Browse to C:\Program Files\7-Zip\7zFM.exe and click Open.
 * Click OK and zip files will now be opened with 7-zip.
 
-
 Also, FileTypesMan from NirSoft is an excellent file types manager:
 http://www.nirsoft.net/utils/file_types_manager.html
 

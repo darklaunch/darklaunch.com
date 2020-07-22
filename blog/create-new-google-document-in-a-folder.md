@@ -1,6 +1,5 @@
 Bookmark a specific url to create a new Google Document in a particular folder.
 
-
 * Get folder's id
     <ul>
 * Navigate to your drive (https://drive.google.com/drive/my-drive) and click into one of your folders

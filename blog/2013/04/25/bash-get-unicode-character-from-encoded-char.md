@@ -13,7 +13,6 @@ $ echo -e "\xE2\x9c\x93"
 ✓
 ```
 
-
 Example with color and subscripts on the command line:
 
 ```bash

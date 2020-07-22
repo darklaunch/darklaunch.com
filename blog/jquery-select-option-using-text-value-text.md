@@ -43,7 +43,6 @@ $("#select-1").find("option").filter(function(index) {
 &lt;/script>
 &lt;!-- /Example 1 -->
 
-
 &lt;!-- Example 2 -->
 &lt;select id="select-2">
     &lt;option>Pick a different option...&lt;/option>

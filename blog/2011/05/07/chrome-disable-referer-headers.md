@@ -19,15 +19,12 @@ Using the default settings of including referring information may present a priv
 The full list of available chromium switches is listed here under: "Don't send HTTP-Referer headers"
 http://src.chromium.org/svn/trunk/src/content/common/content_switches.cc
 
-
 ### Firefox send referer header setting
 In Firefox, the option is available in about:config under "network.http.sendRefererHeader" and you want to set this to 0.
-
 
 * 0 - Never send the Referer header or set document.referrer.
 * 1 - Send the Referer header when clicking on a link, and set document.referrer for the following page.
 * 2 - Send the Referer header when clicking on a link or loading an image, and set document.referrer for the following page. (Default)
-
 
 ### JavaScript document.referrer field
 The referring url is available from the document.referrer field.

@@ -29,7 +29,6 @@ from django.http import HttpResponse
 from django.template import RequestContext
 from django.template import Template
 
-
 def index(request):
     template = Template('Hello, {{ thing }} and {{ request.user }}!')
     context = RequestContext(request, {

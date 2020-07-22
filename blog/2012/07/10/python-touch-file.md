@@ -3,7 +3,6 @@ To touch a file in python, do the following:
 ```python
 import os
 
-
 def touch(fname, times=None):
     """
     touch - change file timestamps

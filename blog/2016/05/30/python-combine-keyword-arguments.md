@@ -11,7 +11,6 @@ def fetch_page(**kwargs):
     options.update(kwargs)
     print('options are now: %s' % options)
 
-
 fetch_page()
 # {'url': 'https://www.example.com/', 'follow_redirects': False, 'data': {}, 'method': 'GET'}
 

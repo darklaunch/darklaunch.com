@@ -5,7 +5,6 @@ Add "Move Tab First" using keyboard shortcut Alt+Home. This will move the focuse
 gBrowser.moveTabTo(gBrowser.mCurrentTab, 0);
 ```
 
-
 Add "Move Tab Last" using keyboard shortcut Alt+End.  This will move the focused tab to the last position in the list.
 ```javascript
 gBrowser.moveTabTo(gBrowser.mCurrentTab, gBrowser.mTabContainer.childNodes.length - 1);

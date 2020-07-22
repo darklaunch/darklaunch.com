@@ -4,7 +4,6 @@ Encode Django model, queryset, and user in json. Fixes:
 * TypeError: &lt;QuerySet []> is not JSON serializable
 * TypeError: &lt;User: username> is not JSON serializable
 
-
 ```python
 import json
 
@@ -14,7 +13,6 @@ from django.db import models
 from django.db.models.query import QuerySet
 from django.forms.models import model_to_dict
 
-
 class JsonEncoder(DjangoJSONEncoder):
 
     def default(self, obj):
@@ -23,7 +21,6 @@ class JsonEncoder(DjangoJSONEncoder):
         if isinstance(obj, QuerySet):
             return serializers.serialize('python', obj, ensure_ascii=False)
         return super(JsonEncoder, self).default(obj)
-
 
 def json_encode(data):
     return json.dumps(data, cls=JsonEncoder, indent=2, separators=(',', ': '))

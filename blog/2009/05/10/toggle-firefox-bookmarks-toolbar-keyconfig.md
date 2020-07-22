@@ -1,7 +1,6 @@
 Toggle Firefox Bookmarks Toolbar
 Install KeyConfig: http://mozilla.dorando.at/keyconfig.xpi
 
-
 1. Go to Tools > KeyConfig.
 2. [Add a new key]
 3. Name: Toggle Firefox Bookmarks Toolbar

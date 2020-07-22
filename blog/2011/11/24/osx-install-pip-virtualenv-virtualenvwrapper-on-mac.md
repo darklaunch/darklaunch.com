@@ -25,7 +25,6 @@ cd ~/.virtualenvs
 virtualenv --no-site-packages myproject
 ```
 
-
 * NOTE: Apple's development tools needs to be installed: Xcode
 http://itunes.apple.com/us/app/xcode/id448457090
 
@@ -35,7 +34,5 @@ http://itunes.apple.com/us/app/xcode/id448457090
 look for Xcode.mpkg in
 /Applications/Install Xcode.app/Contents/Resources/Xcode.mpkg
 and run that instead.
-
-
 
 <img alt="" src="/img/uploads/2011-11/osx-install-pip-virtual-environment.png" />

@@ -4,7 +4,6 @@ Capture stdout output in python using a context manager.
 import cStringIO
 import sys
 
-
 class CaptureOutput(list):
     def __enter__(self):
         self._stdout = sys.stdout

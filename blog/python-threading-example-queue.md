@@ -4,7 +4,6 @@ Use python threads and queues together to execute code in parallel (python multi
 import Queue
 import threading
 
-
 class Worker(threading.Thread):
     def __init__(self, queue):
         threading.Thread.__init__(self)
@@ -15,7 +14,6 @@ class Worker(threading.Thread):
             task = self.queue.get()
             task.save()
             self.queue.task_done()
-
 
 NUMBER_OF_THREADS = 100
 

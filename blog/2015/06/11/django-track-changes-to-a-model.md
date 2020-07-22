@@ -6,7 +6,6 @@ from django.contrib.auth.models import User
 from django.db import models
 from django.db.models import ManyToOneRel
 
-
 class Person(models.Model):
     first_name = models.CharField(max_length=30)
     last_name = models.CharField(max_length=30)
@@ -45,7 +44,6 @@ class Person(models.Model):
                     change.changed_by = self._user if hasattr(self, '_user') else None
                     change.save()
 
-
 class PersonChange(models.Model):
     obj = models.ForeignKey(Person)
     field_name = models.CharField(db_index=True, max_length=255)
@@ -62,7 +60,6 @@ from django.contrib import admin
 from .models import Person
 from .models import PersonChange
 
-
 class PersonAdmin(admin.ModelAdmin):
     list_display = ('pk', 'first_name', 'last_name', 'location', 'favorite_color',)
     search_fields = ('id', 'first_name', 'last_name', 'location', 'favorite_color',)
@@ -71,10 +68,8 @@ class PersonAdmin(admin.ModelAdmin):
         obj._user = request.user
         super(PersonAdmin, self).save_model(request, obj, form, change)
 
-
 class PersonChangeAdmin(admin.ModelAdmin):
     list_display = ('pk', 'obj', 'field_name', 'old_value', 'new_value', 'changed_at', 'changed_by')
-
 
 admin.site.register(Person, PersonAdmin)
 admin.site.register(PersonChange, PersonChangeAdmin)

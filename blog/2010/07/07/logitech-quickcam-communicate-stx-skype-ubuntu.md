@@ -55,7 +55,6 @@ ERROR: Requested frame format MJPG is not available and no fallback format was f
  Init v4L2 failed !! exit fatal
 ```
 
-
 ---
 
 http://ubuntuforums.org/showthread.php?t=914952

@@ -16,7 +16,6 @@ If you keep getting "Enter passphrase for key" and there is no passphrase, you m
 debug1: key_parse_private2: missing begin marker
 debug1: key_parse_private_pem: PEM_read_PrivateKey failed
 
-
 instead of:
 ```bash
 $ ssh -v user@host -i ~/.ssh/id_rsa.pub
@@ -27,9 +26,7 @@ do this:
 $ ssh -v user@host -i ~/.ssh/id_rsa
 ```
 
-
 * use `ssh -v'  to enable verbose mode. This will show you what authentications methods attempted and the corresponding files read, among other things.
-
 
 Things to try on the remote machine that you are trying to connect to using ssh:
 
@@ -41,11 +38,9 @@ $ sudo /etc/init.d/ssh start
 * Starting OpenBSD Secure Shell server sshd
 ```
 
-
 * Ensure that wrapping is off in vim (or editor) if editing the authorized_keys file manually
 * Ensure that no spaces exist in authorized_keys file
 * Ensure that the correct authorized_keys file exists and is readable
 by the ssh deamon (sshd) using sshd with the -d Debug mode enabled
-
 
 Possible errors: "debug1: Could not open authorized keys '/.../.ssh/authorized_keys2': No such file or directory"

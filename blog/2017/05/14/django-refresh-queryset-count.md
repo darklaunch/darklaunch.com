@@ -3,11 +3,9 @@ Call `all()` on a previously evaluated QuerySet to get updated results.
 ```python
 from myapp.models import Question
 
-
 q1 = Question.objects.create(question_text='Who am I?')
 q2 = Question.objects.create(question_text='Where did I come from?')
 q3 = Question.objects.create(question_text='Why am I here?')
-
 
 questions = Question.objects.all()
 

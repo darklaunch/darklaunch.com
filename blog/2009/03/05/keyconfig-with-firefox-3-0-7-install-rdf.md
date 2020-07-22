@@ -12,5 +12,4 @@ Update <maxVersion>:
     </rdf:Description></targetApplication>
 ```
 
-
 maxVersion needs to be greater than 3.0.7

@@ -4,7 +4,6 @@ Parse a page range or number range in python. This is similar to the Print page 
 from itertools import groupby
 from operator import itemgetter
 
-
 def group_range(data):
     """
     Return a list of tuple ranges.
@@ -15,7 +14,6 @@ def group_range(data):
         group = map(itemgetter(1), g)
         ranges.append((group[0], group[-1]))
     return ranges
-
 
 def parse_range(astr):
     """

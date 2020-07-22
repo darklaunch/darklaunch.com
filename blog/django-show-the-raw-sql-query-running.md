@@ -13,7 +13,6 @@ import pprint
 
 from django.db import connection
 
-
 pprint.pprint(connection.queries)
 ```
 

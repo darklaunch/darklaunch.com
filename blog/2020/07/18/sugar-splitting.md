@@ -8,7 +8,6 @@ By law, ingredients must be listed in descending order of predominance. From a p
 
 Through the creative splitting of ingredients, sugars are made to appear less prevalent. Here is the crafty ingredient list:
 
-
 * Grade A Pasteurized Whole Milk
 * Fruit Puree (Blueberries, Water, Cane Sugar, Pectin, Lemon Juice Concentrate, Locust Bean Gum)
 * Cane Sugar
@@ -17,9 +16,7 @@ Through the creative splitting of ingredients, sugars are made to appear less pr
 * Pectin
 * Live Active Cultures
 
-
 A more honest ingredient list for this product might look like this:
-
 
 * Cane Sugar
 * Grade A Pasteurized Whole Milk
@@ -31,6 +28,5 @@ A more honest ingredient list for this product might look like this:
 * Locust Bean Gum
 * Pectin
 * Live Active Cultures
-
 
 It is time for an update to the regulations to eliminate this trickery. Let's keep the ingredient list flat and avoid this dishonesty.

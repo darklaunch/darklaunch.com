@@ -3,7 +3,6 @@ Quote a command with arguments in python using `pipes.quote()` and `shlex.quote(
 ```python
 import pipes
 
-
 # Incorrect.
 path = '/tmp/dir-without-spaces'
 cmd = 'ls {0}'.format(path)

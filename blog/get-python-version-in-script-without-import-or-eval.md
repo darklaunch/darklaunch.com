@@ -19,7 +19,6 @@ from __future__ import print_function
 
 import ast
 
-
 filename = '__init__.py'
 version = None
 with open(filename, 'r') as source_file:

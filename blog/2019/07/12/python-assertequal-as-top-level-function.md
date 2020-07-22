@@ -19,7 +19,6 @@ Here is a top-level function to test an assertion condition in more detail:
 ```python
 import unittest
 
-
 def assert_equal(first, second):
     class MyTestCase(unittest.TestCase):
         def test(self):
@@ -27,7 +26,6 @@ def assert_equal(first, second):
 
     suite = unittest.TestLoader().loadTestsFromTestCase(MyTestCase)
     unittest.TextTestRunner().run(suite)
-
 
 first = 'a'
 second = 'aa'
@@ -72,7 +70,6 @@ Improved assert in:
 ```python
 import unittest
 
-
 def assert_in(first, second):
     class MyTestCase(unittest.TestCase):
         def test(self):
@@ -80,7 +77,6 @@ def assert_in(first, second):
 
     suite = unittest.TestLoader().loadTestsFromTestCase(MyTestCase)
     unittest.TextTestRunner().run(suite)
-
 
 first = 'z'
 second = ['a', 'b', 'c']

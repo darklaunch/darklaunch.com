@@ -46,7 +46,6 @@ def main():
             sys.stdout.write('number is {0}: dealer wins\n'.format(number))
         sys.stdout.flush()
 
-
 if __name__ == '__main__':
     main()
 ```
