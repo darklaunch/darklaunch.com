@@ -24,9 +24,9 @@ http://src.chromium.org/svn/trunk/src/content/common/content_switches.cc
 In Firefox, the option is available in about:config under "network.http.sendRefererHeader" and you want to set this to 0.
 
 
-    <li>0 - Never send the Referer header or set document.referrer.
-    <li>1 - Send the Referer header when clicking on a link, and set document.referrer for the following page.
-    <li>2 - Send the Referer header when clicking on a link or loading an image, and set document.referrer for the following page. (Default)
+* 0 - Never send the Referer header or set document.referrer.
+* 1 - Send the Referer header when clicking on a link, and set document.referrer for the following page.
+* 2 - Send the Referer header when clicking on a link or loading an image, and set document.referrer for the following page. (Default)
 
 
 ### JavaScript document.referrer field

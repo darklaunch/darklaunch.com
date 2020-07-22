@@ -9,28 +9,28 @@ By law, ingredients must be listed in descending order of predominance. From a p
 Through the creative splitting of ingredients, sugars are made to appear less prevalent. Here is the crafty ingredient list:
 
 
-  <li>Grade A Pasteurized Whole Milk
-  <li>Fruit Puree (Blueberries, Water, Cane Sugar, Pectin, Lemon Juice Concentrate, Locust Bean Gum)
-  <li>Cane Sugar
-  <li>Wildflower Honey
-  <li>Kosher Gelatin
-  <li>Pectin
-  <li>Live Active Cultures
+* Grade A Pasteurized Whole Milk
+* Fruit Puree (Blueberries, Water, Cane Sugar, Pectin, Lemon Juice Concentrate, Locust Bean Gum)
+* Cane Sugar
+* Wildflower Honey
+* Kosher Gelatin
+* Pectin
+* Live Active Cultures
 
 
 A more honest ingredient list for this product might look like this:
 
 
-  <li>Cane Sugar
-  <li>Grade A Pasteurized Whole Milk
-  <li>Lemon Juice Concentrate
-  <li>Water
-  <li>Blueberries
-  <li>Wildflower Honey
-  <li>Kosher Gelatin
-  <li>Locust Bean Gum
-  <li>Pectin
-  <li>Live Active Cultures
+* Cane Sugar
+* Grade A Pasteurized Whole Milk
+* Lemon Juice Concentrate
+* Water
+* Blueberries
+* Wildflower Honey
+* Kosher Gelatin
+* Locust Bean Gum
+* Pectin
+* Live Active Cultures
 
 
 It is time for an update to the regulations to eliminate this trickery. Let's keep the ingredient list flat and avoid this dishonesty.

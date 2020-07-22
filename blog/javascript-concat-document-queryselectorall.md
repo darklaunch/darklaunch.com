@@ -5,9 +5,9 @@ Given the following html, select the div and list items.
 ```html
 <div>A</div>
 
-    <li>B
-    <li>C
-    <li>D
+* B
+* C
+* D
 
 ```
 
