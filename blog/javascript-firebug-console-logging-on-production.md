@@ -3,9 +3,9 @@ This JavaScript snippet adds console.* functions to the page. Functions like con
 ```javascript
 (function() {
     try {
-        console.log( '' );
+        console.log('');
     }
-    catch ( e ) {
+    catch (e) {
         window.console = {};
 
         var names = [
@@ -29,11 +29,11 @@ This JavaScript snippet adds console.* functions to the page. Functions like con
             'profileEnd',
             'count',
             'exception',
-            'table'
+            'table',
         ];
 
         for (var i = 0; i < names.length; ++i) {
-            window.console[ names[ i ] ] = function() {};
+            window.console[names[i]] = function() {};
         }
     }
 })();

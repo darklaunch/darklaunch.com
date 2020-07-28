@@ -1,17 +1,55 @@
-To copy the selected/highlighted character under to cursor to the clipboard, highlight the character in visual mode. Type Ctrl + r followed by typing a double-quote. This will yank the character under the cursor. Paste the character using p.
+Find and replace the selected character in vim.
 
-To replace instances of the yanked character, visual highlight (select) the character or characters you wish to find and replace. Type the character "y" to yank the selection into the clipboard. Now to replace instances of this character: Type ":%s/", then Ctrl + r followed by a double-quote to paste the yanked character. The full command:
+Let's suppose you have the following text and you would like to replace bullets with dashes:
 
 ```
-type :%s/ then type <C-r> + " then /replace/g
-":%s/char/replace"
+• First
+• Second
+• Third
 ```
 
-The find and replace syntax is:
+Move the cursor over to a bullet using `h`, `j`, `k`, and `l`.
+
+```
+• First
+^ The cursor should now be here
+• Second
+• Third
+```
+
+Once the cursor is over the bullet, switch to visual mode by typing the `v` character. Then type `y` to yank the character under the cursor and store it in the clipboard. The bullet character is now in the clipboard.
+
+To replace instances of the bullet character, use the find and replace command syntax:
 
 ```
 :%s/find/replace/g
-    ^^^^ the yanked characters will be pasted here
 ```
 
-vim paste from system clipboard: "+p
+```
+:%s/find/replace/g
+    ^^^^ This is where we want the yanked character to be pasted
+```
+
+Type `:%s/` then enter the bullet character from the clipboard by typing `Ctrl` + `r` and `"`. The command should now look like this so far:
+
+```
+:%s/•
+```
+
+Then finish the rest of the find and replace command by add a `/`, the replacement string `-`, followed by another `/` and a `g` for global find and replace.
+
+The final command looks like this:
+
+```
+:%s/•/-/g
+```
+
+With the complete command entered, type `enter` to execute the find and replace.
+
+This will now be the updated text:
+
+```
+- First
+- Second
+- Third
+```
