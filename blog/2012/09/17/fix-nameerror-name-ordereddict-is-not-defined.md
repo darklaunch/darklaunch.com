@@ -11,7 +11,7 @@ except ImportError:
 
 The OrderedDict is available in more recent versions of python. Use this as a fallback for OrderedDict support.
 
-```
+```bash
 $ python test.py
 Traceback (most recent call last):
   File "test.py", line 8, in <module>

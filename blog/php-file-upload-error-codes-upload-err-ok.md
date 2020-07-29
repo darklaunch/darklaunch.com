@@ -69,8 +69,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
     
     echo $response;
-}
-else {
+} else {
     echo
         '<form action="upload.php" enctype="multipart/form-data" method="post">' .
             '<input name="myfile" type="file" />&lt;br />' .

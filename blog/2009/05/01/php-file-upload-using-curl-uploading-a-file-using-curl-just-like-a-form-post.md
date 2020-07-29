@@ -14,4 +14,4 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, array( 'image' => '@' . getcwd() . '/image.
 echo curl_exec($ch);
 ```
 
-NOTE: Avoid using curl_setopt_array(). Use curl_setopt() instead.
+NOTE: Avoid using `curl_setopt_array()`. Use `curl_setopt()` instead.
