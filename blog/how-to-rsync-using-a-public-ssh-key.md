@@ -1,4 +1,4 @@
-You can use `ssh -i identity_file` method with rsync by specifying the
+You can use `ssh -i identity_file` method with `rsync` by specifying the
 remote shell to use.
 
 ```bash
@@ -14,7 +14,7 @@ IdentityFile ~/.ssh/mykey
 User ubuntu
 ```
 
-Now you can omit the "--rsh" parameter and do:
+Now you can omit the `--rsh` parameter and do:
 
 ```bash
 $ rsync --checksum --recursive --verbose --progress "myfolder" "ubuntu@10.20.1.10:/home/ubuntu/"
