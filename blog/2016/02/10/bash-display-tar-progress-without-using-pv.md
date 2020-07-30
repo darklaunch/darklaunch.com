@@ -13,3 +13,8 @@ while kill -0 "${pid}" 2> /dev/null; do
     sleep 1
 done
 ```
+
+---
+
+Posted Feb 10, 2016.
+https://www.darklaunch.com/2016/02/10/bash-display-tar-progress-without-using-pv

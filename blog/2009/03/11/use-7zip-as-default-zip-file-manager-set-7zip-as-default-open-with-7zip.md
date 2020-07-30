@@ -12,3 +12,8 @@ Also, FileTypesMan from NirSoft is an excellent file types manager:
 http://www.nirsoft.net/utils/file_types_manager.html
 
 <img alt="" src="/img/uploads/2011-11/7zip-default-zip-file-manager.png" />
+
+---
+
+Posted Mar 11, 2009.
+https://www.darklaunch.com/2009/03/11/use-7zip-as-default-zip-file-manager-set-7zip-as-default-open-with-7zip

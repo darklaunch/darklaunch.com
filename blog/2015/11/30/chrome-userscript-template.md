@@ -14,3 +14,8 @@ console.info('start');
 console.info('done');
 console.groupEnd();
 ```
+
+---
+
+Posted Nov 30, 2015.
+https://www.darklaunch.com/2015/11/30/chrome-userscript-template

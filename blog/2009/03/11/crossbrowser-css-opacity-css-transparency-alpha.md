@@ -11,3 +11,8 @@ Transparency using CSS:
 ```
 
 > NOTE: Please use sass.
+
+---
+
+Posted Mar 11, 2009.
+https://www.darklaunch.com/2009/03/11/crossbrowser-css-opacity-css-transparency-alpha

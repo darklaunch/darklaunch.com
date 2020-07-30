@@ -11,3 +11,8 @@ import importlib
 
 mymodule = importlib.import_module('foo.com.example.is.path.somewhere.api.v1.resources')
 ```
+
+---
+
+Posted Sep 3, 2016.
+https://www.darklaunch.com/2016/09/03/python-import-path-containing-reserved-keyword

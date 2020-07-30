@@ -31,3 +31,8 @@ List all key bindings using the list-keys command:
 ```
 $ tmux list-keys
 ```
+
+---
+
+Posted Feb 11, 2018.
+https://www.darklaunch.com/2018/02/11/byobu-move-tabs-with-tmux-shortcut

@@ -17,3 +17,8 @@ $ git branch --all
 * master
   remotes/origin/master
 ```
+
+---
+
+Posted Oct 7, 2013.
+https://www.darklaunch.com/2013/10/07/how-to-git-clone-and-checkout-only-a-branch

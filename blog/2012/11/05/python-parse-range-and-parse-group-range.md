@@ -28,3 +28,8 @@ def parse_range(astr):
 ```
 
 <img alt="" src="/img/uploads/2012-11/print-page-range.png" />
+
+---
+
+Posted Nov 5, 2012.
+https://www.darklaunch.com/2012/11/05/python-parse-range-and-parse-group-range

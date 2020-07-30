@@ -12,3 +12,8 @@ To fix the error: "mount: realpath /Volumes/dns323: No such file or directory", 
 ```
 mkdir --parents /Volumes/dns323
 ```
+
+---
+
+Posted Oct 28, 2013.
+https://www.darklaunch.com/2013/10/28/mount-dns-323-on-os-x

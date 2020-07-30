@@ -16,3 +16,8 @@ from subprocess import PIPE, Popen
 ```
 
 Fixes: "ImportError: cannot import name PIPE"
+
+---
+
+Posted Nov 11, 2017.
+https://www.darklaunch.com/2017/11/11/python-simulate-an-imported-module

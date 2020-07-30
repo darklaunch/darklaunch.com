@@ -58,3 +58,8 @@ Use the "key" parameter when calling sorted() to sort a dictionary into numerica
 ('13', 'm')
 ('14', 'n')
 ```
+
+---
+
+Posted Apr 8, 2017.
+https://www.darklaunch.com/2017/04/08/python-sort-an-ordereddict

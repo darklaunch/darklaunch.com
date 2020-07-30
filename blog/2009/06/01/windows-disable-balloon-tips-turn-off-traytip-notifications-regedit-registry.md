@@ -6,3 +6,8 @@ Windows Registry Editor Version 5.00
 "EnableBalloonTips"=dword:00000000
 ```
 Save the above code as DisableBalloonTips.reg and open the file to import it.
+
+---
+
+Posted Jun 1, 2009.
+https://www.darklaunch.com/2009/06/01/windows-disable-balloon-tips-turn-off-traytip-notifications-regedit-registry

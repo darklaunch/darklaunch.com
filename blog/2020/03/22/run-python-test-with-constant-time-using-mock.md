@@ -18,3 +18,8 @@ $ python run_test.py
 2020-01-01 00:00:00
 2020-01-01 00:00:00
 ```
+
+---
+
+Posted Mar 22, 2020.
+https://www.darklaunch.com/2020/03/22/run-python-test-with-constant-time-using-mock

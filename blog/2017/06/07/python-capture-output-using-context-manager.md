@@ -73,3 +73,8 @@ line: 3
 ```
 
 https://stackoverflow.com/questions/16571150/
+
+---
+
+Posted Jun 7, 2017.
+https://www.darklaunch.com/2017/06/07/python-capture-output-using-context-manager

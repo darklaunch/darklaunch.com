@@ -23,3 +23,8 @@ fetch_page(url='https://www.example.com/login', method='POST', data={
 })
 # {'url': 'https://www.example.com/login', 'follow_redirects': False, 'data': {'username': 'myusername', 'password': 'mypassword'}, 'method': 'POST'}
 ```
+
+---
+
+Posted May 30, 2016.
+https://www.darklaunch.com/2016/05/30/python-combine-keyword-arguments

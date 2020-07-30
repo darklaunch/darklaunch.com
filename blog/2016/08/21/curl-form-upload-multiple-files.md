@@ -32,3 +32,8 @@ Here is the equivalent html form:
     <input type="submit" />
 </form>
 ```
+
+---
+
+Posted Aug 21, 2016.
+https://www.darklaunch.com/2016/08/21/curl-form-upload-multiple-files

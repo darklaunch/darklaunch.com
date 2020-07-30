@@ -25,3 +25,8 @@ They also specify `X-Frame-Options` in a meta tag. The value deny is to block th
 ```
 <noscript><meta http-equiv="X-Frame-Options" content="deny"/></noscript>
 ```
+
+---
+
+Posted Nov 9, 2010.
+https://www.darklaunch.com/2010/11/09/facebook-s-anti-clickjacking-techniques

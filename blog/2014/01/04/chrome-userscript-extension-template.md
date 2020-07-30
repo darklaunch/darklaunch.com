@@ -24,3 +24,8 @@ addJQuery(function() {
     jQ('.selector').find('button').click();
 });
 ```
+
+---
+
+Posted Jan 4, 2014.
+https://www.darklaunch.com/2014/01/04/chrome-userscript-extension-template

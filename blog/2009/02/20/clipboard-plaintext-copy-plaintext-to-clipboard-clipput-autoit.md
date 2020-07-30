@@ -33,3 +33,8 @@ This script basically does the same thing as pasting your clipboard into notepad
 
 More useful hotkeys:
 http://authoitkey.googlecode.com/
+
+---
+
+Posted Feb 20, 2009.
+https://www.darklaunch.com/2009/02/20/clipboard-plaintext-copy-plaintext-to-clipboard-clipput-autoit

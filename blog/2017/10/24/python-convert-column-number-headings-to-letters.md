@@ -25,3 +25,8 @@ AA
 >>>
 ```
 kw: Microsoft Excel, Google Sheets, A1, R1C1, spreadsheet, column, row
+
+---
+
+Posted Oct 24, 2017.
+https://www.darklaunch.com/2017/10/24/python-convert-column-number-headings-to-letters

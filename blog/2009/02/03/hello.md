@@ -7,3 +7,8 @@ Facebook Engineer Eugene Letuchy tells us:
 Dark Launch is fitting.
 
 I hope to share here what I've gathered from many hours searching the net.
+
+---
+
+Posted Feb 3, 2009.
+https://www.darklaunch.com/2009/02/03/hello

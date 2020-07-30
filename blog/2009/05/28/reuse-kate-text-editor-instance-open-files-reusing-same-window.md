@@ -9,3 +9,8 @@ Now opening multiple files associated with Kate will re-use the existing window.
 The -u tells Take to open files in the same Kate instance.
 
 NOTE: or use '/usr/bin/kate' -u %U
+
+---
+
+Posted May 28, 2009.
+https://www.darklaunch.com/2009/05/28/reuse-kate-text-editor-instance-open-files-reusing-same-window

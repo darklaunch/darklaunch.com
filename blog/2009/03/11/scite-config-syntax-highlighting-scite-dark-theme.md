@@ -8,3 +8,8 @@ http://code.google.com/p/scite-config/
     * PY
     * SQL
     * XML
+
+---
+
+Posted Mar 11, 2009.
+https://www.darklaunch.com/2009/03/11/scite-config-syntax-highlighting-scite-dark-theme

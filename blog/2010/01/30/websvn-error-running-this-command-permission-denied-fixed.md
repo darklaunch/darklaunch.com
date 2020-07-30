@@ -30,3 +30,8 @@ function quoteCommand($cmd) {
 ```
 
 Add: else { $cmd = 'sudo -u root ' . $cmd; } to give svn permission.
+
+---
+
+Posted Jan 30, 2010.
+https://www.darklaunch.com/2010/01/30/websvn-error-running-this-command-permission-denied-fixed

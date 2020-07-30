@@ -31,3 +31,8 @@ while :; do
   fi
 done
 ```
+
+---
+
+Posted May 13, 2015.
+https://www.darklaunch.com/2015/05/13/move-mouse-to-prevent-screensaver-from-activating-locking

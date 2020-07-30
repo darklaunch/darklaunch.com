@@ -14,3 +14,8 @@ if [ $(screen -list | grep "$sessionname" | wc --lines) -ge 1 ]; then
     screen -S "$sessionname" -X "quit"
 fi
 ```
+
+---
+
+Posted Jul 26, 2012.
+https://www.darklaunch.com/2012/07/26/kill-screen-session-using-command-line-bash

@@ -18,3 +18,8 @@ $var1 = $nodes->item(0);
 $var2 = $nodes->item(1);
 $var3 = $nodes->item(2);
 ```
+
+---
+
+Posted May 13, 2016.
+https://www.darklaunch.com/2016/05/13/php-fix-cannot-use-object-of-type-domnodelist-as-array

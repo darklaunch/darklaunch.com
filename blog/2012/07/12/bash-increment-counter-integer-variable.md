@@ -42,3 +42,8 @@ echo $x
 `
 
 kw: addition, add, subtraction, subtract, mathematics, math
+
+---
+
+Posted Jul 12, 2012.
+https://www.darklaunch.com/2012/07/12/bash-increment-counter-integer-variable

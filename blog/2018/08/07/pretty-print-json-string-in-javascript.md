@@ -15,3 +15,8 @@ var output = JSON.stringify(JSON.parse(input), null, 2);
   "string": "string"
 }"
 ```
+
+---
+
+Posted Aug 7, 2018.
+https://www.darklaunch.com/2018/08/07/pretty-print-json-string-in-javascript

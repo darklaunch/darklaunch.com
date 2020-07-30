@@ -60,3 +60,8 @@ for key in list(DATABASES.keys()):
         'isolation_level': 'read committed',
     }
 ```
+
+---
+
+Posted Oct 13, 2017.
+https://www.darklaunch.com/2017/10/13/django-enable-mysql-strict-mode

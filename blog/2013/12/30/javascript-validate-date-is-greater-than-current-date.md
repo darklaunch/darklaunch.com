@@ -15,3 +15,8 @@ if (!(date > today)) {
 ```
 
 Note that the values for month in `Date()` are from 0 to 11.
+
+---
+
+Posted Dec 30, 2013.
+https://www.darklaunch.com/2013/12/30/javascript-validate-date-is-greater-than-current-date

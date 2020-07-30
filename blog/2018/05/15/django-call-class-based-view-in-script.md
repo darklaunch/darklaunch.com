@@ -80,3 +80,8 @@ Content-Type: text/html; charset=utf-8
 
 <html><body>You are on page 2.</body></html>
 ```
+
+---
+
+Posted May 15, 2018.
+https://www.darklaunch.com/2018/05/15/django-call-class-based-view-in-script

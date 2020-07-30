@@ -5,3 +5,8 @@ The first version is to lock down every dependency as tightly as you can to avoi
 The second version is upgrade early, upgrade often. This will occasionally lead to problems, but they tend to be temporary and easily fixed. And in the long run, your system will age better. Google is an excellent example of a company that does this."
 
 from https://news.ycombinator.com/item?id=20032255
+
+---
+
+Posted Aug 8, 2019.
+https://www.darklaunch.com/2019/08/08/upgrade-early-upgrade-often

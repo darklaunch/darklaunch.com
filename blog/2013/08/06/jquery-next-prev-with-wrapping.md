@@ -46,3 +46,8 @@ console.log($('.two').prevWrap().is('.one')); // true
 console.log($('.one').prevWrap().is('.three')); // true
 </script>
 ```
+
+---
+
+Posted Aug 6, 2013.
+https://www.darklaunch.com/2013/08/06/jquery-next-prev-with-wrapping

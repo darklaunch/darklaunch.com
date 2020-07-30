@@ -17,3 +17,8 @@ Explained:
 g - global replace
 c - confirm replacements (type y (yes) to confirm replacements)
 ```
+
+---
+
+Posted Jul 7, 2012.
+https://www.darklaunch.com/2012/07/07/vim-replace-2-spaces-indent-with-4-spaces

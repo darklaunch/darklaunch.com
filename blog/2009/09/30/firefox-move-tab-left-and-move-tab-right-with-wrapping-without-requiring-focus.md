@@ -32,3 +32,8 @@ else {
 5. Select the "Move Tab Left" shortcut and assign it the keyboard shortcut of ALT+Page Up. Click Apply.
 
 4. Now open a new Firefox window (for changes to take effect) with 3 different tabs open. With the first tab focused, press ALT+Page Down and the tab will move to the right. Move it all the way past the last tab and it will wrap and move to the first tab position.
+
+---
+
+Posted Sep 30, 2009.
+https://www.darklaunch.com/2009/09/30/firefox-move-tab-left-and-move-tab-right-with-wrapping-without-requiring-focus

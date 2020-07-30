@@ -20,3 +20,8 @@ array(4) {
   string(1) "d"
 }
 ```
+
+---
+
+Posted Dec 2, 2018.
+https://www.darklaunch.com/2018/12/02/php-split-on-multiple-delimiters

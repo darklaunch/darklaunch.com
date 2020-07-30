@@ -17,3 +17,8 @@ smb:/// - windows/samba networks
 x-nautilus-desktop:/// - desktop objects and icons
 trash:/// - local trash
 ```
+
+---
+
+Posted Oct 31, 2010.
+https://www.darklaunch.com/2010/10/31/where-are-nautilus-bookmarks-stored-nautilus-bookmark-location

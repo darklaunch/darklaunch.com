@@ -39,3 +39,8 @@ Python 3.6.7
 Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
+
+---
+
+Posted Oct 24, 2019.
+https://www.darklaunch.com/2019/10/24/run-python-2-and-python-3-versions-using-pipenv

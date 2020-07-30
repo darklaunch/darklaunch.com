@@ -25,3 +25,8 @@ codesign -s "My Certificate" -f $(which python)
 In the dialog that appears, click "Allow".
 
 Note that when using a virtual environment, you need to activate the virtual environment before running this command.
+
+---
+
+Posted Feb 2, 2014.
+https://www.darklaunch.com/2014/02/02/fix-do-you-want-the-application-python-to-accept-incoming-network-connections

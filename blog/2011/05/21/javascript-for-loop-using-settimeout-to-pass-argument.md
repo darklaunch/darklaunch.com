@@ -63,3 +63,8 @@ for (let i = 0; i < 5; i++) {
     }, time);
 }
 ```
+
+---
+
+Posted May 21, 2011.
+https://www.darklaunch.com/2011/05/21/javascript-for-loop-using-settimeout-to-pass-argument

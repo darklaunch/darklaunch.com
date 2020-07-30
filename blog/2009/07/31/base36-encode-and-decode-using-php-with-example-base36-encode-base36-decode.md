@@ -75,3 +75,8 @@ base36_decode('lfls') => 1000000
 base36_decode('gjdgxs') => 1000000000
 base36_decode('cre66i9s') => 1000000000000
 ```
+
+---
+
+Posted Jul 31, 2009.
+https://www.darklaunch.com/2009/07/31/base36-encode-and-decode-using-php-with-example-base36-encode-base36-decode

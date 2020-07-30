@@ -18,3 +18,8 @@ if __name__ == '__main__':
 ```
 
 <img alt="" src="/img/uploads/2012-07/python-touch-file.png" />
+
+---
+
+Posted Jul 10, 2012.
+https://www.darklaunch.com/2012/07/10/python-touch-file

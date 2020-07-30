@@ -10,3 +10,8 @@ For toggling mute:
 amixer set Master toggle
 ```
 After each code shortcut command is added, press a hotkey to associate it with the command.
+
+---
+
+Posted Feb 15, 2010.
+https://www.darklaunch.com/2010/02/15/control-volume-with-keyboard-shortcut-in-xfce

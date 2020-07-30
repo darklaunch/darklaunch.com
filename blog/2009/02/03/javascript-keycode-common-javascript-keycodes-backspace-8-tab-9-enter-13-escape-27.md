@@ -123,3 +123,8 @@ $('#search-input').keydown(function(event) {
 
 https://github.com/jquery/jquery-ui/blob/master/external/jquery-simulate/jquery.simulate.js
 https://api.jquery.com/event.which/
+
+---
+
+Posted Feb 3, 2009.
+https://www.darklaunch.com/2009/02/03/javascript-keycode-common-javascript-keycodes-backspace-8-tab-9-enter-13-escape-27

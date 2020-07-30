@@ -22,3 +22,8 @@ if top window is not this window{
 ```
 
 NOTE: i think they meant document.write('');
+
+---
+
+Posted Sep 26, 2009.
+https://www.darklaunch.com/2009/09/26/twitter-s-frame-breaker-to-stop-clickjacking

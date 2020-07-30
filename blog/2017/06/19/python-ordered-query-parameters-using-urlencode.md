@@ -19,3 +19,8 @@ params = [
 ]
 print(urlencode(OrderedDict(params))) # a=1&b=2&c=3 (correct)
 ```
+
+---
+
+Posted Jun 19, 2017.
+https://www.darklaunch.com/2017/06/19/python-ordered-query-parameters-using-urlencode

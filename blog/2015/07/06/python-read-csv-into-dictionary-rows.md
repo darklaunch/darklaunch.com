@@ -46,3 +46,8 @@ You can also read the next line by doing either reader.next() or next(reader):
 headers = reader.next()
 headers = next(reader)
 ```
+
+---
+
+Posted Jul 6, 2015.
+https://www.darklaunch.com/2015/07/06/python-read-csv-into-dictionary-rows

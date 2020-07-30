@@ -9,3 +9,8 @@ class MyModelAdmin(admin.ModelAdmin):
     queryset = queryset.prefetch_related('user')
     return queryset
 ```
+
+---
+
+Posted Feb 4, 2015.
+https://www.darklaunch.com/2015/02/04/how-to-prefetch-related-queryset-in-django-admin

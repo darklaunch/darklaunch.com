@@ -13,3 +13,8 @@ Additionally, you may want to increase the number of possible completions that m
 # show more possible completions
 set completion-query-items 350
 ```
+
+---
+
+Posted Mar 1, 2012.
+https://www.darklaunch.com/2012/03/01/bash-single-tab-auto-completion

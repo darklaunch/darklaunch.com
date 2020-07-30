@@ -19,3 +19,8 @@ $ python
 >>> mymodule
 <module 'some.path.that.contains.is.keyword.mymodule' from 'some/path/that/contains/is/keyword/mymodule.pyc'>
 ```
+
+---
+
+Posted Feb 24, 2018.
+https://www.darklaunch.com/2018/02/24/python-import-path-containing-reserved-keyword-2

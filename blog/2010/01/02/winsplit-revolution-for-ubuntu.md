@@ -28,3 +28,8 @@ wmctrl -r :ACTIVE: -b remove,maximized_vert,maximized_horz; wmctrl -r :ACTIVE: -
 Bottom right:
 wmctrl -r :ACTIVE: -b remove,maximized_vert,maximized_horz; wmctrl -r :ACTIVE: -e 1,680,366,672,341
 ```
+
+---
+
+Posted Jan 2, 2010.
+https://www.darklaunch.com/2010/01/02/winsplit-revolution-for-ubuntu

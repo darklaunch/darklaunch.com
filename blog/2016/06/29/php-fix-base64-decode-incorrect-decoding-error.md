@@ -15,3 +15,8 @@ Why? The mapping table of the base64 implementations vary. For example, the Gmai
 https://en.wikipedia.org/wiki/Base64#Implementations_and_history
 
 Keywords: base64, base64_encode, base64_decode, atob, btoa, JavaScript
+
+---
+
+Posted Jun 29, 2016.
+https://www.darklaunch.com/2016/06/29/php-fix-base64-decode-incorrect-decoding-error

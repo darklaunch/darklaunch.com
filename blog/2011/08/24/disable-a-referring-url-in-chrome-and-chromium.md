@@ -61,3 +61,8 @@ Other files containing references to "enable_referrers":
 http://src.chromium.org/svn/trunk/src/content/common/view_messages.h
 http://src.chromium.org/svn/trunk/src/content/common/renderer_preferences.h
 http://src.chromium.org/svn/trunk/src/chrome/browser/net/chrome_network_delegate.cc
+
+---
+
+Posted Aug 24, 2011.
+https://www.darklaunch.com/2011/08/24/disable-a-referring-url-in-chrome-and-chromium

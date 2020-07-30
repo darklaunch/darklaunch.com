@@ -66,3 +66,8 @@ protected function _loadRegex() {
     $this->ip4 = "(?:{$oct}\\.{$oct}\\.{$oct}\\.{$oct})"; // PHP complex variable
 }
 ```
+
+---
+
+Posted Feb 3, 2009.
+https://www.darklaunch.com/2009/02/03/example-php-page-php-syntax-highlighting-page

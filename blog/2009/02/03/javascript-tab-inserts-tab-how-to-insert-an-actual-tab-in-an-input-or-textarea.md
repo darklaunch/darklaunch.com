@@ -44,3 +44,7 @@ function insertAtCursor(myField, myValue){
 
 EDIT: see the jQuery version of this http://darklaunch.com/2009/02/03/javascript-insert-tabs-into-textarea-insert-tabs-into-input-javascript-tab-indent
 
+---
+
+Posted Feb 3, 2009.
+https://www.darklaunch.com/2009/02/03/javascript-tab-inserts-tab-how-to-insert-an-actual-tab-in-an-input-or-textarea

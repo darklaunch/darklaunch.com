@@ -43,3 +43,8 @@ $ cd ~/Projects/another-project
 $ git config user.name "another-project"
 $ git config user.email "username+another-project@example.com"
 ```
+
+---
+
+Posted Sep 24, 2013.
+https://www.darklaunch.com/2013/09/24/github-ssh-multiple-accounts-users-for-separate-projects

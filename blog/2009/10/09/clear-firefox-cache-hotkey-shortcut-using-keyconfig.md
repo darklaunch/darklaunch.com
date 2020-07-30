@@ -33,3 +33,8 @@ STORE_ANYWHERE - cache stored in any device
 STORE_IN_MEMORY - cache entry in non-persistent storage (RAM)
 STORE_ON_DISK - cache entry in persistent storage (HDD)
 STORE_ON_DISK_AS_DISK - cache entry in persistent storage in a specific file
+
+---
+
+Posted Oct 9, 2009.
+https://www.darklaunch.com/2009/10/09/clear-firefox-cache-hotkey-shortcut-using-keyconfig

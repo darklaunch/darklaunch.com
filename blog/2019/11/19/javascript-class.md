@@ -64,3 +64,8 @@ MyClass.getCharacterFromNumber.character: 2
 mc.result: 2
 mc.publicVariable: some public value
 ```
+
+---
+
+Posted Nov 19, 2019.
+https://www.darklaunch.com/2019/11/19/javascript-class

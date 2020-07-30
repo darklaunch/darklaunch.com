@@ -30,3 +30,8 @@ Sanitisminau	1.0	true	{772C5315-9ECA-4aad-81E6-2A3BB86ED14E}
 Open With	3.8.3	true	openwith@darktrojan.net
 about:me	0.4.1	false	aboutme@test.mozilla.com
 ```
+
+---
+
+Posted Feb 12, 2010.
+https://www.darklaunch.com/2010/02/12/firefox-profile-directory-and-extensions-id

@@ -17,3 +17,8 @@ $ open "/System/Library/CoreServices/Screen Sharing.app" vnc://hostname
 
 Screen sharing on OS X
 <img alt="" src="/img/uploads/2015-10/os-x-screen-sharing.png" />
+
+---
+
+Posted Oct 4, 2015.
+https://www.darklaunch.com/2015/10/04/os-x-screen-sharing-application

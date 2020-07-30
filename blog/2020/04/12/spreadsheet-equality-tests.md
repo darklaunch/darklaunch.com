@@ -16,3 +16,8 @@ Test cell A1 and B1:
 =A1=VALUE(B1)
 =VALUE(A1)=VALUE(B1)
 ```
+
+---
+
+Posted Apr 12, 2020.
+https://www.darklaunch.com/2020/04/12/spreadsheet-equality-tests

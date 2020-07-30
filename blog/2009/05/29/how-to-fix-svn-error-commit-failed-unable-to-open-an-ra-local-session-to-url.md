@@ -41,3 +41,8 @@ svn info
 ```
 
 NOTE: Remember there are three (3) slashes after file in file:///
+
+---
+
+Posted May 29, 2009.
+https://www.darklaunch.com/2009/05/29/how-to-fix-svn-error-commit-failed-unable-to-open-an-ra-local-session-to-url

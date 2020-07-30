@@ -41,3 +41,8 @@ Find unicode characters in vim
 ```
 /\%u2013
 ```
+
+---
+
+Posted Nov 20, 2017.
+https://www.darklaunch.com/2017/11/20/find-unicode-characters-in-file

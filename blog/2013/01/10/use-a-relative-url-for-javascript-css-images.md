@@ -18,3 +18,8 @@ https://www.example.com:8080/some/resource?key=value#hash
   |            |         |         |           |      |
 scheme        host      port      path       query   fragment
 ```
+
+---
+
+Posted Jan 10, 2013.
+https://www.darklaunch.com/2013/01/10/use-a-relative-url-for-javascript-css-images

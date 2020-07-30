@@ -53,3 +53,8 @@ return code: 0
 ```
 
 <img alt="" src="/img/uploads/2013-04/run-php-sudo.png" />
+
+---
+
+Posted Apr 21, 2013.
+https://www.darklaunch.com/2013/04/21/php-run-command-as-sudo-without-changing-any-apache-settings

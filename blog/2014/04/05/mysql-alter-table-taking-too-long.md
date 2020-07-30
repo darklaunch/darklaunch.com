@@ -17,3 +17,8 @@ SHOW DATABASES;
 USE `mydatabase`;
 ALTER TABLE `mytable` DROP `thecolumn`;
 ```
+
+---
+
+Posted Apr 5, 2014.
+https://www.darklaunch.com/2014/04/05/mysql-alter-table-taking-too-long

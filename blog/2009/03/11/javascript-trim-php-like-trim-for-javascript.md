@@ -42,3 +42,8 @@ function rtrim(str, chars){
 	return str.replace(new RegExp("[" + chars + "]+$", "g"), "");
 }
 ```
+
+---
+
+Posted Mar 11, 2009.
+https://www.darklaunch.com/2009/03/11/javascript-trim-php-like-trim-for-javascript

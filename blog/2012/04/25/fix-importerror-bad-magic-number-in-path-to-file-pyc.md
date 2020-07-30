@@ -9,3 +9,8 @@ Alternatively, if you'd like to run some other command on the files found, use t
 ```bash
 $ find . -name "*.pyc" -exec rm {} \;
 ```
+
+---
+
+Posted Apr 25, 2012.
+https://www.darklaunch.com/2012/04/25/fix-importerror-bad-magic-number-in-path-to-file-pyc

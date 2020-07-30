@@ -12,3 +12,8 @@ For company-based shortcuts, use and replace example.com in these urls:
 <img alt="" src="/img/uploads/2015-09/google-docs-create-new-document.png" />
 
 keywords: newdoc, newtrix
+
+---
+
+Posted Sep 12, 2015.
+https://www.darklaunch.com/2015/09/12/google-document-bookmark-to-create-new-document-and-new-spreadsheet

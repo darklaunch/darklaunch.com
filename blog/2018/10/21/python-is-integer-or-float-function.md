@@ -162,3 +162,8 @@ for char in char_list:
 |           ➒ |                 |    ✓    |           |
 -------------------------------------------------------
 ```
+
+---
+
+Posted Oct 21, 2018.
+https://www.darklaunch.com/2018/10/21/python-is-integer-or-float-function

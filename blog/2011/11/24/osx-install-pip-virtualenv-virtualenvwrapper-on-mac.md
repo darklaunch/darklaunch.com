@@ -36,3 +36,8 @@ look for Xcode.mpkg in
 and run that instead.
 
 <img alt="" src="/img/uploads/2011-11/osx-install-pip-virtual-environment.png" />
+
+---
+
+Posted Nov 24, 2011.
+https://www.darklaunch.com/2011/11/24/osx-install-pip-virtualenv-virtualenvwrapper-on-mac

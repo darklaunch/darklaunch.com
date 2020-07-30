@@ -13,3 +13,8 @@ This will allow playback of commercial DVDs that are encrypted with CSS (Content
 Also, please use VLC Media Player https://www.videolan.org/
 
 Enjoy your movie.
+
+---
+
+Posted Jul 1, 2011.
+https://www.darklaunch.com/2011/07/01/ubuntu-play-restricted-dvd-fix-this-may-be-because-the-dvd-is-encrypted-and-a-dvd-decryption-library-is-not-installed

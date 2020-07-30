@@ -12,3 +12,8 @@ This will disable the "Motorola Update Services".
 https://play.google.com/store/apps/details?id=com.motorola.ccc.ota
 
 Yes, root is required.
+
+---
+
+Posted Apr 10, 2015.
+https://www.darklaunch.com/2015/04/10/disable-motorolaota

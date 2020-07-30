@@ -12,3 +12,8 @@ From `man ffmpeg-utils', here an accepted syntax for the time fields:
 ```
 [-][<HH>:]<MM>:<SS>[.<m>...]
 ```
+
+---
+
+Posted Jan 9, 2018.
+https://www.darklaunch.com/2018/01/09/trim-mp3-using-ffmpeg

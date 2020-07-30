@@ -45,3 +45,8 @@ for (var i in list) {
  10000000 => '10,000,000'
 100000000 => '100,000,000'
 ```
+
+---
+
+Posted May 9, 2013.
+https://www.darklaunch.com/2013/05/09/javascript-thousands-separator-function

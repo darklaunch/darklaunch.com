@@ -30,3 +30,8 @@ A more honest ingredient list for this product might look like this:
 * Live Active Cultures
 
 It is time for an update to the regulations to eliminate this trickery. Let's keep the ingredient list flat and avoid this dishonesty.
+
+---
+
+Posted Jul 18, 2020.
+https://www.darklaunch.com/2020/07/18/sugar-splitting

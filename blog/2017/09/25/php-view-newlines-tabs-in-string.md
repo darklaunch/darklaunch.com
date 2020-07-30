@@ -7,3 +7,8 @@ function raw($str) {
     return $str;
 }
 ```
+
+---
+
+Posted Sep 25, 2017.
+https://www.darklaunch.com/2017/09/25/php-view-newlines-tabs-in-string

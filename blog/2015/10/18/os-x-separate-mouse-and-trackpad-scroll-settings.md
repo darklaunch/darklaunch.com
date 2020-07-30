@@ -29,3 +29,8 @@ $ open /Applications/Karabiner.app/Contents/Applications/EventViewer.app
 ```
 
 <img alt="" src="/img/uploads/2015-10/os-x-eventviewer.png" />
+
+---
+
+Posted Oct 18, 2015.
+https://www.darklaunch.com/2015/10/18/os-x-separate-mouse-and-trackpad-scroll-settings

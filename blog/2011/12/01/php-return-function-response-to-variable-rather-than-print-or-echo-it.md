@@ -51,3 +51,8 @@ echo $example3;
 ```
 
 Note: Anonymous functions are available since PHP 5.3.0.
+
+---
+
+Posted Dec 1, 2011.
+https://www.darklaunch.com/2011/12/01/php-return-function-response-to-variable-rather-than-print-or-echo-it

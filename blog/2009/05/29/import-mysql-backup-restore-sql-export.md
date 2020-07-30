@@ -16,3 +16,8 @@ To view the status of the import, check the process list.
 $ mysql
 mysql> show processlist;
 ```
+
+---
+
+Posted May 29, 2009.
+https://www.darklaunch.com/2009/05/29/import-mysql-backup-restore-sql-export

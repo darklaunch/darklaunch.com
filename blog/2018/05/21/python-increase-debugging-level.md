@@ -13,3 +13,8 @@ logging.warning('warning message')
 logging.error('error message')
 logging.critical('critical message')
 ```
+
+---
+
+Posted May 21, 2018.
+https://www.darklaunch.com/2018/05/21/python-increase-debugging-level

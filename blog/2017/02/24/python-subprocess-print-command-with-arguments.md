@@ -17,3 +17,8 @@ $ python
 >>> subprocess.list2cmdline(cmd_list)
 '/usr/bin/binary -v --recursive --exclude=.git'
 ```
+
+---
+
+Posted Feb 24, 2017.
+https://www.darklaunch.com/2017/02/24/python-subprocess-print-command-with-arguments

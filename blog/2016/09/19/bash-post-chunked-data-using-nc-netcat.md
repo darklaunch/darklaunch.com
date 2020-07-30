@@ -22,3 +22,8 @@ array(1) {
   string(3) "bar"
 }
 ```
+
+---
+
+Posted Sep 19, 2016.
+https://www.darklaunch.com/2016/09/19/bash-post-chunked-data-using-nc-netcat

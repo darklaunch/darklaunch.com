@@ -11,3 +11,8 @@ Email* ____________________
 Date* (mm/dd/yyyy) __________
  
 [SUBMIT BUTTON]
+
+---
+
+Posted Nov 11, 2010.
+https://www.darklaunch.com/2010/11/11/online-signature-that-is-legally-binding-sign-virtually

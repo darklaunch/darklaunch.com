@@ -25,3 +25,8 @@ Now xls files will open in Microsoft Office Excel.
 NOTE:
 For opening doc files in Word, see
 http://darklaunch.com/2009/12/01/open-microsoft-office-document-in-wine-word-microsoft-doc-files-open-with
+
+---
+
+Posted Nov 6, 2009.
+https://www.darklaunch.com/2009/11/06/open-microsoft-office-document-in-wine-word-excel-doc-xls-open-with

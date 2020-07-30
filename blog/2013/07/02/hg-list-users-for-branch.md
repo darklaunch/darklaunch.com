@@ -11,3 +11,8 @@ Eve <eve@example.com>
 ```
 
 Note: Please use git.
+
+---
+
+Posted Jul 2, 2013.
+https://www.darklaunch.com/2013/07/02/hg-list-users-for-branch

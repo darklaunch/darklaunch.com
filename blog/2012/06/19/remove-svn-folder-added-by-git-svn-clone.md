@@ -16,3 +16,8 @@ $ svn del http://www.example.com/svn/myproject/trunk/path/to/.svn -m
 You will now be able to successfully `svn checkout` the repository.
 
 Please use git.
+
+---
+
+Posted Jun 19, 2012.
+https://www.darklaunch.com/2012/06/19/remove-svn-folder-added-by-git-svn-clone

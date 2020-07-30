@@ -19,3 +19,7 @@ You visit a malicious site that has the <img /> tag. Technically you are request
 More
 The <img /> tag is one example. A form and data can be submitted. An iframe can be requested (<iframe src="http://example.com/signout"></iframe>).
 
+---
+
+Posted Feb 3, 2009.
+https://www.darklaunch.com/2009/02/03/cross-site-request-forgery-csrf-xsrf

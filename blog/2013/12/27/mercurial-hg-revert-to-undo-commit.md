@@ -31,3 +31,8 @@ $ hg strip <hash_id>
 ```
 
 kw: hg undo commit, rollback, backout, strip
+
+---
+
+Posted Dec 27, 2013.
+https://www.darklaunch.com/2013/12/27/mercurial-hg-revert-to-undo-commit

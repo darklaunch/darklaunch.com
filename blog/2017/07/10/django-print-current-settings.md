@@ -26,3 +26,8 @@ Display the current Django project settings.
  'X_FRAME_OPTIONS': u'SAMEORIGIN',
  'YEAR_MONTH_FORMAT': u'F Y'}
 ```
+
+---
+
+Posted Jul 10, 2017.
+https://www.darklaunch.com/2017/07/10/django-print-current-settings

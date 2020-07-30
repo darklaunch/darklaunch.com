@@ -17,3 +17,8 @@ time rsync \
     /path/to/src/ \
     user@host:/path/to/dest/
 ```
+
+---
+
+Posted Nov 23, 2014.
+https://www.darklaunch.com/2014/11/23/rsync-using-a-different-port

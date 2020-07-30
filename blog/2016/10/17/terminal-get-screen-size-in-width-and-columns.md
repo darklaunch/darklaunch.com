@@ -9,3 +9,8 @@ $ tput cols
 $ tput lines
 20
 ```
+
+---
+
+Posted Oct 17, 2016.
+https://www.darklaunch.com/2016/10/17/terminal-get-screen-size-in-width-and-columns

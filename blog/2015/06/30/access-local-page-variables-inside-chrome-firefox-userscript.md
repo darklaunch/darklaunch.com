@@ -18,3 +18,8 @@ In your callback, be sure to only use multiline comments if needed ("/* comment 
 <img alt="" src="/img/uploads/2015-06/userscript-access-loca-page-variables.png" />
 
 kw: jQuery, unsafewindow, greasemonkey, chrome, firefox
+
+---
+
+Posted Jun 30, 2015.
+https://www.darklaunch.com/2015/06/30/access-local-page-variables-inside-chrome-firefox-userscript

@@ -10,3 +10,8 @@ Now you can continue with the pycurl install
 ```bash
 $ pip install pycurl
 ```
+
+---
+
+Posted Nov 3, 2013.
+https://www.darklaunch.com/2013/11/03/fix-exception-curl-config-not-found-please-install-the-libcurl-development-files

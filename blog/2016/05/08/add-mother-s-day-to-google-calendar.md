@@ -21,3 +21,8 @@ Import ics file into Google Calendar:
 
 <img alt="" src="/img/uploads/2016-05/google-calendar-import-calendar.png" />
 <img alt="" src="/img/uploads/2016-05/google-calendar-select-ics-file.png" />
+
+---
+
+Posted May 8, 2016.
+https://www.darklaunch.com/2016/05/08/add-mother-s-day-to-google-calendar

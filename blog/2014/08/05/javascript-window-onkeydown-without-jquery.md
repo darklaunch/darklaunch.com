@@ -7,3 +7,8 @@ window.onkeydown = function(event) {
     }
 };
 ```
+
+---
+
+Posted Aug 5, 2014.
+https://www.darklaunch.com/2014/08/05/javascript-window-onkeydown-without-jquery

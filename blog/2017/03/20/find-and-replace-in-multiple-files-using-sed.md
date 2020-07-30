@@ -27,3 +27,8 @@ sed -i 's/before/after/' myfile.txt
 sed -i '' -e 's/before/after/' myfile.txt
 sed -i'' -e's/before/after/' myfile.txt
 ```
+
+---
+
+Posted Mar 20, 2017.
+https://www.darklaunch.com/2017/03/20/find-and-replace-in-multiple-files-using-sed

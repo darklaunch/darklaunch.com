@@ -65,3 +65,8 @@ $ svnadmin verify -r 87 /path/to/repository/
 Repeat these commands for all the checksum mismatch errors. Now the svn checkout command should work.
 
 Note this method changes affects the integrity of the repository. If you know the exact(!) changes that were made to the file or files in the repository, you can change them back and the checksum will succeed.
+
+---
+
+Posted Oct 21, 2014.
+https://www.darklaunch.com/2014/10/21/fix-svnadmin-checksum-mismatch-while-reading-representation

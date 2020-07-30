@@ -7,3 +7,8 @@ python ./myscript.py | tee -a output.log
 ```
 
 The output from the script is piped to tee and tee prints to stdout and appends to the specified log file.
+
+---
+
+Posted Nov 11, 2011.
+https://www.darklaunch.com/2011/11/11/bash-stdout-write-output-to-file

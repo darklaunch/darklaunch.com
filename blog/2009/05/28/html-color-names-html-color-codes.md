@@ -142,3 +142,8 @@
 ```
 
 I used these for gEdit themes.
+
+---
+
+Posted May 28, 2009.
+https://www.darklaunch.com/2009/05/28/html-color-names-html-color-codes

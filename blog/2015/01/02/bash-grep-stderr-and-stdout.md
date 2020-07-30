@@ -17,3 +17,8 @@ php -r 'fwrite(STDOUT, "stdout\n");fwrite(STDERR, "stderr\n");' | grep --color s
 php -r 'fwrite(STDOUT, "stdout\n");fwrite(STDERR, "stderr\n");' 2>&1 | grep --color std
 php -r 'fwrite(STDOUT, "stdout\n");fwrite(STDERR, "stderr\n");' 2>&1 > /dev/null | grep --color std
 ```
+
+---
+
+Posted Jan 2, 2015.
+https://www.darklaunch.com/2015/01/02/bash-grep-stderr-and-stdout

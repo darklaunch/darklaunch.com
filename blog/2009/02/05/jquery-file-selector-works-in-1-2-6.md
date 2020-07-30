@@ -42,3 +42,8 @@ Why doesn't value expression work in the current release?
 RE: http://dev.jquery.com/ticket/4083
 
 > UPDATE: $('#myform :file[value!=\'\']') selector works again with the release of jQuery 1.3.2
+
+---
+
+Posted Feb 5, 2009.
+https://www.darklaunch.com/2009/02/05/jquery-file-selector-works-in-1-2-6

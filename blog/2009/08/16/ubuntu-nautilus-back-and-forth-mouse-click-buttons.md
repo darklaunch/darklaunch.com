@@ -35,3 +35,8 @@ xbindkeys
 ```
 
 Now clicking the back and forth mouse keys will navigate back and forth in Nautilus.
+
+---
+
+Posted Aug 16, 2009.
+https://www.darklaunch.com/2009/08/16/ubuntu-nautilus-back-and-forth-mouse-click-buttons

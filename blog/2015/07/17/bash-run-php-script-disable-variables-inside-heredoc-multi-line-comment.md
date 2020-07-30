@@ -17,3 +17,8 @@ php <<"EOF"
 echo rand() . "\n";
 EOF
 ```
+
+---
+
+Posted Jul 17, 2015.
+https://www.darklaunch.com/2015/07/17/bash-run-php-script-disable-variables-inside-heredoc-multi-line-comment

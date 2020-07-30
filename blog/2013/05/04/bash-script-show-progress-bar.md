@@ -37,3 +37,8 @@ echo -en "\r\033[K" # Completely overwrite last line
 
 echo "Done."
 ```
+
+---
+
+Posted May 4, 2013.
+https://www.darklaunch.com/2013/05/04/bash-script-show-progress-bar

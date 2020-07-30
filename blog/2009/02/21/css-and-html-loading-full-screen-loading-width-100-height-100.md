@@ -31,3 +31,8 @@
     width:200px;
 }
 ```
+
+---
+
+Posted Feb 21, 2009.
+https://www.darklaunch.com/2009/02/21/css-and-html-loading-full-screen-loading-width-100-height-100

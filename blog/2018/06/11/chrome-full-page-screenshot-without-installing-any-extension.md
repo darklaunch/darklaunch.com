@@ -20,3 +20,8 @@ Open the command menu:
 The full size screenshot is saved to you downloads folder.
 
 <img alt="" src="/img/uploads/2018-06/chrome-full-page-screenshot.png" />
+
+---
+
+Posted Jun 11, 2018.
+https://www.darklaunch.com/2018/06/11/chrome-full-page-screenshot-without-installing-any-extension

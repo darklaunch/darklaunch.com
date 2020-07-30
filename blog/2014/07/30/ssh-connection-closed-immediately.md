@@ -44,3 +44,8 @@ $ sudo /etc/init.d/ssh start
 by the ssh deamon (sshd) using sshd with the -d Debug mode enabled
 
 Possible errors: "debug1: Could not open authorized keys '/.../.ssh/authorized_keys2': No such file or directory"
+
+---
+
+Posted Jul 30, 2014.
+https://www.darklaunch.com/2014/07/30/ssh-connection-closed-immediately

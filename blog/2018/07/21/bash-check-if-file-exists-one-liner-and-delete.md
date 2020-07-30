@@ -36,3 +36,8 @@ $ bash run.sh
 + echo done
 done
 ```
+
+---
+
+Posted Jul 21, 2018.
+https://www.darklaunch.com/2018/07/21/bash-check-if-file-exists-one-liner-and-delete

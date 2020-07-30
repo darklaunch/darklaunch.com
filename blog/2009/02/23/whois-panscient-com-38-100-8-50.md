@@ -49,3 +49,8 @@ OrgTechName:   IP Allocation
 OrgTechPhone:  +1-877-875-4311
 OrgTechEmail:  ipalloc@cogentco.com
 ```
+
+---
+
+Posted Feb 23, 2009.
+https://www.darklaunch.com/2009/02/23/whois-panscient-com-38-100-8-50

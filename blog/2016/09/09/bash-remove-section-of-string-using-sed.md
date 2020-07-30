@@ -30,3 +30,8 @@ $ cat myfile.txt | sed '/BEGIN IGNORE/,/END IGNORE/d'
 14
 15
 ```
+
+---
+
+Posted Sep 9, 2016.
+https://www.darklaunch.com/2016/09/09/bash-remove-section-of-string-using-sed

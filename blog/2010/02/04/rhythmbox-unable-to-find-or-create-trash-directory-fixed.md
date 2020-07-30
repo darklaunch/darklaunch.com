@@ -39,3 +39,8 @@ AND
 ```
 man 8 mount.cifs
 ```
+
+---
+
+Posted Feb 4, 2010.
+https://www.darklaunch.com/2010/02/04/rhythmbox-unable-to-find-or-create-trash-directory-fixed

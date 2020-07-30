@@ -343,3 +343,8 @@ with timer.name('My Task I'):
 9000 ms └ My Task I stop
 """
 ```
+
+---
+
+Posted Sep 14, 2012.
+https://www.darklaunch.com/2012/09/14/python-measure-elapsed-execution-time-timer-class

@@ -7,3 +7,8 @@ To fix Compatibility View in Internet Explorer, force IE to use the latest rende
 // intranet sites in Compatibility View" setting.
 header('X-UA-Compatible: IE=Edge');
 ```
+
+---
+
+Posted Jun 17, 2013.
+https://www.darklaunch.com/2013/06/17/how-to-fix-compatibility-view-in-ie

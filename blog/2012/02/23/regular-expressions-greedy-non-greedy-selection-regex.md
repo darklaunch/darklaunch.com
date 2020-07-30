@@ -23,3 +23,8 @@ Replace the greedy quantifier with the corresponding non-greedy version.
 
 More from the Perl Cookbook
 http://docstore.mik.ua/orelly/perl/cookbook/ch06_16.htm
+
+---
+
+Posted Feb 23, 2012.
+https://www.darklaunch.com/2012/02/23/regular-expressions-greedy-non-greedy-selection-regex

@@ -55,3 +55,8 @@ $ kill -9 $ppid
 $ sudo kill $ppid
 $ sudo kill -9 $ppid
 ```
+
+---
+
+Posted Dec 10, 2017.
+https://www.darklaunch.com/2017/12/10/bash-kill-shell-script-running-in-background

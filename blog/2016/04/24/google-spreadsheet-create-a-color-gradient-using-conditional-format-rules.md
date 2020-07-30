@@ -5,3 +5,8 @@ Create a color gradient using conditional format rules with Google Spreadsheet. 
 green - #57bb8a
 yellow - #ffd666
 red - #e67c73
+
+---
+
+Posted Apr 24, 2016.
+https://www.darklaunch.com/2016/04/24/google-spreadsheet-create-a-color-gradient-using-conditional-format-rules

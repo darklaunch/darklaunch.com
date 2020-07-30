@@ -60,3 +60,8 @@ search: ?arg=value
 toString(): https://username:password@www.example.com:9000/path?arg=value#anchor
 username: username
 ```
+
+---
+
+Posted Dec 9, 2015.
+https://www.darklaunch.com/2015/12/09/javascript-parse-url-using-document-createelement

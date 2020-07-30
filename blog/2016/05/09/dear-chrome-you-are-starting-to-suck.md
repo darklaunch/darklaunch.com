@@ -9,3 +9,8 @@ Full text:
 Unsupported Extensions Disabled
 
 To make Chrome safer, we disabled some extensions that aren't listed in the Chrome Web Store and may have been added without your knowledge.
+
+---
+
+Posted May 9, 2016.
+https://www.darklaunch.com/2016/05/09/dear-chrome-you-are-starting-to-suck

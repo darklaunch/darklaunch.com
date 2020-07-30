@@ -7,3 +7,8 @@ To remove the message boxes / windows that appear while Windows is loading do th
 Restart your computer and the loading message windows / boxes will not appear.
 
 NOTE: You may also want to disable the Welcome screen: Control Panel > User Accounts > Change the way users log on or off > uncheck "Use the Welcome screen" > click Apply Options.
+
+---
+
+Posted Oct 1, 2009.
+https://www.darklaunch.com/2009/10/01/windows-xp-remove-boot-shutdown-logon-logoff-status-messages

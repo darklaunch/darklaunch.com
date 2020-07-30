@@ -82,3 +82,8 @@ print('{} has passed'.format(duration_human(elapsed)))
 Example 2 Output:
 
 `1 second has passed`
+
+---
+
+Posted Oct 6, 2009.
+https://www.darklaunch.com/2009/10/06/python-time-duration-human-friendly-timestamp

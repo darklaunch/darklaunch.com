@@ -78,3 +78,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         '';
 }
 ```
+
+---
+
+Posted May 1, 2009.
+https://www.darklaunch.com/2009/05/01/php-file-upload-error-codes-upload-err-ok

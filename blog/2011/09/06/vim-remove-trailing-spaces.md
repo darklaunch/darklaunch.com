@@ -17,3 +17,8 @@ Explained:
 g - global replace
 c - confirm replacements (type y (yes) to confirm replacements)
 ```
+
+---
+
+Posted Sep 6, 2011.
+https://www.darklaunch.com/2011/09/06/vim-remove-trailing-spaces

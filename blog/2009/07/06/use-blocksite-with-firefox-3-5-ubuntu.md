@@ -16,3 +16,8 @@ The file previously read:
 ```
 
 NOTE: You may need to delete the extension's folder ("/{dd3d7613-0246-469d-bc65-2a3cc1668adc}/"), run Firefox so BlockSite is missing from Add-ons and then close the browser. Lastly, restore the deleted folder from trash so the browser can detect the changes and restart Firefox.
+
+---
+
+Posted Jul 6, 2009.
+https://www.darklaunch.com/2009/07/06/use-blocksite-with-firefox-3-5-ubuntu

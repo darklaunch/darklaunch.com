@@ -19,3 +19,8 @@ scp -P 2222 /path/to/source/file.txt myusername@localhost:/path/to/destination/
 ```
 
 <img alt="" src="/img/uploads/2012-02/virtual-box-ssh-port-forwarding.png" />
+
+---
+
+Posted Feb 29, 2012.
+https://www.darklaunch.com/2012/02/29/virtualbox-ssh-port-22-forwarding

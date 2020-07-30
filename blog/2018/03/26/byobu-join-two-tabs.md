@@ -21,3 +21,8 @@ This will split the current window horizontally with the current window in the t
              src-pane into the space.  This can be used to reverse break-pane.  The -b option causes src-pane
              to be joined to left of or above dst-pane.
 ```
+
+---
+
+Posted Mar 26, 2018.
+https://www.darklaunch.com/2018/03/26/byobu-join-two-tabs

@@ -16,3 +16,8 @@ if TEST_ENV:
 ```
 
 kw: sqlite3, :memory:, mode=memory
+
+---
+
+Posted Aug 11, 2017.
+https://www.darklaunch.com/2017/08/11/django-use-in-memory-database-when-running-tests

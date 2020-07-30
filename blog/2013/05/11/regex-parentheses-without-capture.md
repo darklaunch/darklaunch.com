@@ -33,3 +33,8 @@ $matches = array(
 ```
 
 <img alt="" src="/img/uploads/2013-05/regex-named-capture.png" />
+
+---
+
+Posted May 11, 2013.
+https://www.darklaunch.com/2013/05/11/regex-parentheses-without-capture

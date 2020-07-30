@@ -80,3 +80,8 @@ getScript("sanitize.js",
 
 4. Set your preferred hotkey. Something like Alt+Ctrl+Shift+Del.
 5. Open a new window for the new hotkey to work. Press the hotkey you set and a notification in the corner will appear.
+
+---
+
+Posted Oct 9, 2009.
+https://www.darklaunch.com/2009/10/09/clear-private-data-in-firefox-without-the-clear-recent-history-dialog-window-clear-recent-history

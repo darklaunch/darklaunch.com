@@ -25,3 +25,8 @@ And now passwordless ssh-ing into the machine also works with the ssh config add
 ```bash
 $ ssh 10.20.1.10
 ```
+
+---
+
+Posted Nov 8, 2012.
+https://www.darklaunch.com/2012/11/08/how-to-rsync-using-a-public-ssh-key

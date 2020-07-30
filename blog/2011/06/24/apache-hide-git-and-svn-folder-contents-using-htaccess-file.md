@@ -35,3 +35,8 @@ RewriteCond %{REQUEST_URI} !\.png
 RewriteCond %{REQUEST_URI} !.*\/$
 RewriteRule .* /404 [L,R=302]
 ```
+
+---
+
+Posted Jun 24, 2011.
+https://www.darklaunch.com/2011/06/24/apache-hide-git-and-svn-folder-contents-using-htaccess-file

@@ -19,3 +19,8 @@ whereis geany
 >>> geany: /usr/bin/geany /usr/lib/geany /usr/lib64/geany /usr/include/geany /usr/share/geany /usr/share/man/man1/geany.1.gz
 ```
 Now we know the location of geany is "/usr/bin/geany".
+
+---
+
+Posted Jul 31, 2009.
+https://www.darklaunch.com/2009/07/31/firefox-open-with-application-preferences-content-type-always-ask-use-application-ubuntu-whereis

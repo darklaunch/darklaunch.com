@@ -18,3 +18,8 @@ $ replace="year: \1; month: \2; day: \3"
 $ echo "https://www.example.com/2014/04/28/page-slug" | perl -pe "s/${find}/${replace}/"
 year: 2014; month: 04; day: 28
 ```
+
+---
+
+Posted Apr 28, 2014.
+https://www.darklaunch.com/2014/04/28/bash-find-replace-using-regex-pipe

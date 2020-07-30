@@ -12,3 +12,8 @@ sudo apt-get install cups-pdf
 for example: /home/user/PDF/printed.pdf
 
 <img alt="" src="/img/uploads/2011-11/install-pdf-printer.png" />
+
+---
+
+Posted Feb 26, 2011.
+https://www.darklaunch.com/2011/02/26/ubuntu-print-to-pdf-install-a-pdf-printer

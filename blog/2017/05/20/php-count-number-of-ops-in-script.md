@@ -108,3 +108,8 @@ $ open /tmp/paths.png
 ```
 
 <img alt="" src="/img/uploads/2017-05/paths.png" />
+
+---
+
+Posted May 20, 2017.
+https://www.darklaunch.com/2017/05/20/php-count-number-of-ops-in-script

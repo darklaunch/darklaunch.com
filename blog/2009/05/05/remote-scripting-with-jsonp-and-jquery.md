@@ -18,3 +18,8 @@ $.ajax({
 ```
 
 NOTE: Updating is also possible using a GET request, but limited to around 2000 characters for some browsers and not recommended.
+
+---
+
+Posted May 5, 2009.
+https://www.darklaunch.com/2009/05/05/remote-scripting-with-jsonp-and-jquery

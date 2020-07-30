@@ -144,3 +144,8 @@ print_256() {
 print_16_colors
 print_256
 ```
+
+---
+
+Posted May 23, 2020.
+https://www.darklaunch.com/2020/05/23/print-terminal-colors

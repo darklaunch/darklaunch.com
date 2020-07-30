@@ -17,3 +17,8 @@ console.log(prettySize('1073741824'));       // 1.00 GB
 console.log(prettySize('1099511627776'));    // 1.00 TB
 console.log(prettySize('1125899906842624')); // 1.00 PB
 ```
+
+---
+
+Posted Jun 20, 2013.
+https://www.darklaunch.com/2013/06/20/javascript-bytes-to-human-readable-bytes-kilobytes-megabytes-etc

@@ -13,3 +13,8 @@ Update <maxVersion>:
 ```
 
 maxVersion needs to be greater than 3.0.7
+
+---
+
+Posted Mar 5, 2009.
+https://www.darklaunch.com/2009/03/05/keyconfig-with-firefox-3-0-7-install-rdf

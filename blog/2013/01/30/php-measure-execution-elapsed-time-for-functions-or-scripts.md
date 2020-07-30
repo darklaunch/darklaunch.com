@@ -110,3 +110,8 @@ The above code will output something similar to this.
     [yet another task] => 3.04
 )
 ```
+
+---
+
+Posted Jan 30, 2013.
+https://www.darklaunch.com/2013/01/30/php-measure-execution-elapsed-time-for-functions-or-scripts

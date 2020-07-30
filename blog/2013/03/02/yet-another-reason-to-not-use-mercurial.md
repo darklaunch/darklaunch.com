@@ -7,3 +7,8 @@ From the official Mercurial website, here is a quote for yet another reason agai
 http://mercurial.selenic.com/wiki/StandardBranching#Don.27t_treat_branch_names_as_disposable
 
 Please use git.
+
+---
+
+Posted Mar 2, 2013.
+https://www.darklaunch.com/2013/03/02/yet-another-reason-to-not-use-mercurial

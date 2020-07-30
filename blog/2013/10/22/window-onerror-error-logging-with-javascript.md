@@ -19,3 +19,8 @@ JavaScript window.onerror logging and error handling.
 ```
 
 More notes on error event fires can be found on http://www.quirksmode.org/dom/events/error.html
+
+---
+
+Posted Oct 22, 2013.
+https://www.darklaunch.com/2013/10/22/window-onerror-error-logging-with-javascript

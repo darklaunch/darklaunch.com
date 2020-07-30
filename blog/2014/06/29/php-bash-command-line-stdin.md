@@ -14,3 +14,8 @@ listdir ()
 ```
 
 <img alt="" src="/img/uploads/2014-06/bash-stdin-php-command-line.png" />
+
+---
+
+Posted Jun 29, 2014.
+https://www.darklaunch.com/2014/06/29/php-bash-command-line-stdin

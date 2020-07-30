@@ -41,3 +41,8 @@ $ script="
 $ echo "${some_bash_var}" | python -c "${script}"
 hello world
 ```
+
+---
+
+Posted Feb 3, 2012.
+https://www.darklaunch.com/2012/02/03/how-to-include-python-script-in-bash-script

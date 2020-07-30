@@ -30,3 +30,8 @@ xwininfo: Window id: 0x20ffa54 "Dark Launch - Mozilla Firefox"
   Corners:  +1039+48  -865+48  -865-402  +1039-402
   -geometry 800x600+1039+48
 ```
+
+---
+
+Posted Aug 18, 2009.
+https://www.darklaunch.com/2009/08/18/ubuntu-get-window-position-information-xwininfo

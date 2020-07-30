@@ -33,3 +33,8 @@ text: Link
 html: <a href="https://www.example.com/">Link</a>
 href: https://www.example.com/
 ```
+
+---
+
+Posted Jan 18, 2018.
+https://www.darklaunch.com/2018/01/18/parse-html-string-with-node-js-jquery-and-jsdom

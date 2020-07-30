@@ -8,3 +8,8 @@ Set the following:
 middlemouse.paste=false
 middlemouse.contentLoadURL=false
 ```
+
+---
+
+Posted Jul 3, 2009.
+https://www.darklaunch.com/2009/07/03/how-to-disable-middle-click-paste-in-firefox-ubuntu

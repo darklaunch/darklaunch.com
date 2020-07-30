@@ -53,3 +53,8 @@ function dbg(msg, level) {
             .scrollTop($debugbox.find('> div').prop('scrollHeight'));
 }
 ```
+
+---
+
+Posted Feb 5, 2009.
+https://www.darklaunch.com/2009/02/05/awesome-javascript-debugger

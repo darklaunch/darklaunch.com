@@ -82,3 +82,8 @@ string found on line number 1
 type: <type 'str'>
 version: 3.0
 ```
+
+---
+
+Posted Mar 20, 2019.
+https://www.darklaunch.com/2019/03/20/get-python-version-in-script-without-import-or-eval

@@ -27,3 +27,8 @@ Change myfile to the file input value name.
 var_dump($_POST);
 var_dump($_FILES);
 ```
+
+---
+
+Posted Jun 15, 2009.
+https://www.darklaunch.com/2009/06/15/how-to-upload-a-file-via-the-command-line-using-curl-upload-an-image-using-curl

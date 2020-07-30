@@ -4,3 +4,8 @@ PHP scripts typically runs under the www-data user. Verify this using the follow
 $command = 'whoami';
 echo exec($command) . "\n";
 ```
+
+---
+
+Posted Sep 12, 2010.
+https://www.darklaunch.com/2010/09/12/php-whoami-whoami-www-data-using-exec

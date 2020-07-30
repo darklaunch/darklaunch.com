@@ -20,3 +20,8 @@ Fusce consectetur varius semper. Class aptent taciti sociosqu ad litora torquent
 
 Aenean eget iaculis lectus. Sed sollicitudin enim ut lorem imperdiet vel feugiat eros commodo. Fusce eget eros libero, ac pretium risus. Aenean volutpat scelerisque leo, et consectetur augue vehicula quis. In hac habitasse platea dictumst. Aenean dignissim sollicitudin porta. Integer semper, nunc et interdum gravida, lectus ante elementum orci, sed convallis ante dui eget massa. Quisque consectetur quam erat, non laoreet purus. Aliquam mauris nisl, egestas eget congue non, accumsan a nibh. Nulla libero erat, ornare ut auctor sed, tincidunt eget lorem.
 ```
+
+---
+
+Posted May 11, 2009.
+https://www.darklaunch.com/2009/05/11/iphone-css-overflow-overflow-x-overflow-y-support

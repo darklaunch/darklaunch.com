@@ -15,3 +15,8 @@ echo curl_exec($ch);
 ```
 
 NOTE: Avoid using `curl_setopt_array()`. Use `curl_setopt()` instead.
+
+---
+
+Posted May 1, 2009.
+https://www.darklaunch.com/2009/05/01/php-file-upload-using-curl-uploading-a-file-using-curl-just-like-a-form-post

@@ -11,3 +11,8 @@ Example:
 $amount = 123456;
 echo money_format($amount); // 123,456.00
 ```
+
+---
+
+Posted Jun 14, 2009.
+https://www.darklaunch.com/2009/06/14/how-to-format-a-dollar-amount-using-php-money-format-number-format

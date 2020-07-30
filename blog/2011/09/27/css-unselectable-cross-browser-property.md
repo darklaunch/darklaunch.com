@@ -24,3 +24,8 @@ The user-select CSS Property determines whether the content of an element is sel
    user-select: auto !important;
 }
 ```
+
+---
+
+Posted Sep 27, 2011.
+https://www.darklaunch.com/2011/09/27/css-unselectable-cross-browser-property

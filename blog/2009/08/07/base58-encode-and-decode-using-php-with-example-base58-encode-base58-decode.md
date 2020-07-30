@@ -98,3 +98,8 @@ base58_decode('4k') => 193
 base58_encode('195') => 4n
 base58_decode('4n') => 195
 ```
+
+---
+
+Posted Aug 7, 2009.
+https://www.darklaunch.com/2009/08/07/base58-encode-and-decode-using-php-with-example-base58-encode-base58-decode

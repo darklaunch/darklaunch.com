@@ -52,3 +52,8 @@ The following code reproduces the error message in Internet Explorer 8:
 ```
 
 <img alt="image" src="/img/uploads/2009-10/Iq0Wu.png" />
+
+---
+
+Posted Oct 8, 2009.
+https://www.darklaunch.com/2009/10/08/automation-server-can-t-create-object-jquery

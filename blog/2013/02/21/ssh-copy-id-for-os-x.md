@@ -76,3 +76,8 @@ to make sure we haven't added extra keys that you weren't expecting.
  
 EOF
 ```
+
+---
+
+Posted Feb 21, 2013.
+https://www.darklaunch.com/2013/02/21/ssh-copy-id-for-os-x

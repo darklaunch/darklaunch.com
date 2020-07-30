@@ -16,3 +16,8 @@ class MyCsrfExemptView(View):
 ```
 
 NOTE: This can be unsafe. Consider using `Access-Control-Allow-Origin` or verifying the origin header and the referer header.
+
+---
+
+Posted Nov 10, 2016.
+https://www.darklaunch.com/2016/11/10/django-class-based-view-csrf-exempt

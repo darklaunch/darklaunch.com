@@ -20,3 +20,8 @@ Output:
 And then I found 5 dollars
 Roll the die
 ```
+
+---
+
+Posted May 21, 2010.
+https://www.darklaunch.com/2010/05/21/php-plural-pluralize-words-in-php-plural-word-plural

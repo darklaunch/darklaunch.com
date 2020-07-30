@@ -10,3 +10,8 @@ function raw(str) {
 ```
 
 The /g modifier finds and replaces all occurrences.
+
+---
+
+Posted Mar 9, 2009.
+https://www.darklaunch.com/2009/03/09/javascript-view-newlines-tabs-in-string

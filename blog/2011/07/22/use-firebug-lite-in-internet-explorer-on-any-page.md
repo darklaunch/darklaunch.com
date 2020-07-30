@@ -13,3 +13,8 @@ javascript:var script = document.createElement("script"); script.type = "text/ja
 ```
 
 > UPDATE: This method mentioned worked in older versions of IE. For newer versions, use the bookmarklet method. That is, drag the bookmarklet on firebug lite's download page ( http://getfirebug.com/firebuglite ) to your favorites bar. When on the page you want to debug, click the bookmark. Try each of the bookmarklet versions if the stable version doesn't work for you.
+
+---
+
+Posted Jul 22, 2011.
+https://www.darklaunch.com/2011/07/22/use-firebug-lite-in-internet-explorer-on-any-page

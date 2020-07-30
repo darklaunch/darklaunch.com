@@ -25,3 +25,8 @@ object(stdClass)#1 (2) {
   string(22) "This is my first post."
 }
 ```
+
+---
+
+Posted Jul 16, 2017.
+https://www.darklaunch.com/2017/07/16/curl-post-multiline-json-data-from-stdin

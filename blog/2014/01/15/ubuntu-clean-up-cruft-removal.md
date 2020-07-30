@@ -21,3 +21,8 @@ sudo apt-get install ubuntu-tweak
 # Finally
 sudo apt-get autoremove
 ```
+
+---
+
+Posted Jan 15, 2014.
+https://www.darklaunch.com/2014/01/15/ubuntu-clean-up-cruft-removal

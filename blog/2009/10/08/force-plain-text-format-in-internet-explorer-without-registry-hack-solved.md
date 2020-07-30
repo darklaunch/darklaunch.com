@@ -45,3 +45,8 @@ UPDATE: Sending the X-Content-Type-Options response header will stop MIME-sniffi
 ```php
 header('X-Content-Type-Options: nosniff');
 ```
+
+---
+
+Posted Oct 8, 2009.
+https://www.darklaunch.com/2009/10/08/force-plain-text-format-in-internet-explorer-without-registry-hack-solved

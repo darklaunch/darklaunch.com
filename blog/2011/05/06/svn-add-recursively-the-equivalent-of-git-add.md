@@ -19,3 +19,8 @@ And as an alias for recursively svn adding unversioned files:
 # svn add unversioned files
 alias sau="php -r '\$files = array(); foreach (simplexml_load_string(\$argv[\"1\"])->target->entry as \$entry) { if (\$entry->{\"wc-status\"}->attributes()->item == \"unversioned\") { \$files[] = chr(34) . (string)\$entry->attributes()->path . chr(34); }; } echo implode(\" \", \$files) . \"\n\"; ' \"\$(svn status --xml)\" | xargs svn add"
 ```
+
+---
+
+Posted May 6, 2011.
+https://www.darklaunch.com/2011/05/06/svn-add-recursively-the-equivalent-of-git-add

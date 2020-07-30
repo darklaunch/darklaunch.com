@@ -17,3 +17,8 @@ pprint.pprint(connection.queries)
 ```
 
 If your queries are slowing you down, look into using select_related() to follow foreign keys
+
+---
+
+Posted Oct 23, 2011.
+https://www.darklaunch.com/2011/10/23/django-show-the-raw-sql-query-running

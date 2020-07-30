@@ -27,3 +27,8 @@ Then logout and remap Command + Ctrl + d in ShiftIt preferences.
 <img alt="" src="/img/uploads/2014-02/shiftit-preferences.png" />
 
 https://superuser.com/questions/326223/
+
+---
+
+Posted Feb 23, 2014.
+https://www.darklaunch.com/2014/02/23/window-manager-for-os-x-shiftit

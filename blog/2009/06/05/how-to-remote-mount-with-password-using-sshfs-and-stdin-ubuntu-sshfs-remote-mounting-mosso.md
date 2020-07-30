@@ -14,3 +14,8 @@ NOTE: Make sure the mount folder ~/mnt/example exists or create it:
 ```bash
 mkdir -p ~/mnt/example
 ```
+
+---
+
+Posted Jun 5, 2009.
+https://www.darklaunch.com/2009/06/05/how-to-remote-mount-with-password-using-sshfs-and-stdin-ubuntu-sshfs-remote-mounting-mosso
