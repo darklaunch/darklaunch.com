@@ -21,5 +21,6 @@ https://validator.w3.org/
 
 ---
 
+
 Posted May 10, 2011.
-https://www.darklaunch.com/2011/05/10/minimum-html5-markup-for-a-page-that-validates-successfully
+https://www.darklaunch.com/2011/05/10/minimum-html5-markup-for-a-page-that-validates-successfully.html

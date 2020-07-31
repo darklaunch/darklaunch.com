@@ -49,5 +49,6 @@ headers = next(reader)
 
 ---
 
+
 Posted Jul 6, 2015.
-https://www.darklaunch.com/2015/07/06/python-read-csv-into-dictionary-rows
+https://www.darklaunch.com/2015/07/06/python-read-csv-into-dictionary-rows.html

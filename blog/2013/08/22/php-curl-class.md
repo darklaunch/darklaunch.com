@@ -21,5 +21,6 @@ More examples and download at https://github.com/php-curl-class/php-curl-class
 
 ---
 
+
 Posted Aug 22, 2013.
-https://www.darklaunch.com/2013/08/22/php-curl-class
+https://www.darklaunch.com/2013/08/22/php-curl-class.html

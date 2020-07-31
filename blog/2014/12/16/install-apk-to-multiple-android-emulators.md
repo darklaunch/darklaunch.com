@@ -30,5 +30,6 @@ $ ./adb -s emulator-5554 install ~/my_app.apk
 
 ---
 
+
 Posted Dec 16, 2014.
-https://www.darklaunch.com/2014/12/16/install-apk-to-multiple-android-emulators
+https://www.darklaunch.com/2014/12/16/install-apk-to-multiple-android-emulators.html

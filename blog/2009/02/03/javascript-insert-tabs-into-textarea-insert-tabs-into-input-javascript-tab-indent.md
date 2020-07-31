@@ -39,5 +39,6 @@ $(document).ready(function(){
 
 ---
 
+
 Posted Feb 3, 2009.
-https://www.darklaunch.com/2009/02/03/javascript-insert-tabs-into-textarea-insert-tabs-into-input-javascript-tab-indent
+https://www.darklaunch.com/2009/02/03/javascript-insert-tabs-into-textarea-insert-tabs-into-input-javascript-tab-indent.html

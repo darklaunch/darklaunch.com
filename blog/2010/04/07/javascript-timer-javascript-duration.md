@@ -35,5 +35,6 @@ function doSomething() {
 
 ---
 
+
 Posted Apr 7, 2010.
-https://www.darklaunch.com/2010/04/07/javascript-timer-javascript-duration
+https://www.darklaunch.com/2010/04/07/javascript-timer-javascript-duration.html

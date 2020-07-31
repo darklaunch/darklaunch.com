@@ -8,5 +8,6 @@ from https://news.ycombinator.com/item?id=20032255
 
 ---
 
+
 Posted Aug 8, 2019.
-https://www.darklaunch.com/2019/08/08/upgrade-early-upgrade-often
+https://www.darklaunch.com/2019/08/08/upgrade-early-upgrade-often.html

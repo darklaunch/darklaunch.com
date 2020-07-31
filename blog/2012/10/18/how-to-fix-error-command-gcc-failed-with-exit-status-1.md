@@ -22,5 +22,6 @@ sudo pip install virtualenvwrapper
 
 ---
 
+
 Posted Oct 18, 2012.
-https://www.darklaunch.com/2012/10/18/how-to-fix-error-command-gcc-failed-with-exit-status-1
+https://www.darklaunch.com/2012/10/18/how-to-fix-error-command-gcc-failed-with-exit-status-1.html

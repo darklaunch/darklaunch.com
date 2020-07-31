@@ -6,5 +6,6 @@ View the example demo here: <a href="/gmail-progress-bar-example.html">https://w
 
 ---
 
+
 Posted Dec 14, 2012.
-https://www.darklaunch.com/2012/12/14/gmail-s-loading-screen-in-html-css
+https://www.darklaunch.com/2012/12/14/gmail-s-loading-screen-in-html-css.html

@@ -22,5 +22,6 @@ Common alternate delimiters: #, @, !
 
 ---
 
+
 Posted Oct 11, 2011.
-https://www.darklaunch.com/2011/10/11/php-remove-all-but-allowed-characters-or-disallowed-chars
+https://www.darklaunch.com/2011/10/11/php-remove-all-but-allowed-characters-or-disallowed-chars.html

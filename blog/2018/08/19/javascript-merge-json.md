@@ -31,5 +31,6 @@ console.log(JSON.stringify(combined, null, 2));
 
 ---
 
+
 Posted Aug 19, 2018.
-https://www.darklaunch.com/2018/08/19/javascript-merge-json
+https://www.darklaunch.com/2018/08/19/javascript-merge-json.html

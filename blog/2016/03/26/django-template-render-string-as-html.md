@@ -45,5 +45,6 @@ Hello, World and alice!
 
 ---
 
+
 Posted Mar 26, 2016.
-https://www.darklaunch.com/2016/03/26/django-template-render-string-as-html
+https://www.darklaunch.com/2016/03/26/django-template-render-string-as-html.html

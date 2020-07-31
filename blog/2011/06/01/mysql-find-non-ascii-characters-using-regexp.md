@@ -11,5 +11,6 @@ WHERE
 
 ---
 
+
 Posted Jun 1, 2011.
-https://www.darklaunch.com/2011/06/01/mysql-find-non-ascii-characters-using-regexp
+https://www.darklaunch.com/2011/06/01/mysql-find-non-ascii-characters-using-regexp.html

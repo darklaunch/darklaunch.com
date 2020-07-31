@@ -14,5 +14,6 @@ with open('in.csv', 'r') as fr, open('out.csv', 'w') as fw:
 
 ---
 
+
 Posted Sep 14, 2017.
-https://www.darklaunch.com/2017/09/14/python-open-multiple-files
+https://www.darklaunch.com/2017/09/14/python-open-multiple-files.html

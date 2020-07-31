@@ -31,5 +31,6 @@ queue.join()
 
 ---
 
+
 Posted Nov 10, 2014.
-https://www.darklaunch.com/2014/11/10/python-threading-example-queue
+https://www.darklaunch.com/2014/11/10/python-threading-example-queue.html

@@ -17,5 +17,6 @@ function call_url($url) {
 
 ---
 
+
 Posted Mar 23, 2013.
-https://www.darklaunch.com/2013/03/23/php-non-blocking-fopen-file-get-contents-using-stream-set-blocking
+https://www.darklaunch.com/2013/03/23/php-non-blocking-fopen-file-get-contents-using-stream-set-blocking.html

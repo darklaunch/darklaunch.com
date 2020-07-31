@@ -14,5 +14,6 @@ b.collapsed = !b.collapsed;
 
 ---
 
+
 Posted May 10, 2009.
-https://www.darklaunch.com/2009/05/10/toggle-firefox-bookmarks-toolbar-keyconfig
+https://www.darklaunch.com/2009/05/10/toggle-firefox-bookmarks-toolbar-keyconfig.html

@@ -10,5 +10,6 @@ This example finds all directories and symbolic links in the current directory.
 
 ---
 
+
 Posted Feb 26, 2014.
-https://www.darklaunch.com/2014/02/26/bash-find-multiple-file-types-directories-symbolic-links
+https://www.darklaunch.com/2014/02/26/bash-find-multiple-file-types-directories-symbolic-links.html

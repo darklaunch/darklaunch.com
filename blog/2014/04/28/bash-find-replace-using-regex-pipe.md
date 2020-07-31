@@ -21,5 +21,6 @@ year: 2014; month: 04; day: 28
 
 ---
 
+
 Posted Apr 28, 2014.
-https://www.darklaunch.com/2014/04/28/bash-find-replace-using-regex-pipe
+https://www.darklaunch.com/2014/04/28/bash-find-replace-using-regex-pipe.html

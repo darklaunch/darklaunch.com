@@ -14,5 +14,6 @@ Fixes errors: "Error: No code coverage driver is available" and "Error:  Incorre
 
 ---
 
+
 Posted Feb 14, 2020.
-https://www.darklaunch.com/2020/02/14/install-xdebug-on-a-mac
+https://www.darklaunch.com/2020/02/14/install-xdebug-on-a-mac.html

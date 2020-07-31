@@ -67,5 +67,6 @@ http://code.google.com/p/class-query/
 
 ---
 
+
 Posted Apr 1, 2009.
-https://www.darklaunch.com/2009/04/01/php-sql-query-class
+https://www.darklaunch.com/2009/04/01/php-sql-query-class.html

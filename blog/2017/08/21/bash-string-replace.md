@@ -23,5 +23,6 @@ aBcaBc
 
 ---
 
+
 Posted Aug 21, 2017.
-https://www.darklaunch.com/2017/08/21/bash-string-replace
+https://www.darklaunch.com/2017/08/21/bash-string-replace.html

@@ -83,5 +83,6 @@ getScript("sanitize.js",
 
 ---
 
+
 Posted Oct 9, 2009.
-https://www.darklaunch.com/2009/10/09/clear-private-data-in-firefox-without-the-clear-recent-history-dialog-window-clear-recent-history
+https://www.darklaunch.com/2009/10/09/clear-private-data-in-firefox-without-the-clear-recent-history-dialog-window-clear-recent-history.html

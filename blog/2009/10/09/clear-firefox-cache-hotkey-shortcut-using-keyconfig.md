@@ -36,5 +36,6 @@ STORE_ON_DISK_AS_DISK - cache entry in persistent storage in a specific file
 
 ---
 
+
 Posted Oct 9, 2009.
-https://www.darklaunch.com/2009/10/09/clear-firefox-cache-hotkey-shortcut-using-keyconfig
+https://www.darklaunch.com/2009/10/09/clear-firefox-cache-hotkey-shortcut-using-keyconfig.html

@@ -19,5 +19,6 @@ http://darklaunch.com/2009/05/11/toggle-firefox-toolbars-webdeveloper-toolbar-ke
 
 ---
 
+
 Posted Nov 11, 2009.
-https://www.darklaunch.com/2009/11/11/toggle-firefox-navigation-toolbar-keyconfig-nav-bar-personaltoolbar-webdeveloper-toolbar
+https://www.darklaunch.com/2009/11/11/toggle-firefox-navigation-toolbar-keyconfig-nav-bar-personaltoolbar-webdeveloper-toolbar.html

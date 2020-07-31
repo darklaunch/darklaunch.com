@@ -85,5 +85,6 @@ Example 2 Output:
 
 ---
 
+
 Posted Oct 6, 2009.
-https://www.darklaunch.com/2009/10/06/python-time-duration-human-friendly-timestamp
+https://www.darklaunch.com/2009/10/06/python-time-duration-human-friendly-timestamp.html

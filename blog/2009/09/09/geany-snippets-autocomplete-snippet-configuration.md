@@ -160,5 +160,6 @@ db={% %cursor% %}
 
 ---
 
+
 Posted Sep 9, 2009.
-https://www.darklaunch.com/2009/09/09/geany-snippets-autocomplete-snippet-configuration
+https://www.darklaunch.com/2009/09/09/geany-snippets-autocomplete-snippet-configuration.html

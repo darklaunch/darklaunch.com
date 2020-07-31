@@ -15,5 +15,6 @@ for example: /home/user/PDF/printed.pdf
 
 ---
 
+
 Posted Feb 26, 2011.
-https://www.darklaunch.com/2011/02/26/ubuntu-print-to-pdf-install-a-pdf-printer
+https://www.darklaunch.com/2011/02/26/ubuntu-print-to-pdf-install-a-pdf-printer.html

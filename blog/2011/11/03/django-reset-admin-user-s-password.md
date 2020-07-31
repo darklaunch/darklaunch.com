@@ -21,5 +21,6 @@ admin.save()
 
 ---
 
+
 Posted Nov 3, 2011.
-https://www.darklaunch.com/2011/11/03/django-reset-admin-user-s-password
+https://www.darklaunch.com/2011/11/03/django-reset-admin-user-s-password.html

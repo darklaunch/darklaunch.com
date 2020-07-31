@@ -13,5 +13,6 @@ print json.dumps({
 
 ---
 
+
 Posted Nov 23, 2016.
-https://www.darklaunch.com/2016/11/23/python-json-encode-datetime
+https://www.darklaunch.com/2016/11/23/python-json-encode-datetime.html

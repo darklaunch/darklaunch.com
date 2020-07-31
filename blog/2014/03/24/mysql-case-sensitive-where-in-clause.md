@@ -11,5 +11,6 @@ WHERE
 
 ---
 
+
 Posted Mar 24, 2014.
-https://www.darklaunch.com/2014/03/24/mysql-case-sensitive-where-in-clause
+https://www.darklaunch.com/2014/03/24/mysql-case-sensitive-where-in-clause.html

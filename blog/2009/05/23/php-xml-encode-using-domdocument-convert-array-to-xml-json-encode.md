@@ -112,5 +112,6 @@ if (is_object($data)) {
 
 ---
 
+
 Posted May 23, 2009.
-https://www.darklaunch.com/2009/05/23/php-xml-encode-using-domdocument-convert-array-to-xml-json-encode
+https://www.darklaunch.com/2009/05/23/php-xml-encode-using-domdocument-convert-array-to-xml-json-encode.html

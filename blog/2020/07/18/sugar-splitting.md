@@ -33,5 +33,6 @@ It is time for an update to the regulations to eliminate this trickery. Let's ke
 
 ---
 
+
 Posted Jul 18, 2020.
-https://www.darklaunch.com/2020/07/18/sugar-splitting
+https://www.darklaunch.com/2020/07/18/sugar-splitting.html

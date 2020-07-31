@@ -17,5 +17,6 @@ keymap controls readline's key bindings.
 
 ---
 
+
 Posted Sep 18, 2012.
-https://www.darklaunch.com/2012/09/18/vim-keybindings-in-ipython
+https://www.darklaunch.com/2012/09/18/vim-keybindings-in-ipython.html

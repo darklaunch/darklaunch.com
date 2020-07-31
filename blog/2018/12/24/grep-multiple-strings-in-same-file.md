@@ -16,5 +16,6 @@ $ vim $(grep -r -l "def add(" . | xargs grep -l "def create(")
 
 ---
 
+
 Posted Dec 24, 2018.
-https://www.darklaunch.com/2018/12/24/grep-multiple-strings-in-same-file
+https://www.darklaunch.com/2018/12/24/grep-multiple-strings-in-same-file.html

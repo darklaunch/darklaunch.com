@@ -11,5 +11,6 @@ toolbar.collapsed = !toolbar.collapsed;
 
 ---
 
+
 Posted May 11, 2009.
-https://www.darklaunch.com/2009/05/11/toggle-firefox-toolbars-webdeveloper-toolbar-keyconfig
+https://www.darklaunch.com/2009/05/11/toggle-firefox-toolbars-webdeveloper-toolbar-keyconfig.html

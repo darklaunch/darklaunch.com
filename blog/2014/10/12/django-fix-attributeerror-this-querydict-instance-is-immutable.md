@@ -13,5 +13,6 @@ def my_view(request):
 
 ---
 
+
 Posted Oct 12, 2014.
-https://www.darklaunch.com/2014/10/12/django-fix-attributeerror-this-querydict-instance-is-immutable
+https://www.darklaunch.com/2014/10/12/django-fix-attributeerror-this-querydict-instance-is-immutable.html

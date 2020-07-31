@@ -22,5 +22,6 @@ Restart Firefox and now messages viewed in Gmail will be displayed with a propor
 
 ---
 
+
 Posted Oct 27, 2009.
-https://www.darklaunch.com/2009/10/27/gmail-fixed-width-font-fixed-width-fonts-in-gmail-monospace
+https://www.darklaunch.com/2009/10/27/gmail-fixed-width-font-fixed-width-fonts-in-gmail-monospace.html

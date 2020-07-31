@@ -33,5 +33,6 @@ about:me	0.4.1	false	aboutme@test.mozilla.com
 
 ---
 
+
 Posted Feb 12, 2010.
-https://www.darklaunch.com/2010/02/12/firefox-profile-directory-and-extensions-id
+https://www.darklaunch.com/2010/02/12/firefox-profile-directory-and-extensions-id.html

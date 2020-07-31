@@ -10,5 +10,6 @@ Lastly, you can omit specifying the favicon at the top of the page as long as yo
 
 ---
 
+
 Posted Jun 8, 2011.
-https://www.darklaunch.com/2011/06/08/favicon-the-most-correct-compatible-way-to-add-a-favorite-shortcut-icon
+https://www.darklaunch.com/2011/06/08/favicon-the-most-correct-compatible-way-to-add-a-favorite-shortcut-icon.html

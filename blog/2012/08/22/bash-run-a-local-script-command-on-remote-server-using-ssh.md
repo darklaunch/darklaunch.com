@@ -11,5 +11,6 @@ If using bash, include "#!/bin/bash" at the top of myscript.sh and be sure to ca
 
 ---
 
+
 Posted Aug 22, 2012.
-https://www.darklaunch.com/2012/08/22/bash-run-a-local-script-command-on-remote-server-using-ssh
+https://www.darklaunch.com/2012/08/22/bash-run-a-local-script-command-on-remote-server-using-ssh.html

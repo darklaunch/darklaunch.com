@@ -22,5 +22,6 @@ ConsoleWrite(implode(",", $array) & @CRLF)
 
 ---
 
+
 Posted Jul 15, 2010.
-https://www.darklaunch.com/2010/07/15/autoit-implode-like-php-implode--arraytostring
+https://www.darklaunch.com/2010/07/15/autoit-implode-like-php-implode--arraytostring.html

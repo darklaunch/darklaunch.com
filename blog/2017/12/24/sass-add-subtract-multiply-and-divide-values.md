@@ -27,5 +27,6 @@ $ sass --sourcemap="none" --style "expanded" --watch "style.scss:style.css"
 
 ---
 
+
 Posted Dec 24, 2017.
-https://www.darklaunch.com/2017/12/24/sass-add-subtract-multiply-and-divide-values
+https://www.darklaunch.com/2017/12/24/sass-add-subtract-multiply-and-divide-values.html

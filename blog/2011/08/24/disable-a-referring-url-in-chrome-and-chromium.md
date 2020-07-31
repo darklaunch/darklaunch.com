@@ -64,5 +64,6 @@ http://src.chromium.org/svn/trunk/src/chrome/browser/net/chrome_network_delegate
 
 ---
 
+
 Posted Aug 24, 2011.
-https://www.darklaunch.com/2011/08/24/disable-a-referring-url-in-chrome-and-chromium
+https://www.darklaunch.com/2011/08/24/disable-a-referring-url-in-chrome-and-chromium.html

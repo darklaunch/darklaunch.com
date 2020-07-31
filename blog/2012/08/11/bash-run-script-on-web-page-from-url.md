@@ -10,5 +10,6 @@ NOTE: be careful with this
 
 ---
 
+
 Posted Aug 11, 2012.
-https://www.darklaunch.com/2012/08/11/bash-run-script-on-web-page-from-url
+https://www.darklaunch.com/2012/08/11/bash-run-script-on-web-page-from-url.html

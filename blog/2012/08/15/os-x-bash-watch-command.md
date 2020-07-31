@@ -14,5 +14,6 @@ while :; do echo -ne " "$(du -s .)"\r"; sleep 2s; done
 
 ---
 
+
 Posted Aug 15, 2012.
-https://www.darklaunch.com/2012/08/15/os-x-bash-watch-command
+https://www.darklaunch.com/2012/08/15/os-x-bash-watch-command.html

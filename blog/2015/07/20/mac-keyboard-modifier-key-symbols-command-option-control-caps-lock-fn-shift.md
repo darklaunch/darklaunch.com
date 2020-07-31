@@ -25,5 +25,6 @@ Symbols for Mac keyboard modifier keys:
 
 ---
 
+
 Posted Jul 20, 2015.
-https://www.darklaunch.com/2015/07/20/mac-keyboard-modifier-key-symbols-command-option-control-caps-lock-fn-shift
+https://www.darklaunch.com/2015/07/20/mac-keyboard-modifier-key-symbols-command-option-control-caps-lock-fn-shift.html

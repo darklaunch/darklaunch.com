@@ -20,5 +20,6 @@ while :; do date; bash sync.sh; sleep 1; done
 
 ---
 
+
 Posted May 5, 2014.
-https://www.darklaunch.com/2014/05/05/sync-gigabytes-of-files-using-rsync
+https://www.darklaunch.com/2014/05/05/sync-gigabytes-of-files-using-rsync.html

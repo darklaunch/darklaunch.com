@@ -48,5 +48,6 @@ $sMsg = "Example message string."
 
 ---
 
+
 Posted Dec 12, 2011.
-https://www.darklaunch.com/2011/12/12/javascript-hungarian-notation-variable-prefix-naming-convention
+https://www.darklaunch.com/2011/12/12/javascript-hungarian-notation-variable-prefix-naming-convention.html

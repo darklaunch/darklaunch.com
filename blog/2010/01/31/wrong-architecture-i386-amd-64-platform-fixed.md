@@ -7,5 +7,6 @@ sudo dpkg -i --force-architecture install_flash_player_10_linux.deb
 
 ---
 
+
 Posted Jan 31, 2010.
-https://www.darklaunch.com/2010/01/31/wrong-architecture-i386-amd-64-platform-fixed
+https://www.darklaunch.com/2010/01/31/wrong-architecture-i386-amd-64-platform-fixed.html

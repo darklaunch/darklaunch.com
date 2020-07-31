@@ -30,5 +30,6 @@ https://superuser.com/questions/326223/
 
 ---
 
+
 Posted Feb 23, 2014.
-https://www.darklaunch.com/2014/02/23/window-manager-for-os-x-shiftit
+https://www.darklaunch.com/2014/02/23/window-manager-for-os-x-shiftit.html

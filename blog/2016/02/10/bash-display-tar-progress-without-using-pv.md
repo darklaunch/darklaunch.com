@@ -16,5 +16,6 @@ done
 
 ---
 
+
 Posted Feb 10, 2016.
-https://www.darklaunch.com/2016/02/10/bash-display-tar-progress-without-using-pv
+https://www.darklaunch.com/2016/02/10/bash-display-tar-progress-without-using-pv.html

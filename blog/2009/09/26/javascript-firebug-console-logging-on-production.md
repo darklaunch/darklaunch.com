@@ -71,5 +71,6 @@ http://getfirebug.com/wiki/index.php/Console_API
 
 ---
 
+
 Posted Sep 26, 2009.
-https://www.darklaunch.com/2009/09/26/javascript-firebug-console-logging-on-production
+https://www.darklaunch.com/2009/09/26/javascript-firebug-console-logging-on-production.html

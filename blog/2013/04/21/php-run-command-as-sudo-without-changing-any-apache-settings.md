@@ -56,5 +56,6 @@ return code: 0
 
 ---
 
+
 Posted Apr 21, 2013.
-https://www.darklaunch.com/2013/04/21/php-run-command-as-sudo-without-changing-any-apache-settings
+https://www.darklaunch.com/2013/04/21/php-run-command-as-sudo-without-changing-any-apache-settings.html

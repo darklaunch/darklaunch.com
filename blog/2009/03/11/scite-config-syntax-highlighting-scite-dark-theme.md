@@ -11,5 +11,6 @@ http://code.google.com/p/scite-config/
 
 ---
 
+
 Posted Mar 11, 2009.
-https://www.darklaunch.com/2009/03/11/scite-config-syntax-highlighting-scite-dark-theme
+https://www.darklaunch.com/2009/03/11/scite-config-syntax-highlighting-scite-dark-theme.html

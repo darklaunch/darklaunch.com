@@ -44,5 +44,6 @@ Find unicode characters in vim
 
 ---
 
+
 Posted Nov 20, 2017.
-https://www.darklaunch.com/2017/11/20/find-unicode-characters-in-file
+https://www.darklaunch.com/2017/11/20/find-unicode-characters-in-file.html

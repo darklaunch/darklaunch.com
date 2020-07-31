@@ -17,5 +17,6 @@ listdir ()
 
 ---
 
+
 Posted Jun 29, 2014.
-https://www.darklaunch.com/2014/06/29/php-bash-command-line-stdin
+https://www.darklaunch.com/2014/06/29/php-bash-command-line-stdin.html

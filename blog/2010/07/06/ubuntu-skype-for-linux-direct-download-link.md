@@ -10,5 +10,6 @@ sudo apt-get install luvcview && luvcview
 
 ---
 
+
 Posted Jul 6, 2010.
-https://www.darklaunch.com/2010/07/06/ubuntu-skype-for-linux-direct-download-link
+https://www.darklaunch.com/2010/07/06/ubuntu-skype-for-linux-direct-download-link.html

@@ -23,5 +23,6 @@ Content-type: text/html; charset=UTF-8
 
 ---
 
+
 Posted Oct 8, 2015.
-https://www.darklaunch.com/2015/10/08/use-logging-with-php-s-built-in-web-server
+https://www.darklaunch.com/2015/10/08/use-logging-with-php-s-built-in-web-server.html

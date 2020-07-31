@@ -30,5 +30,6 @@ function getSelectionEnd(o) {
 
 ---
 
+
 Posted Jun 10, 2010.
-https://www.darklaunch.com/2010/06/10/javascript-get-input-caret-cursor-position-getselectionstart-getselectionend-char-position
+https://www.darklaunch.com/2010/06/10/javascript-get-input-caret-cursor-position-getselectionstart-getselectionend-char-position.html

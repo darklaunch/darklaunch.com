@@ -17,5 +17,6 @@ sass -v
 
 ---
 
+
 Posted Jul 6, 2013.
-https://www.darklaunch.com/2013/07/06/update-sass-using-gem-update
+https://www.darklaunch.com/2013/07/06/update-sass-using-gem-update.html

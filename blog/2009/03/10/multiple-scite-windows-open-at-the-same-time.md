@@ -8,5 +8,6 @@ check.if.already.open=1
 
 ---
 
+
 Posted Mar 10, 2009.
-https://www.darklaunch.com/2009/03/10/multiple-scite-windows-open-at-the-same-time
+https://www.darklaunch.com/2009/03/10/multiple-scite-windows-open-at-the-same-time.html

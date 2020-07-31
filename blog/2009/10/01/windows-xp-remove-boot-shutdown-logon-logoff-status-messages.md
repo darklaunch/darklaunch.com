@@ -10,5 +10,6 @@ NOTE: You may also want to disable the Welcome screen: Control Panel > User Acco
 
 ---
 
+
 Posted Oct 1, 2009.
-https://www.darklaunch.com/2009/10/01/windows-xp-remove-boot-shutdown-logon-logoff-status-messages
+https://www.darklaunch.com/2009/10/01/windows-xp-remove-boot-shutdown-logon-logoff-status-messages.html

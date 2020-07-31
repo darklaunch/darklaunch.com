@@ -21,5 +21,6 @@ $ python run_test.py
 
 ---
 
+
 Posted Mar 22, 2020.
-https://www.darklaunch.com/2020/03/22/run-python-test-with-constant-time-using-mock
+https://www.darklaunch.com/2020/03/22/run-python-test-with-constant-time-using-mock.html

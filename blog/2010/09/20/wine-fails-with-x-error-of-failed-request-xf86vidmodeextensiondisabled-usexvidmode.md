@@ -20,5 +20,6 @@ Wine should now load.
 
 ---
 
+
 Posted Sep 20, 2010.
-https://www.darklaunch.com/2010/09/20/wine-fails-with-x-error-of-failed-request-xf86vidmodeextensiondisabled-usexvidmode
+https://www.darklaunch.com/2010/09/20/wine-fails-with-x-error-of-failed-request-xf86vidmodeextensiondisabled-usexvidmode.html

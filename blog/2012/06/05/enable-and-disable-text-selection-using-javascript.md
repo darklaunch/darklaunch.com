@@ -8,5 +8,6 @@ document.onselectstart = true;
 
 ---
 
+
 Posted Jun 5, 2012.
-https://www.darklaunch.com/2012/06/05/enable-and-disable-text-selection-using-javascript
+https://www.darklaunch.com/2012/06/05/enable-and-disable-text-selection-using-javascript.html

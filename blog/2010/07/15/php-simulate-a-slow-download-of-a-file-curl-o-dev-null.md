@@ -36,5 +36,6 @@ curl -i http://127.0.0.1:8080/server.php -o /dev/null
 
 ---
 
+
 Posted Jul 15, 2010.
-https://www.darklaunch.com/2010/07/15/php-simulate-a-slow-download-of-a-file-curl-o-dev-null
+https://www.darklaunch.com/2010/07/15/php-simulate-a-slow-download-of-a-file-curl-o-dev-null.html

@@ -24,5 +24,6 @@ This will split the current window horizontally with the current window in the t
 
 ---
 
+
 Posted Mar 26, 2018.
-https://www.darklaunch.com/2018/03/26/byobu-join-two-tabs
+https://www.darklaunch.com/2018/03/26/byobu-join-two-tabs.html

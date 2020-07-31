@@ -2,5 +2,6 @@ Undo pane splits in tmux, type `Ctrl` + `a` + `:break-pane` and press `Enter` or
 
 ---
 
+
 Posted May 9, 2019.
-https://www.darklaunch.com/2019/05/09/undo-splits-in-tmux
+https://www.darklaunch.com/2019/05/09/undo-splits-in-tmux.html

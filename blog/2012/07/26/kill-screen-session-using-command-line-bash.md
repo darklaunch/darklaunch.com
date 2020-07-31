@@ -17,5 +17,6 @@ fi
 
 ---
 
+
 Posted Jul 26, 2012.
-https://www.darklaunch.com/2012/07/26/kill-screen-session-using-command-line-bash
+https://www.darklaunch.com/2012/07/26/kill-screen-session-using-command-line-bash.html

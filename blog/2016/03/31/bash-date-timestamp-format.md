@@ -12,5 +12,6 @@ $ echo "$(date "+%Y-%m-%d %H:%M:%S")"
 
 ---
 
+
 Posted Mar 31, 2016.
-https://www.darklaunch.com/2016/03/31/bash-date-timestamp-format
+https://www.darklaunch.com/2016/03/31/bash-date-timestamp-format.html

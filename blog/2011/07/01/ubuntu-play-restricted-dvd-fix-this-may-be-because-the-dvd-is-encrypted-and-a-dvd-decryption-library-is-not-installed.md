@@ -16,5 +16,6 @@ Enjoy your movie.
 
 ---
 
+
 Posted Jul 1, 2011.
-https://www.darklaunch.com/2011/07/01/ubuntu-play-restricted-dvd-fix-this-may-be-because-the-dvd-is-encrypted-and-a-dvd-decryption-library-is-not-installed
+https://www.darklaunch.com/2011/07/01/ubuntu-play-restricted-dvd-fix-this-may-be-because-the-dvd-is-encrypted-and-a-dvd-decryption-library-is-not-installed.html

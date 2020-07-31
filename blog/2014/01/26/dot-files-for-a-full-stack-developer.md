@@ -8,5 +8,6 @@ https://github.com/dot-star/dot-star
 
 ---
 
+
 Posted Jan 26, 2014.
-https://www.darklaunch.com/2014/01/26/dot-files-for-a-full-stack-developer
+https://www.darklaunch.com/2014/01/26/dot-files-for-a-full-stack-developer.html

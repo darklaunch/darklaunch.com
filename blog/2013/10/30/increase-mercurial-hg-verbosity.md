@@ -9,5 +9,6 @@ verbose = True
 
 ---
 
+
 Posted Oct 30, 2013.
-https://www.darklaunch.com/2013/10/30/increase-mercurial-hg-verbosity
+https://www.darklaunch.com/2013/10/30/increase-mercurial-hg-verbosity.html

@@ -14,5 +14,6 @@ http://stackoverflow.com/questions/610406/
 
 ---
 
+
 Posted Apr 2, 2015.
-https://www.darklaunch.com/2015/04/02/javascript-format-string
+https://www.darklaunch.com/2015/04/02/javascript-format-string.html

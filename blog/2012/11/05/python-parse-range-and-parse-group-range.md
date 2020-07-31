@@ -31,5 +31,6 @@ def parse_range(astr):
 
 ---
 
+
 Posted Nov 5, 2012.
-https://www.darklaunch.com/2012/11/05/python-parse-range-and-parse-group-range
+https://www.darklaunch.com/2012/11/05/python-parse-range-and-parse-group-range.html

@@ -25,5 +25,6 @@ array(1) {
 
 ---
 
+
 Posted Sep 19, 2016.
-https://www.darklaunch.com/2016/09/19/bash-post-chunked-data-using-nc-netcat
+https://www.darklaunch.com/2016/09/19/bash-post-chunked-data-using-nc-netcat.html

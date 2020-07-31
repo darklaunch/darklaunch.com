@@ -48,5 +48,6 @@ $ echo -e "a\nb\nc\n" | grep --count ^
 
 ---
 
+
 Posted Oct 10, 2016.
-https://www.darklaunch.com/2016/10/10/bash-count-lines-in-file
+https://www.darklaunch.com/2016/10/10/bash-count-lines-in-file.html

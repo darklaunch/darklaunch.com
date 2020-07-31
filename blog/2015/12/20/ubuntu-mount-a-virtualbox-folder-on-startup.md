@@ -15,5 +15,6 @@ Hint: don't use rc.local for gui applications on startup
 
 ---
 
+
 Posted Dec 20, 2015.
-https://www.darklaunch.com/2015/12/20/ubuntu-mount-a-virtualbox-folder-on-startup
+https://www.darklaunch.com/2015/12/20/ubuntu-mount-a-virtualbox-folder-on-startup.html

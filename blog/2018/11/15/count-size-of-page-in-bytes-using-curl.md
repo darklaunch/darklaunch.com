@@ -7,5 +7,6 @@ $ curl --silent "https://www.example.com/" | wc --bytes
 
 ---
 
+
 Posted Nov 15, 2018.
-https://www.darklaunch.com/2018/11/15/count-size-of-page-in-bytes-using-curl
+https://www.darklaunch.com/2018/11/15/count-size-of-page-in-bytes-using-curl.html

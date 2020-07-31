@@ -18,5 +18,6 @@ Keywords: base64, base64_encode, base64_decode, atob, btoa, JavaScript
 
 ---
 
+
 Posted Jun 29, 2016.
-https://www.darklaunch.com/2016/06/29/php-fix-base64-decode-incorrect-decoding-error
+https://www.darklaunch.com/2016/06/29/php-fix-base64-decode-incorrect-decoding-error.html

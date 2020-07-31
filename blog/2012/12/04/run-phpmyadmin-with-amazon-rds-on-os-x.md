@@ -27,5 +27,6 @@ Go to http://127.0.0.1/phpmyadmin/
 
 ---
 
+
 Posted Dec 4, 2012.
-https://www.darklaunch.com/2012/12/04/run-phpmyadmin-with-amazon-rds-on-os-x
+https://www.darklaunch.com/2012/12/04/run-phpmyadmin-with-amazon-rds-on-os-x.html

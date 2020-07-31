@@ -68,5 +68,6 @@ Note this method changes affects the integrity of the repository. If you know th
 
 ---
 
+
 Posted Oct 21, 2014.
-https://www.darklaunch.com/2014/10/21/fix-svnadmin-checksum-mismatch-while-reading-representation
+https://www.darklaunch.com/2014/10/21/fix-svnadmin-checksum-mismatch-while-reading-representation.html

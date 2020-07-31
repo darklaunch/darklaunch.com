@@ -20,5 +20,6 @@ Location: https://addons.mozilla.org/en-US/firefox/downloads/file/52151/xpi/yslo
 
 ---
 
+
 Posted Jul 6, 2009.
-https://www.darklaunch.com/2009/07/06/how-to-bypass-this-add-on-is-for-older-versions-of-firefox-firefox-add-ons-direct-link
+https://www.darklaunch.com/2009/07/06/how-to-bypass-this-add-on-is-for-older-versions-of-firefox-firefox-add-ons-direct-link.html

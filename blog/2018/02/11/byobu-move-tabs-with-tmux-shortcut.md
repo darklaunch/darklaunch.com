@@ -34,5 +34,6 @@ $ tmux list-keys
 
 ---
 
+
 Posted Feb 11, 2018.
-https://www.darklaunch.com/2018/02/11/byobu-move-tabs-with-tmux-shortcut
+https://www.darklaunch.com/2018/02/11/byobu-move-tabs-with-tmux-shortcut.html

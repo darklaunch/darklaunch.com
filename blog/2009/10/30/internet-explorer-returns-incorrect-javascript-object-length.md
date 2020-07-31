@@ -33,5 +33,6 @@ Internet Explorer will incorrectly give an object length off by one if the objec
 
 ---
 
+
 Posted Oct 30, 2009.
-https://www.darklaunch.com/2009/10/30/internet-explorer-returns-incorrect-javascript-object-length
+https://www.darklaunch.com/2009/10/30/internet-explorer-returns-incorrect-javascript-object-length.html

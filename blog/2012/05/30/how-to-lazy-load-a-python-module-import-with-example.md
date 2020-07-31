@@ -23,5 +23,6 @@ else:
 
 ---
 
+
 Posted May 30, 2012.
-https://www.darklaunch.com/2012/05/30/how-to-lazy-load-a-python-module-import-with-example
+https://www.darklaunch.com/2012/05/30/how-to-lazy-load-a-python-module-import-with-example.html

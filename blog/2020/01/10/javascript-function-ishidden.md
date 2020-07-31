@@ -19,5 +19,6 @@ from https://github.com/tiratatp/facebook_adblock/blob/master/src/main.js
 
 ---
 
+
 Posted Jan 10, 2020.
-https://www.darklaunch.com/2020/01/10/javascript-function-ishidden
+https://www.darklaunch.com/2020/01/10/javascript-function-ishidden.html

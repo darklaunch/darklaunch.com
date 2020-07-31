@@ -346,5 +346,6 @@ with timer.name('My Task I'):
 
 ---
 
+
 Posted Sep 14, 2012.
-https://www.darklaunch.com/2012/09/14/python-measure-elapsed-execution-time-timer-class
+https://www.darklaunch.com/2012/09/14/python-measure-elapsed-execution-time-timer-class.html

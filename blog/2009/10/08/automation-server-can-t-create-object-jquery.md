@@ -55,5 +55,6 @@ The following code reproduces the error message in Internet Explorer 8:
 
 ---
 
+
 Posted Oct 8, 2009.
-https://www.darklaunch.com/2009/10/08/automation-server-can-t-create-object-jquery
+https://www.darklaunch.com/2009/10/08/automation-server-can-t-create-object-jquery.html

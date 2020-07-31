@@ -4,5 +4,6 @@ To force close a window in byobu, type `Ctrl` + `a` then type the letter `k`.
 
 ---
 
+
 Posted Oct 1, 2014.
-https://www.darklaunch.com/2014/10/01/byobu-kill-screen-session-close-window
+https://www.darklaunch.com/2014/10/01/byobu-kill-screen-session-close-window.html

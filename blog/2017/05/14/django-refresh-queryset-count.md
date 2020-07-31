@@ -53,5 +53,6 @@ obj.refresh_from_db()
 
 ---
 
+
 Posted May 14, 2017.
-https://www.darklaunch.com/2017/05/14/django-refresh-queryset-count
+https://www.darklaunch.com/2017/05/14/django-refresh-queryset-count.html

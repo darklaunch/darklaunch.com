@@ -8,5 +8,6 @@ How to find the apk file location in Android device and download/pull/save it.
 
 ---
 
+
 Posted Feb 20, 2015.
-https://www.darklaunch.com/2015/02/20/find-location-of-installed-apk-on-phone
+https://www.darklaunch.com/2015/02/20/find-location-of-installed-apk-on-phone.html

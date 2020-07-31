@@ -68,5 +68,6 @@ $("#select-2").find("option").filter(function(index) {
 
 ---
 
+
 Posted May 20, 2011.
-https://www.darklaunch.com/2011/05/20/jquery-select-option-using-text-value-text
+https://www.darklaunch.com/2011/05/20/jquery-select-option-using-text-value-text.html

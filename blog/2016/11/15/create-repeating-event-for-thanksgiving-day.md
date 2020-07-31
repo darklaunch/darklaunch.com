@@ -16,5 +16,6 @@ END:VCALENDAR
 
 ---
 
+
 Posted Nov 15, 2016.
-https://www.darklaunch.com/2016/11/15/create-repeating-event-for-thanksgiving-day
+https://www.darklaunch.com/2016/11/15/create-repeating-event-for-thanksgiving-day.html

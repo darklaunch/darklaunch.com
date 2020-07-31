@@ -15,5 +15,6 @@ $ alias ll
 
 ---
 
+
 Posted Apr 24, 2012.
-https://www.darklaunch.com/2012/04/24/bash-view-current-alias-from-the-command-line
+https://www.darklaunch.com/2012/04/24/bash-view-current-alias-from-the-command-line.html

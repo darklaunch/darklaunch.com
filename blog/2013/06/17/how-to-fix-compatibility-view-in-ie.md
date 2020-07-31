@@ -10,5 +10,6 @@ header('X-UA-Compatible: IE=Edge');
 
 ---
 
+
 Posted Jun 17, 2013.
-https://www.darklaunch.com/2013/06/17/how-to-fix-compatibility-view-in-ie
+https://www.darklaunch.com/2013/06/17/how-to-fix-compatibility-view-in-ie.html

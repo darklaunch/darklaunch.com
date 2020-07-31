@@ -15,5 +15,6 @@ Your minified script file we be saved to myscript.min.js
 
 ---
 
+
 Posted Apr 3, 2011.
-https://www.darklaunch.com/2011/04/03/minify-javascript-file-using-yui-compressor-yui-compressor
+https://www.darklaunch.com/2011/04/03/minify-javascript-file-using-yui-compressor-yui-compressor.html

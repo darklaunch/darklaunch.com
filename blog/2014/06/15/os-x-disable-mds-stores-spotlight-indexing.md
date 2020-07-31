@@ -14,5 +14,6 @@ $ sudo mdutil -a -i on
 
 ---
 
+
 Posted Jun 15, 2014.
-https://www.darklaunch.com/2014/06/15/os-x-disable-mds-stores-spotlight-indexing
+https://www.darklaunch.com/2014/06/15/os-x-disable-mds-stores-spotlight-indexing.html

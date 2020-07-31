@@ -28,5 +28,6 @@ Note that when using a virtual environment, you need to activate the virtual env
 
 ---
 
+
 Posted Feb 2, 2014.
-https://www.darklaunch.com/2014/02/02/fix-do-you-want-the-application-python-to-accept-incoming-network-connections
+https://www.darklaunch.com/2014/02/02/fix-do-you-want-the-application-python-to-accept-incoming-network-connections.html

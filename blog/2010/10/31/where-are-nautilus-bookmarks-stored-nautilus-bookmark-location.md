@@ -20,5 +20,6 @@ trash:/// - local trash
 
 ---
 
+
 Posted Oct 31, 2010.
-https://www.darklaunch.com/2010/10/31/where-are-nautilus-bookmarks-stored-nautilus-bookmark-location
+https://www.darklaunch.com/2010/10/31/where-are-nautilus-bookmarks-stored-nautilus-bookmark-location.html

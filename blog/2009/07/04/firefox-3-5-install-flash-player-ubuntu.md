@@ -8,5 +8,6 @@ I installed Firefox 3.5 to "/home/user/apps/firefox/" and Flash was missing. To 
 
 ---
 
+
 Posted Jul 4, 2009.
-https://www.darklaunch.com/2009/07/04/firefox-3-5-install-flash-player-ubuntu
+https://www.darklaunch.com/2009/07/04/firefox-3-5-install-flash-player-ubuntu.html

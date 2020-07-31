@@ -22,5 +22,6 @@ Now we know the location of geany is "/usr/bin/geany".
 
 ---
 
+
 Posted Jul 31, 2009.
-https://www.darklaunch.com/2009/07/31/firefox-open-with-application-preferences-content-type-always-ask-use-application-ubuntu-whereis
+https://www.darklaunch.com/2009/07/31/firefox-open-with-application-preferences-content-type-always-ask-use-application-ubuntu-whereis.html

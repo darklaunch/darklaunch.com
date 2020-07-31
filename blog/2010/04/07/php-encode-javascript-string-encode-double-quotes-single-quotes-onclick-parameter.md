@@ -25,5 +25,6 @@ function doSomething(foo) {
 
 ---
 
+
 Posted Apr 7, 2010.
-https://www.darklaunch.com/2010/04/07/php-encode-javascript-string-encode-double-quotes-single-quotes-onclick-parameter
+https://www.darklaunch.com/2010/04/07/php-encode-javascript-string-encode-double-quotes-single-quotes-onclick-parameter.html

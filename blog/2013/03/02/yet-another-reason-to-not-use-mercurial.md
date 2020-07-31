@@ -10,5 +10,6 @@ Please use git.
 
 ---
 
+
 Posted Mar 2, 2013.
-https://www.darklaunch.com/2013/03/02/yet-another-reason-to-not-use-mercurial
+https://www.darklaunch.com/2013/03/02/yet-another-reason-to-not-use-mercurial.html

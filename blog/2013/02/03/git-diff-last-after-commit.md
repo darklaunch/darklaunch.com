@@ -14,5 +14,6 @@ git diff @{1} @{0}
 
 ---
 
+
 Posted Feb 3, 2013.
-https://www.darklaunch.com/2013/02/03/git-diff-last-after-commit
+https://www.darklaunch.com/2013/02/03/git-diff-last-after-commit.html

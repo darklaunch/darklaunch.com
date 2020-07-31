@@ -15,5 +15,6 @@ mysql>
 
 ---
 
+
 Posted Sep 7, 2014.
-https://www.darklaunch.com/2014/09/07/fix-commanderror-you-appear-not-to-have-the-mysql-program-installed-or-on-your-path
+https://www.darklaunch.com/2014/09/07/fix-commanderror-you-appear-not-to-have-the-mysql-program-installed-or-on-your-path.html

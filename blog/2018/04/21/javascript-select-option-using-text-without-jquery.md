@@ -19,5 +19,6 @@ bravoChoice.selected = true;
 
 ---
 
+
 Posted Apr 21, 2018.
-https://www.darklaunch.com/2018/04/21/javascript-select-option-using-text-without-jquery
+https://www.darklaunch.com/2018/04/21/javascript-select-option-using-text-without-jquery.html

@@ -15,5 +15,6 @@ Screenshot:
 
 ---
 
+
 Posted Aug 19, 2019.
-https://www.darklaunch.com/2019/08/19/php-loading-animation-using-spin-marks
+https://www.darklaunch.com/2019/08/19/php-loading-animation-using-spin-marks.html

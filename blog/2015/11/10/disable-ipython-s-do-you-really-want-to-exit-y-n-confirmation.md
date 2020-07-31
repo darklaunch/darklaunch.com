@@ -13,5 +13,6 @@ c.TerminalInteractiveShell.confirm_exit = False
 
 ---
 
+
 Posted Nov 10, 2015.
-https://www.darklaunch.com/2015/11/10/disable-ipython-s-do-you-really-want-to-exit-y-n-confirmation
+https://www.darklaunch.com/2015/11/10/disable-ipython-s-do-you-really-want-to-exit-y-n-confirmation.html

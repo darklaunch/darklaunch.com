@@ -6,5 +6,6 @@ Install NumPy using the executable version (numpy-MKL-1.7.1.win32-py2.7.exe or n
 
 ---
 
+
 Posted Oct 3, 2013.
-https://www.darklaunch.com/2013/10/03/fix-importerror-no-module-named-numpy-core-multiarray
+https://www.darklaunch.com/2013/10/03/fix-importerror-no-module-named-numpy-core-multiarray.html

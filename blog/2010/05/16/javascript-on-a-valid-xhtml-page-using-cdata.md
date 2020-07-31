@@ -132,5 +132,6 @@ echo
 
 ---
 
+
 Posted May 16, 2010.
-https://www.darklaunch.com/2010/05/16/javascript-on-a-valid-xhtml-page-using-cdata
+https://www.darklaunch.com/2010/05/16/javascript-on-a-valid-xhtml-page-using-cdata.html

@@ -43,5 +43,6 @@ import django
 
 ---
 
+
 Posted Aug 26, 2015.
-https://www.darklaunch.com/2015/08/26/python-list-functions-for-imported-module
+https://www.darklaunch.com/2015/08/26/python-list-functions-for-imported-module.html

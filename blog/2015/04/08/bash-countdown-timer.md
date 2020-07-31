@@ -12,5 +12,6 @@ echo -ne "\r"
 
 ---
 
+
 Posted Apr 8, 2015.
-https://www.darklaunch.com/2015/04/08/bash-countdown-timer
+https://www.darklaunch.com/2015/04/08/bash-countdown-timer.html

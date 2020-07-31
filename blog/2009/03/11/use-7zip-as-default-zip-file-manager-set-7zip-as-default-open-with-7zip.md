@@ -15,5 +15,6 @@ http://www.nirsoft.net/utils/file_types_manager.html
 
 ---
 
+
 Posted Mar 11, 2009.
-https://www.darklaunch.com/2009/03/11/use-7zip-as-default-zip-file-manager-set-7zip-as-default-open-with-7zip
+https://www.darklaunch.com/2009/03/11/use-7zip-as-default-zip-file-manager-set-7zip-as-default-open-with-7zip.html

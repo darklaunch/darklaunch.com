@@ -21,5 +21,6 @@ scheme        host      port      path       query   fragment
 
 ---
 
+
 Posted Jan 10, 2013.
-https://www.darklaunch.com/2013/01/10/use-a-relative-url-for-javascript-css-images
+https://www.darklaunch.com/2013/01/10/use-a-relative-url-for-javascript-css-images.html
