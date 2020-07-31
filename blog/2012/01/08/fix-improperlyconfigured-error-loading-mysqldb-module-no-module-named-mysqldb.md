@@ -26,6 +26,6 @@ sudo apt-get install python2.7-dev
 
 ---
 
-
 Posted Jan 8, 2012.
+
 https://www.darklaunch.com/2012/01/08/fix-improperlyconfigured-error-loading-mysqldb-module-no-module-named-mysqldb.html

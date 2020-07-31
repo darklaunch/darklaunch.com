@@ -10,6 +10,6 @@ and you will be prompted to install the addon.
 
 ---
 
-
 Posted Mar 23, 2009.
+
 https://www.darklaunch.com/2009/03/23/bypass-mozilla-addon-experimental-install-log-in-to-install-this-experimental-add-on.html

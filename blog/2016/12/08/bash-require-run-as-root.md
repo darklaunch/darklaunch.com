@@ -11,6 +11,6 @@ fi
 
 ---
 
-
 Posted Dec 8, 2016.
+
 https://www.darklaunch.com/2016/12/08/bash-require-run-as-root.html

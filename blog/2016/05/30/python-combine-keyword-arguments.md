@@ -26,6 +26,6 @@ fetch_page(url='https://www.example.com/login', method='POST', data={
 
 ---
 
-
 Posted May 30, 2016.
+
 https://www.darklaunch.com/2016/05/30/python-combine-keyword-arguments.html

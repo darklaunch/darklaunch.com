@@ -62,6 +62,6 @@ http://cwraig.id.au/?p=122
 
 ---
 
-
 Posted Jul 7, 2010.
+
 https://www.darklaunch.com/2010/07/07/logitech-quickcam-communicate-stx-skype-ubuntu.html

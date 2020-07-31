@@ -13,6 +13,6 @@ bar
 
 ---
 
-
 Posted Jan 2, 2014.
+
 https://www.darklaunch.com/2014/01/02/bash-create-alias-starting-with-a-dash.html

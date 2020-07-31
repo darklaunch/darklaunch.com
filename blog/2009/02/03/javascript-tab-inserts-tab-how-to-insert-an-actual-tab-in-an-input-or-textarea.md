@@ -46,6 +46,6 @@ EDIT: see the jQuery version of this http://darklaunch.com/2009/02/03/javascript
 
 ---
 
-
 Posted Feb 3, 2009.
+
 https://www.darklaunch.com/2009/02/03/javascript-tab-inserts-tab-how-to-insert-an-actual-tab-in-an-input-or-textarea.html

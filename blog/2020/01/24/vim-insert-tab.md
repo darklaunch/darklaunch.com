@@ -4,6 +4,6 @@ Insert a tab character from insert mode by typing `Ctrl` + `v` then `Tab`.
 
 ---
 
-
 Posted Jan 24, 2020.
+
 https://www.darklaunch.com/2020/01/24/vim-insert-tab.html

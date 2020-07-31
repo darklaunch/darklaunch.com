@@ -46,6 +46,6 @@ doThing({'debug': true, 'retryCount': 5});
 
 ---
 
-
 Posted Sep 2, 2018.
+
 https://www.darklaunch.com/2018/09/02/javascript-function-with-default-options.html

@@ -11,6 +11,6 @@ $ echo "${PWD#/tmp}"
 
 ---
 
-
 Posted Dec 11, 2018.
+
 https://www.darklaunch.com/2018/12/11/bash-remove-prefix-from-a-string-variable.html

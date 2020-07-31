@@ -16,6 +16,6 @@ javascript:var script = document.createElement("script"); script.type = "text/ja
 
 ---
 
-
 Posted Jul 22, 2011.
+
 https://www.darklaunch.com/2011/07/22/use-firebug-lite-in-internet-explorer-on-any-page.html

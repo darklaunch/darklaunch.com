@@ -70,6 +70,6 @@ def json_encode(data):
 
 ---
 
-
 Posted Apr 20, 2017.
+
 https://www.darklaunch.com/2017/04/20/django-json-encode-model-queryset-and-user.html

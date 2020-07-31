@@ -17,6 +17,6 @@ Restart apache and the now the HTTP_AUTHORIZATION environment variable will be a
 
 ---
 
-
 Posted Jul 17, 2012.
+
 https://www.darklaunch.com/2012/07/17/enable-http-basic-authentication-authorization-with-django-mod-wsgi.html

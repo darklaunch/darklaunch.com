@@ -19,6 +19,6 @@ function getRandomInt(min, max){
 
 ---
 
-
 Posted Feb 20, 2009.
+
 https://www.darklaunch.com/2009/02/20/javascript-random-number-quick-random-number-math-random-substring.html

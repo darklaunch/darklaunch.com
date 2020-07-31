@@ -24,6 +24,6 @@ no cache refresh:
 
 ---
 
-
 Posted Feb 25, 2009.
+
 https://www.darklaunch.com/2009/02/25/how-refresh-is-different-from-clicking-go-refresh-f5-ctrl-f5-ctrl-r.html

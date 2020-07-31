@@ -23,6 +23,6 @@ baz
 
 ---
 
-
 Posted Dec 14, 2010.
+
 https://www.darklaunch.com/2010/12/14/bash-why-quotes-are-important-for-variables-preserve-newlines-line-endings.html

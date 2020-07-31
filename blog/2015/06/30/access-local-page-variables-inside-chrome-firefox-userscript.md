@@ -21,6 +21,6 @@ kw: jQuery, unsafewindow, greasemonkey, chrome, firefox
 
 ---
 
-
 Posted Jun 30, 2015.
+
 https://www.darklaunch.com/2015/06/30/access-local-page-variables-inside-chrome-firefox-userscript.html

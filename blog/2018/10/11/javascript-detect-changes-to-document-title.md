@@ -45,6 +45,6 @@ setTimeout(function() {
 
 ---
 
-
 Posted Oct 11, 2018.
+
 https://www.darklaunch.com/2018/10/11/javascript-detect-changes-to-document-title.html

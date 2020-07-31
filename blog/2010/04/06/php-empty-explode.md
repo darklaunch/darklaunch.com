@@ -16,6 +16,6 @@ NOTE: `preg_split()` using the `PREG_SPLIT_NO_EMPTY` flag is another option.
 
 ---
 
-
 Posted Apr 6, 2010.
+
 https://www.darklaunch.com/2010/04/06/php-empty-explode.html

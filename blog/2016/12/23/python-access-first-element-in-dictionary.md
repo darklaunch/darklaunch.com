@@ -22,6 +22,6 @@ print(key) # Not always "a"
 
 ---
 
-
 Posted Dec 23, 2016.
+
 https://www.darklaunch.com/2016/12/23/python-access-first-element-in-dictionary.html

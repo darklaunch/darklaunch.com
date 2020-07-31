@@ -17,6 +17,6 @@ SELECT (
 
 ---
 
-
 Posted Aug 17, 2009.
+
 https://www.darklaunch.com/2009/08/17/mysql-calculate-hours-from-two-timestamps.html

@@ -30,6 +30,6 @@ var_dump($_FILES);
 
 ---
 
-
 Posted Jun 15, 2009.
+
 https://www.darklaunch.com/2009/06/15/how-to-upload-a-file-via-the-command-line-using-curl-upload-an-image-using-curl.html

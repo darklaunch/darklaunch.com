@@ -20,6 +20,6 @@ $ getconf ARG_MAX
 
 ---
 
-
 Posted Aug 25, 2018.
+
 https://www.darklaunch.com/2018/08/25/fix-bash-bin-rm-argument-list-too-long.html

@@ -15,6 +15,6 @@ print(symmetric_difference(['a', 'b'], ['a', 'b', 'c'])) # True
 
 ---
 
-
 Posted Mar 6, 2020.
+
 https://www.darklaunch.com/2020/03/06/python-symmetric-difference.html

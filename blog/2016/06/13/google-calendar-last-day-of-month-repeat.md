@@ -28,6 +28,6 @@ Google Calendar warning: "This event has a recurrence rule that cannot be edited
 
 ---
 
-
 Posted Jun 13, 2016.
+
 https://www.darklaunch.com/2016/06/13/google-calendar-last-day-of-month-repeat.html

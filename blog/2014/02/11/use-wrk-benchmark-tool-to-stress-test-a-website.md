@@ -31,6 +31,6 @@ Example wrk scripts: https://github.com/wg/wrk/tree/master/scripts
 
 ---
 
-
 Posted Feb 11, 2014.
+
 https://www.darklaunch.com/2014/02/11/use-wrk-benchmark-tool-to-stress-test-a-website.html

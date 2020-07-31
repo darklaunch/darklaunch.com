@@ -48,6 +48,6 @@ for (var i in list) {
 
 ---
 
-
 Posted May 9, 2013.
+
 https://www.darklaunch.com/2013/05/09/javascript-thousands-separator-function.html

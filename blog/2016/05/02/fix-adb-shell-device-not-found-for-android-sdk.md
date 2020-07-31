@@ -12,6 +12,6 @@ $ ./adb devices
 
 ---
 
-
 Posted May 2, 2016.
+
 https://www.darklaunch.com/2016/05/02/fix-adb-shell-device-not-found-for-android-sdk.html

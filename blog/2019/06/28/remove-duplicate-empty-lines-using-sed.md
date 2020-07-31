@@ -37,6 +37,6 @@ $ cat --number modified.txt
 
 ---
 
-
 Posted Jun 28, 2019.
+
 https://www.darklaunch.com/2019/06/28/remove-duplicate-empty-lines-using-sed.html

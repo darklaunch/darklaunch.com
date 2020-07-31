@@ -69,6 +69,6 @@ protected function _loadRegex() {
 
 ---
 
-
 Posted Feb 3, 2009.
+
 https://www.darklaunch.com/2009/02/03/example-php-page-php-syntax-highlighting-page.html

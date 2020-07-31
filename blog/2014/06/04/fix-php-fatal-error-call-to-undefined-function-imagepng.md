@@ -11,6 +11,6 @@ var_dump(extension_loaded('gd'));
 
 ---
 
-
 Posted Jun 4, 2014.
+
 https://www.darklaunch.com/2014/06/04/fix-php-fatal-error-call-to-undefined-function-imagepng.html

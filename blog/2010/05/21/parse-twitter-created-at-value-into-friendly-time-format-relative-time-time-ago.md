@@ -56,6 +56,6 @@ console.log(H("Thu, 20 May 2010 19:22:10 +0000"));
 
 ---
 
-
 Posted May 21, 2010.
+
 https://www.darklaunch.com/2010/05/21/parse-twitter-created-at-value-into-friendly-time-format-relative-time-time-ago.html

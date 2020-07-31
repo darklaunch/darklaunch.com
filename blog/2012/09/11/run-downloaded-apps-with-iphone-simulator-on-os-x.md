@@ -22,6 +22,6 @@ $ /Applications/Xcode.app/Contents/Applications/iPhone\ Simulator.app/Contents/M
 
 ---
 
-
 Posted Sep 11, 2012.
+
 https://www.darklaunch.com/2012/09/11/run-downloaded-apps-with-iphone-simulator-on-os-x.html

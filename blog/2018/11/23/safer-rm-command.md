@@ -44,6 +44,6 @@ https://github.com/dot-star/dot-star/blob/master/bash/.safer_rm_test.sh
 
 ---
 
-
 Posted Nov 23, 2018.
+
 https://www.darklaunch.com/2018/11/23/safer-rm-command.html

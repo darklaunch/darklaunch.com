@@ -22,6 +22,6 @@ scp -P 2222 /path/to/source/file.txt myusername@localhost:/path/to/destination/
 
 ---
 
-
 Posted Feb 29, 2012.
+
 https://www.darklaunch.com/2012/02/29/virtualbox-ssh-port-22-forwarding.html

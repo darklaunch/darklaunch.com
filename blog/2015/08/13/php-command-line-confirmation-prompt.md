@@ -25,6 +25,6 @@ Continuing
 
 ---
 
-
 Posted Aug 13, 2015.
+
 https://www.darklaunch.com/2015/08/13/php-command-line-confirmation-prompt.html

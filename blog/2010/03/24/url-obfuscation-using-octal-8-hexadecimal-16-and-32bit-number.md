@@ -7,6 +7,6 @@ The following are valid URLs for www.google.com
 
 ---
 
-
 Posted Mar 24, 2010.
+
 https://www.darklaunch.com/2010/03/24/url-obfuscation-using-octal-8-hexadecimal-16-and-32bit-number.html

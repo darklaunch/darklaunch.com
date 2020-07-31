@@ -10,6 +10,6 @@ The output from the script is piped to tee and tee prints to stdout and appends 
 
 ---
 
-
 Posted Nov 11, 2011.
+
 https://www.darklaunch.com/2011/11/11/bash-stdout-write-output-to-file.html

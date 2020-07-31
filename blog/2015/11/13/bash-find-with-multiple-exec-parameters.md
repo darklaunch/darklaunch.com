@@ -9,6 +9,6 @@ $ find . -type d ! -path . -exec echo "Searching in {}" \; -exec grep -Ri "keywo
 
 ---
 
-
 Posted Nov 13, 2015.
+
 https://www.darklaunch.com/2015/11/13/bash-find-with-multiple-exec-parameters.html

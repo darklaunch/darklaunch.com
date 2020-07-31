@@ -14,6 +14,6 @@ $ git diff --name-only SHA1 SHA2 | xargs zip /path/to/file.zip
 
 ---
 
-
 Posted Sep 29, 2012.
+
 https://www.darklaunch.com/2012/09/29/git-show-list-of-all-files-changed-between-two-commits-zip-them.html

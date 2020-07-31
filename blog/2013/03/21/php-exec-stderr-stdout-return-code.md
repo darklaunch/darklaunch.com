@@ -27,6 +27,6 @@ list($return_code, $stdout, $stderr) = pipe_exec('ls');
 
 ---
 
-
 Posted Mar 21, 2013.
+
 https://www.darklaunch.com/2013/03/21/php-exec-stderr-stdout-return-code.html

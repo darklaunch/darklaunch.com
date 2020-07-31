@@ -28,6 +28,6 @@ http://darklaunch.com/2009/11/06/open-microsoft-office-document-in-wine-word-exc
 
 ---
 
-
 Posted Dec 1, 2009.
+
 https://www.darklaunch.com/2009/12/01/open-microsoft-office-document-in-wine-word-microsoft-doc-files-open-with.html

@@ -7,6 +7,6 @@ mail.add_x_header = Off
 
 ---
 
-
 Posted Jan 15, 2015.
+
 https://www.darklaunch.com/2015/01/15/php-disable-x-php-originating-script-header.html

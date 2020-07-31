@@ -2,6 +2,6 @@
 
 ---
 
-
 Posted Feb 20, 2009.
+
 https://www.darklaunch.com/2009/02/20/how-can-linux-be-upgraded-updated-without-requiring-reboot.html

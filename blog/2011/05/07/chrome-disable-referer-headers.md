@@ -31,6 +31,6 @@ The referring url is available from the document.referrer field.
 
 ---
 
-
 Posted May 7, 2011.
+
 https://www.darklaunch.com/2011/05/07/chrome-disable-referer-headers.html

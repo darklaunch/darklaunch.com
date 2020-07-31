@@ -6,6 +6,6 @@ https://pqrs.org/osx/karabiner/seil.html.en
 
 ---
 
-
 Posted Aug 24, 2015.
+
 https://www.darklaunch.com/2015/08/24/mac-os-x-remap-capslock-to-f12.html

@@ -17,6 +17,6 @@ Switch to the next most recently used window of the front app by typing tilde in
 
 ---
 
-
 Posted Nov 16, 2015.
+
 https://www.darklaunch.com/2015/11/16/os-x-swap-command-tilde-with-tilde-to-switch-between-windows.html

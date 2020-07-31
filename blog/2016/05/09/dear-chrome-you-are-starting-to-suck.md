@@ -12,6 +12,6 @@ To make Chrome safer, we disabled some extensions that aren't listed in the Chro
 
 ---
 
-
 Posted May 9, 2016.
+
 https://www.darklaunch.com/2016/05/09/dear-chrome-you-are-starting-to-suck.html

@@ -10,6 +10,6 @@ To disable JavaScript in Firefox, do the following:
 
 ---
 
-
 Posted Jul 28, 2020.
+
 https://www.darklaunch.com/2020/07/28/disable-javascript-in-firefox.html

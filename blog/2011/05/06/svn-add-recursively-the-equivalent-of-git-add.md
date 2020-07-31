@@ -22,6 +22,6 @@ alias sau="php -r '\$files = array(); foreach (simplexml_load_string(\$argv[\"1\
 
 ---
 
-
 Posted May 6, 2011.
+
 https://www.darklaunch.com/2011/05/06/svn-add-recursively-the-equivalent-of-git-add.html

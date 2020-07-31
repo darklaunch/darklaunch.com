@@ -12,6 +12,6 @@ NOTE: or use '/usr/bin/kate' -u %U
 
 ---
 
-
 Posted May 28, 2009.
+
 https://www.darklaunch.com/2009/05/28/reuse-kate-text-editor-instance-open-files-reusing-same-window.html

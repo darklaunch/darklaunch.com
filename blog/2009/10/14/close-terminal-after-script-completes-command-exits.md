@@ -14,6 +14,6 @@ The shortcut opens a terminal window for the input. The scripts then runs and th
 
 ---
 
-
 Posted Oct 14, 2009.
+
 https://www.darklaunch.com/2009/10/14/close-terminal-after-script-completes-command-exits.html

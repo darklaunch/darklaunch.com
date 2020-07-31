@@ -63,6 +63,6 @@ for key in list(DATABASES.keys()):
 
 ---
 
-
 Posted Oct 13, 2017.
+
 https://www.darklaunch.com/2017/10/13/django-enable-mysql-strict-mode.html

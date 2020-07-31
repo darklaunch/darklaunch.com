@@ -10,6 +10,6 @@ rsync --recursive --verbose --delete --progress --dry-run /from/this/source/ /to
 
 ---
 
-
 Posted May 13, 2010.
+
 https://www.darklaunch.com/2010/05/13/sync-two-directories-in-ubuntu-using-rsync.html

@@ -2,6 +2,6 @@ To view the message source of an email, open the email in it's own window. On th
 
 ---
 
-
 Posted Apr 6, 2010.
+
 https://www.darklaunch.com/2010/04/06/outlook-view-email-message-source-outlook-2007.html

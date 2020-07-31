@@ -14,6 +14,6 @@ LIMIT
 
 ---
 
-
 Posted Mar 2, 2009.
+
 https://www.darklaunch.com/2009/03/02/mysql-format-money-currency-with-dollar-sign-get-total-for-month.html

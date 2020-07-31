@@ -29,6 +29,6 @@ except TypeError:
 
 ---
 
-
 Posted Jul 1, 2016.
+
 https://www.darklaunch.com/2016/07/01/python-execute-php-script-with-parameters.html

@@ -19,6 +19,6 @@ NOTE: You may need to delete the extension's folder ("/{dd3d7613-0246-469d-bc65-
 
 ---
 
-
 Posted Jul 6, 2009.
+
 https://www.darklaunch.com/2009/07/06/use-blocksite-with-firefox-3-5-ubuntu.html

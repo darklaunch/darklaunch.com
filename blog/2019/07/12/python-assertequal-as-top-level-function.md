@@ -102,6 +102,6 @@ FAILED (failures=1)
 
 ---
 
-
 Posted Jul 12, 2019.
+
 https://www.darklaunch.com/2019/07/12/python-assertequal-as-top-level-function.html

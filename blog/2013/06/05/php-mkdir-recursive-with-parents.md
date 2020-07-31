@@ -15,6 +15,6 @@ Note the @ is to ignore any existing folder.
 
 ---
 
-
 Posted Jun 5, 2013.
+
 https://www.darklaunch.com/2013/06/05/php-mkdir-recursive-with-parents.html

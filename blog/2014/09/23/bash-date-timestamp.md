@@ -7,6 +7,6 @@ $ date "+%Y-%m-%d_%H%M%S"
 
 ---
 
-
 Posted Sep 23, 2014.
+
 https://www.darklaunch.com/2014/09/23/bash-date-timestamp.html

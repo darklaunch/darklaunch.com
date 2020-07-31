@@ -17,6 +17,6 @@ Possible errors that this fixes:
 
 ---
 
-
 Posted Mar 8, 2015.
+
 https://www.darklaunch.com/2015/03/08/fix-brew-failure-while-executing-git-pull.html

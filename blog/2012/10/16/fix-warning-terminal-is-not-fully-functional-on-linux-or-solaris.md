@@ -8,6 +8,6 @@ Using `export TERM=screen` also fixes the "Cannot find terminfo entry for 'xterm
 
 ---
 
-
 Posted Oct 16, 2012.
+
 https://www.darklaunch.com/2012/10/16/fix-warning-terminal-is-not-fully-functional-on-linux-or-solaris.html

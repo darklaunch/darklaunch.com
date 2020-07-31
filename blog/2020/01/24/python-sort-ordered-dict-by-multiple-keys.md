@@ -8,6 +8,6 @@ collections.OrderedDict(sorted(my_dict.items(), key=lambda item: (item[1], item[
 
 ---
 
-
 Posted Jan 24, 2020.
+
 https://www.darklaunch.com/2020/01/24/python-sort-ordered-dict-by-multiple-keys.html

@@ -8,6 +8,6 @@ console.log("the first empty field: ", firstEmptyField);
 
 ---
 
-
 Posted Jun 28, 2011.
+
 https://www.darklaunch.com/2011/06/28/jquery-find-first-empty-form-field-using-the-input-selector.html

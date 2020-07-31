@@ -17,6 +17,6 @@ Bookmark a specific url to create a new Google Document in a particular folder.
 
 ---
 
-
 Posted Jan 19, 2017.
+
 https://www.darklaunch.com/2017/01/19/create-new-google-document-in-a-folder.html

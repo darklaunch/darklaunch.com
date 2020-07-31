@@ -9,6 +9,6 @@ browser.frames.enabled = false
 
 ---
 
-
 Posted May 26, 2009.
+
 https://www.darklaunch.com/2009/05/26/firefox-disable-iframes-about-config-browser-frames-enabled-2.html

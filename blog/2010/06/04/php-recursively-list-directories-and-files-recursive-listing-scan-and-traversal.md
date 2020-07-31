@@ -17,6 +17,6 @@ foreach (new RecursiveIteratorIterator(new RecursiveDirectoryIterator($dir)) as 
 
 ---
 
-
 Posted Jun 4, 2010.
+
 https://www.darklaunch.com/2010/06/04/php-recursively-list-directories-and-files-recursive-listing-scan-and-traversal.html

@@ -15,6 +15,6 @@ The &lt;input name="sitesearch" type="hidden" value="darklaunch.com" /> targets 
 
 ---
 
-
 Posted Feb 4, 2009.
+
 https://www.darklaunch.com/2009/02/04/limit-google-search-to-a-domain-code.html

@@ -19,6 +19,6 @@ find ./ ! -iname "*.mp3" ! -iname "*.m3u" ! -iname "*.pls" -type f -exec rm {} \
 
 ---
 
-
 Posted Jul 8, 2010.
+
 https://www.darklaunch.com/2010/07/08/find-files-and-execute-command-on-those-files-found-find-file-and-exec.html

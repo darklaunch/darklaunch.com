@@ -11,6 +11,6 @@ view_source.editor.path=/usr/bin/scite;
 
 ---
 
-
 Posted May 5, 2009.
+
 https://www.darklaunch.com/2009/05/05/ubuntu-firefox-default-view-source-editor-view-source-editor-external-view-source-editor-path.html

@@ -13,6 +13,6 @@ c
 
 ---
 
-
 Posted Sep 6, 2017.
+
 https://www.darklaunch.com/2017/09/06/python-view-newlines-tabs-in-string.html

@@ -20,6 +20,6 @@ To increase the amount of resize, include a number after the direction flag:
 
 ---
 
-
 Posted Jun 21, 2020.
+
 https://www.darklaunch.com/2020/06/21/byobu-resize-panes-up-down-left-right.html

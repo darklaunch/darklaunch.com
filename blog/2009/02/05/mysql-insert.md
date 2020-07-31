@@ -24,6 +24,6 @@ echo htmlspecialchars($bar, ENT_QUOTES, 'UTF-8');
 
 ---
 
-
 Posted Feb 5, 2009.
+
 https://www.darklaunch.com/2009/02/05/mysql-insert.html

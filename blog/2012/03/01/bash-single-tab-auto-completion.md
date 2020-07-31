@@ -16,6 +16,6 @@ set completion-query-items 350
 
 ---
 
-
 Posted Mar 1, 2012.
+
 https://www.darklaunch.com/2012/03/01/bash-single-tab-auto-completion.html

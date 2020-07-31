@@ -21,6 +21,6 @@ The <img /> tag is one example. A form and data can be submitted. An iframe can 
 
 ---
 
-
 Posted Feb 3, 2009.
+
 https://www.darklaunch.com/2009/02/03/cross-site-request-forgery-csrf-xsrf.html

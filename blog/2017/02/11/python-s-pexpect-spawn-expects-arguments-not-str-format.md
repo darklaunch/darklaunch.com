@@ -47,6 +47,6 @@ file1.txt  file2.txt  file3.txt
 
 ---
 
-
 Posted Feb 11, 2017.
+
 https://www.darklaunch.com/2017/02/11/python-s-pexpect-spawn-expects-arguments-not-str-format.html

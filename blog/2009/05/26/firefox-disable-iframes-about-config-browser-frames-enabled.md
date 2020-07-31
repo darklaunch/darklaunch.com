@@ -7,6 +7,6 @@ Open a new window for changes to appear.
 
 ---
 
-
 Posted May 26, 2009.
+
 https://www.darklaunch.com/2009/05/26/firefox-disable-iframes-about-config-browser-frames-enabled.html

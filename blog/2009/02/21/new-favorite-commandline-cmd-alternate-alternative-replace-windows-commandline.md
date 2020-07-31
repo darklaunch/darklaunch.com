@@ -12,6 +12,6 @@ Transparency inactive window: 180
 
 ---
 
-
 Posted Feb 21, 2009.
+
 https://www.darklaunch.com/2009/02/21/new-favorite-commandline-cmd-alternate-alternative-replace-windows-commandline.html

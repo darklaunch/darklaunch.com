@@ -47,6 +47,6 @@ Possible errors: "debug1: Could not open authorized keys '/.../.ssh/authorized_k
 
 ---
 
-
 Posted Jul 30, 2014.
+
 https://www.darklaunch.com/2014/07/30/ssh-connection-closed-immediately.html

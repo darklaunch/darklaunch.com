@@ -52,6 +52,6 @@ $.isArray( $("body") )
 
 ---
 
-
 Posted May 23, 2011.
+
 https://www.darklaunch.com/2011/05/23/javascript-distinguish-between-array-or-object.html

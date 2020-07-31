@@ -21,6 +21,6 @@ echo
 
 ---
 
-
 Posted Feb 6, 2009.
+
 https://www.darklaunch.com/2009/02/06/php-wordwrap-although-it-may-be-temping.html

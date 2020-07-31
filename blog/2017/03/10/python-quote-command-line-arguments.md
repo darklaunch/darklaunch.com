@@ -25,6 +25,6 @@ Use `shlex.quote()` for python 3 only.
 
 ---
 
-
 Posted Mar 10, 2017.
+
 https://www.darklaunch.com/2017/03/10/python-quote-command-line-arguments.html

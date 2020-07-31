@@ -13,6 +13,6 @@ After each code shortcut command is added, press a hotkey to associate it with t
 
 ---
 
-
 Posted Feb 15, 2010.
+
 https://www.darklaunch.com/2010/02/15/control-volume-with-keyboard-shortcut-in-xfce.html

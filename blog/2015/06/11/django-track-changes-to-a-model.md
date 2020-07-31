@@ -77,6 +77,6 @@ admin.site.register(PersonChange, PersonChangeAdmin)
 
 ---
 
-
 Posted Jun 11, 2015.
+
 https://www.darklaunch.com/2015/06/11/django-track-changes-to-a-model.html

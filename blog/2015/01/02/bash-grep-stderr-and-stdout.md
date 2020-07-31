@@ -20,6 +20,6 @@ php -r 'fwrite(STDOUT, "stdout\n");fwrite(STDERR, "stderr\n");' 2>&1 > /dev/null
 
 ---
 
-
 Posted Jan 2, 2015.
+
 https://www.darklaunch.com/2015/01/02/bash-grep-stderr-and-stdout.html

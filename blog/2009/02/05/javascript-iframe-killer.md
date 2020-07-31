@@ -9,6 +9,6 @@ while ((el=document.getElementsByTagName('iframe')).length) {
 
 ---
 
-
 Posted Feb 5, 2009.
+
 https://www.darklaunch.com/2009/02/05/javascript-iframe-killer.html

@@ -9,6 +9,6 @@ To get Windows + E to open nautilus open Keyboard Shortcuts in System > Preferen
 
 ---
 
-
 Posted Sep 29, 2009.
+
 https://www.darklaunch.com/2009/09/29/ubuntu-windows-key-shortcut-super-key-win-key.html

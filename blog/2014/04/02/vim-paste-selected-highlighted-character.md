@@ -56,6 +56,6 @@ This will now be the updated text:
 
 ---
 
-
 Posted Apr 2, 2014.
+
 https://www.darklaunch.com/2014/04/02/vim-paste-selected-highlighted-character.html

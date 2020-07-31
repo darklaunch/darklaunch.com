@@ -10,6 +10,6 @@ If using `Ctrl` + `Alt` + `Up`, you'll need to remove the current keyboard short
 
 ---
 
-
 Posted May 5, 2015.
+
 https://www.darklaunch.com/2015/05/05/ubuntu-move-window-to-next-monitor-keyboard-shortcut.html

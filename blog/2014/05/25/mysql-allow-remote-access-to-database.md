@@ -40,6 +40,6 @@ mysql> GRANT ALL ON *.* TO 'root'@'%';
 
 ---
 
-
 Posted May 25, 2014.
+
 https://www.darklaunch.com/2014/05/25/mysql-allow-remote-access-to-database.html

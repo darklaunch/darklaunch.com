@@ -108,6 +108,6 @@ On_IWhite='\e[0;107m'   # White
 
 ---
 
-
 Posted Apr 25, 2013.
+
 https://www.darklaunch.com/2013/04/25/bash-get-unicode-character-from-encoded-char.html

@@ -19,6 +19,6 @@ NOTE: This can be unsafe. Consider using `Access-Control-Allow-Origin` or verify
 
 ---
 
-
 Posted Nov 10, 2016.
+
 https://www.darklaunch.com/2016/11/10/django-class-based-view-csrf-exempt.html

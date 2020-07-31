@@ -48,6 +48,6 @@ $yet_another_var = baz
 
 ---
 
-
 Posted Jul 9, 2011.
+
 https://www.darklaunch.com/2011/07/09/php-get-the-name-of-the-given-variable-used.html

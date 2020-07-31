@@ -10,6 +10,6 @@ To launch byobu automatically at login within guake, open guake preferences. Che
 
 ---
 
-
 Posted Apr 24, 2012.
+
 https://www.darklaunch.com/2012/04/24/byobu-start-automatically-in-guake-as-the-default-shell.html

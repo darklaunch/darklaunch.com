@@ -52,6 +52,6 @@ $ screen -x
 
 ---
 
-
 Posted Jan 1, 2016.
+
 https://www.darklaunch.com/2016/01/01/run-commands-in-separate-new-screen-sessions-tabs.html

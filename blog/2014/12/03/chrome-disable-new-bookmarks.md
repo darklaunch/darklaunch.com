@@ -6,6 +6,6 @@ I really hope Google doesn't remove the classic bookmarks.
 
 ---
 
-
 Posted Dec 3, 2014.
+
 https://www.darklaunch.com/2014/12/03/chrome-disable-new-bookmarks.html

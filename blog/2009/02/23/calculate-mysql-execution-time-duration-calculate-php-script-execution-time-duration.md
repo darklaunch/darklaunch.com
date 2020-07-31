@@ -30,6 +30,6 @@ You may may interested in the <a href="http://darklaunch.com/2013/01/30/php-meas
 
 ---
 
-
 Posted Feb 23, 2009.
+
 https://www.darklaunch.com/2009/02/23/calculate-mysql-execution-time-duration-calculate-php-script-execution-time-duration.html

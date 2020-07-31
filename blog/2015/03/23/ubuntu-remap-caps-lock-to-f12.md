@@ -15,6 +15,6 @@ Tweaks > Typing > Caps Lock key behavior :: Caps Lock is disabled
 
 ---
 
-
 Posted Mar 23, 2015.
+
 https://www.darklaunch.com/2015/03/23/ubuntu-remap-caps-lock-to-f12.html

@@ -39,6 +39,6 @@ and run that instead.
 
 ---
 
-
 Posted Nov 24, 2011.
+
 https://www.darklaunch.com/2011/11/24/osx-install-pip-virtualenv-virtualenvwrapper-on-mac.html

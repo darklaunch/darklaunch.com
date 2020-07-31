@@ -20,6 +20,6 @@ Screen sharing on OS X
 
 ---
 
-
 Posted Oct 4, 2015.
+
 https://www.darklaunch.com/2015/10/04/os-x-screen-sharing-application.html

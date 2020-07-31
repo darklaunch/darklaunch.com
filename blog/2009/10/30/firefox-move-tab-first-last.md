@@ -17,6 +17,6 @@ http://darklaunch.com/2009/09/30/firefox-move-tab-left-and-move-tab-right-with-w
 
 ---
 
-
 Posted Oct 30, 2009.
+
 https://www.darklaunch.com/2009/10/30/firefox-move-tab-first-last.html

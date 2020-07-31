@@ -19,6 +19,6 @@ function normalize($s) {
 
 ---
 
-
 Posted May 6, 2009.
+
 https://www.darklaunch.com/2009/05/06/php-normalize-newlines-line-endings-crlf-cr-lf-unix-windows-mac.html

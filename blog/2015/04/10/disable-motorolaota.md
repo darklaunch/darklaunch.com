@@ -15,6 +15,6 @@ Yes, root is required.
 
 ---
 
-
 Posted Apr 10, 2015.
+
 https://www.darklaunch.com/2015/04/10/disable-motorolaota.html

@@ -89,6 +89,6 @@ function colorize($str, $attributes) {
 
 ---
 
-
 Posted Jul 9, 2018.
+
 https://www.darklaunch.com/2018/07/09/serve-colorized-response-to-curl.html

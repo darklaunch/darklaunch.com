@@ -22,6 +22,6 @@ function is_ssl() {
 
 ---
 
-
 Posted Sep 12, 2011.
+
 https://www.darklaunch.com/2011/09/12/php-determine-if-using-ssl-https-or-http.html

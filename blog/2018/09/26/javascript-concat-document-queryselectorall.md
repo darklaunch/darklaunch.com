@@ -85,6 +85,6 @@ console.assert(JSON.stringify(expected) === JSON.stringify(threadComments));
 
 ---
 
-
 Posted Sep 26, 2018.
+
 https://www.darklaunch.com/2018/09/26/javascript-concat-document-queryselectorall.html

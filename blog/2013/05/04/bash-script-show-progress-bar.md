@@ -40,6 +40,6 @@ echo "Done."
 
 ---
 
-
 Posted May 4, 2013.
+
 https://www.darklaunch.com/2013/05/04/bash-script-show-progress-bar.html

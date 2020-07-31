@@ -22,6 +22,6 @@ $ sudo bash ~/vbox/VBoxLinuxAdditions.run
 
 ---
 
-
 Posted Jul 19, 2014.
+
 https://www.darklaunch.com/2014/07/19/virtualbox-install-guest-additions-ubuntu.html

@@ -51,6 +51,6 @@ Output:
 
 ---
 
-
 Posted Jul 11, 2020.
+
 https://www.darklaunch.com/2020/07/11/php-extract-dollar-amounts.html

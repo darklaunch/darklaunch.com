@@ -21,6 +21,6 @@ $ sshfs myuser@ftp.mysite.com:/ ~/mnt/mysite -o reconnect
 
 ---
 
-
 Posted Jun 9, 2010.
+
 https://www.darklaunch.com/2010/06/09/ssh-timeout-keep-alive-option-reconnect-ssh-times-out.html

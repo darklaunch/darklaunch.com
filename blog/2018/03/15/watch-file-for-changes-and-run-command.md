@@ -109,6 +109,6 @@ Part of https://github.com/dot-star/dot-star
 
 ---
 
-
 Posted Mar 15, 2018.
+
 https://www.darklaunch.com/2018/03/15/watch-file-for-changes-and-run-command.html

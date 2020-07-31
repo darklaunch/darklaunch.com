@@ -39,6 +39,6 @@ kw: bash, shift, unshift
 
 ---
 
-
 Posted Jun 13, 2019.
+
 https://www.darklaunch.com/2019/06/13/bash-replace-function-parameters.html

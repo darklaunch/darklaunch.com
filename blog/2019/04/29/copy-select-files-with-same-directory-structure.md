@@ -47,6 +47,6 @@ $ tree /tmp/destination/
 
 ---
 
-
 Posted Apr 29, 2019.
+
 https://www.darklaunch.com/2019/04/29/copy-select-files-with-same-directory-structure.html

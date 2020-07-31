@@ -56,6 +56,6 @@ function HTTPStatus($num) {
 
 ---
 
-
 Posted Sep 1, 2010.
+
 https://www.darklaunch.com/2010/09/01/http-status-codes-in-php-http-header-response-code-function.html

@@ -97,6 +97,6 @@ Ok. Thanks for playing.
 
 ---
 
-
 Posted Apr 12, 2016.
+
 https://www.darklaunch.com/2016/04/12/python-communicate-with-subprocess-between-threads.html

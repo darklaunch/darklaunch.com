@@ -12,6 +12,6 @@ $ git checkout 807eff29 -- static/images/icons/world.svg
 
 ---
 
-
 Posted Jan 10, 2019.
+
 https://www.darklaunch.com/2019/01/10/git-revert-file-to-a-specific-commit-or-revision.html

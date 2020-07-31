@@ -28,6 +28,6 @@ object(stdClass)#1 (2) {
 
 ---
 
-
 Posted Jul 16, 2017.
+
 https://www.darklaunch.com/2017/07/16/curl-post-multiline-json-data-from-stdin.html

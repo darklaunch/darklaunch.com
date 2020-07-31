@@ -53,6 +53,6 @@ NOTE: use $@ to pass the full parameter. instead of alias foo="somecommand $1 $2
 
 ---
 
-
 Posted Nov 23, 2010.
+
 https://www.darklaunch.com/2010/11/23/make-a-bash-alias-with-parameters-or-argument-pass-args-parameter.html
