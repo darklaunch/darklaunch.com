@@ -1,4 +1,4 @@
-Firefox allows disabling JavaScript from the <kdb>about:config` advanced settings editor.
+Firefox allows disabling JavaScript from the `about:config` advanced settings editor.
 
 To disable JavaScript in Firefox, do the following:
 
