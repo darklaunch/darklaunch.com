@@ -49,6 +49,32 @@ Output:
 }
 `
 
+Regex explained:
+
+```php
+$DOLLAR_AMOUNT_REGEX =
+    '(' .                // begin capture group
+        '\$?' .          // dollar sign, optional
+        '\d{1,3}'.       // 1-3 digits
+
+        '(' .            // begin group
+            '?:' .       // non-capturing group
+            ',?' .       // comma, optional
+            '\d{3}' .    // 3 digits
+        ')' .            // end group
+        '*' .            // group repeats any number of times
+
+        '(' .            // begin group
+            '?:' .       // non-capturing group
+            '\.' .       // period
+            '\d{2}' .    // 2 digits
+        ')' .            // end group
+        '?' .            // group is optional
+
+    ')' .                // end capture group
+    '';
+```
+
 ---
 
 Posted Jul 11, 2020.
