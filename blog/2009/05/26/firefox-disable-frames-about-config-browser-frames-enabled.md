@@ -5,6 +5,11 @@ Open a new window for changes to appear.
 
 <img alt="" src="/img/uploads/2013-06/firefox-disable-iframes.png" />
 
+```
+about:config
+browser.frames.enabled = false
+```
+
 ---
 
 Posted May 26, 2009.
