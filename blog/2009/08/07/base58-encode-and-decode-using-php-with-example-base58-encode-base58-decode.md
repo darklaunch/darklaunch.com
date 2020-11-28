@@ -122,7 +122,14 @@ https://www.darklaunch.com/2009/08/07/base58-encode-and-decode-using-php-with-ex
         <div>
             anonymous &ndash; Apr 4, 2013
             <div>
-                <p>BASE2_ALPHABET = '01'</p><p>BASE16_ALPHABET = '0123456789ABCDEF'</p><p>BASE56_ALPHABET = '23456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnpqrstuvwxyz'</p><p>BASE36_ALPHABET = '0123456789abcdefghijklmnopqrstuvwxyz'</p><p>BASE62_ALPHABET = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'</p><p>BASE64_ALPHABET = BASE62_ALPHABET + '-_'</p>
+                <code>
+BASE2_ALPHABET = '01'
+BASE16_ALPHABET = '0123456789ABCDEF'
+BASE56_ALPHABET = '23456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnpqrstuvwxyz'
+BASE36_ALPHABET = '0123456789abcdefghijklmnopqrstuvwxyz'
+BASE62_ALPHABET = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
+BASE64_ALPHABET = BASE62_ALPHABET + '-_'
+</code>
             </div>
         </div>
     </li>
@@ -138,7 +145,17 @@ https://www.darklaunch.com/2009/08/07/base58-encode-and-decode-using-php-with-ex
         <div>
             anonymous &ndash; Oct 14, 2014
             <div>
-                <p>BASE2_ALPHABET = '01'</p><p>BASE16_ALPHABET = '0123456789ABCDEF'</p><p>BASE56_ALPHABET = '23456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnpqrstuvwxyz'</p><p>BASE36_ALPHABET = '0123456789abcdefghijklmnopqrstuvwxyz'</p><p>BASE62_ALPHABET = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'</p><p>BASE64_ALPHABET = BASE62_ALPHABET + '-_'</p><p></p><p>from</p><p>github.com/django/django/blob/master/django/utils/baseconv.py</p>
+                <code>
+BASE2_ALPHABET = '01'
+BASE16_ALPHABET = '0123456789ABCDEF'
+BASE56_ALPHABET = '23456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnpqrstuvwxyz'
+BASE36_ALPHABET = '0123456789abcdefghijklmnopqrstuvwxyz'
+BASE62_ALPHABET = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
+BASE64_ALPHABET = BASE62_ALPHABET + '-_'
+</code>
+
+from
+<a href="https://github.com/django/django/blob/master/django/utils/baseconv.py">https://github.com/django/django/blob/master/django/utils/baseconv.py</a>
             </div>
         </div>
     </li>
@@ -146,7 +163,14 @@ https://www.darklaunch.com/2009/08/07/base58-encode-and-decode-using-php-with-ex
         <div>
             anonymous &ndash; Nov 6, 2016
             <div>
-                <p>For Bitcoin:</p><p></p><p>/** All alphanumeric characters except for "0", "I", "O", and "l" */</p><p>static const char* pszBase58 = "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz";</p><p></p><p>from <a href="https://github.com/bitcoin/bitcoin/blob/HEAD/src/base58.cpp">https://github.com/bitcoin/bitcoin/blob/HEAD/src/base58.cpp</a></p>
+                For Bitcoin:
+
+<code>
+/** All alphanumeric characters except for "0", "I", "O", and "l" */
+static const char* pszBase58 = "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz";
+</code>
+
+from <a href="https://github.com/bitcoin/bitcoin/blob/HEAD/src/base58.cpp">https://github.com/bitcoin/bitcoin/blob/HEAD/src/base58.cpp</a>
             </div>
         </div>
     </li>
