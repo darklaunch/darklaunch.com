@@ -43,7 +43,7 @@ https://www.darklaunch.com/2017/03/20/find-and-replace-in-multiple-files-using-s
         <div>
             anonymous &ndash; Aug 26, 2017
             <div>
-                <p>If you have node on your computer I suggest taking a look at rexreplace on npm...</p>
+If you have node on your computer I suggest taking a look at rexreplace on npm...
             </div>
         </div>
     </li>

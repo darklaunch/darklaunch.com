@@ -34,7 +34,7 @@ https://www.darklaunch.com/2016/05/13/php-fix-cannot-use-object-of-type-domnodel
         <div>
             anonymous &ndash; Apr 2, 2018
             <div>
-                <p>Very helpful!</p>
+Very helpful!
             </div>
         </div>
     </li>
@@ -42,7 +42,7 @@ https://www.darklaunch.com/2016/05/13/php-fix-cannot-use-object-of-type-domnodel
         <div>
             anonymous &ndash; Dec 17, 2018
             <div>
-                <p>Very helpful! too</p>
+Very helpful! too
             </div>
         </div>
     </li>
@@ -50,7 +50,7 @@ https://www.darklaunch.com/2016/05/13/php-fix-cannot-use-object-of-type-domnodel
         <div>
             anonymous &ndash; Dec 17, 2018
             <div>
-                <p>Very helpful! too too</p>
+Very helpful! too too
             </div>
         </div>
     </li>

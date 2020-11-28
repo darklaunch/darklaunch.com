@@ -58,7 +58,7 @@ https://www.darklaunch.com/2012/07/12/bash-increment-counter-integer-variable.ht
         <div>
             anonymous &ndash; May 21, 2013
             <div>
-                <p>Thanks</p>
+Thanks
             </div>
         </div>
     </li>
@@ -66,7 +66,7 @@ https://www.darklaunch.com/2012/07/12/bash-increment-counter-integer-variable.ht
         <div>
             anonymous &ndash; Oct 24, 2013
             <div>
-                <p>Thank you. I've only seen the <code>x=$((x+1))</code> variant. The <code>((x++))</code> is a new one for me.</p>
+Thank you. I've only seen the `x=$((x+1))` variant. The `((x++))` is a new one for me.
             </div>
         </div>
     </li>

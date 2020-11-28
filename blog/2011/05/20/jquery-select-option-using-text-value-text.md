@@ -81,7 +81,8 @@ https://www.darklaunch.com/2011/05/20/jquery-select-option-using-text-value-text
         <div>
             anonymous &ndash; Sep 28, 2011
             <div>
-                <p>:contains is not ideal, consider some of the values might be cintained within others.Eg, if you got an option with "bble" as text and you want the id,</p><p>@$("select:last").find("option:contains('bble')").prop("selected", "selected") will return more than one</p>
+:contains is not ideal, consider some of the values might be cintained within others.Eg, if you got an option with "bble" as text and you want the id,
+@$("select:last").find("option:contains('bble')").prop("selected", "selected") will return more than one
             </div>
         </div>
     </li>
@@ -89,7 +90,7 @@ https://www.darklaunch.com/2011/05/20/jquery-select-option-using-text-value-text
         <div>
             anonymous &ndash; Jan 30, 2012
             <div>
-                <p>click the option value change to provide new value</p>
+click the option value change to provide new value
             </div>
         </div>
     </li>
@@ -97,7 +98,7 @@ https://www.darklaunch.com/2011/05/20/jquery-select-option-using-text-value-text
         <div>
             anonymous &ndash; May 24, 2012
             <div>
-                <p>Thanks :D</p>
+Thanks :D
             </div>
         </div>
     </li>
@@ -105,7 +106,7 @@ https://www.darklaunch.com/2011/05/20/jquery-select-option-using-text-value-text
         <div>
             anonymous &ndash; Dec 29, 2012
             <div>
-                <p>Contains returns all the options which contain the searched string. It is not an exact match.</p>
+Contains returns all the options which contain the searched string. It is not an exact match.
             </div>
         </div>
     </li>
@@ -113,7 +114,7 @@ https://www.darklaunch.com/2011/05/20/jquery-select-option-using-text-value-text
         <div>
             anonymous &ndash; Jan 3, 2013
             <div>
-                <p>Examples have been updated! Use the $.filter() method for an exact match.</p>
+Examples have been updated! Use the $.filter() method for an exact match.
             </div>
         </div>
     </li>
@@ -121,7 +122,8 @@ https://www.darklaunch.com/2011/05/20/jquery-select-option-using-text-value-text
         <div>
             anonymous &ndash; Jan 23, 2013
             <div>
-                <p>thanks a lot!</p><p>i just find my old selector "option[text='s3']" does not work.</p>
+thanks a lot!
+i just find my old selector "option[text='s3']" does not work.
             </div>
         </div>
     </li>
@@ -129,7 +131,7 @@ https://www.darklaunch.com/2011/05/20/jquery-select-option-using-text-value-text
         <div>
             anonymous &ndash; Jul 22, 2013
             <div>
-                <p>nice :)</p>
+nice :)
             </div>
         </div>
     </li>

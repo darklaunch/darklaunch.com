@@ -33,7 +33,8 @@ https://www.darklaunch.com/2011/09/06/vim-remove-trailing-spaces.html
         <div>
             anonymous &ndash; May 22, 2013
             <div>
-                <p>Why don't you use </p><p>:%s/ \+\n/\r/gc</p>
+Why don't you use 
+:%s/ \+\n/\r/gc
             </div>
         </div>
     </li>
@@ -41,7 +42,9 @@ https://www.darklaunch.com/2011/09/06/vim-remove-trailing-spaces.html
         <div>
             anonymous &ndash; Jun 7, 2013
             <div>
-                <p>@"Why don't you use"</p><p></p><p>both work. which one reads more clearly?</p>
+@"Why don't you use"
+
+both work. which one reads more clearly?
             </div>
         </div>
     </li>

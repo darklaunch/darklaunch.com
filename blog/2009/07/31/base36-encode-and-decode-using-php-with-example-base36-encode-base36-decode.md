@@ -91,7 +91,7 @@ https://www.darklaunch.com/2009/07/31/base36-encode-and-decode-using-php-with-ex
         <div>
             anonymous &ndash; Jul 19, 2011
             <div>
-                <p>nice</p>
+nice
             </div>
         </div>
     </li>
@@ -99,7 +99,7 @@ https://www.darklaunch.com/2009/07/31/base36-encode-and-decode-using-php-with-ex
         <div>
             anonymous &ndash; Apr 5, 2012
             <div>
-                <p>thanks a lot :)</p>
+thanks a lot :)
             </div>
         </div>
     </li>
@@ -107,7 +107,7 @@ https://www.darklaunch.com/2009/07/31/base36-encode-and-decode-using-php-with-ex
         <div>
             anonymous &ndash; Sep 13, 2012
             <div>
-                <p>nice</p>
+nice
             </div>
         </div>
     </li>
@@ -115,7 +115,7 @@ https://www.darklaunch.com/2009/07/31/base36-encode-and-decode-using-php-with-ex
         <div>
             anonymous &ndash; Mar 3, 2015
             <div>
-                <p>+1! Thanks!</p>
++1! Thanks!
             </div>
         </div>
     </li>
@@ -123,7 +123,8 @@ https://www.darklaunch.com/2009/07/31/base36-encode-and-decode-using-php-with-ex
         <div>
             anonymous &ndash; Apr 15, 2019
             <div>
-                <p>Yes, of course.</p><p>Thanks a lot.</p>
+Yes, of course.
+Thanks a lot.
             </div>
         </div>
     </li>

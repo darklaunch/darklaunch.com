@@ -43,7 +43,7 @@ https://www.darklaunch.com/2010/06/10/javascript-get-input-caret-cursor-position
         <div>
             anonymous &ndash; Sep 7, 2012
             <div>
-                <p>wtf is o</p>
+wtf is o
             </div>
         </div>
     </li>
@@ -51,7 +51,7 @@ https://www.darklaunch.com/2010/06/10/javascript-get-input-caret-cursor-position
         <div>
             anonymous &ndash; Sep 7, 2012
             <div>
-                <p>@wtf o is object</p>
+@wtf o is object
             </div>
         </div>
     </li>

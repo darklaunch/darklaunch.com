@@ -29,7 +29,7 @@ https://www.darklaunch.com/2011/07/01/ubuntu-play-restricted-dvd-fix-this-may-be
         <div>
             anonymous &ndash; Oct 20, 2011
             <div>
-                <p>wonderful. thanks!</p>
+wonderful. thanks!
             </div>
         </div>
     </li>
@@ -37,7 +37,7 @@ https://www.darklaunch.com/2011/07/01/ubuntu-play-restricted-dvd-fix-this-may-be
         <div>
             anonymous &ndash; Nov 2, 2011
             <div>
-                <p>Thanks!</p>
+Thanks!
             </div>
         </div>
     </li>
@@ -45,7 +45,7 @@ https://www.darklaunch.com/2011/07/01/ubuntu-play-restricted-dvd-fix-this-may-be
         <div>
             anonymous &ndash; Nov 4, 2011
             <div>
-                <p>do the following?I have no idea what to do with the code, Please be more specific</p>
+do the following?I have no idea what to do with the code, Please be more specific
             </div>
         </div>
     </li>
@@ -53,7 +53,7 @@ https://www.darklaunch.com/2011/07/01/ubuntu-play-restricted-dvd-fix-this-may-be
         <div>
             anonymous &ndash; Nov 4, 2011
             <div>
-                <p>"sudo bash install-css.sh" runs the script</p>
+"sudo bash install-css.sh" runs the script
             </div>
         </div>
     </li>
@@ -61,7 +61,7 @@ https://www.darklaunch.com/2011/07/01/ubuntu-play-restricted-dvd-fix-this-may-be
         <div>
             anonymous &ndash; Nov 11, 2011
             <div>
-                <p>Glory!</p>
+Glory!
             </div>
         </div>
     </li>
@@ -69,7 +69,7 @@ https://www.darklaunch.com/2011/07/01/ubuntu-play-restricted-dvd-fix-this-may-be
         <div>
             anonymous &ndash; Nov 18, 2011
             <div>
-                <p>Thank you!</p>
+Thank you!
             </div>
         </div>
     </li>
@@ -77,7 +77,7 @@ https://www.darklaunch.com/2011/07/01/ubuntu-play-restricted-dvd-fix-this-may-be
         <div>
             anonymous &ndash; Dec 9, 2011
             <div>
-                <p>Define 'do'</p>
+Define 'do'
             </div>
         </div>
     </li>
@@ -85,7 +85,9 @@ https://www.darklaunch.com/2011/07/01/ubuntu-play-restricted-dvd-fix-this-may-be
         <div>
             anonymous &ndash; Feb 8, 2012
             <div>
-                <p>works </p><p>thks!!</p><p>NIN VIDEO</p>
+works 
+thks!!
+NIN VIDEO
             </div>
         </div>
     </li>
@@ -93,7 +95,9 @@ https://www.darklaunch.com/2011/07/01/ubuntu-play-restricted-dvd-fix-this-may-be
         <div>
             anonymous &ndash; Feb 9, 2012
             <div>
-                <p>well i run de the 3 code line for library decriptor but my dvd media still not playing. please what can i do. the 3 command was correctly installed</p><p></p><p></p><p></p>
+well i run de the 3 code line for library decriptor but my dvd media still not playing. please what can i do. the 3 command was correctly installed
+
+
             </div>
         </div>
     </li>
@@ -101,7 +105,7 @@ https://www.darklaunch.com/2011/07/01/ubuntu-play-restricted-dvd-fix-this-may-be
         <div>
             anonymous &ndash; Feb 23, 2012
             <div>
-                <p>where is the 'command line'? I don't get it.</p>
+where is the 'command line'? I don't get it.
             </div>
         </div>
     </li>
@@ -109,7 +113,7 @@ https://www.darklaunch.com/2011/07/01/ubuntu-play-restricted-dvd-fix-this-may-be
         <div>
             anonymous &ndash; Apr 22, 2013
             <div>
-                <p>works a charm thanks</p>
+works a charm thanks
             </div>
         </div>
     </li>
@@ -117,7 +121,7 @@ https://www.darklaunch.com/2011/07/01/ubuntu-play-restricted-dvd-fix-this-may-be
         <div>
             anonymous &ndash; May 4, 2014
             <div>
-                <p>i donot know where to find deryption library. tellme how tofind the</p>
+i donot know where to find deryption library. tellme how tofind the
             </div>
         </div>
     </li>

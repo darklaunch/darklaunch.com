@@ -28,7 +28,7 @@ https://www.darklaunch.com/2009/03/11/use-7zip-as-default-zip-file-manager-set-7
         <div>
             anonymous &ndash; Jul 5, 2012
             <div>
-                <p>7-zip set as default zip file manager. Excellent ! Has a bit of difference on my comp. at steps 7. &amp; 8. Got it completed o.k. with a bit of trial &amp; err. Thanks !!</p>
+7-zip set as default zip file manager. Excellent ! Has a bit of difference on my comp. at steps 7. &amp; 8. Got it completed o.k. with a bit of trial &amp; err. Thanks !!
             </div>
         </div>
     </li>
@@ -36,7 +36,7 @@ https://www.darklaunch.com/2009/03/11/use-7zip-as-default-zip-file-manager-set-7
         <div>
             anonymous &ndash; Feb 11, 2013
             <div>
-                <p>No it did not. I have downloaded 7-Zip, but it is not showing as a default option, or as an option to even use.</p>
+No it did not. I have downloaded 7-Zip, but it is not showing as a default option, or as an option to even use.
             </div>
         </div>
     </li>

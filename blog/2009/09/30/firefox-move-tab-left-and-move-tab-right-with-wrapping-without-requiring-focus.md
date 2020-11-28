@@ -48,7 +48,7 @@ https://www.darklaunch.com/2009/09/30/firefox-move-tab-left-and-move-tab-right-w
         <div>
             anonymous &ndash; Nov 19, 2010
             <div>
-                <p>Worked perfectly!</p>
+Worked perfectly!
             </div>
         </div>
     </li>
@@ -56,7 +56,7 @@ https://www.darklaunch.com/2009/09/30/firefox-move-tab-left-and-move-tab-right-w
         <div>
             anonymous &ndash; Mar 4, 2014
             <div>
-                <p>This is great</p>
+This is great
             </div>
         </div>
     </li>

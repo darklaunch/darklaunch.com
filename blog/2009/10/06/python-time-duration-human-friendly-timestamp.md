@@ -100,7 +100,7 @@ https://www.darklaunch.com/2009/10/06/python-time-duration-human-friendly-timest
         <div>
             anonymous &ndash; Nov 29, 2013
             <div>
-                <p>good!!</p>
+good!!
             </div>
         </div>
     </li>
@@ -108,7 +108,15 @@ https://www.darklaunch.com/2009/10/06/python-time-duration-human-friendly-timest
         <div>
             anonymous &ndash; May 19, 2014
             <div>
-                <p>import datetime</p><p>import time</p><p></p><p></p><p>start = datetime.datetime.now()</p><p></p><p>time.sleep(2)</p><p></p><p>elapsed = datetime.datetime.now() - start</p><p>print elapsed</p>
+import datetime
+import time
+
+start = datetime.datetime.now()
+
+time.sleep(2)
+
+elapsed = datetime.datetime.now() - start
+print elapsed
             </div>
         </div>
     </li>

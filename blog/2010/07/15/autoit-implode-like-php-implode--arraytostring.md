@@ -35,7 +35,7 @@ https://www.darklaunch.com/2010/07/15/autoit-implode-like-php-implode--arraytost
         <div>
             anonymous &ndash; Jan 24, 2011
             <div>
-                <p>you only changed the parameters :D</p>
+you only changed the parameters :D
             </div>
         </div>
     </li>

@@ -29,7 +29,8 @@ https://www.darklaunch.com/2011/07/22/use-firebug-lite-in-internet-explorer-on-a
         <div>
             anonymous &ndash; Sep 5, 2011
             <div>
-                <p>ie firebug is good.</p><p>but sometime it is not working.</p>
+ie firebug is good.
+but sometime it is not working.
             </div>
         </div>
     </li>
@@ -37,7 +38,8 @@ https://www.darklaunch.com/2011/07/22/use-firebug-lite-in-internet-explorer-on-a
         <div>
             anonymous &ndash; Sep 5, 2011
             <div>
-                <p>ie firebug is good.</p><p>but sometime it is not working.</p>
+ie firebug is good.
+but sometime it is not working.
             </div>
         </div>
     </li>
@@ -45,7 +47,7 @@ https://www.darklaunch.com/2011/07/22/use-firebug-lite-in-internet-explorer-on-a
         <div>
             anonymous &ndash; Mar 26, 2012
             <div>
-                <p>no... it just does a search on '<a>javascript:var</a> script = document.createElement("script"); script.type = "text/javascript"; script.src = "<a href="https://getfirebug.com/firebug-lite.js">https://getfirebug.com/firebug-lite.js</a>"; document.getElementsByTagName("body")[0].appendChild(script); void(0);'</p>
+no... it just does a search on '<a>javascript:var</a> script = document.createElement("script"); script.type = "text/javascript"; script.src = "<a href="https://getfirebug.com/firebug-lite.js">https://getfirebug.com/firebug-lite.js</a>"; document.getElementsByTagName("body")[0].appendChild(script); void(0);'
             </div>
         </div>
     </li>
@@ -53,7 +55,7 @@ https://www.darklaunch.com/2011/07/22/use-firebug-lite-in-internet-explorer-on-a
         <div>
             anonymous &ndash; Mar 28, 2012
             <div>
-                <p>this works for older versions of IE. in newer versions, it will just search instead.</p>
+this works for older versions of IE. in newer versions, it will just search instead.
             </div>
         </div>
     </li>

@@ -35,7 +35,7 @@ https://www.darklaunch.com/2011/09/12/php-determine-if-using-ssl-https-or-http.h
         <div>
             anonymous &ndash; Apr 4, 2012
             <div>
-                <p>thanks for posting this, it helped me big time today</p>
+thanks for posting this, it helped me big time today
             </div>
         </div>
     </li>
@@ -43,7 +43,8 @@ https://www.darklaunch.com/2011/09/12/php-determine-if-using-ssl-https-or-http.h
         <div>
             anonymous &ndash; Nov 29, 2012
             <div>
-                <p>Link to original source file</p><p><a href="http://core.svn.wordpress.org/trunk/wp-includes/functions.php">http://core.svn.wordpress.org/trunk/wp-includes/functions.php</a></p>
+Link to original source file
+<a href="http://core.svn.wordpress.org/trunk/wp-includes/functions.php">http://core.svn.wordpress.org/trunk/wp-includes/functions.php</a>
             </div>
         </div>
     </li>
@@ -51,7 +52,9 @@ https://www.darklaunch.com/2011/09/12/php-determine-if-using-ssl-https-or-http.h
         <div>
             anonymous &ndash; Oct 18, 2013
             <div>
-                <p>wtf it should be if (  $_SERVER['HTTPS'] = '1' etc..</p><p></p><p>var you are checking = the value you want to check it against</p>
+wtf it should be if (  $_SERVER['HTTPS'] = '1' etc..
+
+var you are checking = the value you want to check it against
             </div>
         </div>
     </li>
@@ -59,7 +62,7 @@ https://www.darklaunch.com/2011/09/12/php-determine-if-using-ssl-https-or-http.h
         <div>
             anonymous &ndash; Aug 10, 2016
             <div>
-                <p>Link to latest <a href="https://github.com/WordPress/WordPress/blob/HEAD/wp-includes/load.php">https://github.com/WordPress/WordPress/blob/HEAD/wp-includes/load.php</a></p>
+Link to latest <a href="https://github.com/WordPress/WordPress/blob/HEAD/wp-includes/load.php">https://github.com/WordPress/WordPress/blob/HEAD/wp-includes/load.php</a>
             </div>
         </div>
     </li>

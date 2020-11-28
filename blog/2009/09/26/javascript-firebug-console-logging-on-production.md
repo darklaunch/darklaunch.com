@@ -84,7 +84,7 @@ https://www.darklaunch.com/2009/09/26/javascript-firebug-console-logging-on-prod
         <div>
             anonymous &ndash; Dec 11, 2013
             <div>
-                <code>
+```javascript
 (function (win) {
 &nbsp;&nbsp;&nbsp;&nbsp;var method;
 &nbsp;&nbsp;&nbsp;&nbsp;var dummy = function() {};
@@ -95,7 +95,7 @@ https://www.darklaunch.com/2009/09/26/javascript-firebug-console-logging-on-prod
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; win[method] =  win[method] || dummy;
 &nbsp;&nbsp;&nbsp;&nbsp;}
 })(window.console = window.console || {});
-</code>
+```
             </div>
         </div>
     </li>

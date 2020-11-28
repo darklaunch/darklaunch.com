@@ -28,7 +28,7 @@ https://www.darklaunch.com/2011/02/26/ubuntu-print-to-pdf-install-a-pdf-printer.
         <div>
             anonymous &ndash; May 17, 2011
             <div>
-                <p>Or, when printing, select the "Print to File" printer and change the Output format from Postscript to PDF.</p>
+Or, when printing, select the "Print to File" printer and change the Output format from Postscript to PDF.
             </div>
         </div>
     </li>
@@ -36,7 +36,7 @@ https://www.darklaunch.com/2011/02/26/ubuntu-print-to-pdf-install-a-pdf-printer.
         <div>
             anonymous &ndash; Nov 8, 2011
             <div>
-                <p>The "Print to File" option doesn't work in non-gtk apps, then is when cups-pdf is usefull (from wine, java...)</p>
+The "Print to File" option doesn't work in non-gtk apps, then is when cups-pdf is usefull (from wine, java...)
             </div>
         </div>
     </li>
@@ -44,7 +44,7 @@ https://www.darklaunch.com/2011/02/26/ubuntu-print-to-pdf-install-a-pdf-printer.
         <div>
             anonymous &ndash; Mar 25, 2013
             <div>
-                <p>great thanks :)</p>
+great thanks :)
             </div>
         </div>
     </li>

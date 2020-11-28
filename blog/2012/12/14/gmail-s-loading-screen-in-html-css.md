@@ -19,7 +19,7 @@ https://www.darklaunch.com/2012/12/14/gmail-s-loading-screen-in-html-css.html
         <div>
             anonymous &ndash; Apr 25, 2013
             <div>
-                <p>thanks for the code bro</p>
+thanks for the code bro
             </div>
         </div>
     </li>

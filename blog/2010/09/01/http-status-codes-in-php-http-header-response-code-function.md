@@ -69,7 +69,7 @@ https://www.darklaunch.com/2010/09/01/http-status-codes-in-php-http-header-respo
         <div>
             anonymous &ndash; Feb 15, 2011
             <div>
-                <p>Very nice post, good luck! ;-)</p>
+Very nice post, good luck! ;-)
             </div>
         </div>
     </li>
@@ -77,7 +77,69 @@ https://www.darklaunch.com/2010/09/01/http-status-codes-in-php-http-header-respo
         <div>
             anonymous &ndash; Feb 17, 2012
             <div>
-                <p>Hi, </p><p></p><p>I think you should actually test to see if the SERVER_PROTOCOL is 1.0 or 1.1. I think the code should be like this: </p><p></p><p>function HTTPStatus($num) {</p><p>&nbsp;&nbsp;&nbsp;&nbsp;$http_protocol = "HTTP/1.0"; </p><p>&nbsp;&nbsp;&nbsp;&nbsp;if(isset($_SERVER['SERVER_PROTOCOL']) &amp;&amp; stripos($_SERVER['SERVER_PROTOCOL'],"HTTP") &gt;= 0){</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$http_protocol = $_SERVER['SERVER_PROTOCOL']; </p><p>&nbsp;&nbsp;&nbsp;&nbsp;}</p><p>&nbsp;&nbsp;&nbsp;&nbsp;$http = array(</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100 =&gt; $http_protocol . ' 100 Continue',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;101 =&gt; $http_protocol . ' 101 Switching Protocols',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;200 =&gt; $http_protocol . ' 200 OK',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;201 =&gt; $http_protocol . ' 201 Created',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;202 =&gt; $http_protocol . ' 202 Accepted',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;203 =&gt; $http_protocol . ' 203 Non-Authoritative Information',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;204 =&gt; $http_protocol . ' 204 No Content',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;205 =&gt; $http_protocol . ' 205 Reset Content',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;206 =&gt; $http_protocol . ' 206 Partial Content',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;300 =&gt; $http_protocol . ' 300 Multiple Choices',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;301 =&gt; $http_protocol . ' 301 Moved Permanently',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;302 =&gt; $http_protocol . ' 302 Found',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;303 =&gt; $http_protocol . ' 303 See Other',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;304 =&gt; $http_protocol . ' 304 Not Modified',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;305 =&gt; $http_protocol . ' 305 Use Proxy',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;307 =&gt; $http_protocol . ' 307 Temporary Redirect',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;400 =&gt; $http_protocol . ' 400 Bad Request',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;401 =&gt; $http_protocol . ' 401 Unauthorized',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;402 =&gt; $http_protocol . ' 402 Payment Required',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;403 =&gt; $http_protocol . ' 403 Forbidden',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;404 =&gt; $http_protocol . ' 404 Not Found',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;405 =&gt; $http_protocol . ' 405 Method Not Allowed',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;406 =&gt; $http_protocol . ' 406 Not Acceptable',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;407 =&gt; $http_protocol . ' 407 Proxy Authentication Required',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;408 =&gt; $http_protocol . ' 408 Request Time-out',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;409 =&gt; $http_protocol . ' 409 Conflict',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;410 =&gt; $http_protocol . ' 410 Gone',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;411 =&gt; $http_protocol . ' 411 Length Required',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;412 =&gt; $http_protocol . ' 412 Precondition Failed',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;413 =&gt; $http_protocol . ' 413 Request Entity Too Large',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;414 =&gt; $http_protocol . ' 414 Request-URI Too Large',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;415 =&gt; $http_protocol . ' 415 Unsupported Media Type',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;416 =&gt; $http_protocol . ' 416 Requested Range Not Satisfiable',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;417 =&gt; $http_protocol . ' 417 Expectation Failed',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;500 =&gt; $http_protocol . ' 500 Internal Server Error',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;501 =&gt; $http_protocol . ' 501 Not Implemented',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;502 =&gt; $http_protocol . ' 502 Bad Gateway',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;503 =&gt; $http_protocol . ' 503 Service Unavailable',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;504 =&gt; $http_protocol . ' 504 Gateway Time-out',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;505 =&gt; $http_protocol . ' 505 HTTP Version Not Supported',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;);</p><p> </p><p>&nbsp;&nbsp;&nbsp;&nbsp;header($http[$num]);</p><p> </p><p>&nbsp;&nbsp;&nbsp;&nbsp;return</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;array(</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'code' =&gt; $num,</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'error' =&gt; $http[$num],</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;);</p><p>}</p><p></p><p>Cheers, </p><p>Thusjanthan Kubendranathan</p>
+Hi, 
+
+I think you should actually test to see if the SERVER_PROTOCOL is 1.0 or 1.1. I think the code should be like this: 
+
+function HTTPStatus($num) {
+&nbsp;&nbsp;&nbsp;&nbsp;$http_protocol = "HTTP/1.0"; 
+&nbsp;&nbsp;&nbsp;&nbsp;if(isset($_SERVER['SERVER_PROTOCOL']) &amp;&amp; stripos($_SERVER['SERVER_PROTOCOL'],"HTTP") &gt;= 0){
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$http_protocol = $_SERVER['SERVER_PROTOCOL']; 
+&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;$http = array(
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100 =&gt; $http_protocol . ' 100 Continue',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;101 =&gt; $http_protocol . ' 101 Switching Protocols',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;200 =&gt; $http_protocol . ' 200 OK',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;201 =&gt; $http_protocol . ' 201 Created',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;202 =&gt; $http_protocol . ' 202 Accepted',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;203 =&gt; $http_protocol . ' 203 Non-Authoritative Information',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;204 =&gt; $http_protocol . ' 204 No Content',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;205 =&gt; $http_protocol . ' 205 Reset Content',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;206 =&gt; $http_protocol . ' 206 Partial Content',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;300 =&gt; $http_protocol . ' 300 Multiple Choices',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;301 =&gt; $http_protocol . ' 301 Moved Permanently',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;302 =&gt; $http_protocol . ' 302 Found',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;303 =&gt; $http_protocol . ' 303 See Other',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;304 =&gt; $http_protocol . ' 304 Not Modified',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;305 =&gt; $http_protocol . ' 305 Use Proxy',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;307 =&gt; $http_protocol . ' 307 Temporary Redirect',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;400 =&gt; $http_protocol . ' 400 Bad Request',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;401 =&gt; $http_protocol . ' 401 Unauthorized',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;402 =&gt; $http_protocol . ' 402 Payment Required',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;403 =&gt; $http_protocol . ' 403 Forbidden',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;404 =&gt; $http_protocol . ' 404 Not Found',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;405 =&gt; $http_protocol . ' 405 Method Not Allowed',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;406 =&gt; $http_protocol . ' 406 Not Acceptable',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;407 =&gt; $http_protocol . ' 407 Proxy Authentication Required',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;408 =&gt; $http_protocol . ' 408 Request Time-out',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;409 =&gt; $http_protocol . ' 409 Conflict',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;410 =&gt; $http_protocol . ' 410 Gone',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;411 =&gt; $http_protocol . ' 411 Length Required',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;412 =&gt; $http_protocol . ' 412 Precondition Failed',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;413 =&gt; $http_protocol . ' 413 Request Entity Too Large',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;414 =&gt; $http_protocol . ' 414 Request-URI Too Large',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;415 =&gt; $http_protocol . ' 415 Unsupported Media Type',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;416 =&gt; $http_protocol . ' 416 Requested Range Not Satisfiable',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;417 =&gt; $http_protocol . ' 417 Expectation Failed',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;500 =&gt; $http_protocol . ' 500 Internal Server Error',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;501 =&gt; $http_protocol . ' 501 Not Implemented',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;502 =&gt; $http_protocol . ' 502 Bad Gateway',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;503 =&gt; $http_protocol . ' 503 Service Unavailable',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;504 =&gt; $http_protocol . ' 504 Gateway Time-out',
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;505 =&gt; $http_protocol . ' 505 HTTP Version Not Supported',
+&nbsp;&nbsp;&nbsp;&nbsp;);
+ 
+&nbsp;&nbsp;&nbsp;&nbsp;header($http[$num]);
+ 
+&nbsp;&nbsp;&nbsp;&nbsp;return
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;array(
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'code' =&gt; $num,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'error' =&gt; $http[$num],
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;);
+}
+
+Cheers, 
+Thusjanthan Kubendranathan
             </div>
         </div>
     </li>

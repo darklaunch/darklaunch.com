@@ -27,7 +27,7 @@ https://www.darklaunch.com/2009/06/14/how-to-format-a-dollar-amount-using-php-mo
         <div>
             anonymous &ndash; Jan 22, 2010
             <div>
-                <p>thanks my friend</p>
+thanks my friend
             </div>
         </div>
     </li>

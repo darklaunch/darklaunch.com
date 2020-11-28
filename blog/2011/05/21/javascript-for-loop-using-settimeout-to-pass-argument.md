@@ -79,7 +79,7 @@ https://www.darklaunch.com/2011/05/21/javascript-for-loop-using-settimeout-to-pa
         <div>
             anonymous &ndash; Sep 13, 2011
             <div>
-                <p>That saved me a few hairs! Nice one</p>
+That saved me a few hairs! Nice one
             </div>
         </div>
     </li>
@@ -87,7 +87,7 @@ https://www.darklaunch.com/2011/05/21/javascript-for-loop-using-settimeout-to-pa
         <div>
             anonymous &ndash; Jun 27, 2012
             <div>
-                <p>Thanks man, really helped me!</p>
+Thanks man, really helped me!
             </div>
         </div>
     </li>
@@ -95,7 +95,7 @@ https://www.darklaunch.com/2011/05/21/javascript-for-loop-using-settimeout-to-pa
         <div>
             anonymous &ndash; Sep 17, 2012
             <div>
-                <p>Great!</p>
+Great!
             </div>
         </div>
     </li>
@@ -103,7 +103,7 @@ https://www.darklaunch.com/2011/05/21/javascript-for-loop-using-settimeout-to-pa
         <div>
             anonymous &ndash; Nov 9, 2012
             <div>
-                <p>Thanks!!!</p>
+Thanks!!!
             </div>
         </div>
     </li>
@@ -111,7 +111,7 @@ https://www.darklaunch.com/2011/05/21/javascript-for-loop-using-settimeout-to-pa
         <div>
             anonymous &ndash; Dec 14, 2012
             <div>
-                <p>Thanks !! helped a lot</p>
+Thanks !! helped a lot
             </div>
         </div>
     </li>
@@ -119,7 +119,7 @@ https://www.darklaunch.com/2011/05/21/javascript-for-loop-using-settimeout-to-pa
         <div>
             anonymous &ndash; May 11, 2013
             <div>
-                <p>Nice!</p>
+Nice!
             </div>
         </div>
     </li>
@@ -127,7 +127,7 @@ https://www.darklaunch.com/2011/05/21/javascript-for-loop-using-settimeout-to-pa
         <div>
             anonymous &ndash; Apr 18, 2014
             <div>
-                <p>Thanks that was asome</p>
+Thanks that was asome
             </div>
         </div>
     </li>
@@ -135,7 +135,7 @@ https://www.darklaunch.com/2011/05/21/javascript-for-loop-using-settimeout-to-pa
         <div>
             anonymous &ndash; Feb 9, 2015
             <div>
-                <p>Thanks! This script helps me a lot, i really apreciate it.</p>
+Thanks! This script helps me a lot, i really apreciate it.
             </div>
         </div>
     </li>
@@ -143,7 +143,8 @@ https://www.darklaunch.com/2011/05/21/javascript-for-loop-using-settimeout-to-pa
         <div>
             anonymous &ndash; Feb 17, 2015
             <div>
-                <p>Thx!</p><p>It helps!</p>
+Thx!
+It helps!
             </div>
         </div>
     </li>

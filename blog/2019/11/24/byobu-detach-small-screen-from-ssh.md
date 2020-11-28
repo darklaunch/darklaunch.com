@@ -15,7 +15,8 @@ https://www.darklaunch.com/2019/11/24/byobu-detach-small-screen-from-ssh.html
         <div>
             anonymous &ndash; Feb 13, 2020
             <div>
-                <p>Running this also works:</p><p><code>$ /usr/lib/byobu/include/tmux-detach-all-but-current-client</code></p>
+Running this also works:
+`$ /usr/lib/byobu/include/tmux-detach-all-but-current-client`
             </div>
         </div>
     </li>

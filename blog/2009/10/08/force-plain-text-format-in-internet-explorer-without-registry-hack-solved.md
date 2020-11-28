@@ -61,7 +61,7 @@ https://www.darklaunch.com/2009/10/08/force-plain-text-format-in-internet-explor
         <div>
             anonymous &ndash; Mar 9, 2012
             <div>
-                <p>Thanks, just what I was looking for.</p>
+Thanks, just what I was looking for.
             </div>
         </div>
     </li>
@@ -69,7 +69,22 @@ https://www.darklaunch.com/2009/10/08/force-plain-text-format-in-internet-explor
         <div>
             anonymous &ndash; Nov 29, 2012
             <div>
-                <p>As used in wordpress:</p><p></p><p>/**</p><p> * Send a HTTP header to disable content type sniffing in browsers which support it.</p><p> *</p><p> * @link <a href="http://blogs.msdn.com/ie/archive/2008/07/02/ie8-security-part-v-comprehensive-protection.aspx">http://blogs.msdn.com/ie/archive/2008/07/02/ie8-security-part-v-comprehensive-protection.aspx</a></p><p> * @link <a href="http://src.chromium.org/viewvc/chrome?view=rev&amp;revision=6985">http://src.chromium.org/viewvc/chrome?view=rev&amp;revision=6985</a></p><p> *</p><p> * @since 3.0.0</p><p> * @return none</p><p> */</p><p>function send_nosniff_header() {</p><p>&nbsp;&nbsp;&nbsp;&nbsp;@header( 'X-Content-Type-Options: nosniff' );</p><p>}</p><p></p><p><a href="http://core.svn.wordpress.org/trunk/wp-includes/functions.php">http://core.svn.wordpress.org/trunk/wp-includes/functions.php</a></p>
+As used in wordpress:
+
+/**
+ * Send a HTTP header to disable content type sniffing in browsers which support it.
+ *
+ * @link <a href="http://blogs.msdn.com/ie/archive/2008/07/02/ie8-security-part-v-comprehensive-protection.aspx">http://blogs.msdn.com/ie/archive/2008/07/02/ie8-security-part-v-comprehensive-protection.aspx</a>
+ * @link <a href="http://src.chromium.org/viewvc/chrome?view=rev&amp;revision=6985">http://src.chromium.org/viewvc/chrome?view=rev&amp;revision=6985</a>
+ *
+ * @since 3.0.0
+ * @return none
+ */
+function send_nosniff_header() {
+&nbsp;&nbsp;&nbsp;&nbsp;@header( 'X-Content-Type-Options: nosniff' );
+}
+
+<a href="http://core.svn.wordpress.org/trunk/wp-includes/functions.php">http://core.svn.wordpress.org/trunk/wp-includes/functions.php</a>
             </div>
         </div>
     </li>

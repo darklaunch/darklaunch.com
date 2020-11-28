@@ -25,7 +25,11 @@ https://www.darklaunch.com/2009/02/21/signin-versus-login.html
         <div>
             anonymous &ndash; Jan 30, 2014
             <div>
-                <p>Don't use login.</p><p>Use "sign in" or "join".</p><p></p><p>Don't use sign up.</p><p>Use "join".</p>
+Don't use login.
+Use "sign in" or "join".
+
+Don't use sign up.
+Use "join".
             </div>
         </div>
     </li>

@@ -19,7 +19,7 @@ https://www.darklaunch.com/2009/05/13/recursively-diff-two-directories-and-exclu
         <div>
             anonymous &ndash; Jul 7, 2010
             <div>
-                <p>You are awesome.</p>
+You are awesome.
             </div>
         </div>
     </li>
@@ -27,7 +27,9 @@ https://www.darklaunch.com/2009/05/13/recursively-diff-two-directories-and-exclu
         <div>
             anonymous &ndash; Aug 14, 2011
             <div>
-                <p>Congratulations sir, your coolPoints are now ++</p><p></p><p>thank you</p>
+Congratulations sir, your coolPoints are now ++
+
+thank you
             </div>
         </div>
     </li>
@@ -35,7 +37,7 @@ https://www.darklaunch.com/2009/05/13/recursively-diff-two-directories-and-exclu
         <div>
             anonymous &ndash; Mar 14, 2012
             <div>
-                <p>I am having cade in my machine including .svn folder. Now I want to copy the whole folder structure to linux machine using WGET. How to exclude the .svn folders during WGET???</p>
+I am having cade in my machine including .svn folder. Now I want to copy the whole folder structure to linux machine using WGET. How to exclude the .svn folders during WGET???
             </div>
         </div>
     </li>
@@ -43,7 +45,7 @@ https://www.darklaunch.com/2009/05/13/recursively-diff-two-directories-and-exclu
         <div>
             anonymous &ndash; Jun 21, 2012
             <div>
-                <p>thanks</p>
+thanks
             </div>
         </div>
     </li>
@@ -51,7 +53,7 @@ https://www.darklaunch.com/2009/05/13/recursively-diff-two-directories-and-exclu
         <div>
             anonymous &ndash; Sep 30, 2014
             <div>
-                <p>Thanks!</p>
+Thanks!
             </div>
         </div>
     </li>

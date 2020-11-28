@@ -23,7 +23,8 @@ https://www.darklaunch.com/2009/02/03/using-css-for-layout-or-tables-for-layout.
         <div>
             anonymous &ndash; May 15, 2011
             <div>
-                <p>- try pure css</p><p>- if it's just not working and you're pressed for time: use tables</p>
+- try pure css
+- if it's just not working and you're pressed for time: use tables
             </div>
         </div>
     </li>

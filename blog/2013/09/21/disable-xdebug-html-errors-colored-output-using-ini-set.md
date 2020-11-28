@@ -26,7 +26,7 @@ https://www.darklaunch.com/2013/09/21/disable-xdebug-html-errors-colored-output-
         <div>
             anonymous &ndash; Aug 23, 2017
             <div>
-                <p>This is exactly what I needed! Thanks a ton!!</p>
+This is exactly what I needed! Thanks a ton!!
             </div>
         </div>
     </li>

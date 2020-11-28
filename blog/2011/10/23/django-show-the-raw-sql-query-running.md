@@ -33,7 +33,9 @@ https://www.darklaunch.com/2011/10/23/django-show-the-raw-sql-query-running.html
         <div>
             anonymous &ndash; Dec 12, 2013
             <div>
-                <p>see also debugsqlshell in django-debug-toolbar.</p><p></p><p>github.com/django-debug-toolbar/django-debug-toolbar/blob/master/debug_toolbar/management/commands/debugsqlshell.py</p>
+see also debugsqlshell in django-debug-toolbar.
+
+github.com/django-debug-toolbar/django-debug-toolbar/blob/master/debug_toolbar/management/commands/debugsqlshell.py
             </div>
         </div>
     </li>
@@ -41,7 +43,14 @@ https://www.darklaunch.com/2011/10/23/django-show-the-raw-sql-query-running.html
         <div>
             anonymous &ndash; Dec 12, 2013
             <div>
-                <p>also:</p><p></p><p>import logging</p><p>l = logging.getLogger('django.db.backends')</p><p>l.setLevel(logging.DEBUG)</p><p>l.addHandler(logging.StreamHandler())</p><p></p><p>stackoverflow.com/questions/2314920/django-show-log-orm-sql-calls-from-python-shell</p>
+also:
+
+import logging
+l = logging.getLogger('django.db.backends')
+l.setLevel(logging.DEBUG)
+l.addHandler(logging.StreamHandler())
+
+stackoverflow.com/questions/2314920/django-show-log-orm-sql-calls-from-python-shell
             </div>
         </div>
     </li>
@@ -49,7 +58,11 @@ https://www.darklaunch.com/2011/10/23/django-show-the-raw-sql-query-running.html
         <div>
             anonymous &ndash; Dec 18, 2013
             <div>
-                <p>Also:</p><p></p><p>&gt;&gt;&gt; queryset = MyModel.objects.all()</p><p>&gt;&gt;&gt; print queryset.query</p><p>SELECT "myapp_mymodel"."id", ... FROM "myapp_mymodel"</p>
+Also:
+
+&gt;&gt;&gt; queryset = MyModel.objects.all()
+&gt;&gt;&gt; print queryset.query
+SELECT "myapp_mymodel"."id", ... FROM "myapp_mymodel"
             </div>
         </div>
     </li>
@@ -57,7 +70,10 @@ https://www.darklaunch.com/2011/10/23/django-show-the-raw-sql-query-running.html
         <div>
             anonymous &ndash; Jan 13, 2014
             <div>
-                <p>from django.db import connection</p><p>print connection.queries</p><p></p><p>works for the update() command as well.</p>
+from django.db import connection
+print connection.queries
+
+works for the update() command as well.
             </div>
         </div>
     </li>

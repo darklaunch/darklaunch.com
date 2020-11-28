@@ -57,7 +57,13 @@ https://www.darklaunch.com/2012/02/03/how-to-include-python-script-in-bash-scrip
         <div>
             anonymous &ndash; Feb 22, 2012
             <div>
-                <p>Alternatively, something like this works as well:</p><p></p><p>eval python - &lt;&lt; EOF</p><p>import sys</p><p>from pprint import pprint</p><p>pprint(sys.path)</p><p>EOF</p>
+Alternatively, something like this works as well:
+
+eval python - &lt;&lt; EOF
+import sys
+from pprint import pprint
+pprint(sys.path)
+EOF
             </div>
         </div>
     </li>

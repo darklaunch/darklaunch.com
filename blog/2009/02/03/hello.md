@@ -23,7 +23,7 @@ https://www.darklaunch.com/2009/02/03/hello.html
         <div>
             anonymous &ndash; Mar 13, 2012
             <div>
-                <p>This website is looking awesome! :o)</p>
+This website is looking awesome! :o)
             </div>
         </div>
     </li>
@@ -31,7 +31,7 @@ https://www.darklaunch.com/2009/02/03/hello.html
         <div>
             anonymous &ndash; Jan 20, 2020
             <div>
-                <p>except the annoying advertisement ;)</p>
+except the annoying advertisement ;)
             </div>
         </div>
     </li>

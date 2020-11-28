@@ -19,7 +19,7 @@ https://www.darklaunch.com/2009/05/30/php-implode-wrapped-implode-with-before-an
         <div>
             anonymous &ndash; Jan 27, 2013
             <div>
-                <p>Clever!</p>
+Clever!
             </div>
         </div>
     </li>
@@ -27,7 +27,7 @@ https://www.darklaunch.com/2009/05/30/php-implode-wrapped-implode-with-before-an
         <div>
             anonymous &ndash; Apr 11, 2020
             <div>
-                <p>You are the man!!!</p>
+You are the man!!!
             </div>
         </div>
     </li>

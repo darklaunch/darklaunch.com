@@ -19,7 +19,7 @@ https://www.darklaunch.com/2012/10/18/fix-usr-bin-ld-cannot-find-lncurses.html
         <div>
             anonymous &ndash; Nov 7, 2012
             <div>
-                <p>Thank you!! Solved a problem I was having.....</p>
+Thank you!! Solved a problem I was having.....
             </div>
         </div>
     </li>

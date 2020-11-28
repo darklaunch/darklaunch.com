@@ -40,7 +40,7 @@ https://www.darklaunch.com/2011/09/27/css-unselectable-cross-browser-property.ht
         <div>
             anonymous &ndash; Nov 12, 2011
             <div>
-                <p>Pandora does this! eww</p>
+Pandora does this! eww
             </div>
         </div>
     </li>
@@ -48,7 +48,7 @@ https://www.darklaunch.com/2011/09/27/css-unselectable-cross-browser-property.ht
         <div>
             anonymous &ndash; Jul 20, 2012
             <div>
-                <p>there should be .selectable in the second part of code. isn't it?</p>
+there should be .selectable in the second part of code. isn't it?
             </div>
         </div>
     </li>
@@ -56,7 +56,9 @@ https://www.darklaunch.com/2011/09/27/css-unselectable-cross-browser-property.ht
         <div>
             anonymous &ndash; Jul 20, 2012
             <div>
-                <p>&gt;&gt; there should be .selectable in the second part of code. isn't it?</p><p></p><p>no there shouldn't be. the ".unselectable" in the second part overrides the first part with the !important.</p>
+&gt;&gt; there should be .selectable in the second part of code. isn't it?
+
+no there shouldn't be. the ".unselectable" in the second part overrides the first part with the !important.
             </div>
         </div>
     </li>
@@ -64,7 +66,7 @@ https://www.darklaunch.com/2011/09/27/css-unselectable-cross-browser-property.ht
         <div>
             anonymous &ndash; Sep 10, 2012
             <div>
-                <p>in ie8?</p>
+in ie8?
             </div>
         </div>
     </li>
@@ -72,7 +74,7 @@ https://www.darklaunch.com/2011/09/27/css-unselectable-cross-browser-property.ht
         <div>
             anonymous &ndash; Feb 5, 2013
             <div>
-                <p>for ie, use -ms-user-select</p>
+for ie, use -ms-user-select
             </div>
         </div>
     </li>
@@ -80,7 +82,7 @@ https://www.darklaunch.com/2011/09/27/css-unselectable-cross-browser-property.ht
         <div>
             anonymous &ndash; Oct 30, 2014
             <div>
-                <p>"-moz-user-select: none;" instead of "-moz-none" is now available starting with Firefox 21.</p>
+"-moz-user-select: none;" instead of "-moz-none" is now available starting with Firefox 21.
             </div>
         </div>
     </li>

@@ -25,7 +25,7 @@ https://www.darklaunch.com/2009/05/26/firefox-disable-frames-about-config-browse
         <div>
             anonymous &ndash; Jul 9, 2011
             <div>
-                <p>Well is this frames or iframes ?</p>
+Well is this frames or iframes ?
             </div>
         </div>
         <ol>
@@ -33,7 +33,7 @@ https://www.darklaunch.com/2009/05/26/firefox-disable-frames-about-config-browse
                 <div>
                     anonymous &ndash; Jul 11, 2011
                     <div>
-                        <p>this disables HTML frames</p>
+this disables HTML frames
                     </div>
                 </div>
             </li>
@@ -43,7 +43,7 @@ https://www.darklaunch.com/2009/05/26/firefox-disable-frames-about-config-browse
         <div>
             anonymous &ndash; Oct 7, 2013
             <div>
-                <p>This did not fix the iframe issue.</p>
+This did not fix the iframe issue.
             </div>
         </div>
     </li>
@@ -51,7 +51,7 @@ https://www.darklaunch.com/2009/05/26/firefox-disable-frames-about-config-browse
         <div>
             anonymous &ndash; Oct 8, 2014
             <div>
-                <p>browser.frames.enable is not an option :(</p>
+browser.frames.enable is not an option :(
             </div>
         </div>
         <ol>
@@ -59,7 +59,10 @@ https://www.darklaunch.com/2009/05/26/firefox-disable-frames-about-config-browse
                 <div>
                     anonymous &ndash; Oct 8, 2014
                     <div>
-                        <p>Mozilla removed the browser.frames.enabled option in Firefox 32.</p><p></p><p>Bug 1013457 removed this feature.</p><p><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1013457">https://bugzilla.mozilla.org/show_bug.cgi?id=1013457</a></p>
+Mozilla removed the browser.frames.enabled option in Firefox 32.
+
+Bug 1013457 removed this feature.
+<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1013457">https://bugzilla.mozilla.org/show_bug.cgi?id=1013457</a>
                     </div>
                 </div>
             </li>
@@ -69,7 +72,7 @@ https://www.darklaunch.com/2009/05/26/firefox-disable-frames-about-config-browse
         <div>
             anonymous &ndash; Sep 13, 2015
             <div>
-                <p>didn't work. browser.frames is not a found</p>
+didn't work. browser.frames is not a found
             </div>
         </div>
         <ol>
@@ -77,7 +80,8 @@ https://www.darklaunch.com/2009/05/26/firefox-disable-frames-about-config-browse
                 <div>
                     anonymous &ndash; Sep 14, 2015
                     <div>
-                        <p>"Bug 1013457 - Remove the browser.frames.enabled pref"</p><p><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1013457">https://bugzilla.mozilla.org/show_bug.cgi?id=1013457</a></p>
+"Bug 1013457 - Remove the browser.frames.enabled pref"
+<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1013457">https://bugzilla.mozilla.org/show_bug.cgi?id=1013457</a>
                     </div>
                 </div>
             </li>

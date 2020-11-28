@@ -32,7 +32,11 @@ https://www.darklaunch.com/2010/07/08/find-files-and-execute-command-on-those-fi
         <div>
             anonymous &ndash; Aug 24, 2010
             <div>
-                <p>You may find it more appropriate to pipe the results of your find command to the xargs command.</p><p></p><p>Make sure to use the -0 argument though for compatability...</p><p></p><p>:-P Edub</p>
+You may find it more appropriate to pipe the results of your find command to the xargs command.
+
+Make sure to use the -0 argument though for compatability...
+
+:-P Edub
             </div>
         </div>
     </li>
@@ -40,7 +44,7 @@ https://www.darklaunch.com/2010/07/08/find-files-and-execute-command-on-those-fi
         <div>
             anonymous &ndash; Feb 21, 2014
             <div>
-                <p>Thank you! Very useful post!</p>
+Thank you! Very useful post!
             </div>
         </div>
     </li>

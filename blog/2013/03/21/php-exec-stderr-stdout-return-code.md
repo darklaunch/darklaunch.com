@@ -40,7 +40,7 @@ https://www.darklaunch.com/2013/03/21/php-exec-stderr-stdout-return-code.html
         <div>
             anonymous &ndash; Aug 16, 2013
             <div>
-                <p>Thanks. Is there any way to both read stderr and allow it out as if it hasn't been interfered with?</p>
+Thanks. Is there any way to both read stderr and allow it out as if it hasn't been interfered with?
             </div>
         </div>
     </li>
@@ -48,7 +48,7 @@ https://www.darklaunch.com/2013/03/21/php-exec-stderr-stdout-return-code.html
         <div>
             anonymous &ndash; Aug 16, 2013
             <div>
-                <p>`tee' might be what you're looking for.</p>
+`tee' might be what you're looking for.
             </div>
         </div>
     </li>
@@ -56,7 +56,7 @@ https://www.darklaunch.com/2013/03/21/php-exec-stderr-stdout-return-code.html
         <div>
             anonymous &ndash; Aug 16, 2013
             <div>
-                <p>"tee - read from standard input and write to standard output and files"</p>
+"tee - read from standard input and write to standard output and files"
             </div>
         </div>
     </li>
@@ -64,7 +64,7 @@ https://www.darklaunch.com/2013/03/21/php-exec-stderr-stdout-return-code.html
         <div>
             anonymous &ndash; Dec 8, 2014
             <div>
-                <p>Hi, thanks for this useful piece of code. Could you clarify under which license you're providing it (I'd suggest public domain, CC0, or BSD-2 clause), and if you are the original writer ? Thank you !</p>
+Hi, thanks for this useful piece of code. Could you clarify under which license you're providing it (I'd suggest public domain, CC0, or BSD-2 clause), and if you are the original writer ? Thank you !
             </div>
         </div>
     </li>
@@ -72,7 +72,7 @@ https://www.darklaunch.com/2013/03/21/php-exec-stderr-stdout-return-code.html
         <div>
             anonymous &ndash; Dec 8, 2014
             <div>
-                <p>@license, public domain.</p>
+@license, public domain.
             </div>
         </div>
     </li>

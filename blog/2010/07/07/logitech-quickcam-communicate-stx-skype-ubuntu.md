@@ -75,7 +75,7 @@ https://www.darklaunch.com/2010/07/07/logitech-quickcam-communicate-stx-skype-ub
         <div>
             anonymous &ndash; Oct 1, 2010
             <div>
-                <p>also, if it still doesn't work, try another usb port</p>
+also, if it still doesn't work, try another usb port
             </div>
         </div>
     </li>
@@ -83,7 +83,8 @@ https://www.darklaunch.com/2010/07/07/logitech-quickcam-communicate-stx-skype-ub
         <div>
             anonymous &ndash; Sep 2, 2011
             <div>
-                <p>I'm runnin LinuxMint LXDE 11.0, but the above pointed me in the right direction.</p><p>thx</p>
+I'm runnin LinuxMint LXDE 11.0, but the above pointed me in the right direction.
+thx
             </div>
         </div>
     </li>

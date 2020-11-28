@@ -98,7 +98,7 @@ https://www.darklaunch.com/2018/09/26/javascript-concat-document-queryselectoral
         <div>
             anonymous &ndash; Nov 24, 2018
             <div>
-                <p>Wouldn't this be the same as <code>document.querySelector('div, li')</code>?</p>
+Wouldn't this be the same as `document.querySelector('div, li')`?
             </div>
         </div>
         <ol>
@@ -106,7 +106,7 @@ https://www.darklaunch.com/2018/09/26/javascript-concat-document-queryselectoral
                 <div>
                     anonymous &ndash; Nov 25, 2018
                     <div>
-                        <p>I've added another example.</p>
+I've added another example.
                     </div>
                 </div>
             </li>

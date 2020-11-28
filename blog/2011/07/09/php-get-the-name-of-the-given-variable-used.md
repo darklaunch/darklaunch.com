@@ -61,7 +61,8 @@ https://www.darklaunch.com/2011/07/09/php-get-the-name-of-the-given-variable-use
         <div>
             anonymous &ndash; Feb 15, 2012
             <div>
-                <p>Thanks for posting your solution. It works for variables with "global" scope. To use var_name() with variables defined within a function you would have to scan the array returned by get_defined_vars() instead of $GLOBALS. </p><p>Would be great to have a class with objects that know their own name. E.g. $a1 = new varNameClass(); with a method: $a1-&gt;getName() returning the string 'a1'.</p>
+Thanks for posting your solution. It works for variables with "global" scope. To use var_name() with variables defined within a function you would have to scan the array returned by get_defined_vars() instead of $GLOBALS. 
+Would be great to have a class with objects that know their own name. E.g. $a1 = new varNameClass(); with a method: $a1-&gt;getName() returning the string 'a1'.
             </div>
         </div>
     </li>
@@ -69,7 +70,9 @@ https://www.darklaunch.com/2011/07/09/php-get-the-name-of-the-given-variable-use
         <div>
             anonymous &ndash; May 19, 2014
             <div>
-                <p>+1</p><p></p><p>:)</p>
++1
+
+:)
             </div>
         </div>
     </li>
@@ -77,7 +80,7 @@ https://www.darklaunch.com/2011/07/09/php-get-the-name-of-the-given-variable-use
         <div>
             anonymous &ndash; Sep 12, 2014
             <div>
-                <p>This is pretty old but.. get_class($this) will give you a class name</p>
+This is pretty old but.. get_class($this) will give you a class name
             </div>
         </div>
     </li>

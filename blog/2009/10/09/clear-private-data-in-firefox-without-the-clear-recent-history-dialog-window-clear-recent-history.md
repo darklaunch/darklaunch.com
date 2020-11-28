@@ -96,7 +96,7 @@ https://www.darklaunch.com/2009/10/09/clear-private-data-in-firefox-without-the-
         <div>
             anonymous &ndash; Feb 6, 2010
             <div>
-                <p>no worky for 3.6</p>
+no worky for 3.6
             </div>
         </div>
     </li>
@@ -104,7 +104,8 @@ https://www.darklaunch.com/2009/10/09/clear-private-data-in-firefox-without-the-
         <div>
             anonymous &ndash; Feb 6, 2010
             <div>
-                <p>Use the Sanitisminau Firefox extension to clear your history without asking</p><p><a href="https://addons.mozilla.org/en-US/firefox/addon/5364/">https://addons.mozilla.org/en-US/firefox/addon/5364/</a></p>
+Use the Sanitisminau Firefox extension to clear your history without asking
+<a href="https://addons.mozilla.org/en-US/firefox/addon/5364/">https://addons.mozilla.org/en-US/firefox/addon/5364/</a>
             </div>
         </div>
     </li>

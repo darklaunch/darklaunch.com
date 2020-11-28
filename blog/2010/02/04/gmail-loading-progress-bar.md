@@ -17,7 +17,7 @@ https://www.darklaunch.com/2010/02/04/gmail-loading-progress-bar.html
         <div>
             anonymous &ndash; May 28, 2010
             <div>
-                <p>Great.</p>
+Great.
             </div>
         </div>
     </li>
@@ -25,7 +25,7 @@ https://www.darklaunch.com/2010/02/04/gmail-loading-progress-bar.html
         <div>
             anonymous &ndash; Dec 4, 2012
             <div>
-                <p>what exactly is a dark launch?</p>
+what exactly is a dark launch?
             </div>
         </div>
     </li>
@@ -33,7 +33,8 @@ https://www.darklaunch.com/2010/02/04/gmail-loading-progress-bar.html
         <div>
             anonymous &ndash; Dec 4, 2012
             <div>
-                <p>@what exactly is a dark launch?</p><p>view the source of this page</p>
+@what exactly is a dark launch?
+view the source of this page
             </div>
         </div>
     </li>

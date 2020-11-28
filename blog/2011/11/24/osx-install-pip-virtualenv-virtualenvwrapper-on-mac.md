@@ -52,7 +52,7 @@ https://www.darklaunch.com/2011/11/24/osx-install-pip-virtualenv-virtualenvwrapp
         <div>
             anonymous &ndash; Mar 19, 2012
             <div>
-                <p>To avoid the most common freeze reason while installing Xcode, kill iTunes Helper before you start.</p>
+To avoid the most common freeze reason while installing Xcode, kill iTunes Helper before you start.
             </div>
         </div>
     </li>
@@ -60,7 +60,10 @@ https://www.darklaunch.com/2011/11/24/osx-install-pip-virtualenv-virtualenvwrapp
         <div>
             anonymous &ndash; Apr 2, 2012
             <div>
-                <p>install easy_install with:</p><p></p><p>wget <a href="http://python-distribute.org/distribute_setup.py">http://python-distribute.org/distribute_setup.py</a></p><p>sudo python distribute_setup.py</p>
+install easy_install with:
+
+wget <a href="http://python-distribute.org/distribute_setup.py">http://python-distribute.org/distribute_setup.py</a>
+sudo python distribute_setup.py
             </div>
         </div>
     </li>
@@ -68,7 +71,7 @@ https://www.darklaunch.com/2011/11/24/osx-install-pip-virtualenv-virtualenvwrapp
         <div>
             anonymous &ndash; Oct 27, 2012
             <div>
-                <p>Thanks.</p>
+Thanks.
             </div>
         </div>
     </li>
@@ -76,7 +79,7 @@ https://www.darklaunch.com/2011/11/24/osx-install-pip-virtualenv-virtualenvwrapp
         <div>
             anonymous &ndash; Oct 27, 2012
             <div>
-                <p>fyi, for <code>mkvirtualenv</code>, --no-site-packages is now the default</p>
+fyi, for `mkvirtualenv`, --no-site-packages is now the default
             </div>
         </div>
     </li>
@@ -84,7 +87,7 @@ https://www.darklaunch.com/2011/11/24/osx-install-pip-virtualenv-virtualenvwrapp
         <div>
             anonymous &ndash; Feb 16, 2013
             <div>
-                <p>thanks a lot</p>
+thanks a lot
             </div>
         </div>
     </li>
@@ -92,7 +95,7 @@ https://www.darklaunch.com/2011/11/24/osx-install-pip-virtualenv-virtualenvwrapp
         <div>
             anonymous &ndash; Apr 3, 2013
             <div>
-                <p>Great concise approach to virtualenvs, thanks!</p>
+Great concise approach to virtualenvs, thanks!
             </div>
         </div>
     </li>
@@ -100,7 +103,7 @@ https://www.darklaunch.com/2011/11/24/osx-install-pip-virtualenv-virtualenvwrapp
         <div>
             anonymous &ndash; Jul 31, 2013
             <div>
-                <p>It works!</p>
+It works!
             </div>
         </div>
     </li>

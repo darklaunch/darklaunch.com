@@ -31,7 +31,7 @@ https://www.darklaunch.com/2016/05/23/python-catch-unknown-exception.html
         <div>
             anonymous &ndash; Jan 26, 2017
             <div>
-                <p>Worked. Thanks!</p>
+Worked. Thanks!
             </div>
         </div>
     </li>

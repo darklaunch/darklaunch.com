@@ -23,7 +23,11 @@ https://www.darklaunch.com/2013/03/02/yet-another-reason-to-not-use-mercurial.ht
         <div>
             anonymous &ndash; Oct 2, 2013
             <div>
-                <p>The .orig files Mercurial leaves after a merge are really annoying as well.</p><p></p><p>Luckily you can disable this silly behavior my modifying your $HOME/.hgrc with:</p><p>[defaults]</p><p>revert = --no-backup</p>
+The .orig files Mercurial leaves after a merge are really annoying as well.
+
+Luckily you can disable this silly behavior my modifying your $HOME/.hgrc with:
+[defaults]
+revert = --no-backup
             </div>
         </div>
     </li>

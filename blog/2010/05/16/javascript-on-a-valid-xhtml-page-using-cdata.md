@@ -145,7 +145,7 @@ https://www.darklaunch.com/2010/05/16/javascript-on-a-valid-xhtml-page-using-cda
         <div>
             anonymous &ndash; Jun 7, 2011
             <div>
-                <p>Are you instructing or showing off?</p>
+Are you instructing or showing off?
             </div>
         </div>
     </li>
@@ -153,7 +153,7 @@ https://www.darklaunch.com/2010/05/16/javascript-on-a-valid-xhtml-page-using-cda
         <div>
             anonymous &ndash; Dec 10, 2011
             <div>
-                <p>cheers this helped me!</p>
+cheers this helped me!
             </div>
         </div>
     </li>
