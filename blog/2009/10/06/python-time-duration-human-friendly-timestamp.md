@@ -50,7 +50,6 @@ for s in seconds:
 Example Output:
 
 ```
-
 .        1 => 1 second
          2 => 2 seconds
       3600 => 1 hour
