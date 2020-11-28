@@ -15,6 +15,9 @@ with mock.patch.object(datetime, 'datetime', mock.Mock(wraps=datetime.datetime))
 
 ```bash
 $ python run_test.py
+```
+
+```
 2020-01-01 00:00:00
 2020-01-01 00:00:00
 ```
