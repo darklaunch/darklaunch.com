@@ -49,7 +49,8 @@ for s in seconds:
 
 Example Output:
 
-`
+```
+
 .        1 => 1 second
          2 => 2 seconds
       3600 => 1 hour
@@ -63,7 +64,7 @@ Example Output:
   63200000 => 2 years
   95000000 => 3 years
  999999999 => 31 years
-`
+```
 
 Example 2:
 
@@ -81,7 +82,9 @@ print('{} has passed'.format(duration_human(elapsed)))
 
 Example 2 Output:
 
-`1 second has passed`
+```
+1 second has passed
+```
 
 ---
 

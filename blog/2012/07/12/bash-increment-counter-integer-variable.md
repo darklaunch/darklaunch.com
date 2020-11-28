@@ -21,7 +21,8 @@ x=$(echo "$x + 1" | bc)
 echo $x
 ```
 
-`
+```
+
 + x=1
 + echo 1
 1
@@ -39,7 +40,7 @@ echo $x
 + x=5
 + echo 5
 5
-`
+```
 
 kw: addition, add, subtraction, subtract, mathematics, math
 

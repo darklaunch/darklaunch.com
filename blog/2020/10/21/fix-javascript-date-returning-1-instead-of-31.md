@@ -8,7 +8,9 @@ var result = eventDate.toLocaleString('default', { month: 'short' }) + ' ' + eve
 console.log('result:', result);
 ```
 
-`May 1, 2020`
+```
+May 1, 2020
+```
 
 Fix a JavaScript Date returning 1 instead instead of 31 by doing the following:
 
@@ -20,7 +22,9 @@ var result = eventDate.toLocaleString('default', { month: 'short' }) + ' ' + eve
 console.log('result:', result);
 ```
 
-`May 31, 2020`
+```
+May 31, 2020
+```
 
 ---
 

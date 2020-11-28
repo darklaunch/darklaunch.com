@@ -31,9 +31,10 @@ c,d
 $ python read_files.py
 ```
 
-`{`col1': 'a', 'col2': 'b'}
+```
+{'col1': 'a', 'col2': 'b'}
 {'col1': 'c', 'col2': 'd'}
-`
+```
 
 ---
 

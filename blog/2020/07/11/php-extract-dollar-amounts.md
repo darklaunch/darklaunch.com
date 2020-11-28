@@ -19,7 +19,8 @@ var_dump($matches);
 
 Output:
 
-`array(2) {
+```
+array(2) {
   [0]=>
   array(5) {
     [0]=>
@@ -47,7 +48,7 @@ Output:
     string(9) "$1,067.94"
   }
 }
-`
+```
 
 Regex explained:
 
