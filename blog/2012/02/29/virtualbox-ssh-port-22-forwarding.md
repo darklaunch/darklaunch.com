@@ -35,8 +35,10 @@ https://www.darklaunch.com/2012/02/29/virtualbox-ssh-port-22-forwarding.html
         <div>
             anonymous &ndash; Mar 6, 2012
             <div>
+
 Make sure the client also has ssh server installed and running:
 `sudo apt-get install openssh-server`
+
             </div>
         </div>
     </li>
@@ -44,7 +46,9 @@ Make sure the client also has ssh server installed and running:
         <div>
             anonymous &ndash; Nov 30, 2012
             <div>
+
 This is a correct solution to ssh from host to virtual box Linux! Thanks man!
+
             </div>
         </div>
     </li>
@@ -52,7 +56,9 @@ This is a correct solution to ssh from host to virtual box Linux! Thanks man!
         <div>
             anonymous &ndash; Dec 27, 2012
             <div>
+
 I found this very useful and got it working. Thanks.
+
             </div>
         </div>
     </li>
@@ -60,7 +66,9 @@ I found this very useful and got it working. Thanks.
         <div>
             anonymous &ndash; Apr 10, 2013
             <div>
+
 It is working and useful.
+
             </div>
         </div>
     </li>

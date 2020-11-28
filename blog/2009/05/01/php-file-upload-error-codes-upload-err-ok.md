@@ -94,6 +94,7 @@ https://www.darklaunch.com/2009/05/01/php-file-upload-error-codes-upload-err-ok.
         <div>
             anonymous &ndash; Sep 7, 2010
             <div>
+
 hi, i try your script n i get error "Failed to write file to disk. Introduced in PHP 5.1.0."
 
 what should i do to fix that..?? 
@@ -102,6 +103,7 @@ my folder cmod already set to 7777...
 thx,
 
 opick
+
             </div>
         </div>
     </li>
@@ -109,14 +111,16 @@ opick
         <div>
             anonymous &ndash; Sep 8, 2010
             <div>
+
 make sure error reporting is on which may provide further detail:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`error_reporting(E_ALL | E_STRICT);`
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`ini_set('display_errors', 1);`
+        `error_reporting(E_ALL | E_STRICT);`
+        `ini_set('display_errors', 1);`
 
 also, check out
 <a href="http://us.php.net/manual/en/features.file-upload.common-pitfalls.php">http://us.php.net/manual/en/features.file-upload.common-pitfalls.php</a>
 <a href="http://us.php.net/manual/en/features.file-upload.errors.php">http://us.php.net/manual/en/features.file-upload.errors.php</a>
 <a href="http://us.php.net/manual/en/features.file-upload.post-method.php">http://us.php.net/manual/en/features.file-upload.post-method.php</a>
+
             </div>
         </div>
     </li>
@@ -124,9 +128,11 @@ also, check out
         <div>
             anonymous &ndash; Sep 8, 2010
             <div>
+
 `UPLOAD_ERR_CANT_WRITE` sometimes means ran out of disk space on the temporary upload location.
 
 check the available diskspace on `/tmp`
+
             </div>
         </div>
     </li>
@@ -134,7 +140,9 @@ check the available diskspace on `/tmp`
         <div>
             anonymous &ndash; Oct 18, 2014
             <div>
+
 If security is an issue, you must never reply on `$_FILES['myfile']['type']` as this can be modified by a naughty person. Instead, use `exif_imagetype($_FILES["myfile"]["tmp_name"])`.
+
             </div>
         </div>
     </li>

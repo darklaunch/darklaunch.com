@@ -29,8 +29,10 @@ https://www.darklaunch.com/2011/07/22/use-firebug-lite-in-internet-explorer-on-a
         <div>
             anonymous &ndash; Sep 5, 2011
             <div>
+
 ie firebug is good.
 but sometime it is not working.
+
             </div>
         </div>
     </li>
@@ -38,8 +40,10 @@ but sometime it is not working.
         <div>
             anonymous &ndash; Sep 5, 2011
             <div>
+
 ie firebug is good.
 but sometime it is not working.
+
             </div>
         </div>
     </li>
@@ -47,7 +51,9 @@ but sometime it is not working.
         <div>
             anonymous &ndash; Mar 26, 2012
             <div>
+
 no... it just does a search on '<a>javascript:var</a> script = document.createElement("script"); script.type = "text/javascript"; script.src = "<a href="https://getfirebug.com/firebug-lite.js">https://getfirebug.com/firebug-lite.js</a>"; document.getElementsByTagName("body")[0].appendChild(script); void(0);'
+
             </div>
         </div>
     </li>
@@ -55,7 +61,9 @@ no... it just does a search on '<a>javascript:var</a> script = document.createEl
         <div>
             anonymous &ndash; Mar 28, 2012
             <div>
+
 this works for older versions of IE. in newer versions, it will just search instead.
+
             </div>
         </div>
     </li>

@@ -173,7 +173,9 @@ https://www.darklaunch.com/2009/09/09/geany-snippets-autocomplete-snippet-config
         <div>
             anonymous &ndash; Nov 8, 2012
             <div>
+
 nice ... saved me a lot of time :)
+
             </div>
         </div>
     </li>
@@ -181,7 +183,9 @@ nice ... saved me a lot of time :)
         <div>
             anonymous &ndash; Apr 6, 2020
             <div>
+
 f' yeah, thank you :)
+
             </div>
         </div>
     </li>

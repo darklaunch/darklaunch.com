@@ -68,23 +68,25 @@ https://www.darklaunch.com/2009/10/08/automation-server-can-t-create-object-jque
         <div>
             anonymous &ndash; Jun 24, 2010
             <div>
+
 Note, while this is an old post, it came up high on a Google search. jQuery has addressed this similarly, but with refinements, in later code (sample below from 1.4.2, released a year later):
 
 ```
 xhr: window.XMLHttpRequest &amp;&amp; (window.location.protocol !== "file:" || !window.ActiveXObject) ?
   function() {
-&nbsp;&nbsp;&nbsp;&nbsp;return new window.XMLHttpRequest();
+    return new window.XMLHttpRequest();
   } :
-&nbsp;&nbsp;&nbsp;&nbsp;function() {
-&nbsp;&nbsp;&nbsp;&nbsp;  try {
-&nbsp;&nbsp;&nbsp;&nbsp;return new window.ActiveXObject("Microsoft.XMLHTTP");
-&nbsp;&nbsp;&nbsp;&nbsp;  } catch(e) {}
+    function() {
+      try {
+    return new window.ActiveXObject("Microsoft.XMLHTTP");
+      } catch(e) {}
 }, ...
 ```
 
 The code's internal comments indicate that this is a failing in IE7+ as a result of a Microsoft oversight. While I would normally upgrade jQuery, the correction above tries something jQuery does not (and visitor's mileage may vary), so I'm posting an update as a courtesy (and to darklaunch, thanks for posting the cause).
 
 One final thing -- it is possible to work around this error at the client side (which is "caused" by IE policy settings) by explicitly adding the site into the Trusted Sites zone (I applied this to *machine* policy zones, so that all users of IE saw the update...regardless of who's logged in / created after the policy is implemented).
+
             </div>
         </div>
     </li>
@@ -92,7 +94,9 @@ One final thing -- it is possible to work around this error at the client side (
         <div>
             anonymous &ndash; Oct 24, 2010
             <div>
+
 thanks  -- vv helpful
+
             </div>
         </div>
     </li>

@@ -41,7 +41,9 @@ https://www.darklaunch.com/2016/06/13/google-calendar-last-day-of-month-repeat.h
         <div>
             anonymous &ndash; Oct 29, 2016
             <div>
+
 works great thank you!
+
             </div>
         </div>
     </li>
@@ -49,7 +51,9 @@ works great thank you!
         <div>
             anonymous &ndash; Feb 1, 2017
             <div>
+
 Perfect, thanks!
+
             </div>
         </div>
     </li>
@@ -57,7 +61,9 @@ Perfect, thanks!
         <div>
             anonymous &ndash; Oct 25, 2017
             <div>
+
 THANK YOU!!!
+
             </div>
         </div>
     </li>
@@ -65,7 +71,9 @@ THANK YOU!!!
         <div>
             anonymous &ndash; Feb 19, 2018
             <div>
+
 Works dude. Thanks a bunch. Please add litecoin for tips ;)
+
             </div>
         </div>
     </li>
@@ -73,7 +81,9 @@ Works dude. Thanks a bunch. Please add litecoin for tips ;)
         <div>
             anonymous &ndash; May 20, 2018
             <div>
+
 Thank you for helping overcome a major nuisance of Google Calendar! Works wonderfully.
+
             </div>
         </div>
     </li>
@@ -81,7 +91,9 @@ Thank you for helping overcome a major nuisance of Google Calendar! Works wonder
         <div>
             anonymous &ndash; Oct 16, 2018
             <div>
+
 How would you edit this to create an event for, say, the day after (US) Thanksgiving, which is the 4th Thursday of November, but where the next day may actually be the 5th Friday?
+
             </div>
         </div>
     </li>
@@ -89,7 +101,9 @@ How would you edit this to create an event for, say, the day after (US) Thanksgi
         <div>
             anonymous &ndash; Jun 17, 2020
             <div>
+
 I just put a monthly recurring event starting on the 1st of the month but make the notification 1 day before event, so in effect, it does what you without having to import the ICS file. Only downside is that day of the event is wrong so it is a tradeoff.
+
             </div>
         </div>
     </li>

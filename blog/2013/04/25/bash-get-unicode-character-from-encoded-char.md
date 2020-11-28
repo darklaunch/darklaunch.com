@@ -121,6 +121,7 @@ https://www.darklaunch.com/2013/04/25/bash-get-unicode-character-from-encoded-ch
         <div>
             anonymous &ndash; Oct 21, 2013
             <div>
+
 more characters:
 
 check
@@ -137,6 +138,7 @@ arrow
 $ echo -n âžœ|hexdump
 0000000 e2 9e 9c
 0000003
+
             </div>
         </div>
     </li>
@@ -144,15 +146,17 @@ $ echo -n âžœ|hexdump
         <div>
             anonymous &ndash; Feb 23, 2014
             <div>
+
 These color codes are incomplete for some reason beyond my knowledge and fail sometimes when a line is too long, overwriting the prompt's first line content and producing weird behaviours because prompt won't start a new line or even go one line up.
 
 In order for these color codes to work (at least in ubuntu), you need to replace
 \e with [\033 and add at the end of every code \].
 
 So instead of
-Red='\e[0;31m'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  # Red
+Red='\e[0;31m'          # Red
 You should type
-Red='\[\033[0;31m\]'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  # Red
+Red='\[\033[0;31m\]'          # Red
+
             </div>
         </div>
     </li>
@@ -160,10 +164,12 @@ Red='\[\033[0;31m\]'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  # Red
         <div>
             anonymous &ndash; Nov 11, 2014
             <div>
+
 It's also possible to get the unicode sequence on the command line using python:
 
 $ echo -n "âœ“" | python -c 'import sys; print [sys.stdin.read()]'
 ['\xe2\x9c\x93']
+
             </div>
         </div>
     </li>
@@ -171,8 +177,10 @@ $ echo -n "âœ“" | python -c 'import sys; print [sys.stdin.read()]'
         <div>
             anonymous &ndash; Jul 29, 2016
             <div>
+
 $ echo -n "â€" | python -c 'import sys; print [sys.stdin.read()]'
 ['\xe2\x80\x9d']
+
             </div>
         </div>
     </li>

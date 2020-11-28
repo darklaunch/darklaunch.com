@@ -36,9 +36,11 @@ https://www.darklaunch.com/2010/05/21/php-plural-pluralize-words-in-php-plural-w
         <div>
             anonymous &ndash; Jul 7, 2014
             <div>
+
 Child plural is children not childs.
 
 Party plural is Parties not Partys.
+
             </div>
         </div>
     </li>
@@ -46,14 +48,16 @@ Party plural is Parties not Partys.
         <div>
             anonymous &ndash; Jul 7, 2014
             <div>
+
 for ($i = 0; $i &lt;= 3; $i++) {
-&nbsp;&nbsp;&nbsp;&nbsp;echo $i . ' ' . plural($i, 'child', 'children') . "\n";
+    echo $i . ' ' . plural($i, 'child', 'children') . "\n";
 }
 
 0 children
 1 child
 2 children
 3 children
+
             </div>
         </div>
     </li>

@@ -33,9 +33,11 @@ https://www.darklaunch.com/2009/07/06/how-to-bypass-this-add-on-is-for-older-ver
         <div>
             anonymous &ndash; Apr 14, 2010
             <div>
+
 This DOES NOT restore the install buttons where the Mozilla add-on site displays the "This add-on is for older versions of Firefox" pink box instead of install buttons.
 
 Very disappointing.
+
             </div>
         </div>
     </li>

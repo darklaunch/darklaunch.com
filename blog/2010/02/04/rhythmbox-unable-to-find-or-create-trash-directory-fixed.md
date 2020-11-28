@@ -55,7 +55,9 @@ https://www.darklaunch.com/2010/02/04/rhythmbox-unable-to-find-or-create-trash-d
         <div>
             anonymous &ndash; May 31, 2011
             <div>
+
 thanx..that was very useful
+
             </div>
         </div>
     </li>
@@ -63,7 +65,9 @@ thanx..that was very useful
         <div>
             anonymous &ndash; Jul 29, 2012
             <div>
+
 sorry- first time ubuntu user and non techie- where do i go to put in this code? does remount drive mean reinstalling rhythm box?
+
             </div>
         </div>
     </li>
@@ -71,7 +75,9 @@ sorry- first time ubuntu user and non techie- where do i go to put in this code?
         <div>
             anonymous &ndash; Jun 6, 2017
             <div>
+
 but the disk i mount is exact a fat or extfat. no security user id sets. still the problem present there. how do i do with ?
+
             </div>
         </div>
     </li>

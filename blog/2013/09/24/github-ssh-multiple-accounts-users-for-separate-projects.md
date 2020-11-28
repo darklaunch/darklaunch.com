@@ -59,17 +59,19 @@ https://www.darklaunch.com/2013/09/24/github-ssh-multiple-accounts-users-for-sep
         <div>
             anonymous &ndash; Jul 19, 2016
             <div>
+
 The .git/config files should look similar to this:
 
 For project A:
 [remote "origin"]
-&nbsp;&nbsp;&nbsp;&nbsp;url = git@github.com-some-project:some-project/some-project.git
-&nbsp;&nbsp;&nbsp;&nbsp;fetch = +refs/heads/*:refs/remotes/origin/*
+    url = git@github.com-some-project:some-project/some-project.git
+    fetch = +refs/heads/*:refs/remotes/origin/*
 
 For project B:
 [remote "origin"]
-&nbsp;&nbsp;&nbsp;&nbsp;url = git@github.com-another-project:another-project/another-project.git
-&nbsp;&nbsp;&nbsp;&nbsp;fetch = +refs/heads/*:refs/remotes/origin/*
+    url = git@github.com-another-project:another-project/another-project.git
+    fetch = +refs/heads/*:refs/remotes/origin/*
+
             </div>
         </div>
     </li>

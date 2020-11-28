@@ -125,13 +125,15 @@ https://www.darklaunch.com/2009/05/23/php-xml-encode-using-domdocument-convert-a
         <div>
             anonymous &ndash; Dec 30, 2010
             <div>
+
 to account boolean fields, inside the "else" add
 $mixed = is_bool($mixed) ? ($mixed ? 'true' : 'false') : $mixed;
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$mixed = is_bool($mixed) ? ($mixed ? 'true' : 'false') : $mixed;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$domElement-&gt;appendChild($DOMDocument-&gt;createTextNode($mixed));
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+        else {
+            $mixed = is_bool($mixed) ? ($mixed ? 'true' : 'false') : $mixed;
+            $domElement-&gt;appendChild($DOMDocument-&gt;createTextNode($mixed));
+        }
+
             </div>
         </div>
     </li>
@@ -139,6 +141,7 @@ $mixed = is_bool($mixed) ? ($mixed ? 'true' : 'false') : $mixed;
         <div>
             anonymous &ndash; Mar 6, 2011
             <div>
+
 This is great .. the only change I made was:
 
 if (rtrim($index,'s')!==$index &amp;&amp; count($mixedElement)&gt;1) {
@@ -146,6 +149,7 @@ if (rtrim($index,'s')!==$index &amp;&amp; count($mixedElement)&gt;1) {
 Any node ending with 's' was causing an unecessary child node.  (ie: STATUS was  STATUS with a child node STATU)
 
 Thanks again.
+
             </div>
         </div>
     </li>
@@ -153,7 +157,9 @@ Thanks again.
         <div>
             anonymous &ndash; Oct 31, 2013
             <div>
+
 Thanks, it is extremely useful.
+
             </div>
         </div>
     </li>

@@ -34,7 +34,9 @@ https://www.darklaunch.com/2011/05/10/minimum-html5-markup-for-a-page-that-valid
         <div>
             anonymous &ndash; Aug 10, 2011
             <div>
+
 You can make it shorter: the &lt;body&gt; element isn't required in HTML5. And if your server is emitting the correct headers, the charset isn't technically required either.
+
             </div>
         </div>
     </li>
@@ -42,6 +44,7 @@ You can make it shorter: the &lt;body&gt; element isn't required in HTML5. And i
         <div>
             anonymous &ndash; Jun 18, 2012
             <div>
+
 Actually, this is the minimum:
 
 &lt;!doctype html&gt;
@@ -50,6 +53,7 @@ Actually, this is the minimum:
 &lt;title&gt;&lt;/title&gt;
 &lt;/head&gt;
 &lt;/html&gt;
+
             </div>
         </div>
     </li>

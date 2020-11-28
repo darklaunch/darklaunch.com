@@ -41,7 +41,9 @@ https://www.darklaunch.com/2010/11/09/facebook-s-anti-clickjacking-techniques.ht
         <div>
             anonymous &ndash; May 22, 2011
             <div>
+
 if I had full access to the dom how could I disable this using a script of my own? I ask because im trying to create automation software in Titanium but I have to use iframes. with titanium I have full access to cross site dom but this frame breaker is stopping me from doing anything because it takes over my app window.
+
             </div>
         </div>
     </li>
@@ -49,7 +51,9 @@ if I had full access to the dom how could I disable this using a script of my ow
         <div>
             anonymous &ndash; May 23, 2011
             <div>
+
 take a look at window.onbeforeunload and sending a 204 header
+
             </div>
         </div>
     </li>

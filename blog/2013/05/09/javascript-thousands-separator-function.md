@@ -61,7 +61,9 @@ https://www.darklaunch.com/2013/05/09/javascript-thousands-separator-function.ht
         <div>
             anonymous &ndash; May 16, 2014
             <div>
+
 Note this will break if the number has more than three decimal places!
+
             </div>
         </div>
     </li>
@@ -69,7 +71,9 @@ Note this will break if the number has more than three decimal places!
         <div>
             anonymous &ndash; Jul 25, 2014
             <div>
+
 This does not work in Safari :(
+
             </div>
         </div>
     </li>
@@ -77,7 +81,9 @@ This does not work in Safari :(
         <div>
             anonymous &ndash; May 23, 2015
             <div>
+
 This does not work in Safari :(
+
             </div>
         </div>
     </li>

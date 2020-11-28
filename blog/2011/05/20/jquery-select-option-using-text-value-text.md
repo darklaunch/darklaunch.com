@@ -81,8 +81,10 @@ https://www.darklaunch.com/2011/05/20/jquery-select-option-using-text-value-text
         <div>
             anonymous &ndash; Sep 28, 2011
             <div>
+
 :contains is not ideal, consider some of the values might be cintained within others.Eg, if you got an option with "bble" as text and you want the id,
 @$("select:last").find("option:contains('bble')").prop("selected", "selected") will return more than one
+
             </div>
         </div>
     </li>
@@ -90,7 +92,9 @@ https://www.darklaunch.com/2011/05/20/jquery-select-option-using-text-value-text
         <div>
             anonymous &ndash; Jan 30, 2012
             <div>
+
 click the option value change to provide new value
+
             </div>
         </div>
     </li>
@@ -98,7 +102,9 @@ click the option value change to provide new value
         <div>
             anonymous &ndash; May 24, 2012
             <div>
+
 Thanks :D
+
             </div>
         </div>
     </li>
@@ -106,7 +112,9 @@ Thanks :D
         <div>
             anonymous &ndash; Dec 29, 2012
             <div>
+
 Contains returns all the options which contain the searched string. It is not an exact match.
+
             </div>
         </div>
     </li>
@@ -114,7 +122,9 @@ Contains returns all the options which contain the searched string. It is not an
         <div>
             anonymous &ndash; Jan 3, 2013
             <div>
+
 Examples have been updated! Use the $.filter() method for an exact match.
+
             </div>
         </div>
     </li>
@@ -122,8 +132,10 @@ Examples have been updated! Use the $.filter() method for an exact match.
         <div>
             anonymous &ndash; Jan 23, 2013
             <div>
+
 thanks a lot!
 i just find my old selector "option[text='s3']" does not work.
+
             </div>
         </div>
     </li>
@@ -131,7 +143,9 @@ i just find my old selector "option[text='s3']" does not work.
         <div>
             anonymous &ndash; Jul 22, 2013
             <div>
+
 nice :)
+
             </div>
         </div>
     </li>

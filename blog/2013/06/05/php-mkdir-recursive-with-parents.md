@@ -28,8 +28,10 @@ https://www.darklaunch.com/2013/06/05/php-mkdir-recursive-with-parents.html
         <div>
             anonymous &ndash; Jun 10, 2013
             <div>
+
 what about:
 `mkdir($_SERVER['DOCUMENT_ROOT'] . _PATH . '/' . $directory, 777, true);`
+
             </div>
         </div>
     </li>

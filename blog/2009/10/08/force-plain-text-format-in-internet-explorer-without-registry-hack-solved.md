@@ -61,7 +61,9 @@ https://www.darklaunch.com/2009/10/08/force-plain-text-format-in-internet-explor
         <div>
             anonymous &ndash; Mar 9, 2012
             <div>
+
 Thanks, just what I was looking for.
+
             </div>
         </div>
     </li>
@@ -69,6 +71,7 @@ Thanks, just what I was looking for.
         <div>
             anonymous &ndash; Nov 29, 2012
             <div>
+
 As used in wordpress:
 
 /**
@@ -81,10 +84,11 @@ As used in wordpress:
  * @return none
  */
 function send_nosniff_header() {
-&nbsp;&nbsp;&nbsp;&nbsp;@header( 'X-Content-Type-Options: nosniff' );
+    @header( 'X-Content-Type-Options: nosniff' );
 }
 
 <a href="http://core.svn.wordpress.org/trunk/wp-includes/functions.php">http://core.svn.wordpress.org/trunk/wp-includes/functions.php</a>
+
             </div>
         </div>
     </li>

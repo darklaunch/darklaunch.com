@@ -31,7 +31,9 @@ https://www.darklaunch.com/2009/05/01/php-file-upload-using-curl-uploading-a-fil
         <div>
             anonymous &ndash; Jul 27, 2020
             <div>
+
 Why avoid using `curl_setopt_array()`?
+
             </div>
         </div>
         <ol>
@@ -39,7 +41,9 @@ Why avoid using `curl_setopt_array()`?
                 <div>
                     anonymous &ndash; Jul 28, 2020
                     <div>
+
 using `curl_setopt()` lets you know which option failed to be set
+
                     </div>
                 </div>
             </li>

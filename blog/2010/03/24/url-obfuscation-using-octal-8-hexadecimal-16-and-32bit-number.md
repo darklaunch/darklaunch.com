@@ -20,7 +20,9 @@ https://www.darklaunch.com/2010/03/24/url-obfuscation-using-octal-8-hexadecimal-
         <div>
             anonymous &ndash; Feb 15, 2011
             <div>
+
 Nice Job!!!!!
+
             </div>
         </div>
     </li>
@@ -28,7 +30,9 @@ Nice Job!!!!!
         <div>
             anonymous &ndash; May 1, 2011
             <div>
+
 <a href="http://010231406543">http://010231406543</a> is another obfuscated URL for <a href="www.google.com">www.google.com</a>
+
             </div>
         </div>
     </li>

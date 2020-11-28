@@ -57,6 +57,7 @@ https://www.darklaunch.com/2012/02/03/how-to-include-python-script-in-bash-scrip
         <div>
             anonymous &ndash; Feb 22, 2012
             <div>
+
 Alternatively, something like this works as well:
 
 eval python - &lt;&lt; EOF
@@ -64,6 +65,7 @@ import sys
 from pprint import pprint
 pprint(sys.path)
 EOF
+
             </div>
         </div>
     </li>

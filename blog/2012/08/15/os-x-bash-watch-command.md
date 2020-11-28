@@ -27,7 +27,9 @@ https://www.darklaunch.com/2012/08/15/os-x-bash-watch-command.html
         <div>
             anonymous &ndash; Jul 16, 2016
             <div>
+
 See also watch_file() command in <a href="https://github.com/dot-star/dot-star/blob/master/bash/.aliases.sh#L439">https://github.com/dot-star/dot-star/blob/master/bash/.aliases.sh#L439</a>
+
             </div>
         </div>
     </li>
@@ -35,7 +37,9 @@ See also watch_file() command in <a href="https://github.com/dot-star/dot-star/b
         <div>
             anonymous &ndash; Aug 24, 2019
             <div>
+
 See also <a href="https://www.darklaunch.com/watch-files-and-run-a-command">https://www.darklaunch.com/watch-files-and-run-a-command</a>
+
             </div>
         </div>
     </li>

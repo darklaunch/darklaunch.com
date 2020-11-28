@@ -67,7 +67,9 @@ https://www.darklaunch.com/2011/12/01/php-return-function-response-to-variable-r
         <div>
             anonymous &ndash; Nov 30, 2011
             <div>
+
 If you're getting "Parse error: syntax error, unexpected T_FUNCTION", then use a newer version of PHP (&gt;= PHP 5.3.0) or use create_function().
+
             </div>
         </div>
     </li>

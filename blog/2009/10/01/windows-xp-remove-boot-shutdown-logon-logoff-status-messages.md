@@ -23,7 +23,9 @@ https://www.darklaunch.com/2009/10/01/windows-xp-remove-boot-shutdown-logon-logo
         <div>
             anonymous &ndash; Jan 12, 2014
             <div>
+
 If you don't see "System" template, you need to add it manualy.
+
             </div>
         </div>
     </li>

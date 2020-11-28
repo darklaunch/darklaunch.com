@@ -19,7 +19,9 @@ https://www.darklaunch.com/2009/05/13/recursively-diff-two-directories-and-exclu
         <div>
             anonymous &ndash; Jul 7, 2010
             <div>
+
 You are awesome.
+
             </div>
         </div>
     </li>
@@ -27,9 +29,11 @@ You are awesome.
         <div>
             anonymous &ndash; Aug 14, 2011
             <div>
+
 Congratulations sir, your coolPoints are now ++
 
 thank you
+
             </div>
         </div>
     </li>
@@ -37,7 +41,9 @@ thank you
         <div>
             anonymous &ndash; Mar 14, 2012
             <div>
+
 I am having cade in my machine including .svn folder. Now I want to copy the whole folder structure to linux machine using WGET. How to exclude the .svn folders during WGET???
+
             </div>
         </div>
     </li>
@@ -45,7 +51,9 @@ I am having cade in my machine including .svn folder. Now I want to copy the who
         <div>
             anonymous &ndash; Jun 21, 2012
             <div>
+
 thanks
+
             </div>
         </div>
     </li>
@@ -53,7 +61,9 @@ thanks
         <div>
             anonymous &ndash; Sep 30, 2014
             <div>
+
 Thanks!
+
             </div>
         </div>
     </li>

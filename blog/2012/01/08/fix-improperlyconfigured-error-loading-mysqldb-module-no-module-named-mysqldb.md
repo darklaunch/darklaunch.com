@@ -39,12 +39,14 @@ https://www.darklaunch.com/2012/01/08/fix-improperlyconfigured-error-loading-mys
         <div>
             anonymous &ndash; Aug 3, 2012
             <div>
+
 Hi,
 I have tried many different things and install MySQLdb. If I type from the interpreter import MySQLdb it works. But when I try to do it using DJANGO it fails giving this error
 
 : Error loading MySQLdb module: No module named MySQLdb 
-&nbsp;&nbsp;&nbsp;&nbsp;  args = ('Error loading MySQLdb module: No module named MySQLdb',) 
-&nbsp;&nbsp;&nbsp;&nbsp;  message = 'Error loading MySQLdb module: No module named MySQLdb'
+      args = ('Error loading MySQLdb module: No module named MySQLdb',) 
+      message = 'Error loading MySQLdb module: No module named MySQLdb'
+
             </div>
         </div>
     </li>
@@ -52,9 +54,11 @@ I have tried many different things and install MySQLdb. If I type from the inter
         <div>
             anonymous &ndash; Feb 15, 2013
             <div>
+
 For OS X, enter this on the command line before proceeding with the install.
 
 export PATH=/usr/local/mysql/bin:$PATH
+
             </div>
         </div>
     </li>
@@ -62,7 +66,9 @@ export PATH=/usr/local/mysql/bin:$PATH
         <div>
             anonymous &ndash; Mar 13, 2013
             <div>
+
 Thank you so much for this! Exactly what I have been looking for! So many people have crazy methods but all that was needed was two lines -_-
+
             </div>
         </div>
     </li>
@@ -70,6 +76,7 @@ Thank you so much for this! Exactly what I have been looking for! So many people
         <div>
             anonymous &ndash; Feb 14, 2014
             <div>
+
 django.core.exceptions.ImproperlyConfigured: Error loading MySQLdb module: this is MySQLdb version (1, 2, 3, 'final', 0), but _mysql is version (1, 2, 5, 'final', 1)
 
 instead of 
@@ -83,6 +90,7 @@ then
 django.core.exceptions.ImproperlyConfigured: Error loading MySQLdb module: _mysql: init failed
 
 unfortunately, this one fixed itself somehow. i just opened up a new command line window in Ubuntu without going into the virtualenv and it worked.
+
             </div>
         </div>
     </li>
@@ -90,6 +98,7 @@ unfortunately, this one fixed itself somehow. i just opened up a new command lin
         <div>
             anonymous &ndash; Apr 4, 2016
             <div>
+
 For Python 3 use mysqlclient:
 $ pip install mysqlclient
 
@@ -98,6 +107,7 @@ Possible errors:
 - SyntaxError: invalid syntax (_KEYCRE = re.compile(ur"%\(([^)]+)\)s"))
 
 <a href="https://docs.djangoproject.com/en/dev/ref/databases/#mysql-db-api-drivers">https://docs.djangoproject.com/en/dev/ref/databases/#mysql-db-api-drivers</a>
+
             </div>
         </div>
     </li>

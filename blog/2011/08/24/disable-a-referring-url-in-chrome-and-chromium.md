@@ -77,8 +77,10 @@ https://www.darklaunch.com/2011/08/24/disable-a-referring-url-in-chrome-and-chro
         <div>
             anonymous &ndash; Aug 30, 2011
             <div>
+
 for Google Chrome on Windows look in:
 C:\Users\USERNAME\AppData\Local\Google\Chrome\User Data\Default\Preferences
+
             </div>
         </div>
     </li>
@@ -86,7 +88,9 @@ C:\Users\USERNAME\AppData\Local\Google\Chrome\User Data\Default\Preferences
         <div>
             anonymous &ndash; Nov 3, 2011
             <div>
+
 Google Chrome on OSX is located ~/Library/Application Support/Google/Chrome/Default/Preferences
+
             </div>
         </div>
     </li>
@@ -94,7 +98,9 @@ Google Chrome on OSX is located ~/Library/Application Support/Google/Chrome/Defa
         <div>
             anonymous &ndash; Nov 4, 2011
             <div>
+
 <a href="http://src.chromium.org/viewvc/chrome/trunk/src/content/public/common/content_switches.cc">http://src.chromium.org/viewvc/chrome/trunk/src/content/public/common/content_switches.cc</a>
+
             </div>
         </div>
     </li>
@@ -102,7 +108,9 @@ Google Chrome on OSX is located ~/Library/Application Support/Google/Chrome/Defa
         <div>
             anonymous &ndash; Feb 16, 2012
             <div>
+
 for Chromium on OSX look in ~/Library/Application Support/Chromium/Default/Preferences
+
             </div>
         </div>
     </li>

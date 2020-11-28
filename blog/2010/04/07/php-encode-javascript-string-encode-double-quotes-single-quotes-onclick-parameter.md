@@ -38,10 +38,12 @@ https://www.darklaunch.com/2010/04/07/php-encode-javascript-string-encode-double
         <div>
             anonymous &ndash; Jul 1, 2011
             <div>
+
 Thank you very much dude!!! It showed me some way to my problem. Have a great day.
 
 thanks,
 Sreedhar
+
             </div>
         </div>
     </li>

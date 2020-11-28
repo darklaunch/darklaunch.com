@@ -21,7 +21,9 @@ https://www.darklaunch.com/2011/07/30/fix-to-fuse-device-not-found-try-modprobe-
         <div>
             anonymous &ndash; Apr 13, 2012
             <div>
+
 FATAL: Module fuse not found.
+
             </div>
         </div>
     </li>
@@ -29,9 +31,11 @@ FATAL: Module fuse not found.
         <div>
             anonymous &ndash; Apr 13, 2012
             <div>
+
 @"FATAL: Module fuse not found."
 
 install the correct kernel-module-fuse rpm. alternatively, install the libfuse2 and fuse-utils packages.
+
             </div>
         </div>
     </li>
@@ -39,7 +43,9 @@ install the correct kernel-module-fuse rpm. alternatively, install the libfuse2 
         <div>
             anonymous &ndash; Dec 3, 2012
             <div>
+
 worked like a charm! thanks
+
             </div>
         </div>
     </li>

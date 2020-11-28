@@ -25,9 +25,11 @@ https://www.darklaunch.com/2015/02/04/how-to-prefetch-related-queryset-in-django
         <div>
             anonymous &ndash; Jan 12, 2016
             <div>
+
 .queryset changed to .get_queryset in Django 1.6
 
 <a href="https://docs.djangoproject.com/en/dev/ref/contrib/admin/#django.contrib.admin.ModelAdmin.get_queryset">https://docs.djangoproject.com/en/dev/ref/contrib/admin/#django.contrib.admin.ModelAdmin.get_queryset</a>
+
             </div>
         </div>
     </li>

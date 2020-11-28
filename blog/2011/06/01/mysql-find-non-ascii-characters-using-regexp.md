@@ -24,7 +24,9 @@ https://www.darklaunch.com/2011/06/01/mysql-find-non-ascii-characters-using-rege
         <div>
             anonymous &ndash; Jul 27, 2011
             <div>
+
 `SELECT * FROM `table` WHERE NOT HEX(`column`) REGEXP '^([0-7][0-9A-F])*$'`
+
             </div>
         </div>
     </li>

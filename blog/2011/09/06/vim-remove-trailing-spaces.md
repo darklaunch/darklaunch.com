@@ -33,8 +33,10 @@ https://www.darklaunch.com/2011/09/06/vim-remove-trailing-spaces.html
         <div>
             anonymous &ndash; May 22, 2013
             <div>
+
 Why don't you use 
 :%s/ \+\n/\r/gc
+
             </div>
         </div>
     </li>
@@ -42,9 +44,11 @@ Why don't you use
         <div>
             anonymous &ndash; Jun 7, 2013
             <div>
+
 @"Why don't you use"
 
 both work. which one reads more clearly?
+
             </div>
         </div>
     </li>

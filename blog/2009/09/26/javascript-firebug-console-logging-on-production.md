@@ -84,18 +84,20 @@ https://www.darklaunch.com/2009/09/26/javascript-firebug-console-logging-on-prod
         <div>
             anonymous &ndash; Dec 11, 2013
             <div>
+
 ```javascript
 (function (win) {
-&nbsp;&nbsp;&nbsp;&nbsp;var method;
-&nbsp;&nbsp;&nbsp;&nbsp;var dummy = function() {};
-&nbsp;&nbsp;&nbsp;&nbsp;var methods = ('assert,count,debug,dir,dirxml,error,exception,group,' +
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'groupCollapsed,groupEnd,info,log,markTimeline,profile,profileEnd,' +
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'time,timeEnd,trace,warn').split(',');
-&nbsp;&nbsp;&nbsp;&nbsp;while (method = methods.pop()) {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; win[method] =  win[method] || dummy;
-&nbsp;&nbsp;&nbsp;&nbsp;}
+    var method;
+    var dummy = function() {};
+    var methods = ('assert,count,debug,dir,dirxml,error,exception,group,' +
+        'groupCollapsed,groupEnd,info,log,markTimeline,profile,profileEnd,' +
+        'time,timeEnd,trace,warn').split(',');
+    while (method = methods.pop()) {
+         win[method] =  win[method] || dummy;
+    }
 })(window.console = window.console || {});
 ```
+
             </div>
         </div>
     </li>

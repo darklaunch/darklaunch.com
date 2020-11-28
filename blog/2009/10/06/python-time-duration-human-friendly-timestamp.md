@@ -100,7 +100,9 @@ https://www.darklaunch.com/2009/10/06/python-time-duration-human-friendly-timest
         <div>
             anonymous &ndash; Nov 29, 2013
             <div>
+
 good!!
+
             </div>
         </div>
     </li>
@@ -108,6 +110,7 @@ good!!
         <div>
             anonymous &ndash; May 19, 2014
             <div>
+
 import datetime
 import time
 
@@ -117,6 +120,7 @@ time.sleep(2)
 
 elapsed = datetime.datetime.now() - start
 print elapsed
+
             </div>
         </div>
     </li>

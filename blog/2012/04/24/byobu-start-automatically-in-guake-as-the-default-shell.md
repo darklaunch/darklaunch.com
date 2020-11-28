@@ -23,7 +23,9 @@ https://www.darklaunch.com/2012/04/24/byobu-start-automatically-in-guake-as-the-
         <div>
             anonymous &ndash; May 30, 2012
             <div>
+
 Thank you!! This is what I needed.
+
             </div>
         </div>
     </li>
@@ -31,7 +33,9 @@ Thank you!! This is what I needed.
         <div>
             anonymous &ndash; Mar 19, 2013
             <div>
+
 Didn't have login shell box ticked. Thanks!
+
             </div>
         </div>
     </li>
@@ -39,9 +43,11 @@ Didn't have login shell box ticked. Thanks!
         <div>
             anonymous &ndash; May 31, 2013
             <div>
+
 Thanks a lot!
 Exactly what I've been looking for.
 Ryo
+
             </div>
         </div>
     </li>
@@ -49,10 +55,12 @@ Ryo
         <div>
             anonymous &ndash; Feb 19, 2016
             <div>
+
 I just add this comment on related Guake issue: <a href="https://github.com/Guake/guake/issues/71#issuecomment-186029163">https://github.com/Guake/guake/issues/71#issuecomment-186029163</a>
 
-&nbsp;&nbsp;&nbsp;&nbsp;# apt-get install byobu &amp;&amp; which byobu | tee -a /etc/shells
-&nbsp;&nbsp;&nbsp;&nbsp;Run guake-prefs and change Default interpreter.
+    # apt-get install byobu &amp;&amp; which byobu | tee -a /etc/shells
+    Run guake-prefs and change Default interpreter.
+
             </div>
         </div>
     </li>
@@ -60,7 +68,9 @@ I just add this comment on related Guake issue: <a href="https://github.com/Guak
         <div>
             anonymous &ndash; Aug 17, 2016
             <div>
+
 (bow) You have no idea how great the intensity of my excitement was when I found and did this. byobu + guake was my dream. Thank you!
+
             </div>
         </div>
     </li>
@@ -68,7 +78,9 @@ I just add this comment on related Guake issue: <a href="https://github.com/Guak
         <div>
             anonymous &ndash; Aug 13, 2017
             <div>
+
 Perfect. I was missing the last bit. Running as a login shell. Thanks!
+
             </div>
         </div>
     </li>

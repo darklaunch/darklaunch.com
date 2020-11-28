@@ -40,7 +40,9 @@ https://www.darklaunch.com/2011/09/27/css-unselectable-cross-browser-property.ht
         <div>
             anonymous &ndash; Nov 12, 2011
             <div>
+
 Pandora does this! eww
+
             </div>
         </div>
     </li>
@@ -48,7 +50,9 @@ Pandora does this! eww
         <div>
             anonymous &ndash; Jul 20, 2012
             <div>
+
 there should be .selectable in the second part of code. isn't it?
+
             </div>
         </div>
     </li>
@@ -56,9 +60,11 @@ there should be .selectable in the second part of code. isn't it?
         <div>
             anonymous &ndash; Jul 20, 2012
             <div>
+
 &gt;&gt; there should be .selectable in the second part of code. isn't it?
 
 no there shouldn't be. the ".unselectable" in the second part overrides the first part with the !important.
+
             </div>
         </div>
     </li>
@@ -66,7 +72,9 @@ no there shouldn't be. the ".unselectable" in the second part overrides the firs
         <div>
             anonymous &ndash; Sep 10, 2012
             <div>
+
 in ie8?
+
             </div>
         </div>
     </li>
@@ -74,7 +82,9 @@ in ie8?
         <div>
             anonymous &ndash; Feb 5, 2013
             <div>
+
 for ie, use -ms-user-select
+
             </div>
         </div>
     </li>
@@ -82,7 +92,9 @@ for ie, use -ms-user-select
         <div>
             anonymous &ndash; Oct 30, 2014
             <div>
+
 "-moz-user-select: none;" instead of "-moz-none" is now available starting with Firefox 21.
+
             </div>
         </div>
     </li>
