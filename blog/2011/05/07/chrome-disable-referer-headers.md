@@ -34,3 +34,18 @@ The referring url is available from the document.referrer field.
 Posted May 7, 2011.
 
 https://www.darklaunch.com/2011/05/07/chrome-disable-referer-headers.html
+
+---
+
+1 comment
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Aug 9, 2012
+            <div>
+                <p>Note content_switches.cc moved to <a href="http://src.chromium.org/svn/trunk/src/content/public/common/content_switches.cc">http://src.chromium.org/svn/trunk/src/content/public/common/content_switches.cc</a></p>
+            </div>
+        </div>
+    </li>
+</ol>

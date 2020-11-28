@@ -31,3 +31,18 @@ http://darklaunch.com/2009/11/06/open-microsoft-office-document-in-wine-word-exc
 Posted Dec 1, 2009.
 
 https://www.darklaunch.com/2009/12/01/open-microsoft-office-document-in-wine-word-microsoft-doc-files-open-with.html
+
+---
+
+1 comment
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Dec 20, 2011
+            <div>
+                <p>I did these steps but it does not work</p>
+            </div>
+        </div>
+    </li>
+</ol>

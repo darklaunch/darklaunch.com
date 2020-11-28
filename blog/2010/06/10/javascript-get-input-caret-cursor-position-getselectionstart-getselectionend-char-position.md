@@ -33,3 +33,26 @@ function getSelectionEnd(o) {
 Posted Jun 10, 2010.
 
 https://www.darklaunch.com/2010/06/10/javascript-get-input-caret-cursor-position-getselectionstart-getselectionend-char-position.html
+
+---
+
+2 comments
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Sep 7, 2012
+            <div>
+                <p>wtf is o</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Sep 7, 2012
+            <div>
+                <p>@wtf o is object</p>
+            </div>
+        </div>
+    </li>
+</ol>

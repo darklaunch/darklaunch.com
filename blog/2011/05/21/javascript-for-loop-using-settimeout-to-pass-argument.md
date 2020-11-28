@@ -69,3 +69,82 @@ for (let i = 0; i < 5; i++) {
 Posted May 21, 2011.
 
 https://www.darklaunch.com/2011/05/21/javascript-for-loop-using-settimeout-to-pass-argument.html
+
+---
+
+9 comments
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Sep 13, 2011
+            <div>
+                <p>That saved me a few hairs! Nice one</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Jun 27, 2012
+            <div>
+                <p>Thanks man, really helped me!</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Sep 17, 2012
+            <div>
+                <p>Great!</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Nov 9, 2012
+            <div>
+                <p>Thanks!!!</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Dec 14, 2012
+            <div>
+                <p>Thanks !! helped a lot</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; May 11, 2013
+            <div>
+                <p>Nice!</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Apr 18, 2014
+            <div>
+                <p>Thanks that was asome</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Feb 9, 2015
+            <div>
+                <p>Thanks! This script helps me a lot, i really apreciate it.</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Feb 17, 2015
+            <div>
+                <p>Thx!</p><p>It helps!</p>
+            </div>
+        </div>
+    </li>
+</ol>

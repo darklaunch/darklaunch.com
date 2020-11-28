@@ -24,3 +24,18 @@ year: 2014; month: 04; day: 28
 Posted Apr 28, 2014.
 
 https://www.darklaunch.com/2014/04/28/bash-find-replace-using-regex-pipe.html
+
+---
+
+1 comment
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Oct 28, 2014
+            <div>
+                <p>For group replacements, use $1, $2, etc.</p><p></p><p><code>perl -pe 's/(\d+).*/\1/g'</code></p>
+            </div>
+        </div>
+    </li>
+</ol>

@@ -42,3 +42,66 @@ and run that instead.
 Posted Nov 24, 2011.
 
 https://www.darklaunch.com/2011/11/24/osx-install-pip-virtualenv-virtualenvwrapper-on-mac.html
+
+---
+
+7 comments
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Mar 19, 2012
+            <div>
+                <p>To avoid the most common freeze reason while installing Xcode, kill iTunes Helper before you start.</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Apr 2, 2012
+            <div>
+                <p>install easy_install with:</p><p></p><p>wget <a href="http://python-distribute.org/distribute_setup.py">http://python-distribute.org/distribute_setup.py</a></p><p>sudo python distribute_setup.py</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Oct 27, 2012
+            <div>
+                <p>Thanks.</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Oct 27, 2012
+            <div>
+                <p>fyi, for <code>mkvirtualenv</code>, --no-site-packages is now the default</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Feb 16, 2013
+            <div>
+                <p>thanks a lot</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Apr 3, 2013
+            <div>
+                <p>Great concise approach to virtualenvs, thanks!</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Jul 31, 2013
+            <div>
+                <p>It works!</p>
+            </div>
+        </div>
+    </li>
+</ol>

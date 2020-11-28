@@ -49,3 +49,18 @@ $ git config user.email "username+another-project@example.com"
 Posted Sep 24, 2013.
 
 https://www.darklaunch.com/2013/09/24/github-ssh-multiple-accounts-users-for-separate-projects.html
+
+---
+
+1 comment
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Jul 19, 2016
+            <div>
+                <p>The .git/config files should look similar to this:</p><p></p><p>For project A:</p><p>[remote "origin"]</p><p>&nbsp;&nbsp;&nbsp;&nbsp;url = git@github.com-some-project:some-project/some-project.git</p><p>&nbsp;&nbsp;&nbsp;&nbsp;fetch = +refs/heads/*:refs/remotes/origin/*</p><p></p><p>For project B:</p><p>[remote "origin"]</p><p>&nbsp;&nbsp;&nbsp;&nbsp;url = git@github.com-another-project:another-project/another-project.git</p><p>&nbsp;&nbsp;&nbsp;&nbsp;fetch = +refs/heads/*:refs/remotes/origin/*</p>
+            </div>
+        </div>
+    </li>
+</ol>

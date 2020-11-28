@@ -111,3 +111,42 @@ On_IWhite='\e[0;107m'   # White
 Posted Apr 25, 2013.
 
 https://www.darklaunch.com/2013/04/25/bash-get-unicode-character-from-encoded-char.html
+
+---
+
+4 comments
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Oct 21, 2013
+            <div>
+                <p>more characters:</p><p></p><p>check</p><p>$ echo -n âœ”|hexdump</p><p>0000000 e2 9c 94</p><p>0000003</p><p></p><p>x</p><p>$ echo -n âœ–|hexdump</p><p>0000000 e2 9c 96</p><p>0000003</p><p></p><p>arrow</p><p>$ echo -n âžœ|hexdump</p><p>0000000 e2 9e 9c</p><p>0000003</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Feb 23, 2014
+            <div>
+                <p>These color codes are incomplete for some reason beyond my knowledge and fail sometimes when a line is too long, overwriting the prompt's first line content and producing weird behaviours because prompt won't start a new line or even go one line up.</p><p></p><p>In order for these color codes to work (at least in ubuntu), you need to replace</p><p>\e with [\033 and add at the end of every code \].</p><p></p><p>So instead of</p><p>Red='\e[0;31m'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  # Red</p><p>You should type</p><p>Red='\[\033[0;31m\]'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  # Red</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Nov 11, 2014
+            <div>
+                <p>It's also possible to get the unicode sequence on the command line using python:</p><p></p><p>$ echo -n "âœ“" | python -c 'import sys; print [sys.stdin.read()]'</p><p>['\xe2\x9c\x93']</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Jul 29, 2016
+            <div>
+                <p>$ echo -n "â€" | python -c 'import sys; print [sys.stdin.read()]'</p><p>['\xe2\x80\x9d']</p>
+            </div>
+        </div>
+    </li>
+</ol>

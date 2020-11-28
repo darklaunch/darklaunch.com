@@ -13,3 +13,18 @@ Please use git.
 Posted Mar 2, 2013.
 
 https://www.darklaunch.com/2013/03/02/yet-another-reason-to-not-use-mercurial.html
+
+---
+
+1 comment
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Oct 2, 2013
+            <div>
+                <p>The .orig files Mercurial leaves after a merge are really annoying as well.</p><p></p><p>Luckily you can disable this silly behavior my modifying your $HOME/.hgrc with:</p><p>[defaults]</p><p>revert = --no-backup</p>
+            </div>
+        </div>
+    </li>
+</ol>

@@ -31,3 +31,18 @@ http://darklaunch.com/2009/12/01/open-microsoft-office-document-in-wine-word-mic
 Posted Nov 6, 2009.
 
 https://www.darklaunch.com/2009/11/06/open-microsoft-office-document-in-wine-word-excel-doc-xls-open-with.html
+
+---
+
+1 comment
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Nov 1, 2012
+            <div>
+                <p>Very usefull. Thanks!</p>
+            </div>
+        </div>
+    </li>
+</ol>

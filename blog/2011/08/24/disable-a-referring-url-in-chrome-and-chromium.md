@@ -67,3 +67,42 @@ http://src.chromium.org/svn/trunk/src/chrome/browser/net/chrome_network_delegate
 Posted Aug 24, 2011.
 
 https://www.darklaunch.com/2011/08/24/disable-a-referring-url-in-chrome-and-chromium.html
+
+---
+
+4 comments
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Aug 30, 2011
+            <div>
+                <p>for Google Chrome on Windows look in:</p><p>C:\Users\USERNAME\AppData\Local\Google\Chrome\User Data\Default\Preferences</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Nov 3, 2011
+            <div>
+                <p>Google Chrome on OSX is located ~/Library/Application Support/Google/Chrome/Default/Preferences</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Nov 4, 2011
+            <div>
+                <p><a href="http://src.chromium.org/viewvc/chrome/trunk/src/content/public/common/content_switches.cc">http://src.chromium.org/viewvc/chrome/trunk/src/content/public/common/content_switches.cc</a></p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Feb 16, 2012
+            <div>
+                <p>for Chromium on OSX look in ~/Library/Application Support/Chromium/Default/Preferences</p>
+            </div>
+        </div>
+    </li>
+</ol>

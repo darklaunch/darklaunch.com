@@ -51,3 +51,34 @@ for (var i in list) {
 Posted May 9, 2013.
 
 https://www.darklaunch.com/2013/05/09/javascript-thousands-separator-function.html
+
+---
+
+3 comments
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; May 16, 2014
+            <div>
+                <p>Note this will break if the number has more than three decimal places!</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Jul 25, 2014
+            <div>
+                <p>This does not work in Safari :(</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; May 23, 2015
+            <div>
+                <p>This does not work in Safari :(</p>
+            </div>
+        </div>
+    </li>
+</ol>

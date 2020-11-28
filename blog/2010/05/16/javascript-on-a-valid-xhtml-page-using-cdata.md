@@ -135,3 +135,26 @@ echo
 Posted May 16, 2010.
 
 https://www.darklaunch.com/2010/05/16/javascript-on-a-valid-xhtml-page-using-cdata.html
+
+---
+
+2 comments
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Jun 7, 2011
+            <div>
+                <p>Are you instructing or showing off?</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Dec 10, 2011
+            <div>
+                <p>cheers this helped me!</p>
+            </div>
+        </div>
+    </li>
+</ol>

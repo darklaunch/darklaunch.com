@@ -84,3 +84,42 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 Posted May 1, 2009.
 
 https://www.darklaunch.com/2009/05/01/php-file-upload-error-codes-upload-err-ok.html
+
+---
+
+4 comments
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Sep 7, 2010
+            <div>
+                <p>hi, i try your script n i get error "Failed to write file to disk. Introduced in PHP 5.1.0."</p><p></p><p>what should i do to fix that..?? </p><p>my folder cmod already set to 7777...</p><p></p><p>thx,</p><p></p><p>opick</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Sep 8, 2010
+            <div>
+                <p>make sure error reporting is on which may provide further detail:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>error_reporting(E_ALL | E_STRICT);</code></p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>ini_set('display_errors', 1);</code></p><p></p><p>also, check out</p><p><a href="http://us.php.net/manual/en/features.file-upload.common-pitfalls.php">http://us.php.net/manual/en/features.file-upload.common-pitfalls.php</a></p><p><a href="http://us.php.net/manual/en/features.file-upload.errors.php">http://us.php.net/manual/en/features.file-upload.errors.php</a></p><p><a href="http://us.php.net/manual/en/features.file-upload.post-method.php">http://us.php.net/manual/en/features.file-upload.post-method.php</a></p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Sep 8, 2010
+            <div>
+                <p><code>UPLOAD_ERR_CANT_WRITE</code> sometimes means ran out of disk space on the temporary upload location.</p><p></p><p>check the available diskspace on <code>/tmp</code></p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Oct 18, 2014
+            <div>
+                <p>If security is an issue, you must never reply on <code>$_FILES['myfile']['type']</code> as this can be modified by a naughty person. Instead, use <code>exif_imagetype($_FILES["myfile"]["tmp_name"])</code>.</p>
+            </div>
+        </div>
+    </li>
+</ol>

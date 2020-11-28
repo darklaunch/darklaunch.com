@@ -38,3 +38,26 @@ else {
 Posted Sep 30, 2009.
 
 https://www.darklaunch.com/2009/09/30/firefox-move-tab-left-and-move-tab-right-with-wrapping-without-requiring-focus.html
+
+---
+
+2 comments
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Nov 19, 2010
+            <div>
+                <p>Worked perfectly!</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Mar 4, 2014
+            <div>
+                <p>This is great</p>
+            </div>
+        </div>
+    </li>
+</ol>

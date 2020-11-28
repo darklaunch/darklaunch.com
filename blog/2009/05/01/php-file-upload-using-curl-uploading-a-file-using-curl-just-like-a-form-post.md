@@ -21,3 +21,28 @@ NOTE: Avoid using `curl_setopt_array()`. Use `curl_setopt()` instead.
 Posted May 1, 2009.
 
 https://www.darklaunch.com/2009/05/01/php-file-upload-using-curl-uploading-a-file-using-curl-just-like-a-form-post.html
+
+---
+
+2 comments
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Jul 27, 2020
+            <div>
+                <p>Why avoid using <code>curl_setopt_array()</code>?</p>
+            </div>
+        </div>
+        <ol>
+            <li>
+                <div>
+                    anonymous &ndash; Jul 28, 2020
+                    <div>
+                        <p>using <code>curl_setopt()</code> lets you know which option failed to be set</p>
+                    </div>
+                </div>
+            </li>
+        </ol>
+    </li>
+</ol>

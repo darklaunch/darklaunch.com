@@ -112,3 +112,18 @@ Part of https://github.com/dot-star/dot-star
 Posted Mar 15, 2018.
 
 https://www.darklaunch.com/2018/03/15/watch-file-for-changes-and-run-command.html
+
+---
+
+1 comment
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Aug 24, 2019
+            <div>
+                <p>See also <a href="https://www.darklaunch.com/watch-files-and-run-a-command">https://www.darklaunch.com/watch-files-and-run-a-command</a></p>
+            </div>
+        </div>
+    </li>
+</ol>

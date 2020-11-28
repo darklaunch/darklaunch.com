@@ -18,3 +18,26 @@ http://www.nirsoft.net/utils/file_types_manager.html
 Posted Mar 11, 2009.
 
 https://www.darklaunch.com/2009/03/11/use-7zip-as-default-zip-file-manager-set-7zip-as-default-open-with-7zip.html
+
+---
+
+2 comments
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Jul 5, 2012
+            <div>
+                <p>7-zip set as default zip file manager. Excellent ! Has a bit of difference on my comp. at steps 7. &amp; 8. Got it completed o.k. with a bit of trial &amp; err. Thanks !!</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Feb 11, 2013
+            <div>
+                <p>No it did not. I have downloaded 7-Zip, but it is not showing as a default option, or as an option to even use.</p>
+            </div>
+        </div>
+    </li>
+</ol>

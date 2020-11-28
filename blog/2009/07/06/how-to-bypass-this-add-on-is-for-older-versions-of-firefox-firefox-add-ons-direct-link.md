@@ -23,3 +23,18 @@ Location: https://addons.mozilla.org/en-US/firefox/downloads/file/52151/xpi/yslo
 Posted Jul 6, 2009.
 
 https://www.darklaunch.com/2009/07/06/how-to-bypass-this-add-on-is-for-older-versions-of-firefox-firefox-add-ons-direct-link.html
+
+---
+
+1 comment
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Apr 14, 2010
+            <div>
+                <p>This DOES NOT restore the install buttons where the Mozilla add-on site displays the "This add-on is for older versions of Firefox" pink box instead of install buttons.</p><p></p><p>Very disappointing.</p>
+            </div>
+        </div>
+    </li>
+</ol>

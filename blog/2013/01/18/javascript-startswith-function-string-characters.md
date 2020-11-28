@@ -24,3 +24,18 @@ console.assert(startsWith(url, "http://") === false);
 Posted Jan 18, 2013.
 
 https://www.darklaunch.com/2013/01/18/javascript-startswith-function-string-characters.html
+
+---
+
+1 comment
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Apr 4, 2013
+            <div>
+                <p>good</p>
+            </div>
+        </div>
+    </li>
+</ol>

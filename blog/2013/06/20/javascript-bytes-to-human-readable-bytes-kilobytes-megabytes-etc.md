@@ -23,3 +23,18 @@ console.log(prettySize('1125899906842624')); // 1.00 PB
 Posted Jun 20, 2013.
 
 https://www.darklaunch.com/2013/06/20/javascript-bytes-to-human-readable-bytes-kilobytes-megabytes-etc.html
+
+---
+
+1 comment
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Jan 19, 2014
+            <div>
+                <p>Thanks!</p>
+            </div>
+        </div>
+    </li>
+</ol>

@@ -15,3 +15,18 @@ class MyModelAdmin(admin.ModelAdmin):
 Posted Feb 4, 2015.
 
 https://www.darklaunch.com/2015/02/04/how-to-prefetch-related-queryset-in-django-admin.html
+
+---
+
+1 comment
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Jan 12, 2016
+            <div>
+                <p>.queryset changed to .get_queryset in Django 1.6</p><p></p><p><a href="https://docs.djangoproject.com/en/dev/ref/contrib/admin/#django.contrib.admin.ModelAdmin.get_queryset">https://docs.djangoproject.com/en/dev/ref/contrib/admin/#django.contrib.admin.ModelAdmin.get_queryset</a></p>
+            </div>
+        </div>
+    </li>
+</ol>

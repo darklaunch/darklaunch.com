@@ -86,3 +86,26 @@ getScript("sanitize.js",
 Posted Oct 9, 2009.
 
 https://www.darklaunch.com/2009/10/09/clear-private-data-in-firefox-without-the-clear-recent-history-dialog-window-clear-recent-history.html
+
+---
+
+2 comments
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Feb 6, 2010
+            <div>
+                <p>no worky for 3.6</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Feb 6, 2010
+            <div>
+                <p>Use the Sanitisminau Firefox extension to clear your history without asking</p><p><a href="https://addons.mozilla.org/en-US/firefox/addon/5364/">https://addons.mozilla.org/en-US/firefox/addon/5364/</a></p>
+            </div>
+        </div>
+    </li>
+</ol>

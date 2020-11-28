@@ -13,3 +13,26 @@ I hope to share here what I've gathered from many hours searching the net.
 Posted Feb 3, 2009.
 
 https://www.darklaunch.com/2009/02/03/hello.html
+
+---
+
+2 comments
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Mar 13, 2012
+            <div>
+                <p>This website is looking awesome! :o)</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Jan 20, 2020
+            <div>
+                <p>except the annoying advertisement ;)</p>
+            </div>
+        </div>
+    </li>
+</ol>

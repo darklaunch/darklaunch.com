@@ -11,3 +11,18 @@ from https://news.ycombinator.com/item?id=20032255
 Posted Aug 8, 2019.
 
 https://www.darklaunch.com/2019/08/08/upgrade-early-upgrade-often.html
+
+---
+
+1 comment
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Nov 24, 2020
+            <div>
+                <p>See also rolling releases like Arch, Gentoo, Manjaro, etc.</p><p></p><p><a href="https://en.wikipedia.org/wiki/Rolling_release">https://en.wikipedia.org/wiki/Rolling_release</a></p>
+            </div>
+        </div>
+    </li>
+</ol>

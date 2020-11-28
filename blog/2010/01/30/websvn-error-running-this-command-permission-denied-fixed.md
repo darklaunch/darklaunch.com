@@ -36,3 +36,26 @@ Add: else { $cmd = 'sudo -u root ' . $cmd; } to give svn permission.
 Posted Jan 30, 2010.
 
 https://www.darklaunch.com/2010/01/30/websvn-error-running-this-command-permission-denied-fixed.html
+
+---
+
+2 comments
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Sep 3, 2010
+            <div>
+                <p>chown www-data /path/to/directory</p><p>would work too i believe</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Jun 30, 2011
+            <div>
+                <p>also add to /etc/sudoers file:</p><p>www-data ALL=(ALL) NOPASSWD:ALL</p><p></p><p></p><p>sudo bash -c 'echo -e "www-data ALL=(ALL) NOPASSWD:ALL" &gt;&gt; /etc/sudoers'</p>
+            </div>
+        </div>
+    </li>
+</ol>

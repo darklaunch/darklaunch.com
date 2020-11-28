@@ -23,3 +23,26 @@ c - confirm replacements (type y (yes) to confirm replacements)
 Posted Sep 6, 2011.
 
 https://www.darklaunch.com/2011/09/06/vim-remove-trailing-spaces.html
+
+---
+
+2 comments
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; May 22, 2013
+            <div>
+                <p>Why don't you use </p><p>:%s/ \+\n/\r/gc</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Jun 7, 2013
+            <div>
+                <p>@"Why don't you use"</p><p></p><p>both work. which one reads more clearly?</p>
+            </div>
+        </div>
+    </li>
+</ol>

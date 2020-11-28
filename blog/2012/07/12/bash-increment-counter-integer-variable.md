@@ -48,3 +48,26 @@ kw: addition, add, subtraction, subtract, mathematics, math
 Posted Jul 12, 2012.
 
 https://www.darklaunch.com/2012/07/12/bash-increment-counter-integer-variable.html
+
+---
+
+2 comments
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; May 21, 2013
+            <div>
+                <p>Thanks</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Oct 24, 2013
+            <div>
+                <p>Thank you. I've only seen the <code>x=$((x+1))</code> variant. The <code>((x++))</code> is a new one for me.</p>
+            </div>
+        </div>
+    </li>
+</ol>

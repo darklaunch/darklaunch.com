@@ -45,3 +45,34 @@ man 8 mount.cifs
 Posted Feb 4, 2010.
 
 https://www.darklaunch.com/2010/02/04/rhythmbox-unable-to-find-or-create-trash-directory-fixed.html
+
+---
+
+3 comments
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; May 31, 2011
+            <div>
+                <p>thanx..that was very useful</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Jul 29, 2012
+            <div>
+                <p>sorry- first time ubuntu user and non techie- where do i go to put in this code? does remount drive mean reinstalling rhythm box?</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Jun 6, 2017
+            <div>
+                <p>but the disk i mount is exact a fat or extfat. no security user id sets. still the problem present there. how do i do with ?</p>
+            </div>
+        </div>
+    </li>
+</ol>

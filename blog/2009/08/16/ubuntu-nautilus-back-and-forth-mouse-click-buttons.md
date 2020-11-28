@@ -41,3 +41,18 @@ Now clicking the back and forth mouse keys will navigate back and forth in Nauti
 Posted Aug 16, 2009.
 
 https://www.darklaunch.com/2009/08/16/ubuntu-nautilus-back-and-forth-mouse-click-buttons.html
+
+---
+
+1 comment
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Apr 19, 2011
+            <div>
+                <p>Cheers, works like a charm</p>
+            </div>
+        </div>
+    </li>
+</ol>

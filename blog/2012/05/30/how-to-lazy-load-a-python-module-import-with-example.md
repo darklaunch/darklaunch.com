@@ -26,3 +26,26 @@ else:
 Posted May 30, 2012.
 
 https://www.darklaunch.com/2012/05/30/how-to-lazy-load-a-python-module-import-with-example.html
+
+---
+
+2 comments
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Aug 20, 2012
+            <div>
+                <p>That's a nice post.</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Mar 14, 2015
+            <div>
+                <p>This looks way too easy compared to all the other solutions I've found so far ... :O</p>
+            </div>
+        </div>
+    </li>
+</ol>

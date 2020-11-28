@@ -33,3 +33,42 @@ var_dump($_FILES);
 Posted Jun 15, 2009.
 
 https://www.darklaunch.com/2009/06/15/how-to-upload-a-file-via-the-command-line-using-curl-upload-an-image-using-curl.html
+
+---
+
+4 comments
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Dec 8, 2012
+            <div>
+                <p>When I try this, I just get the message:   array(0)</p><p>Any ideas?!  Thanks!</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Dec 9, 2012
+            <div>
+                <p>@array(0)</p><p></p><p>try var_dump($_POST) and var_dump($_GET); to see if at least something is coming through</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; May 16, 2013
+            <div>
+                <p>Thanks :) .. it helped.</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Aug 30, 2017
+            <div>
+                <p>was about to pull my hair out. Stumbled upon your page. Works perfectly.</p>
+            </div>
+        </div>
+    </li>
+</ol>

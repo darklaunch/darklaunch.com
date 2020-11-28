@@ -74,3 +74,29 @@ http://getfirebug.com/wiki/index.php/Console_API
 Posted Sep 26, 2009.
 
 https://www.darklaunch.com/2009/09/26/javascript-firebug-console-logging-on-production.html
+
+---
+
+1 comment
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Dec 11, 2013
+            <div>
+                <code>
+(function (win) {
+&nbsp;&nbsp;&nbsp;&nbsp;var method;
+&nbsp;&nbsp;&nbsp;&nbsp;var dummy = function() {};
+&nbsp;&nbsp;&nbsp;&nbsp;var methods = ('assert,count,debug,dir,dirxml,error,exception,group,' +
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'groupCollapsed,groupEnd,info,log,markTimeline,profile,profileEnd,' +
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'time,timeEnd,trace,warn').split(',');
+&nbsp;&nbsp;&nbsp;&nbsp;while (method = methods.pop()) {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; win[method] =  win[method] || dummy;
+&nbsp;&nbsp;&nbsp;&nbsp;}
+})(window.console = window.console || {});
+</code>
+            </div>
+        </div>
+    </li>
+</ol>

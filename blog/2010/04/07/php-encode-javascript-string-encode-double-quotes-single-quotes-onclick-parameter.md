@@ -28,3 +28,18 @@ function doSomething(foo) {
 Posted Apr 7, 2010.
 
 https://www.darklaunch.com/2010/04/07/php-encode-javascript-string-encode-double-quotes-single-quotes-onclick-parameter.html
+
+---
+
+1 comment
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Jul 1, 2011
+            <div>
+                <p>Thank you very much dude!!! It showed me some way to my problem. Have a great day.</p><p></p><p>thanks,</p><p>Sreedhar</p>
+            </div>
+        </div>
+    </li>
+</ol>

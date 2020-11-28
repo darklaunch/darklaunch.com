@@ -104,3 +104,66 @@ base58_decode('4n') => 195
 Posted Aug 7, 2009.
 
 https://www.darklaunch.com/2009/08/07/base58-encode-and-decode-using-php-with-example-base58-encode-base58-decode.html
+
+---
+
+7 comments
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Jan 26, 2012
+            <div>
+                <p>base58_encode('74') =&gt; 2h</p><p></p><p>I do not see how this can be true. Why neglect the "1"?</p><p></p><p>base58_encode('74') should be  1h, no?</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Apr 4, 2013
+            <div>
+                <p>BASE2_ALPHABET = '01'</p><p>BASE16_ALPHABET = '0123456789ABCDEF'</p><p>BASE56_ALPHABET = '23456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnpqrstuvwxyz'</p><p>BASE36_ALPHABET = '0123456789abcdefghijklmnopqrstuvwxyz'</p><p>BASE62_ALPHABET = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'</p><p>BASE64_ALPHABET = BASE62_ALPHABET + '-_'</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; May 23, 2013
+            <div>
+                <p>I think it is more common with base58 to encode with this alphabet (note that capitals are first): </p><p></p><p>123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Oct 14, 2014
+            <div>
+                <p>BASE2_ALPHABET = '01'</p><p>BASE16_ALPHABET = '0123456789ABCDEF'</p><p>BASE56_ALPHABET = '23456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnpqrstuvwxyz'</p><p>BASE36_ALPHABET = '0123456789abcdefghijklmnopqrstuvwxyz'</p><p>BASE62_ALPHABET = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'</p><p>BASE64_ALPHABET = BASE62_ALPHABET + '-_'</p><p></p><p>from</p><p>github.com/django/django/blob/master/django/utils/baseconv.py</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Nov 6, 2016
+            <div>
+                <p>For Bitcoin:</p><p></p><p>/** All alphanumeric characters except for "0", "I", "O", and "l" */</p><p>static const char* pszBase58 = "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz";</p><p></p><p>from <a href="https://github.com/bitcoin/bitcoin/blob/HEAD/src/base58.cpp">https://github.com/bitcoin/bitcoin/blob/HEAD/src/base58.cpp</a></p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Aug 12, 2017
+            <div>
+                <p>i want as bash!!!!</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Oct 12, 2018
+            <div>
+                <p>Regarding first comment:</p><p>_________________</p><p>base58_encode('74') =&gt; 2h</p><p>I do not see how this can be true. Why neglect the "1"?</p><p>base58_encode('74') should be  1h, no?</p><p>_________________</p><p></p><p>I tried very hard wrapping my head around this one as I couldn't get WHY it was not working that way.</p><p>Up to the point that I was almost reinventing the wheel by writing my own routine with the same alphabet, and is was then and there that I finally realized: I made a parallel with the alphabet "0123456789"... when you're counting up to "9", you don't really expect to have "00" next, rather you have "10", as "9" is actually "09". Well, base58 has no "0", so guess what, it's "1" that takes the value of 0 in that alphabet. BAM everything makes sense now.</p><p>Thanks brain.</p>
+            </div>
+        </div>
+    </li>
+</ol>

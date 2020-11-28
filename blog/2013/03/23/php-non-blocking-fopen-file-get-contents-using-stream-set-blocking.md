@@ -20,3 +20,18 @@ function call_url($url) {
 Posted Mar 23, 2013.
 
 https://www.darklaunch.com/2013/03/23/php-non-blocking-fopen-file-get-contents-using-stream-set-blocking.html
+
+---
+
+1 comment
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Sep 12, 2017
+            <div>
+                <p>Thank you!</p>
+            </div>
+        </div>
+    </li>
+</ol>

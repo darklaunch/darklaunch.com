@@ -21,3 +21,18 @@ keywords: Django, MySQL, except ProgrammingError, django.db.utils.ProgrammingErr
 Posted May 23, 2016.
 
 https://www.darklaunch.com/2016/05/23/python-catch-unknown-exception.html
+
+---
+
+1 comment
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Jan 26, 2017
+            <div>
+                <p>Worked. Thanks!</p>
+            </div>
+        </div>
+    </li>
+</ol>

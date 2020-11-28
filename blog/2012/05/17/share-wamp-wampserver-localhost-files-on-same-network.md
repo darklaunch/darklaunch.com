@@ -55,3 +55,18 @@ ipconfig
 Posted May 17, 2012.
 
 https://www.darklaunch.com/2012/05/17/share-wamp-wampserver-localhost-files-on-same-network.html
+
+---
+
+1 comment
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Dec 24, 2015
+            <div>
+                <p>Please update for new version of wamp</p>
+            </div>
+        </div>
+    </li>
+</ol>

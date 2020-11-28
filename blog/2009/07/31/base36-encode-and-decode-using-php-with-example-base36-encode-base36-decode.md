@@ -81,3 +81,50 @@ base36_decode('cre66i9s') => 1000000000000
 Posted Jul 31, 2009.
 
 https://www.darklaunch.com/2009/07/31/base36-encode-and-decode-using-php-with-example-base36-encode-base36-decode.html
+
+---
+
+5 comments
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Jul 19, 2011
+            <div>
+                <p>nice</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Apr 5, 2012
+            <div>
+                <p>thanks a lot :)</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Sep 13, 2012
+            <div>
+                <p>nice</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Mar 3, 2015
+            <div>
+                <p>+1! Thanks!</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Apr 15, 2019
+            <div>
+                <p>Yes, of course.</p><p>Thanks a lot.</p>
+            </div>
+        </div>
+    </li>
+</ol>

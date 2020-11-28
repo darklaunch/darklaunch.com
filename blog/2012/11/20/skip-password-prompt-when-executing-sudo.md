@@ -19,3 +19,18 @@ sudo bash -c 'echo -e "# Don'\''t prompt for password when using sudo.\n'$whoami
 Posted Nov 20, 2012.
 
 https://www.darklaunch.com/2012/11/20/skip-password-prompt-when-executing-sudo.html
+
+---
+
+1 comment
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Jan 4, 2013
+            <div>
+                <p>Awesome, thnx! :)</p>
+            </div>
+        </div>
+    </li>
+</ol>

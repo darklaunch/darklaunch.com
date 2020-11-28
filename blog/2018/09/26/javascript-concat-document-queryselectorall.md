@@ -88,3 +88,28 @@ console.assert(JSON.stringify(expected) === JSON.stringify(threadComments));
 Posted Sep 26, 2018.
 
 https://www.darklaunch.com/2018/09/26/javascript-concat-document-queryselectorall.html
+
+---
+
+2 comments
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Nov 24, 2018
+            <div>
+                <p>Wouldn't this be the same as <code>document.querySelector('div, li')</code>?</p>
+            </div>
+        </div>
+        <ol>
+            <li>
+                <div>
+                    anonymous &ndash; Nov 25, 2018
+                    <div>
+                        <p>I've added another example.</p>
+                    </div>
+                </div>
+            </li>
+        </ol>
+    </li>
+</ol>

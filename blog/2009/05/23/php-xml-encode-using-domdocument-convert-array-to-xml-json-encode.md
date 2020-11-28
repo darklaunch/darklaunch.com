@@ -115,3 +115,34 @@ if (is_object($data)) {
 Posted May 23, 2009.
 
 https://www.darklaunch.com/2009/05/23/php-xml-encode-using-domdocument-convert-array-to-xml-json-encode.html
+
+---
+
+3 comments
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Dec 30, 2010
+            <div>
+                <p>to account boolean fields, inside the "else" add</p><p>$mixed = is_bool($mixed) ? ($mixed ? 'true' : 'false') : $mixed;</p><p></p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else {</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$mixed = is_bool($mixed) ? ($mixed ? 'true' : 'false') : $mixed;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$domElement-&gt;appendChild($DOMDocument-&gt;createTextNode($mixed));</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Mar 6, 2011
+            <div>
+                <p>This is great .. the only change I made was:</p><p></p><p>if (rtrim($index,'s')!==$index &amp;&amp; count($mixedElement)&gt;1) {</p><p></p><p>Any node ending with 's' was causing an unecessary child node.  (ie: STATUS was  STATUS with a child node STATU)</p><p></p><p>Thanks again.</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Oct 31, 2013
+            <div>
+                <p>Thanks, it is extremely useful.</p>
+            </div>
+        </div>
+    </li>
+</ol>

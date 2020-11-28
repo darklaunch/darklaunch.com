@@ -18,3 +18,18 @@ Note the @ is to ignore any existing folder.
 Posted Jun 5, 2013.
 
 https://www.darklaunch.com/2013/06/05/php-mkdir-recursive-with-parents.html
+
+---
+
+1 comment
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Jun 10, 2013
+            <div>
+                <p>what about:</p><p><code>mkdir($_SERVER['DOCUMENT_ROOT'] . _PATH . '/' . $directory, 777, true);</code></p>
+            </div>
+        </div>
+    </li>
+</ol>

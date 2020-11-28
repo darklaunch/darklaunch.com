@@ -163,3 +163,26 @@ db={% %cursor% %}
 Posted Sep 9, 2009.
 
 https://www.darklaunch.com/2009/09/09/geany-snippets-autocomplete-snippet-configuration.html
+
+---
+
+2 comments
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Nov 8, 2012
+            <div>
+                <p>nice ... saved me a lot of time :)</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Apr 6, 2020
+            <div>
+                <p>f' yeah, thank you :)</p>
+            </div>
+        </div>
+    </li>
+</ol>

@@ -22,3 +22,26 @@ find ./ ! -iname "*.mp3" ! -iname "*.m3u" ! -iname "*.pls" -type f -exec rm {} \
 Posted Jul 8, 2010.
 
 https://www.darklaunch.com/2010/07/08/find-files-and-execute-command-on-those-files-found-find-file-and-exec.html
+
+---
+
+2 comments
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Aug 24, 2010
+            <div>
+                <p>You may find it more appropriate to pipe the results of your find command to the xargs command.</p><p></p><p>Make sure to use the -0 argument though for compatability...</p><p></p><p>:-P Edub</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Feb 21, 2014
+            <div>
+                <p>Thank you! Very useful post!</p>
+            </div>
+        </div>
+    </li>
+</ol>

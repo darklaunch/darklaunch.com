@@ -16,3 +16,18 @@ This removes the html tags including the pre tag with a "xdebug-var-dump" class 
 Posted Sep 21, 2013.
 
 https://www.darklaunch.com/2013/09/21/disable-xdebug-html-errors-colored-output-using-ini-set.html
+
+---
+
+1 comment
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Aug 23, 2017
+            <div>
+                <p>This is exactly what I needed! Thanks a ton!!</p>
+            </div>
+        </div>
+    </li>
+</ol>

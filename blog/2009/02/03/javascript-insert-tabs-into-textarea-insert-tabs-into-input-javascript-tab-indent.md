@@ -42,3 +42,18 @@ $(document).ready(function(){
 Posted Feb 3, 2009.
 
 https://www.darklaunch.com/2009/02/03/javascript-insert-tabs-into-textarea-insert-tabs-into-input-javascript-tab-indent.html
+
+---
+
+1 comment
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Aug 12, 2013
+            <div>
+                <p>thanks for this :D</p>
+            </div>
+        </div>
+    </li>
+</ol>

@@ -33,3 +33,18 @@ sed -i'' -e's/before/after/' myfile.txt
 Posted Mar 20, 2017.
 
 https://www.darklaunch.com/2017/03/20/find-and-replace-in-multiple-files-using-sed.html
+
+---
+
+1 comment
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Aug 26, 2017
+            <div>
+                <p>If you have node on your computer I suggest taking a look at rexreplace on npm...</p>
+            </div>
+        </div>
+    </li>
+</ol>

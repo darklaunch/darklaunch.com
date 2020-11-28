@@ -57,3 +57,18 @@ Note: Anonymous functions are available since PHP 5.3.0.
 Posted Dec 1, 2011.
 
 https://www.darklaunch.com/2011/12/01/php-return-function-response-to-variable-rather-than-print-or-echo-it.html
+
+---
+
+1 comment
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Nov 30, 2011
+            <div>
+                <p>If you're getting "Parse error: syntax error, unexpected T_FUNCTION", then use a newer version of PHP (&gt;= PHP 5.3.0) or use create_function().</p>
+            </div>
+        </div>
+    </li>
+</ol>

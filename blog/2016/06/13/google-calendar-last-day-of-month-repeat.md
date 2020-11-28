@@ -31,3 +31,66 @@ Google Calendar warning: "This event has a recurrence rule that cannot be edited
 Posted Jun 13, 2016.
 
 https://www.darklaunch.com/2016/06/13/google-calendar-last-day-of-month-repeat.html
+
+---
+
+7 comments
+
+<ol>
+    <li>
+        <div>
+            anonymous &ndash; Oct 29, 2016
+            <div>
+                <p>works great thank you!</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Feb 1, 2017
+            <div>
+                <p>Perfect, thanks!</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Oct 25, 2017
+            <div>
+                <p>THANK YOU!!!</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Feb 19, 2018
+            <div>
+                <p>Works dude. Thanks a bunch. Please add litecoin for tips ;)</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; May 20, 2018
+            <div>
+                <p>Thank you for helping overcome a major nuisance of Google Calendar! Works wonderfully.</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Oct 16, 2018
+            <div>
+                <p>How would you edit this to create an event for, say, the day after (US) Thanksgiving, which is the 4th Thursday of November, but where the next day may actually be the 5th Friday?</p>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div>
+            anonymous &ndash; Jun 17, 2020
+            <div>
+                <p>I just put a monthly recurring event starting on the 1st of the month but make the notification 1 day before event, so in effect, it does what you without having to import the ICS file. Only downside is that day of the event is wrong so it is a tradeoff.</p>
+            </div>
+        </div>
+    </li>
+</ol>
