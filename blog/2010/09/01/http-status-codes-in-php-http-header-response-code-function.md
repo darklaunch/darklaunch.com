@@ -64,26 +64,21 @@ https://www.darklaunch.com/2010/09/01/http-status-codes-in-php-http-header-respo
 
 2 comments
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Feb 15, 2011
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Feb 15, 2011<div>
 
 Very nice post, good luck! ;-)
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Feb 17, 2012
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Feb 17, 2012<div>
 
 Hi, 
 
-I think you should actually test to see if the SERVER_PROTOCOL is 1.0 or 1.1. I think the code should be like this: 
+I think you should actually test to see if the `SERVER_PROTOCOL` is 1.0 or 1.1. I think the code should be like this: 
 
+```php
 function HTTPStatus($num) {
     $http_protocol = "HTTP/1.0"; 
     if(isset($_SERVER['SERVER_PROTOCOL']) &amp;&amp; stripos($_SERVER['SERVER_PROTOCOL'],"HTTP") &gt;= 0){
@@ -140,11 +135,9 @@ function HTTPStatus($num) {
             'error' =&gt; $http[$num],
         );
 }
+```
 
 Cheers, 
 Thusjanthan Kubendranathan
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

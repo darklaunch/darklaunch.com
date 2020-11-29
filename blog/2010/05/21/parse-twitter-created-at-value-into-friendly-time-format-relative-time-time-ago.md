@@ -64,31 +64,21 @@ https://www.darklaunch.com/2010/05/21/parse-twitter-created-at-value-into-friend
 
 12 comments
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; May 25, 2010
-            <div>
+<ol><li><div>
+
+anonymous &ndash; May 25, 2010<div>
 
 Thanks a bunch for this!
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Jun 10, 2010
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Jun 10, 2010<div>
 
 Thank you very much
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Oct 13, 2010
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Oct 13, 2010<div>
 
 Here's the PHP version:
 
@@ -117,65 +107,41 @@ function ago($a) {
     }
 }
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Nov 16, 2010
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Nov 16, 2010<div>
 
 Sorry Im not sure exactly how to use this?
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Nov 16, 2010
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Nov 16, 2010<div>
 
 to use:
 created_at = "Wed, 08 Apr 2009 19:22:10 +0000";
 alert(H(created_at));
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Sep 22, 2011
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Sep 22, 2011<div>
 
 thank u sir
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Oct 1, 2011
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Oct 1, 2011<div>
 
 Thank you!
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; May 15, 2012
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; May 15, 2012<div>
 
 Gracias!
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; May 16, 2012
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; May 16, 2012<div>
 
 Compiled JavaScript Code has been changed:
 
@@ -229,39 +195,24 @@ var I = function (f) {
     }
 };
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; May 19, 2012
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; May 19, 2012<div>
 
 Last work well in explorer thanks!!!
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Jul 20, 2012
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Jul 20, 2012<div>
 
 Thank you!!
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Aug 30, 2013
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Aug 30, 2013<div>
 
 for anyone still looking for a JavaScript implementation, use can now use Twitter's twitter-cldr-js.
 see the TwitterCldr.TimespanFormatter / Relative Dates and Times.
 <a href="https://github.com/twitter/twitter-cldr-js">https://github.com/twitter/twitter-cldr-js</a>
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

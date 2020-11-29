@@ -24,47 +24,30 @@ https://www.darklaunch.com/2011/07/22/use-firebug-lite-in-internet-explorer-on-a
 
 4 comments
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Sep 5, 2011
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Sep 5, 2011<div>
 
 ie firebug is good.
 but sometime it is not working.
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Sep 5, 2011
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Sep 5, 2011<div>
 
 ie firebug is good.
 but sometime it is not working.
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Mar 26, 2012
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Mar 26, 2012<div>
 
 no... it just does a search on '<a>javascript:var</a> script = document.createElement("script"); script.type = "text/javascript"; script.src = "<a href="https://getfirebug.com/firebug-lite.js">https://getfirebug.com/firebug-lite.js</a>"; document.getElementsByTagName("body")[0].appendChild(script); void(0);'
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Mar 28, 2012
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Mar 28, 2012<div>
 
 this works for older versions of IE. in newer versions, it will just search instead.
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

@@ -60,15 +60,10 @@ https://www.darklaunch.com/2012/05/17/share-wamp-wampserver-localhost-files-on-s
 
 1 comment
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Dec 24, 2015
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Dec 24, 2015<div>
 
 Please update for new version of wamp
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

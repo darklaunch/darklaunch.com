@@ -86,56 +86,35 @@ https://www.darklaunch.com/2009/07/31/base36-encode-and-decode-using-php-with-ex
 
 5 comments
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Jul 19, 2011
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Jul 19, 2011<div>
 
 nice
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Apr 5, 2012
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Apr 5, 2012<div>
 
 thanks a lot :)
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Sep 13, 2012
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Sep 13, 2012<div>
 
 nice
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Mar 3, 2015
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Mar 3, 2015<div>
 
 +1! Thanks!
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Apr 15, 2019
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Apr 15, 2019<div>
 
 Yes, of course.
 Thanks a lot.
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

@@ -18,25 +18,16 @@ https://www.darklaunch.com/2009/02/03/hello.html
 
 2 comments
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Mar 13, 2012
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Mar 13, 2012<div>
 
 This website is looking awesome! :o)
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Jan 20, 2020
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Jan 20, 2020<div>
 
 except the annoying advertisement ;)
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

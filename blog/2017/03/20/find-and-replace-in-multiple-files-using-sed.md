@@ -38,15 +38,10 @@ https://www.darklaunch.com/2017/03/20/find-and-replace-in-multiple-files-using-s
 
 1 comment
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Aug 26, 2017
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Aug 26, 2017<div>
 
 If you have node on your computer I suggest taking a look at rexreplace on npm...
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

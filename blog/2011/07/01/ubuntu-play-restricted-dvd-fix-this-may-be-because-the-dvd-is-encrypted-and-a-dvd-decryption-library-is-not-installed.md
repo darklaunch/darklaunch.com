@@ -24,129 +24,80 @@ https://www.darklaunch.com/2011/07/01/ubuntu-play-restricted-dvd-fix-this-may-be
 
 12 comments
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Oct 20, 2011
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Oct 20, 2011<div>
 
 wonderful. thanks!
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Nov 2, 2011
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Nov 2, 2011<div>
 
 Thanks!
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Nov 4, 2011
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Nov 4, 2011<div>
 
 do the following?I have no idea what to do with the code, Please be more specific
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Nov 4, 2011
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Nov 4, 2011<div>
 
 "sudo bash install-css.sh" runs the script
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Nov 11, 2011
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Nov 11, 2011<div>
 
 Glory!
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Nov 18, 2011
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Nov 18, 2011<div>
 
 Thank you!
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Dec 9, 2011
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Dec 9, 2011<div>
 
 Define 'do'
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Feb 8, 2012
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Feb 8, 2012<div>
 
 works 
 thks!!
 NIN VIDEO
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Feb 9, 2012
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Feb 9, 2012<div>
 
 well i run de the 3 code line for library decriptor but my dvd media still not playing. please what can i do. the 3 command was correctly installed
 
 
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Feb 23, 2012
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Feb 23, 2012<div>
 
 where is the 'command line'? I don't get it.
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Apr 22, 2013
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Apr 22, 2013<div>
 
 works a charm thanks
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; May 4, 2014
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; May 4, 2014<div>
 
 i donot know where to find deryption library. tellme how tofind the
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

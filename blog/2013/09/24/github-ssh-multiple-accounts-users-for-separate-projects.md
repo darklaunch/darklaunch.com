@@ -54,11 +54,9 @@ https://www.darklaunch.com/2013/09/24/github-ssh-multiple-accounts-users-for-sep
 
 1 comment
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Jul 19, 2016
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Jul 19, 2016<div>
 
 The .git/config files should look similar to this:
 
@@ -72,7 +70,4 @@ For project B:
     url = git@github.com-another-project:another-project/another-project.git
     fetch = +refs/heads/*:refs/remotes/origin/*
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

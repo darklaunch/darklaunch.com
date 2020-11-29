@@ -47,78 +47,49 @@ https://www.darklaunch.com/2011/11/24/osx-install-pip-virtualenv-virtualenvwrapp
 
 7 comments
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Mar 19, 2012
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Mar 19, 2012<div>
 
 To avoid the most common freeze reason while installing Xcode, kill iTunes Helper before you start.
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Apr 2, 2012
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Apr 2, 2012<div>
 
 install easy_install with:
 
 wget <a href="http://python-distribute.org/distribute_setup.py">http://python-distribute.org/distribute_setup.py</a>
 sudo python distribute_setup.py
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Oct 27, 2012
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Oct 27, 2012<div>
 
 Thanks.
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Oct 27, 2012
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Oct 27, 2012<div>
 
 fyi, for `mkvirtualenv`, --no-site-packages is now the default
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Feb 16, 2013
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Feb 16, 2013<div>
 
 thanks a lot
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Apr 3, 2013
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Apr 3, 2013<div>
 
 Great concise approach to virtualenvs, thanks!
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Jul 31, 2013
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Jul 31, 2013<div>
 
 It works!
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

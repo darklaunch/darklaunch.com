@@ -27,11 +27,9 @@ https://www.darklaunch.com/2010/07/08/find-files-and-execute-command-on-those-fi
 
 2 comments
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Aug 24, 2010
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Aug 24, 2010<div>
 
 You may find it more appropriate to pipe the results of your find command to the xargs command.
 
@@ -39,17 +37,10 @@ Make sure to use the -0 argument though for compatability...
 
 :-P Edub
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Feb 21, 2014
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Feb 21, 2014<div>
 
 Thank you! Very useful post!
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

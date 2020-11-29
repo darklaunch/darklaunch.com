@@ -34,11 +34,9 @@ https://www.darklaunch.com/2012/01/08/fix-improperlyconfigured-error-loading-mys
 
 5 comments
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Aug 3, 2012
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Aug 3, 2012<div>
 
 Hi,
 I have tried many different things and install MySQLdb. If I type from the interpreter import MySQLdb it works. But when I try to do it using DJANGO it fails giving this error
@@ -47,35 +45,23 @@ I have tried many different things and install MySQLdb. If I type from the inter
       args = ('Error loading MySQLdb module: No module named MySQLdb',) 
       message = 'Error loading MySQLdb module: No module named MySQLdb'
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Feb 15, 2013
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Feb 15, 2013<div>
 
 For OS X, enter this on the command line before proceeding with the install.
 
 export PATH=/usr/local/mysql/bin:$PATH
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Mar 13, 2013
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Mar 13, 2013<div>
 
 Thank you so much for this! Exactly what I have been looking for! So many people have crazy methods but all that was needed was two lines -_-
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Feb 14, 2014
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Feb 14, 2014<div>
 
 django.core.exceptions.ImproperlyConfigured: Error loading MySQLdb module: this is MySQLdb version (1, 2, 3, 'final', 0), but _mysql is version (1, 2, 5, 'final', 1)
 
@@ -91,13 +77,9 @@ django.core.exceptions.ImproperlyConfigured: Error loading MySQLdb module: _mysq
 
 unfortunately, this one fixed itself somehow. i just opened up a new command line window in Ubuntu without going into the virtualenv and it worked.
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Apr 4, 2016
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Apr 4, 2016<div>
 
 For Python 3 use mysqlclient:
 $ pip install mysqlclient
@@ -108,7 +90,4 @@ Possible errors:
 
 <a href="https://docs.djangoproject.com/en/dev/ref/databases/#mysql-db-api-drivers">https://docs.djangoproject.com/en/dev/ref/databases/#mysql-db-api-drivers</a>
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

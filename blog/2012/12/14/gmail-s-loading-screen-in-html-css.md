@@ -14,15 +14,10 @@ https://www.darklaunch.com/2012/12/14/gmail-s-loading-screen-in-html-css.html
 
 1 comment
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Apr 25, 2013
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Apr 25, 2013<div>
 
 thanks for the code bro
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

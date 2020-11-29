@@ -16,17 +16,12 @@ https://www.darklaunch.com/2019/08/08/upgrade-early-upgrade-often.html
 
 1 comment
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Nov 24, 2020
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Nov 24, 2020<div>
 
 See also rolling releases like Arch, Gentoo, Manjaro, etc.
 
 <a href="https://en.wikipedia.org/wiki/Rolling_release">https://en.wikipedia.org/wiki/Rolling_release</a>
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

@@ -26,15 +26,10 @@ https://www.darklaunch.com/2016/05/23/python-catch-unknown-exception.html
 
 1 comment
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Jan 26, 2017
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Jan 26, 2017<div>
 
 Worked. Thanks!
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

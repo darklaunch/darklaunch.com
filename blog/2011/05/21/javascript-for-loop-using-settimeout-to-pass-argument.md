@@ -74,96 +74,59 @@ https://www.darklaunch.com/2011/05/21/javascript-for-loop-using-settimeout-to-pa
 
 9 comments
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Sep 13, 2011
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Sep 13, 2011<div>
 
 That saved me a few hairs! Nice one
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Jun 27, 2012
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Jun 27, 2012<div>
 
 Thanks man, really helped me!
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Sep 17, 2012
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Sep 17, 2012<div>
 
 Great!
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Nov 9, 2012
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Nov 9, 2012<div>
 
 Thanks!!!
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Dec 14, 2012
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Dec 14, 2012<div>
 
 Thanks !! helped a lot
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; May 11, 2013
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; May 11, 2013<div>
 
 Nice!
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Apr 18, 2014
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Apr 18, 2014<div>
 
 Thanks that was asome
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Feb 9, 2015
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Feb 9, 2015<div>
 
 Thanks! This script helps me a lot, i really apreciate it.
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Feb 17, 2015
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Feb 17, 2015<div>
 
 Thx!
 It helps!
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

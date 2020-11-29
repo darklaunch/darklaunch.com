@@ -23,15 +23,10 @@ https://www.darklaunch.com/2015/04/10/disable-motorolaota.html
 
 1 comment
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Apr 15, 2016
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Apr 15, 2016<div>
 
 Root required
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

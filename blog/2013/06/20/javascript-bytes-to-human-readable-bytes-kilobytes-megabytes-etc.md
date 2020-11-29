@@ -28,15 +28,10 @@ https://www.darklaunch.com/2013/06/20/javascript-bytes-to-human-readable-bytes-k
 
 1 comment
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Jan 19, 2014
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Jan 19, 2014<div>
 
 Thanks!
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

@@ -109,11 +109,9 @@ https://www.darklaunch.com/2009/08/07/base58-encode-and-decode-using-php-with-ex
 
 7 comments
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Jan 26, 2012
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Jan 26, 2012<div>
 
 base58_encode('74') =&gt; 2h
 
@@ -121,13 +119,9 @@ I do not see how this can be true. Why neglect the "1"?
 
 base58_encode('74') should be  1h, no?
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Apr 4, 2013
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Apr 4, 2013<div>
 
 ```
 BASE2_ALPHABET = '01'
@@ -138,25 +132,17 @@ BASE62_ALPHABET = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxy
 BASE64_ALPHABET = BASE62_ALPHABET + '-_'
 ```
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; May 23, 2013
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; May 23, 2013<div>
 
 I think it is more common with base58 to encode with this alphabet (note that capitals are first): 
 
 123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Oct 14, 2014
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Oct 14, 2014<div>
 
 ```
 BASE2_ALPHABET = '01'
@@ -170,13 +156,9 @@ BASE64_ALPHABET = BASE62_ALPHABET + '-_'
 from
 <a href="https://github.com/django/django/blob/master/django/utils/baseconv.py">https://github.com/django/django/blob/master/django/utils/baseconv.py</a>
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Nov 6, 2016
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Nov 6, 2016<div>
 
 For Bitcoin:
 
@@ -187,23 +169,15 @@ static const char* pszBase58 = "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnop
 
 from <a href="https://github.com/bitcoin/bitcoin/blob/HEAD/src/base58.cpp">https://github.com/bitcoin/bitcoin/blob/HEAD/src/base58.cpp</a>
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Aug 12, 2017
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Aug 12, 2017<div>
 
 i want as bash!!!!
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Oct 12, 2018
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Oct 12, 2018<div>
 
 Regarding first comment:
 _________________
@@ -216,7 +190,4 @@ I tried very hard wrapping my head around this one as I couldn't get WHY it was 
 Up to the point that I was almost reinventing the wheel by writing my own routine with the same alphabet, and is was then and there that I finally realized: I made a parallel with the alphabet "0123456789"... when you're counting up to "9", you don't really expect to have "00" next, rather you have "10", as "9" is actually "09". Well, base58 has no "0", so guess what, it's "1" that takes the value of 0 in that alphabet. BAM everything makes sense now.
 Thanks brain.
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

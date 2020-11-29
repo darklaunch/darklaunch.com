@@ -47,15 +47,10 @@ https://www.darklaunch.com/2009/02/03/javascript-insert-tabs-into-textarea-inser
 
 1 comment
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Aug 12, 2013
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Aug 12, 2013<div>
 
 thanks for this :D
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

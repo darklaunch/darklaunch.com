@@ -22,15 +22,10 @@ https://www.darklaunch.com/2009/06/14/how-to-format-a-dollar-amount-using-php-mo
 
 1 comment
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Jan 22, 2010
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Jan 22, 2010<div>
 
 thanks my friend
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

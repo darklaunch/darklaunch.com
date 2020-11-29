@@ -53,25 +53,16 @@ https://www.darklaunch.com/2012/07/12/bash-increment-counter-integer-variable.ht
 
 2 comments
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; May 21, 2013
-            <div>
+<ol><li><div>
+
+anonymous &ndash; May 21, 2013<div>
 
 Thanks
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Oct 24, 2013
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Oct 24, 2013<div>
 
 Thank you. I've only seen the `x=$((x+1))` variant. The `((x++))` is a new one for me.
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

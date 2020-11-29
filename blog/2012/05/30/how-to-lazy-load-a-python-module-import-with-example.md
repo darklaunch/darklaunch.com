@@ -32,25 +32,16 @@ https://www.darklaunch.com/2012/05/30/how-to-lazy-load-a-python-module-import-wi
 
 2 comments
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Aug 20, 2012
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Aug 20, 2012<div>
 
 That's a nice post.
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Mar 14, 2015
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Mar 14, 2015<div>
 
 This looks way too easy compared to all the other solutions I've found so far ... :O
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

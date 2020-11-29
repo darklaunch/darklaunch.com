@@ -52,11 +52,9 @@ https://www.darklaunch.com/2012/02/03/how-to-include-python-script-in-bash-scrip
 
 1 comment
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Feb 22, 2012
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Feb 22, 2012<div>
 
 Alternatively, something like this works as well:
 
@@ -66,7 +64,4 @@ from pprint import pprint
 pprint(sys.path)
 EOF
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

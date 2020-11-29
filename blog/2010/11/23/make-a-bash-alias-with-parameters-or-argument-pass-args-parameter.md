@@ -61,15 +61,10 @@ https://www.darklaunch.com/2010/11/23/make-a-bash-alias-with-parameters-or-argum
 
 1 comment
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; May 19, 2011
-            <div>
+<ol><li><div>
+
+anonymous &ndash; May 19, 2011<div>
 
 Thank you sir!
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

@@ -33,18 +33,13 @@ https://www.darklaunch.com/2010/04/07/php-encode-javascript-string-encode-double
 
 1 comment
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Jul 1, 2011
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Jul 1, 2011<div>
 
 Thank you very much dude!!! It showed me some way to my problem. Have a great day.
 
 thanks,
 Sreedhar
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

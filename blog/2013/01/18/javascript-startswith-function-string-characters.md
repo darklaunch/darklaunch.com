@@ -29,15 +29,10 @@ https://www.darklaunch.com/2013/01/18/javascript-startswith-function-string-char
 
 1 comment
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Apr 4, 2013
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Apr 4, 2013<div>
 
 good
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

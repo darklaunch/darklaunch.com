@@ -14,25 +14,16 @@ https://www.darklaunch.com/2009/05/30/php-implode-wrapped-implode-with-before-an
 
 2 comments
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Jan 27, 2013
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Jan 27, 2013<div>
 
 Clever!
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Apr 11, 2020
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Apr 11, 2020<div>
 
 You are the man!!!
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

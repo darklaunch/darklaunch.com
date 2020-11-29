@@ -17,23 +17,17 @@ https://www.darklaunch.com/2009/06/02/terminal-for-loop-move-multiple-files-ubun
 
 4 comments
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Aug 21, 2010
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Aug 21, 2010<div>
 
 Is there any specific reason you'd use that as opposed to 
 mv *.txt ~/Desktop/destination/ 
 ?
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Aug 29, 2010
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Aug 29, 2010<div>
 
 "Is there any specific reason you'd use that as opposed to mv *.txt ~/Desktop/destination/"
 
@@ -42,13 +36,9 @@ for mv not really, but:
 cd path/to/scripts/
 for i in *.sh; do bash $i; done
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Sep 20, 2010
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Sep 20, 2010<div>
 
 Batch transcoding:
 
@@ -66,17 +56,10 @@ for a in *$fmt; do
 $vlc -I dummy -vvv "$a" --sout "#transcode{vcodec=$vcodec,vb=$bitrate,acodec=$acodec,ab=$arate,channels=6}:standard{mux=$mux,dst=\"$a.$ext\",access=file}"<a>vlc://quit</a> 
 done
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Dec 16, 2012
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Dec 16, 2012<div>
 
 how to arrange the curly brace and write some data under iy in another para
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

@@ -14,15 +14,10 @@ https://www.darklaunch.com/2012/10/18/fix-usr-bin-ld-cannot-find-lncurses.html
 
 1 comment
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Nov 7, 2012
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Nov 7, 2012<div>
 
 Thank you!! Solved a problem I was having.....
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

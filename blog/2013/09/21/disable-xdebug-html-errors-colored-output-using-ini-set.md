@@ -21,15 +21,10 @@ https://www.darklaunch.com/2013/09/21/disable-xdebug-html-errors-colored-output-
 
 1 comment
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Aug 23, 2017
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Aug 23, 2017<div>
 
 This is exactly what I needed! Thanks a ton!!
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

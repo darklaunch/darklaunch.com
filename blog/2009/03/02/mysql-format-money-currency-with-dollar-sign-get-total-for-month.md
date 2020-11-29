@@ -22,15 +22,10 @@ https://www.darklaunch.com/2009/03/02/mysql-format-money-currency-with-dollar-si
 
 1 comment
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Oct 19, 2012
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Oct 19, 2012<div>
 
 Thanks so much I've been trying format the output for hours
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

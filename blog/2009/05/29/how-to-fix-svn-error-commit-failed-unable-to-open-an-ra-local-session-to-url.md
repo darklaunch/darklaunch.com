@@ -52,35 +52,22 @@ https://www.darklaunch.com/2009/05/29/how-to-fix-svn-error-commit-failed-unable-
 
 3 comments
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Feb 26, 2011
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Feb 26, 2011<div>
 
 THANKS you saved me a bunch of time.
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Dec 12, 2011
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Dec 12, 2011<div>
 
 thanks!
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Dec 4, 2012
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Dec 4, 2012<div>
 
 thank you!!
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

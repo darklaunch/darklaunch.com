@@ -38,25 +38,16 @@ https://www.darklaunch.com/2010/06/10/javascript-get-input-caret-cursor-position
 
 2 comments
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Sep 7, 2012
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Sep 7, 2012<div>
 
 wtf is o
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Sep 7, 2012
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Sep 7, 2012<div>
 
 @wtf o is object
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

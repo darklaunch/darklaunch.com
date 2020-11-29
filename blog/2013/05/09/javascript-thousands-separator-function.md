@@ -56,35 +56,22 @@ https://www.darklaunch.com/2013/05/09/javascript-thousands-separator-function.ht
 
 3 comments
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; May 16, 2014
-            <div>
+<ol><li><div>
+
+anonymous &ndash; May 16, 2014<div>
 
 Note this will break if the number has more than three decimal places!
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Jul 25, 2014
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Jul 25, 2014<div>
 
 This does not work in Safari :(
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; May 23, 2015
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; May 23, 2015<div>
 
 This does not work in Safari :(
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

@@ -16,15 +16,10 @@ https://www.darklaunch.com/2011/06/28/jquery-find-first-empty-form-field-using-t
 
 1 comment
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Dec 4, 2011
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Dec 4, 2011<div>
 
 Very nice site!
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

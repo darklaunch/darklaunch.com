@@ -46,15 +46,10 @@ https://www.darklaunch.com/2009/08/16/ubuntu-nautilus-back-and-forth-mouse-click
 
 1 comment
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Apr 19, 2011
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Apr 19, 2011<div>
 
 Cheers, works like a charm
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

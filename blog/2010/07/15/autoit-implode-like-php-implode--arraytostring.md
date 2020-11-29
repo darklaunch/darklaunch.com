@@ -30,15 +30,10 @@ https://www.darklaunch.com/2010/07/15/autoit-implode-like-php-implode--arraytost
 
 1 comment
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Jan 24, 2011
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Jan 24, 2011<div>
 
 you only changed the parameters :D
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

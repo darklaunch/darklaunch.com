@@ -36,15 +36,10 @@ https://www.darklaunch.com/2009/11/06/open-microsoft-office-document-in-wine-wor
 
 1 comment
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Nov 1, 2012
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Nov 1, 2012<div>
 
 Very usefull. Thanks!
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

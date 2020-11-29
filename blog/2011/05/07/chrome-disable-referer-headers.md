@@ -39,15 +39,10 @@ https://www.darklaunch.com/2011/05/07/chrome-disable-referer-headers.html
 
 1 comment
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Aug 9, 2012
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Aug 9, 2012<div>
 
 Note content_switches.cc moved to <a href="http://src.chromium.org/svn/trunk/src/content/public/common/content_switches.cc">http://src.chromium.org/svn/trunk/src/content/public/common/content_switches.cc</a>
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

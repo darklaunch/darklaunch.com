@@ -116,11 +116,9 @@ https://www.darklaunch.com/2013/04/25/bash-get-unicode-character-from-encoded-ch
 
 4 comments
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Oct 21, 2013
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Oct 21, 2013<div>
 
 more characters:
 
@@ -139,13 +137,9 @@ $ echo -n âžœ|hexdump
 0000000 e2 9e 9c
 0000003
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Feb 23, 2014
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Feb 23, 2014<div>
 
 These color codes are incomplete for some reason beyond my knowledge and fail sometimes when a line is too long, overwriting the prompt's first line content and producing weird behaviours because prompt won't start a new line or even go one line up.
 
@@ -157,31 +151,20 @@ Red='\e[0;31m'          # Red
 You should type
 Red='\[\033[0;31m\]'          # Red
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Nov 11, 2014
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Nov 11, 2014<div>
 
 It's also possible to get the unicode sequence on the command line using python:
 
 $ echo -n "âœ“" | python -c 'import sys; print [sys.stdin.read()]'
 ['\xe2\x9c\x93']
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Jul 29, 2016
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Jul 29, 2016<div>
 
 $ echo -n "â€" | python -c 'import sys; print [sys.stdin.read()]'
 ['\xe2\x80\x9d']
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

@@ -168,25 +168,16 @@ https://www.darklaunch.com/2009/09/09/geany-snippets-autocomplete-snippet-config
 
 2 comments
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Nov 8, 2012
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Nov 8, 2012<div>
 
 nice ... saved me a lot of time :)
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Apr 6, 2020
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Apr 6, 2020<div>
 
 f' yeah, thank you :)
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

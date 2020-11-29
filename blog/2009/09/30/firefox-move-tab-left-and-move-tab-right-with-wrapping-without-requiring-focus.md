@@ -43,25 +43,16 @@ https://www.darklaunch.com/2009/09/30/firefox-move-tab-left-and-move-tab-right-w
 
 2 comments
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Nov 19, 2010
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Nov 19, 2010<div>
 
 Worked perfectly!
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Mar 4, 2014
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Mar 4, 2014<div>
 
 This is great
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

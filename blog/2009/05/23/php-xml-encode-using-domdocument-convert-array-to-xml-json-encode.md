@@ -120,11 +120,9 @@ https://www.darklaunch.com/2009/05/23/php-xml-encode-using-domdocument-convert-a
 
 3 comments
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Dec 30, 2010
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Dec 30, 2010<div>
 
 to account boolean fields, inside the "else" add
 $mixed = is_bool($mixed) ? ($mixed ? 'true' : 'false') : $mixed;
@@ -134,13 +132,9 @@ $mixed = is_bool($mixed) ? ($mixed ? 'true' : 'false') : $mixed;
             $domElement-&gt;appendChild($DOMDocument-&gt;createTextNode($mixed));
         }
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Mar 6, 2011
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Mar 6, 2011<div>
 
 This is great .. the only change I made was:
 
@@ -150,17 +144,10 @@ Any node ending with 's' was causing an unecessary child node.  (ie: STATUS was 
 
 Thanks again.
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Oct 31, 2013
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Oct 31, 2013<div>
 
 Thanks, it is extremely useful.
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

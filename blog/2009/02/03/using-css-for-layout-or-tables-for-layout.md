@@ -18,16 +18,11 @@ https://www.darklaunch.com/2009/02/03/using-css-for-layout-or-tables-for-layout.
 
 1 comment
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; May 15, 2011
-            <div>
+<ol><li><div>
+
+anonymous &ndash; May 15, 2011<div>
 
 - try pure css
 - if it's just not working and you're pressed for time: use tables
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

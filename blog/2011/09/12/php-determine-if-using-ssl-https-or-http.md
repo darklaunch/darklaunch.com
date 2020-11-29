@@ -30,48 +30,31 @@ https://www.darklaunch.com/2011/09/12/php-determine-if-using-ssl-https-or-http.h
 
 4 comments
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Apr 4, 2012
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Apr 4, 2012<div>
 
 thanks for posting this, it helped me big time today
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Nov 29, 2012
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Nov 29, 2012<div>
 
 Link to original source file
 <a href="http://core.svn.wordpress.org/trunk/wp-includes/functions.php">http://core.svn.wordpress.org/trunk/wp-includes/functions.php</a>
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Oct 18, 2013
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Oct 18, 2013<div>
 
 wtf it should be if (  $_SERVER['HTTPS'] = '1' etc..
 
 var you are checking = the value you want to check it against
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Aug 10, 2016
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Aug 10, 2016<div>
 
 Link to latest <a href="https://github.com/WordPress/WordPress/blob/HEAD/wp-includes/load.php">https://github.com/WordPress/WordPress/blob/HEAD/wp-includes/load.php</a>
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

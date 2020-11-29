@@ -63,11 +63,9 @@ https://www.darklaunch.com/2009/10/08/automation-server-can-t-create-object-jque
 
 2 comments
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Jun 24, 2010
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Jun 24, 2010<div>
 
 Note, while this is an old post, it came up high on a Google search. jQuery has addressed this similarly, but with refinements, in later code (sample below from 1.4.2, released a year later):
 
@@ -87,17 +85,10 @@ The code's internal comments indicate that this is a failing in IE7+ as a result
 
 One final thing -- it is possible to work around this error at the client side (which is "caused" by IE policy settings) by explicitly adding the site into the Trusted Sites zone (I applied this to *machine* policy zones, so that all users of IE saw the update...regardless of who's logged in / created after the policy is implemented).
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Oct 24, 2010
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Oct 24, 2010<div>
 
 thanks  -- vv helpful
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

@@ -56,24 +56,19 @@ https://www.darklaunch.com/2009/10/08/force-plain-text-format-in-internet-explor
 
 2 comments
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Mar 9, 2012
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Mar 9, 2012<div>
 
 Thanks, just what I was looking for.
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Nov 29, 2012
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Nov 29, 2012<div>
 
 As used in wordpress:
 
+```
 /**
  * Send a HTTP header to disable content type sniffing in browsers which support it.
  *
@@ -86,10 +81,8 @@ As used in wordpress:
 function send_nosniff_header() {
     @header( 'X-Content-Type-Options: nosniff' );
 }
+```
 
 <a href="http://core.svn.wordpress.org/trunk/wp-includes/functions.php">http://core.svn.wordpress.org/trunk/wp-includes/functions.php</a>
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

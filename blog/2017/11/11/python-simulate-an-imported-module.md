@@ -27,11 +27,9 @@ https://www.darklaunch.com/2017/11/11/python-simulate-an-imported-module.html
 
 1 comment
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Aug 2, 2018
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Aug 2, 2018<div>
 
 As used in nltk:
 
@@ -48,7 +46,4 @@ if not hasattr(subprocess, 'Popen'):
 
 <a href="https://github.com/nltk/nltk/blob/develop/nltk/__init__.py">https://github.com/nltk/nltk/blob/develop/nltk/__init__.py</a>
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

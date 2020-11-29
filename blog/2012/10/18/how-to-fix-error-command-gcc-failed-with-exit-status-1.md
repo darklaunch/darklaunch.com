@@ -30,25 +30,16 @@ https://www.darklaunch.com/2012/10/18/how-to-fix-error-command-gcc-failed-with-e
 
 2 comments
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; May 15, 2013
-            <div>
+<ol><li><div>
+
+anonymous &ndash; May 15, 2013<div>
 
 Hi! I have this problem but on mac! Can you help me?
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; May 15, 2013
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; May 15, 2013<div>
 
 Look closely at the error log, what do you see causing the command 'gcc' failed with exit status 1 error?
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

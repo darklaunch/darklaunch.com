@@ -24,15 +24,10 @@ https://www.darklaunch.com/2012/11/20/skip-password-prompt-when-executing-sudo.h
 
 1 comment
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Jan 4, 2013
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Jan 4, 2013<div>
 
 Awesome, thnx! :)
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

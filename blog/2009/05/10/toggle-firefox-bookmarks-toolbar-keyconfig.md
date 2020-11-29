@@ -23,11 +23,9 @@ https://www.darklaunch.com/2009/05/10/toggle-firefox-bookmarks-toolbar-keyconfig
 
 6 comments
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Mar 23, 2011
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Mar 23, 2011<div>
 
 Hi -- with Firefox 4, on initially launching the program, this only makes a blank toolbar appear and disappear at first. 
 
@@ -35,23 +33,15 @@ You have to manually make the toolbar appear through Firefox's own menus, and th
 
 Could you post a way to fix this?
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Mar 24, 2011
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Mar 24, 2011<div>
 
 With Firefox 4 the above code still works. The only difference I've found is that the bookmarks toolbar is shown after a restart even if you've used the `CTRL`+`B` hotkey to hide it.
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; May 6, 2011
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; May 6, 2011<div>
 
 solution for blank toolbar
 ```
@@ -61,37 +51,22 @@ setToolbarVisibility(bar, bar.collapsed);
 
 source: <a href="http://forums.mozillazine.org/viewtopic.php?f=48&amp;t=72994&amp;start=1860">http://forums.mozillazine.org/viewtopic.php?f=48&amp;t=72994&amp;start=1860</a>
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Jun 29, 2012
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Jun 29, 2012<div>
 
 Thanks, I was getting the blank toolbar, then I found the solution for that problem in the comments and it is fixed. Thanks again!
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Jan 7, 2014
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Jan 7, 2014<div>
 
 Nice. Works in Iceweasel today 2014-1-7.
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Apr 20, 2017
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Apr 20, 2017<div>
 
 2017 and still works like a charm.
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

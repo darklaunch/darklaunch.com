@@ -28,23 +28,17 @@ https://www.darklaunch.com/2011/10/23/django-show-the-raw-sql-query-running.html
 
 4 comments
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Dec 12, 2013
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Dec 12, 2013<div>
 
 see also debugsqlshell in django-debug-toolbar.
 
 github.com/django-debug-toolbar/django-debug-toolbar/blob/master/debug_toolbar/management/commands/debugsqlshell.py
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Dec 12, 2013
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Dec 12, 2013<div>
 
 also:
 
@@ -55,13 +49,9 @@ l.addHandler(logging.StreamHandler())
 
 stackoverflow.com/questions/2314920/django-show-log-orm-sql-calls-from-python-shell
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Dec 18, 2013
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Dec 18, 2013<div>
 
 Also:
 
@@ -69,20 +59,13 @@ Also:
 &gt;&gt;&gt; print queryset.query
 SELECT "myapp_mymodel"."id", ... FROM "myapp_mymodel"
 
-            </div>
-        </div>
-    </li>
-    <li>
-        <div>
-            anonymous &ndash; Jan 13, 2014
-            <div>
+</div></div></li><li><div>
+
+anonymous &ndash; Jan 13, 2014<div>
 
 from django.db import connection
 print connection.queries
 
 works for the update() command as well.
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

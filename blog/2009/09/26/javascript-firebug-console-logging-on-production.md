@@ -79,11 +79,9 @@ https://www.darklaunch.com/2009/09/26/javascript-firebug-console-logging-on-prod
 
 1 comment
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Dec 11, 2013
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Dec 11, 2013<div>
 
 ```javascript
 (function (win) {
@@ -98,7 +96,4 @@ https://www.darklaunch.com/2009/09/26/javascript-firebug-console-logging-on-prod
 })(window.console = window.console || {});
 ```
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>

@@ -76,15 +76,10 @@ https://www.darklaunch.com/2014/10/21/fix-svnadmin-checksum-mismatch-while-readi
 
 1 comment
 
-<ol>
-    <li>
-        <div>
-            anonymous &ndash; Nov 28, 2017
-            <div>
+<ol><li><div>
+
+anonymous &ndash; Nov 28, 2017<div>
 
 It works. Finally I even fixed the integrity. It's easy to find the name of file which contains broken data. I've compared (binary diff) original file and actual data in revision and found 1 broken byte. Then fixed it via hex editor and welcome back, integrity! Now svnadmin verify passes all revisions fine.
 
-            </div>
-        </div>
-    </li>
-</ol>
+</div></div></li></ol>
