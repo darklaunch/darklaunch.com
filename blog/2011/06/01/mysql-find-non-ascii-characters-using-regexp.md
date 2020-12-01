@@ -1,4 +1,4 @@
-To find non-ascii characters using a SELECT query, run a query similar to the following:
+To find non-ascii characters using a `SELECT` query, run a query similar to the following:
 
 ```sql
 SELECT

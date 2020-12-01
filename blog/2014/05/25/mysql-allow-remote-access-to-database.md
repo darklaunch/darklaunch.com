@@ -1,6 +1,6 @@
 Allow access to MySQL database from remote server.
 
-Edit /etc/mysql/my.cnf or /usr/local/mysql/my.cnf (on OS X)
+Edit `/etc/mysql/my.cnf` or `/usr/local/mysql/my.cnf` (on OS X)
 
 Change
 ```
@@ -30,8 +30,11 @@ $ /usr/local/mysql/bin/mysqld
 Fixes for possible error:
 
 Fix "Host is not allowed to connect to this MySQL server"
+
+```bash
 $ mysql -u root -h "www.example.com"
 ERROR 1130 (HY000): Host 'dhcp-XXX-XX-XX-XXX.example.com' is not allowed to connect to this MySQL server
+```
 
 ```sql
 $ mysql -u root

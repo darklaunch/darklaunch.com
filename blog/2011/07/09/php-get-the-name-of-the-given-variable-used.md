@@ -1,4 +1,4 @@
-Using PHP it is possible to get the given variable name as a string -- similar to using the function get_defined_vars() for a traceback.
+Using PHP it is possible to get the given variable name as a string -- similar to using the function `get_defined_vars()` for a traceback.
 
 A possible use case is a situation like a traceback where you call a function with a parameter and you need to know which variable was passed to the original function.
 
@@ -75,6 +75,6 @@ anonymous &ndash; May 19, 2014<div>
 
 anonymous &ndash; Sep 12, 2014<div>
 
-This is pretty old but.. get_class($this) will give you a class name
+This is pretty old but.. `get_class($this)` will give you a class name
 
 </div></div></li></ol>

@@ -51,7 +51,7 @@ anonymous &ndash; Feb 15, 2013<div>
 
 For OS X, enter this on the command line before proceeding with the install.
 
-export PATH=/usr/local/mysql/bin:$PATH
+`export PATH=/usr/local/mysql/bin:$PATH`
 
 </div></div></li><li><div>
 
@@ -66,14 +66,14 @@ anonymous &ndash; Feb 14, 2014<div>
 django.core.exceptions.ImproperlyConfigured: Error loading MySQLdb module: this is MySQLdb version (1, 2, 3, 'final', 0), but _mysql is version (1, 2, 5, 'final', 1)
 
 instead of 
-$ pip install MySQL-python
+`$ pip install MySQL-python`
 
 install the matching version.
-$ pip install MySQL-python==1.2.3
+`$ pip install MySQL-python==1.2.3`
 
 then
 
-django.core.exceptions.ImproperlyConfigured: Error loading MySQLdb module: _mysql: init failed
+`django.core.exceptions.ImproperlyConfigured: Error loading MySQLdb module: _mysql: init failed`
 
 unfortunately, this one fixed itself somehow. i just opened up a new command line window in Ubuntu without going into the virtualenv and it worked.
 
@@ -82,7 +82,7 @@ unfortunately, this one fixed itself somehow. i just opened up a new command lin
 anonymous &ndash; Apr 4, 2016<div>
 
 For Python 3 use mysqlclient:
-$ pip install mysqlclient
+`$ pip install mysqlclient`
 
 Possible errors:
 - ImportError: No module named 'ConfigParser' (from ConfigParser import SafeConfigParser)

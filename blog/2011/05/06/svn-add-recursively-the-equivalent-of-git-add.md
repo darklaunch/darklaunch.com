@@ -5,6 +5,7 @@ svn add * --force
 ```
 
 There is another solution. This is what I came up with:
+
 ```
 php -r '$files = array(); foreach (simplexml_load_string($argv["1"])->target->entry as $entry) { if ($entry->{"wc-status"}->attributes()->item == "unversioned") { $files[] = chr(34) . (string)$entry->attributes()->path . chr(34); }; } echo implode(" ", $files) . "\n"; ' "$(svn status --xml)" | xargs svn add
 ```
@@ -15,6 +16,7 @@ php -r '$files = array(); foreach (simplexml_load_string($argv["1"])->target->en
 3. xargs picks up the echoed filenames and executes svn add to each of the files
 
 And as an alias for recursively svn adding unversioned files:
+
 ```sh
 # svn add unversioned files
 alias sau="php -r '\$files = array(); foreach (simplexml_load_string(\$argv[\"1\"])->target->entry as \$entry) { if (\$entry->{\"wc-status\"}->attributes()->item == \"unversioned\") { \$files[] = chr(34) . (string)\$entry->attributes()->path . chr(34); }; } echo implode(\" \", \$files) . \"\n\"; ' \"\$(svn status --xml)\" | xargs svn add"

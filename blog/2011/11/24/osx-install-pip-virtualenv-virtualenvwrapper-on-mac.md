@@ -72,7 +72,7 @@ Thanks.
 
 anonymous &ndash; Oct 27, 2012<div>
 
-fyi, for `mkvirtualenv`, --no-site-packages is now the default
+fyi, for `mkvirtualenv`, `--no-site-packages` is now the default
 
 </div></div></li><li><div>
 

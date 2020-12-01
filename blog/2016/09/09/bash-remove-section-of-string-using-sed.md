@@ -1,4 +1,4 @@
-Use sed to remove lines starting at BEGIN and ending with END line markers.
+Use sed to remove lines starting at `BEGIN` and ending with `END` line markers.
 
 ```sh
 $ cat myfile.txt

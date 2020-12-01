@@ -16,8 +16,8 @@ And using authentication:
 $ curl -u username:password "https://www.example.com/upload.php" -F myfile=@"~/Desktop/image.png"
 ```
 
-NOTE:
-Change myfile to the file input value name.
+NOTE: Change myfile to the file input value name.
+
 ```html
 &lt;input name="myfile" type="file" />
 ```
@@ -51,7 +51,7 @@ anonymous &ndash; Dec 9, 2012<div>
 
 @array(0)
 
-try var_dump($_POST) and var_dump($_GET); to see if at least something is coming through
+try `var_dump($_POST)` and `var_dump($_GET);` to see if at least something is coming through
 
 </div></div></li><li><div>
 

@@ -41,11 +41,13 @@ anonymous &ndash; Jun 18, 2012<div>
 
 Actually, this is the minimum:
 
+```
 &lt;!doctype html&gt;
 &lt;html&gt;
 &lt;head&gt;
 &lt;title&gt;&lt;/title&gt;
 &lt;/head&gt;
 &lt;/html&gt;
+```
 
 </div></div></li></ol>

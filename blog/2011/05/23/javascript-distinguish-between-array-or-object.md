@@ -6,7 +6,7 @@ function isArray(var) {
 }
 ```
 
-Instead of using typeof or instanceof, use the Object.prototype.toString.apply method to check if a variable is an object or is an array in JavaScript.
+Instead of using `typeof` or `instanceof`, use the `Object.prototype.toString.apply` method to check if a variable is an object or is an array in JavaScript.
 
 ```javascript
 Object.prototype.toString.apply( $("body") )
@@ -16,7 +16,7 @@ Object.prototype.toString.apply( [{foo:"bar"}] )
 // "[object Array]"
 ```
 
-As an alternate solution, use the toString.call(element) method.
+As an alternate solution, use the `toString.call(element)` method.
 
 ```javascript
 toString.call( $("body") )
@@ -26,7 +26,7 @@ toString.call( [{foo:"bar"}] )
 // "[object Array]"
 ```
 
-jQuery type, isArray and isPlainObject functions are also available.
+jQuery `type`, `isArray`, and `isPlainObject` functions are also available.
 
 ```javascript
 $.type(element)

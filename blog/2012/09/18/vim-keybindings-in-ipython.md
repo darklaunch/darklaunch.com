@@ -1,6 +1,6 @@
 To set vim keybindings in ipython, do the following:
 
-Add the following `set` commands in your ~/.inputrc
+Add the following `set` commands in your `~/.inputrc` file:
 
 ```bash
 set editing-mode vi

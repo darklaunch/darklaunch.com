@@ -1,12 +1,13 @@
 To view the current alias from the command line, do the following:
 
-Given an alias ll
+Given an alias <code>ll
+```
 
 ```bash
 alias ll='ls -al'
 ```
 
-Type alias ll on the command line to view its current alias.
+Type `alias ll` on the command line to view its current alias:
 
 ```bash
 $ alias ll

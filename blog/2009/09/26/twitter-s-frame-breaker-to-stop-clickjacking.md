@@ -1,4 +1,5 @@
 Twitter uses a frame breaker to help mitigate clickjacking. Interesting implementation:
+
 ```javascript
 if (window.top !== window.self) {
 	document.write = '';
@@ -12,8 +13,9 @@ if (window.top !== window.self) {
 	};
 }
 ```
+
 ```
-if top window is not this window{
+if top window is not this window {
 	render the page starting here
 	refresh the page making me the top window to break out of any frames
 	remove page content (html including graphics, buttons, etc)
@@ -21,7 +23,8 @@ if top window is not this window{
 }
 ```
 
-NOTE: i think they meant document.write('');
+NOTE: i think they meant <code>document.write('');
+```
 
 ---
 

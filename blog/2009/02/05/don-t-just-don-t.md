@@ -1,4 +1,4 @@
-don't use short open tags: <? ?>; always use the long form of the PHP open tag (<?php ?>)
+don't use short open tags: `<? ?>;` always use the long form of the PHP open tag (`<?php ?>`)
 
 don't use print; use echo
 
@@ -7,7 +7,9 @@ don't use print; use echo
 // bad
 print $var;
 ?>
+```
 
+```php
 <?php
 // good
 echo $var;

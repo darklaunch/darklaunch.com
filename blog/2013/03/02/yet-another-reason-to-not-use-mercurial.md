@@ -24,8 +24,10 @@ anonymous &ndash; Oct 2, 2013<div>
 
 The .orig files Mercurial leaves after a merge are really annoying as well.
 
-Luckily you can disable this silly behavior my modifying your $HOME/.hgrc with:
+Luckily you can disable this silly behavior my modifying your `$HOME/.hgrc` with:
+```
 [defaults]
 revert = --no-backup
+```
 
 </div></div></li></ol>

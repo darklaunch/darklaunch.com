@@ -9,7 +9,7 @@ function raw(str) {
 }
 ```
 
-The /g modifier finds and replaces all occurrences.
+The `/g` modifier finds and replaces all occurrences.
 
 ---
 

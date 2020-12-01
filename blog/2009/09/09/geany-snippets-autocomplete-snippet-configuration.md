@@ -1,9 +1,11 @@
 Geany snippets configuration file is located in:
+
 ```
 /usr/share/geany/snippets.conf
 ```
 
 Edit the file:
+
 ```
 sudo geany /usr/share/geany/snippets.conf
 ```
@@ -138,10 +140,9 @@ h4=<h4>%cursor%</h4>
 h5=<h5>%cursor%</h5>
 h6=<h6>%cursor%</h6>
 p=%cursor%
-pre=<pre>\n%cursor%\n</pre>
-code=<code>\n%cursor%\n
-```
-quote=> \n\t\n\t\t%cursor%\n\t\n
+pre=&lt;pre>\n%cursor%\n&lt;/pre>
+code=&lt;code>\n%cursor%\n&lt;/code>
+quote=&lt;blockquote>\n\t\n\t\t%cursor%\n\t\n
 # other
 cmt=<!--\n\t%cursor%\n-->
 br=&lt;br/>

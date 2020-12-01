@@ -1,6 +1,6 @@
 Trim JavaScript string function.
 
-Similar to PHP's trim().
+Similar to PHP's `trim()`.
 
 ```javascript
 /**

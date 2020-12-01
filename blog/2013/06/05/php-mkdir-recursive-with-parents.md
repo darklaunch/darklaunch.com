@@ -1,4 +1,4 @@
-Recursively create directories in PHP with mkdir().
+Recursively create directories in PHP with `mkdir()`.
 
 ```sh
 $ mkdir --parents

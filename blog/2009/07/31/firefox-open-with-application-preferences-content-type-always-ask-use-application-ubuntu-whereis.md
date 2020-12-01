@@ -8,17 +8,20 @@ Then close the Firefox Preferences window.
 
 Now anytime a file where Content-Type=text/x-python comes up, geany will be the associated application in Firefox.
 
-NOTE:
-If you don't know the location of your application, open a terminal and type:
+NOTE: If you don't know the location of your application, open a terminal and type:
+
+```bash
+$ whereis myapplication
 ```
-whereis myapplication
-```
+
 That is:
-```
-whereis geany
+
+```bash
+$ whereis geany
 >>> geany: /usr/bin/geany /usr/lib/geany /usr/lib64/geany /usr/include/geany /usr/share/geany /usr/share/man/man1/geany.1.gz
 ```
-Now we know the location of geany is "/usr/bin/geany".
+
+Now we know the location of geany is `/usr/bin/geany`.
 
 ---
 

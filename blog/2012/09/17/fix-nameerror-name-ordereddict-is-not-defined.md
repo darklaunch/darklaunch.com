@@ -1,4 +1,4 @@
-To fix the NameError OrderedDict is not defined error, do the following:
+To fix the `NameError OrderedDict is not defined` error, do the following:
 
 ```python
 import collections
@@ -9,7 +9,7 @@ except ImportError:
     OrderedDict = dict
 ```
 
-The OrderedDict is available in more recent versions of python. Use this as a fallback for OrderedDict support.
+The `OrderedDict` is available in more recent versions of python. Use this as a fallback for OrderedDict support.
 
 ```bash
 $ python test.py

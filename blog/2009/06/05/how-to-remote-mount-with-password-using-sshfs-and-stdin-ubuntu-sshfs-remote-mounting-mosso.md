@@ -10,7 +10,7 @@ Example:
 echo 4ghNZGpk182q8SvY0kw021JbRb34THaPDN8wyXY679BQPSit5A | sshfs jsmith@ftp.example.com:/ ~/mnt/example -o workaround=rename -o password_stdin
 ```
 
-NOTE: Make sure the mount folder ~/mnt/example exists or create it:
+NOTE: Make sure the mount folder `~/mnt/example` exists or create it:
 ```bash
 mkdir -p ~/mnt/example
 ```

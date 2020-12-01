@@ -1,4 +1,4 @@
-Base58 is base62 with ambiguous characters removed. These removed are 0, O, l, I for the Flickr Base58 character set.
+Base58 is base62 with ambiguous characters removed. These removed are `0`, `O`, `l`, `I` for the Flickr Base58 character set.
 
 ```
 Alphabet:       0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz

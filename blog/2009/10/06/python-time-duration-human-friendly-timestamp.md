@@ -50,7 +50,7 @@ for s in seconds:
 Example Output:
 
 ```
-.        1 => 1 second
+         1 => 1 second
          2 => 2 seconds
       3600 => 1 hour
       7201 => 2 hours 1 second
@@ -105,6 +105,7 @@ good!!
 
 anonymous &ndash; May 19, 2014<div>
 
+```
 import datetime
 import time
 
@@ -113,6 +114,7 @@ start = datetime.datetime.now()
 time.sleep(2)
 
 elapsed = datetime.datetime.now() - start
-print elapsed
+print(elapsed)
+```
 
 </div></div></li></ol>

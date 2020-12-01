@@ -13,8 +13,8 @@ function stop() {
     echo 'completed in ' . $stats['time_total'] . ' seconds' . "\n";
     exit;
 }
-?>
 ```
+
 ```php
 <?php // example usage
 start();

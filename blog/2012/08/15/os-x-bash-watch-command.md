@@ -1,4 +1,4 @@
-To run a command similar to the Linux "watch" command on Mac OSX, do the following:
+To run a command similar to the Linux `watch` command on Mac OSX, do the following:
 
 ```sh
 while :; do your_command; done
@@ -26,7 +26,7 @@ https://www.darklaunch.com/2012/08/15/os-x-bash-watch-command.html
 
 anonymous &ndash; Jul 16, 2016<div>
 
-See also watch_file() command in <a href="https://github.com/dot-star/dot-star/blob/master/bash/.aliases.sh#L439">https://github.com/dot-star/dot-star/blob/master/bash/.aliases.sh#L439</a>
+See also `watch_file()` command in <a href="https://github.com/dot-star/dot-star/blob/master/bash/.aliases.sh#L439">https://github.com/dot-star/dot-star/blob/master/bash/.aliases.sh#L439</a>
 
 </div></div></li><li><div>
 

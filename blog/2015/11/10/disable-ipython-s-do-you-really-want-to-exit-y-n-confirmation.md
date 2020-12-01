@@ -4,7 +4,7 @@ Disable ipython's exit confirmation. Create an ipython profile.
 $ ipython profile create
 ```
 
-Change TerminalInteractiveShell.confirm_exit to False.
+Change `TerminalInteractiveShell.confirm_exit` to False.
 
 ```
 $ vim ~/.ipython/profile_default/ipython_config.py

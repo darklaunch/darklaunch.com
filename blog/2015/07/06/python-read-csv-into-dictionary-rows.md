@@ -41,7 +41,7 @@ with open('data.csv') as f:
         print(row_dict)
 ```
 
-You can also read the next line by doing either reader.next() or next(reader):
+You can also read the next line by doing either `reader.next()` or `next(reader)`:
 ```python
 headers = reader.next()
 headers = next(reader)

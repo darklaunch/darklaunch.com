@@ -9,6 +9,7 @@ $("#select-1").find("option").filter(function(index) {
 ```
 
 As of jQuery 1.6, use $.prop() instead of $.attr().
+
 ```javascript
 var selectOptionText = "wobble";
 $("#select-2").find("option").filter(function(index) {

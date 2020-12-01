@@ -5,7 +5,7 @@ Call php code from a Python script. The following Python script executes a PHP s
 import subprocess
 
 php_script = 'var_dump(stream_get_contents(STDIN));'
-command = ['php', '-r', php_script,]
+command = ['php', '-r', php_script]
 proc = subprocess.Popen(command, shell=False, stdout=subprocess.PIPE, stdin=subprocess.PIPE)
 stdout, stderr = proc.communicate(input='hello, world!')
 print(stdout)

@@ -22,7 +22,7 @@ https://www.darklaunch.com/2009/06/02/terminal-for-loop-move-multiple-files-ubun
 anonymous &ndash; Aug 21, 2010<div>
 
 Is there any specific reason you'd use that as opposed to 
-mv *.txt ~/Desktop/destination/ 
+`mv *.txt ~/Desktop/destination/`
 ?
 
 </div></div></li><li><div>
@@ -33,8 +33,10 @@ anonymous &ndash; Aug 29, 2010<div>
 
 for mv not really, but:
 
+```
 cd path/to/scripts/
 for i in *.sh; do bash $i; done
+```
 
 </div></div></li><li><div>
 

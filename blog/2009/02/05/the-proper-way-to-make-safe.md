@@ -1,4 +1,4 @@
-The proper way to make untrusted user input safe when printing data, is to use htmlspecialchars().
+The proper way to make untrusted user input safe when printing data, is to use `htmlspecialchars()`.
 
 ```php
 <?php

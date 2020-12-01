@@ -1,6 +1,6 @@
 ```php
 <?php
-# server.php
+// server.php
 $content_length_bytes = 1e6; // 1 megabyte.
 $content_length_bytes *= 3;
 

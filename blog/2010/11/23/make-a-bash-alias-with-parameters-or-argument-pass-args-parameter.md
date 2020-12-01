@@ -49,7 +49,7 @@ mkcd () {
 }
 ```
 
-NOTE: use $@ to pass the full parameter. instead of alias foo="somecommand $1 $2 $3 $4 $5 $6", use alias foo="somecommand $@" without quotes around $@.
+NOTE: use `$@` to pass the full parameter. instead of `alias foo="somecommand $1 $2 $3 $4 $5 $6"`, use `alias foo="somecommand $@"` without quotes around `$@`.
 
 ---
 

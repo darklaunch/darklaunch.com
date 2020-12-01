@@ -1,4 +1,4 @@
-Use wc or grep to count the number of lines.
+Use `wc` or `grep` to count the number of lines.
 
 ```
 $ echo "" | wc -l

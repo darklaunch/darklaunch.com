@@ -46,6 +46,6 @@ if I had full access to the dom how could I disable this using a script of my ow
 
 anonymous &ndash; May 23, 2011<div>
 
-take a look at window.onbeforeunload and sending a 204 header
+take a look at `window.onbeforeunload` and sending a 204 header
 
 </div></div></li></ol>

@@ -1,4 +1,4 @@
-To remap Caps Lock to F12, go to Ubuntu > Startup Applications > Add > enter the command:
+To remap `Caps Lock` to `F12`, go to Ubuntu > Startup Applications > Add > enter the command:
 
 ```
 xmodmap -e "keycode 66 = F12"
