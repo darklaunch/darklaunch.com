@@ -1,6 +1,12 @@
+Update: Run `pipenv` with python 3 using the following command:
+
+```bash
+$ pipenv --python 3
+```
+
 Run python 2.7 using pipenv:
 
-```python
+```bash
 $ mkdir python2
 $ cd python2
 $ echo -e '[requires]\npython_version = "2.7"' > Pipfile
@@ -12,7 +18,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 Run python 3 using pipenv:
 
-```python
+```bash
 $ mkdir python3
 $ cd python3
 $ echo -e '[requires]\npython_version = "3"' > Pipfile
@@ -24,7 +30,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 Run python 3.6 using pipenv:
 
-```python
+```bash
 $ mkdir python3.6
 $ cd python3.6
 $ echo -e '[requires]\npython_version = "3.6"' > Pipfile

@@ -23,8 +23,7 @@ if top window is not this window {
 }
 ```
 
-NOTE: i think they meant <code>document.write('');
-```
+NOTE: i think they meant `document.write(`');`
 
 ---
 

@@ -1,4 +1,4 @@
-Use list of arguments with pexpect.spawn instead of str.format.
+Use list of arguments with `pexpect.spawn` instead of `str.format`.
 
 ```python
 import pexpect

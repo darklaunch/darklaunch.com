@@ -1,4 +1,4 @@
-Sort an unordered dictionary in python using sorted.
+Sort an unordered dictionary in python using the `sorted` function.
 
 ```python
 >>> from collections import OrderedDict
@@ -34,7 +34,7 @@ Using strings for keys may cause unexpected ordering.
 ('9', 'i')
 ```
 
-Use the "key" parameter when calling sorted() to sort a dictionary into numerical ascending order.
+Use the "key" parameter when calling `sorted()` to sort a dictionary into numerical ascending order.
 
 ```python
 >>> from collections import OrderedDict
