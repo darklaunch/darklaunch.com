@@ -12,8 +12,13 @@ echo "in: ${in}"
 
 echo "${in/$find/$replace}"
 echo "${in//$find/$replace}"
+```
 
+```bash
 $ bash test.sh
+```
+
+```
 find: b
 replace: B
 in: abcabc

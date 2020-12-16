@@ -1,4 +1,4 @@
-Order query parameters using urlencode.
+Order query parameters using `urlencode`.
 
 ```python
 from collections import OrderedDict
@@ -10,14 +10,28 @@ params = {
     'b': 2,
     'c': 3,
 }
-print(urlencode(OrderedDict(params))) # a=1&c=3&b=2 (incorrect)
+print(urlencode(OrderedDict(params))) # Incorrect.
+```
 
+Unordered query parameters:
+
+```
+a=1&c=3&b=2
+```
+
+Ordered query parameters:
+
+```python
 params = [
   ('a', 1),
   ('b', 2),
   ('c', 3),
 ]
-print(urlencode(OrderedDict(params))) # a=1&b=2&c=3 (correct)
+print(urlencode(OrderedDict(params))) # Correct.
+```
+
+```
+a=1&b=2&c=3
 ```
 
 ---

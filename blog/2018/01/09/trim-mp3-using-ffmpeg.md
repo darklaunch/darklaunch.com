@@ -4,11 +4,12 @@ Trim a range starting and ending at a certain time.
 $ ffmpeg -i input.mp3 -ss 00:00:03 -to 00:03:42 -acodec copy output.mp3
 ```
 
-Use -ss for the start time.
-Use -to for the end time.
+Use `-ss` for the start time.
+Use `-to` for the end time.
 Note: The order of the parameters is significant.
 
-From `man ffmpeg-utils', here an accepted syntax for the time fields:
+From `man ffmpeg-utils`, here an accepted syntax for the time fields:
+
 ```
 [-][<HH>:]<MM>:<SS>[.<m>...]
 ```

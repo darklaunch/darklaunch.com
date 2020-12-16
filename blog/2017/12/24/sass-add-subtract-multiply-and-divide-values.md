@@ -1,4 +1,4 @@
-Use math in sass stylesheets. Input with a file named style.css.
+Use math in sass stylesheets. Input with a file named `style.css`.
 
 ```css
 .selector {
@@ -11,7 +11,7 @@ Use math in sass stylesheets. Input with a file named style.css.
 }
 ```
 
-Use sass command to watch for file changes in style.scss and compile into style.css.
+Use the `sass` command to watch for file changes in `style.scss` and compile into `style.css`.
 
 ```bash
 $ sass --sourcemap="none" --style "expanded" --watch "style.scss:style.css"

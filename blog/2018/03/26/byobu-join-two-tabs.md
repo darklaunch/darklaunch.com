@@ -6,7 +6,7 @@ Call the Byobu tmux prefix (`Ctrl` + `a`) followed by a colon.
 Ctrl + a + :
 ```
 
-At the prompt, run the join-pane command with the source panel using the -s flag.
+At the prompt, run the `join-pane` command with the source panel using the `-s` flag.
 
 ```bash
 :join-pane -s 2

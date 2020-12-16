@@ -1,4 +1,4 @@
-Import a module from a path that contains a reserved Python keyword like "is". This fixes SyntaxError.
+Import a module from a path that contains a reserved Python keyword like `is`. This fixes `SyntaxError`.
 
 ```python
 $ python
@@ -10,7 +10,7 @@ SyntaxError: invalid syntax
 >>> 
 ```
 
-Use importlib to avoid SyntaxError.
+Use `importlib` to avoid `SyntaxError`.
 
 ```python
 $ python

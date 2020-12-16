@@ -1,4 +1,4 @@
-Fake a module import by adding a fake module to sys.modules.
+Fake a module import by adding a fake module to `sys.modules`.
 
 ```python
 import sys
@@ -33,6 +33,7 @@ anonymous &ndash; Aug 2, 2018<div>
 
 As used in nltk:
 
+```
 # Override missing methods on environments where it cannot be used like GAE.
 import subprocess
 if not hasattr(subprocess, 'PIPE'):
@@ -43,6 +44,7 @@ if not hasattr(subprocess, 'Popen'):
     def _fake_Popen(*args, **kwargs):
         raise NotImplementedError('subprocess.Popen is not supported.')
     subprocess.Popen = _fake_Popen
+```
 
 <a href="https://github.com/nltk/nltk/blob/develop/nltk/__init__.py">https://github.com/nltk/nltk/blob/develop/nltk/__init__.py</a>
 
