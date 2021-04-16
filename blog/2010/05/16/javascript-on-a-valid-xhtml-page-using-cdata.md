@@ -1,6 +1,6 @@
 Best option:
 ```javascript
-&lt;script type="text/javascript">
+<script type="text/javascript">
 /* <![CDATA[ */
 var someScriptHere;
 /* ]]> */
@@ -8,7 +8,7 @@ var someScriptHere;
 ```
 Can be written on one line:
 ```javascript
-&lt;script type="text/javascript">/* <![CDATA[ */var someScriptHere;/* ]]> */</script>
+<script type="text/javascript">/* <![CDATA[ */var someScriptHere;/* ]]> */</script>
 ```
 Further Testing:
 ```php
@@ -25,7 +25,7 @@ $javascript =
 // multiple lines
 // alert works
 $script_1A =
-	'&lt;script type="text/javascript">' . "\n" .
+	'<script type="text/javascript">' . "\n" .
 		$javascript . "\n" .
 	'</script>' . "\n" .
 	'';
@@ -36,7 +36,7 @@ $script_1A =
 // one line
 // alert works
 $script_1B =
-	'&lt;script type="text/javascript">' .
+	'<script type="text/javascript">' .
 		$javascript .
 	'</script>' .
 	'';
@@ -45,7 +45,7 @@ $script_1B =
 // multiple lines
 // alert works
 $script_2A =
-	'&lt;script type="text/javascript">' . "\n" .
+	'<script type="text/javascript">' . "\n" .
 	'//<![CDATA[' . "\n" .
 		$javascript . "\n" .
 	'//]]>' . "\n" .
@@ -56,7 +56,7 @@ $script_2A =
 // one line
 // alert does not work (commented out)
 $script_2B =
-	'&lt;script type="text/javascript">' .
+	'<script type="text/javascript">' .
 	'//<![CDATA[' .
 		$javascript .
 	'//]]>' .
@@ -67,7 +67,7 @@ $script_2B =
 // multiple lines
 // alert works
 $script_3A =
-	'&lt;script type="text/javascript">' . "\n" .
+	'<script type="text/javascript">' . "\n" .
 	'/* <![CDATA[ */' . "\n" .
 		$javascript . "\n" .
 	'/* ]]> */' . "\n" .
@@ -79,7 +79,7 @@ $script_3A =
 // alert works
 // one line
 $script_3B =
-	'&lt;script type="text/javascript">' .
+	'<script type="text/javascript">' .
 	'/* <![CDATA[ */' .
 		$javascript .
 	'/* ]]> */' .

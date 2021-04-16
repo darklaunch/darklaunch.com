@@ -18,10 +18,10 @@ Test case where "uncaught exception: Syntax error, unrecognized expression: valu
     </form>
 </div>
 <!--
-&lt;script type="text/javascript" src="js/jquery-1.2.6.js"></script>
+<script type="text/javascript" src="js/jquery-1.2.6.js"></script>
 -->
-&lt;script type="text/javascript" src="js/jquery-1.3.1.js"></script>
-&lt;script type="text/javascript">
+<script type="text/javascript" src="js/jquery-1.3.1.js"></script>
+<script type="text/javascript">
 function submit_form() {
     var files=$('#myform :file[value!=\'\']');
     if (files.length>0) {
@@ -35,7 +35,7 @@ function submit_form() {
         alert('Select some files please');
     }
 }
-&lt;/script>
+</script>
 ```
 
 Why doesn't value expression work in the current release?

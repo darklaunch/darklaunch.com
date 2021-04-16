@@ -8,7 +8,7 @@ ini_set('html_errors', false);
 This removes the html tags including the pre tag with a "xdebug-var-dump" class when using `var_dump()`:
 
 ```html
-&lt;pre class='xdebug-var-dump' dir='ltr'&gt;
+<pre class='xdebug-var-dump' dir='ltr'>
 ```
 
 ---

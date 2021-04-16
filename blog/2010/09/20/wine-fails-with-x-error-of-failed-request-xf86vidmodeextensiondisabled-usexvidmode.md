@@ -9,7 +9,7 @@ X Error of failed request:  XF86VidModeExtensionDisabled
 
 To fix, add "UseXVidMode" key to ~/.wine/user.reg
 ```sh
-cat >>"$HOME/.wine/user.reg" &lt;&lt;EOF
+cat >>"$HOME/.wine/user.reg" <<EOF
 
 [Software\\\\Wine\\\\X11 Driver] 1269299093
 "UseXVidMode"="N"

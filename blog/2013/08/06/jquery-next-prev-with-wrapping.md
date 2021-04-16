@@ -36,7 +36,7 @@ Given the following markup:
 These all evaluate to true.
 
 ```javascript
-&lt;script>
+<script>
 console.log($('.one').nextWrap().is('.two')); // true
 console.log($('.two').nextWrap().is('.three')); // true
 console.log($('.three').nextWrap().is('.one')); // true

@@ -41,7 +41,7 @@ The following code reproduces the error message in Internet Explorer 8:
 	<script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.js"></script>
 </head>
 <body>
-	&lt;script type="text/javascript">
+	<script type="text/javascript">
 	$.ajax({
 		type: 'GET',
 		url: 'http://127.0.0.1/'

@@ -18,53 +18,53 @@ $("#select-2").find("option").filter(function(index) {
 ```
 
 ```html
-&lt;!doctype html>
-&lt;html>
-&lt;head>
-    &lt;meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-    &lt;script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js">&lt;/script>
-    &lt;title>&lt;/title>
-&lt;/head>
-&lt;body>
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <title></title>
+</head>
+<body>
 
-&lt;!-- Example 1 -->
-&lt;select id="select-1">
-    &lt;option>Select an option...&lt;/option>
-    &lt;option value="1">Foo&lt;/option>
-    &lt;option value="2">Bar&lt;/option>
-    &lt;option value="3">Baz&lt;/option>
-&lt;/select>
+<!-- Example 1 -->
+<select id="select-1">
+    <option>Select an option...</option>
+    <option value="1">Foo</option>
+    <option value="2">Bar</option>
+    <option value="3">Baz</option>
+</select>
 
-&lt;script>
+<script>
 // Select the option using the option's exact text value
 var selectOptionText = "Baz";
 $("#select-1").find("option").filter(function(index) {
     return selectOptionText === $(this).text();
 }).attr("selected", "selected");
-&lt;/script>
-&lt;!-- /Example 1 -->
+</script>
+<!-- /Example 1 -->
 
-&lt;!-- Example 2 -->
-&lt;select id="select-2">
-    &lt;option>Pick a different option...&lt;/option>
-    &lt;option value="5">Wibble&lt;/option>
-    &lt;option value="6">wobble&lt;/option>
-    &lt;option value="7">wubble&lt;/option>
-    &lt;option value="8">flob&lt;/option>
-&lt;/select>
+<!-- Example 2 -->
+<select id="select-2">
+    <option>Pick a different option...</option>
+    <option value="5">Wibble</option>
+    <option value="6">wobble</option>
+    <option value="7">wubble</option>
+    <option value="8">flob</option>
+</select>
 
-&lt;script>
+<script>
 // Select the option using the option's exact text value
 var selectOptionText = "wobble";
 $("#select-2").find("option").filter(function(index) {
     return selectOptionText === $(this).text();
 }).prop("selected", "selected");
 // NOTE: As of jQuery 1.6, use the $.prop() method to retrieve property values because $.attr() only retrieves attributes.
-&lt;/script>
-&lt;!-- /Example 2 -->
+</script>
+<!-- /Example 2 -->
 
-&lt;/body>
-&lt;/html>
+</body>
+</html>
 ```
 
 ---

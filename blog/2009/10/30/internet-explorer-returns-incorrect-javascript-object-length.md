@@ -7,7 +7,7 @@ Internet Explorer will incorrectly give an object length off by one if the objec
 	<title></title>
 </head>
 <body>
-	&lt;script type="text/javascript">
+	<script type="text/javascript">
 	alert(
 		[
 			'a',

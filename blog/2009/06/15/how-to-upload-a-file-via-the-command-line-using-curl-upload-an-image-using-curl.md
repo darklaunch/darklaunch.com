@@ -19,7 +19,7 @@ $ curl -u username:password "https://www.example.com/upload.php" -F myfile=@"~/D
 NOTE: Change myfile to the file input value name.
 
 ```html
-&lt;input name="myfile" type="file" />
+<input name="myfile" type="file" />
 ```
 
 ```php

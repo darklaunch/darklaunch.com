@@ -22,7 +22,7 @@ Full example:
 </head>
 <body>
 
-&lt;script>
+<script>
 var target = document.querySelector('title');
 var observer = new MutationObserver(function(mutations) {
     mutations.forEach(function(mutation) {
