@@ -10,7 +10,7 @@ Edit the file:
 sudo geany /usr/share/geany/snippets.conf
 ```
 
-Save and restart geany. Now type the word if and the tab key. This will autocomplete an if statement.
+Save and restart geany. Now type the word `if` and the `tab` key. This will autocomplete an `if` statement.
 
 ```ini
 # from http://citizen.ovh.org/stuff/snippets.conf
@@ -167,7 +167,7 @@ https://www.darklaunch.com/2009/09/09/geany-snippets-autocomplete-snippet-config
 
 ---
 
-2 comments
+4 comments
 
 <ol><li><div>
 
@@ -181,4 +181,24 @@ anonymous &ndash; Apr 6, 2020<div>
 
 f' yeah, thank you :)
 
-</div></div></li></ol>
+</div></div></li><li><div>
+
+anonymous &ndash; Jun 7, 2021<div>
+
+i have saved the same file in my snippet but, in cpp file the for loop snippet is not workling :((
+please help me.
+
+Thanks in advance
+
+</div></div><ol><li><div>
+
+anonymous &ndash; Jun 7, 2021<div>
+
+are any snippets working?
+
+try moving the snippet into the [Default] section and retrying the snippet:
+
+[Default]
+for=for (int i = 0; i &lt; %cursor%; i++)%brace_open%\n%brace_close%
+
+</div></div></li></ol></li></ol>

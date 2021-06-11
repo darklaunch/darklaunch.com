@@ -16,7 +16,7 @@ Through the creative splitting of ingredients, sugars are made to appear less pr
 * Pectin
 * Live Active Cultures
 
-A more honest ingredient list for this product might look like this:
+The same ingredients presented in a "flattened" and more honest way might look like this:
 
 * Cane Sugar
 * Grade A Pasteurized Whole Milk
