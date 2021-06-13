@@ -53,6 +53,7 @@ this code will give a result; "$return" is not the same as "return"
 anonymous &ndash; Jun 10, 2013<div>
 
 What about:
+```php
 function implode_with_key($assoc, $inglue = ':')
 {
     if(is_array($assoc) &amp;&amp; count($assoc)&gt;0)
@@ -65,6 +66,7 @@ function implode_with_key($assoc, $inglue = ':')
     }
     return false;
 }
+```
 
 </div></div></li><li><div>
 
@@ -83,16 +85,18 @@ I changed the inglue from , to =&gt;. Makes more sense to me.
 
 anonymous &ndash; May 12, 2016<div>
 
+```php
 function explode_with_key($assoc, $indelimiter = '=', $outdelimiter = '|') {
-        $return = [];
-        $assoc     = explode($outdelimiter, $assoc);
-        
-        foreach ($assoc as $ts) {
-            list($key, $value) = explode($indelimiter, $ts);
-            $return[$key] = $value;
-        }
-     
-        return $return;
+    $return = [];
+    $assoc = explode($outdelimiter, $assoc);
+
+    foreach ($assoc as $ts) {
+        list($key, $value) = explode($indelimiter, $ts);
+        $return[$key] = $value;
     }
+
+    return $return;
+}
+```
 
 </div></div></li></ol>
