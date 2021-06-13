@@ -59,7 +59,7 @@ anonymous &ndash; Apr 2, 2012<div>
 
 install easy_install with:
 
-wget <a href="http://python-distribute.org/distribute_setup.py">http://python-distribute.org/distribute_setup.py</a>
+wget http://python-distribute.org/distribute_setup.py
 sudo python distribute_setup.py
 
 </div></div></li><li><div>

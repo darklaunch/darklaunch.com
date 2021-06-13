@@ -113,7 +113,7 @@ https://www.darklaunch.com/2009/08/07/base58-encode-and-decode-using-php-with-ex
 
 anonymous &ndash; Jan 26, 2012<div>
 
-base58_encode('74') =&gt; 2h
+base58_encode('74') => 2h
 
 I do not see how this can be true. Why neglect the "1"?
 
@@ -154,7 +154,7 @@ BASE64_ALPHABET = BASE62_ALPHABET + '-_'
 ```
 
 from
-<a href="https://github.com/django/django/blob/master/django/utils/baseconv.py">https://github.com/django/django/blob/master/django/utils/baseconv.py</a>
+https://github.com/django/django/blob/master/django/utils/baseconv.py
 
 </div></div></li><li><div>
 
@@ -167,7 +167,7 @@ For Bitcoin:
 static const char* pszBase58 = "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz";
 ```
 
-from <a href="https://github.com/bitcoin/bitcoin/blob/HEAD/src/base58.cpp">https://github.com/bitcoin/bitcoin/blob/HEAD/src/base58.cpp</a>
+from https://github.com/bitcoin/bitcoin/blob/HEAD/src/base58.cpp
 
 </div></div></li><li><div>
 
@@ -181,7 +181,7 @@ anonymous &ndash; Oct 12, 2018<div>
 
 Regarding first comment:
 _________________
-base58_encode('74') =&gt; 2h
+base58_encode('74') => 2h
 I do not see how this can be true. Why neglect the "1"?
 base58_encode('74') should be  1h, no?
 _________________

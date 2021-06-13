@@ -55,7 +55,7 @@ vlc="PATH_TO_VLC"
 fmt="INPUT_EXT" 
 
 for a in *$fmt; do 
-$vlc -I dummy -vvv "$a" --sout "#transcode{vcodec=$vcodec,vb=$bitrate,acodec=$acodec,ab=$arate,channels=6}:standard{mux=$mux,dst=\"$a.$ext\",access=file}"<a>vlc://quit</a> 
+$vlc -I dummy -vvv "$a" --sout "#transcode{vcodec=$vcodec,vb=$bitrate,acodec=$acodec,ab=$arate,channels=6}:standard{mux=$mux,dst=\"$a.$ext\",access=file}"vlc://quit 
 done
 
 </div></div></li><li><div>

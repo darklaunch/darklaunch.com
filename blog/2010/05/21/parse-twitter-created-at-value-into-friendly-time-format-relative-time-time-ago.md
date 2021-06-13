@@ -92,16 +92,16 @@ function ago($a) {
     $day = $hour * 24;
     $week = $day * 7;
         
-    if(is_numeric($d) &amp;&amp; $d &gt; 0) {
+    if(is_numeric($d) && $d > 0) {
         
-        if($d &lt; 3) return "right now";
-        if($d &lt; $minute) return floor($d) . " seconds ago";
-        if($d &lt; $minute * 2) return "about 1 minute ago";
-        if($d &lt; $hour) return floor($d / $minute) . " minutes ago";
-        if($d &lt; $hour * 2) return "about 1 hour ago";
-        if($d &lt; $day) return floor($d / $hour) . " hours ago";
-        if($d &gt; $day &amp;&amp; $d &lt; $day * 2) return "yesterday";
-        if($d &lt; $day * 365) return floor($d / $day) . " days ago";
+        if($d < 3) return "right now";
+        if($d < $minute) return floor($d) . " seconds ago";
+        if($d < $minute * 2) return "about 1 minute ago";
+        if($d < $hour) return floor($d / $minute) . " minutes ago";
+        if($d < $hour * 2) return "about 1 hour ago";
+        if($d < $day) return floor($d / $hour) . " hours ago";
+        if($d > $day && $d < $day * 2) return "yesterday";
+        if($d < $day * 365) return floor($d / $day) . " days ago";
         
         return "over a year ago";
     }
@@ -164,31 +164,31 @@ var I = function (f) {
         c = b * 60,
         e = c * 24,
         Z = e * 7;
-    if (isNaN(g) || g &lt; 0) {
+    if (isNaN(g) || g < 0) {
         return ""
     }
-    if (g &lt; a * 7) {
+    if (g < a * 7) {
         return "right now"
     }
-    if (g &lt; b) {
+    if (g < b) {
         return Math.floor(g / a) + " seconds ago"
     }
-    if (g &lt; b * 2) {
+    if (g < b * 2) {
         return "about 1 minute ago"
     }
-    if (g &lt; c) {
+    if (g < c) {
         return Math.floor(g / b) + " minutes ago"
     }
-    if (g &lt; c * 2) {
+    if (g < c * 2) {
         return "about 1 hour ago"
     }
-    if (g &lt; e) {
+    if (g < e) {
         return Math.floor(g / c) + " hours ago"
     }
-    if (g &gt; e &amp;&amp; g &lt; e * 2) {
+    if (g > e && g < e * 2) {
         return "yesterday"
     }
-    if (g &lt; e * 365) {
+    if (g < e * 365) {
         return Math.floor(g / e) + " days ago"
     } else {
         return "over a year ago"
@@ -213,6 +213,6 @@ anonymous &ndash; Aug 30, 2013<div>
 
 for anyone still looking for a JavaScript implementation, use can now use Twitter's twitter-cldr-js.
 see the TwitterCldr.TimespanFormatter / Relative Dates and Times.
-<a href="https://github.com/twitter/twitter-cldr-js">https://github.com/twitter/twitter-cldr-js</a>
+https://github.com/twitter/twitter-cldr-js
 
 </div></div></li></ol>

@@ -111,9 +111,9 @@ make sure error reporting is on which may provide further detail:
         `ini_set('display_errors', 1);`
 
 also, check out
-<a href="http://us.php.net/manual/en/features.file-upload.common-pitfalls.php">http://us.php.net/manual/en/features.file-upload.common-pitfalls.php</a>
-<a href="http://us.php.net/manual/en/features.file-upload.errors.php">http://us.php.net/manual/en/features.file-upload.errors.php</a>
-<a href="http://us.php.net/manual/en/features.file-upload.post-method.php">http://us.php.net/manual/en/features.file-upload.post-method.php</a>
+http://us.php.net/manual/en/features.file-upload.common-pitfalls.php
+http://us.php.net/manual/en/features.file-upload.errors.php
+http://us.php.net/manual/en/features.file-upload.post-method.php
 
 </div></div></li><li><div>
 

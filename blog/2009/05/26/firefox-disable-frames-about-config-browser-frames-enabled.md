@@ -51,7 +51,7 @@ anonymous &ndash; Oct 8, 2014<div>
 Mozilla removed the browser.frames.enabled option in Firefox 32.
 
 Bug 1013457 removed this feature.
-<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1013457">https://bugzilla.mozilla.org/show_bug.cgi?id=1013457</a>
+https://bugzilla.mozilla.org/show_bug.cgi?id=1013457
 
 </div></div></li></ol></li><li><div>
 
@@ -64,6 +64,6 @@ didn't work. browser.frames is not a found
 anonymous &ndash; Sep 14, 2015<div>
 
 "Bug 1013457 - Remove the browser.frames.enabled pref"
-<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1013457">https://bugzilla.mozilla.org/show_bug.cgi?id=1013457</a>
+https://bugzilla.mozilla.org/show_bug.cgi?id=1013457
 
 </div></div></li></ol></li></ol>

@@ -59,7 +59,7 @@ anonymous &ndash; Feb 22, 2012<div>
 Alternatively, something like this works as well:
 
 ```
-eval python - &lt;&lt; EOF
+eval python - << EOF
 import sys
 from pprint import pprint
 pprint(sys.path)

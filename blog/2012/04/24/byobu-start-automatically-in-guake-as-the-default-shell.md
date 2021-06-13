@@ -42,9 +42,9 @@ Ryo
 
 anonymous &ndash; Feb 19, 2016<div>
 
-I just add this comment on related Guake issue: <a href="https://github.com/Guake/guake/issues/71#issuecomment-186029163">https://github.com/Guake/guake/issues/71#issuecomment-186029163</a>
+I just add this comment on related Guake issue: https://github.com/Guake/guake/issues/71#issuecomment-186029163
 
-    # apt-get install byobu &amp;&amp; which byobu | tee -a /etc/shells
+    # apt-get install byobu && which byobu | tee -a /etc/shells
     Run guake-prefs and change Default interpreter.
 
 </div></div></li><li><div>

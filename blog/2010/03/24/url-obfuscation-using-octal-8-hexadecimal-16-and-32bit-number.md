@@ -25,6 +25,6 @@ Nice Job!!!!!
 
 anonymous &ndash; May 1, 2011<div>
 
-<a href="http://010231406543">http://010231406543</a> is another obfuscated URL for <a href="www.google.com">www.google.com</a>
+http://010231406543 is another obfuscated URL for www.google.com
 
 </div></div></li></ol>

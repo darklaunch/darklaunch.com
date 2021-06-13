@@ -46,6 +46,6 @@ if not hasattr(subprocess, 'Popen'):
     subprocess.Popen = _fake_Popen
 ```
 
-<a href="https://github.com/nltk/nltk/blob/develop/nltk/__init__.py">https://github.com/nltk/nltk/blob/develop/nltk/__init__.py</a>
+https://github.com/nltk/nltk/blob/develop/nltk/__init__.py
 
 </div></div></li></ol>

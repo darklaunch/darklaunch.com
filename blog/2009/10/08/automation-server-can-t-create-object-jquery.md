@@ -70,7 +70,7 @@ anonymous &ndash; Jun 24, 2010<div>
 Note, while this is an old post, it came up high on a Google search. jQuery has addressed this similarly, but with refinements, in later code (sample below from 1.4.2, released a year later):
 
 ```
-xhr: window.XMLHttpRequest &amp;&amp; (window.location.protocol !== "file:" || !window.ActiveXObject) ?
+xhr: window.XMLHttpRequest && (window.location.protocol !== "file:" || !window.ActiveXObject) ?
   function() {
     return new window.XMLHttpRequest();
   } :

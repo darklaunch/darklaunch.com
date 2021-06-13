@@ -26,6 +26,6 @@ anonymous &ndash; Jan 12, 2016<div>
 
 `.queryset` changed to `.get_queryset` in Django 1.6
 
-<a href="https://docs.djangoproject.com/en/dev/ref/contrib/admin/#django.contrib.admin.ModelAdmin.get_queryset">https://docs.djangoproject.com/en/dev/ref/contrib/admin/#django.contrib.admin.ModelAdmin.get_queryset</a>
+https://docs.djangoproject.com/en/dev/ref/contrib/admin/#django.contrib.admin.ModelAdmin.get_queryset
 
 </div></div></li></ol>

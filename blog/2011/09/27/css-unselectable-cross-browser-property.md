@@ -51,7 +51,7 @@ there should be .selectable in the second part of code. isn't it?
 
 anonymous &ndash; Jul 20, 2012<div>
 
-&gt;&gt; there should be .selectable in the second part of code. isn't it?
+>> there should be .selectable in the second part of code. isn't it?
 
 no there shouldn't be. the ".unselectable" in the second part overrides the first part with the !important.
 

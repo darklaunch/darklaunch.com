@@ -49,7 +49,7 @@ var bar = document.getElementById("PersonalToolbar");
 setToolbarVisibility(bar, bar.collapsed);
 ```
 
-source: <a href="http://forums.mozillazine.org/viewtopic.php?f=48&amp;t=72994&amp;start=1860">http://forums.mozillazine.org/viewtopic.php?f=48&amp;t=72994&amp;start=1860</a>
+source: http://forums.mozillazine.org/viewtopic.php?f=48&t=72994&start=1860
 
 </div></div></li><li><div>
 

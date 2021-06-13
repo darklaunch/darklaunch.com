@@ -164,7 +164,7 @@ $ echo -n "âœ“" | python -c 'import sys; print [sys.stdin.read()]'
 
 anonymous &ndash; Jul 29, 2016<div>
 
-$ echo -n "â€" | python -c 'import sys; print [sys.stdin.read()]'
+$ echo -n "â€" | python -c 'import sys; print [sys.stdin.read()]'
 ['\xe2\x80\x9d']
 
 </div></div></li></ol>

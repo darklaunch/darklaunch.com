@@ -191,7 +191,7 @@ anonymous &ndash; Aug 21, 2015<div>
 
 Here is some info on mounting partitions in Ubuntu
 
-<a href="https://help.ubuntu.com/community/Fstab">https://help.ubuntu.com/community/Fstab</a>
+https://help.ubuntu.com/community/Fstab
 
 </div></div></li><li><div>
 

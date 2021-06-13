@@ -41,7 +41,7 @@ thanks for posting this, it helped me big time today
 anonymous &ndash; Nov 29, 2012<div>
 
 Link to original source file
-<a href="http://core.svn.wordpress.org/trunk/wp-includes/functions.php">http://core.svn.wordpress.org/trunk/wp-includes/functions.php</a>
+http://core.svn.wordpress.org/trunk/wp-includes/functions.php
 
 </div></div></li><li><div>
 
@@ -55,6 +55,6 @@ var you are checking = the value you want to check it against
 
 anonymous &ndash; Aug 10, 2016<div>
 
-Link to latest <a href="https://github.com/WordPress/WordPress/blob/HEAD/wp-includes/load.php">https://github.com/WordPress/WordPress/blob/HEAD/wp-includes/load.php</a>
+Link to latest https://github.com/WordPress/WordPress/blob/HEAD/wp-includes/load.php
 
 </div></div></li></ol>

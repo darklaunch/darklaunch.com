@@ -199,6 +199,6 @@ are any snippets working?
 try moving the snippet into the [Default] section and retrying the snippet:
 
 [Default]
-for=for (int i = 0; i &lt; %cursor%; i++)%brace_open%\n%brace_close%
+for=for (int i = 0; i < %cursor%; i++)%brace_open%\n%brace_close%
 
 </div></div></li></ol></li></ol>

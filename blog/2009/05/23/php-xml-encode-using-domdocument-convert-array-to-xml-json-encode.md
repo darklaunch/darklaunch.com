@@ -133,7 +133,7 @@ $mixed = is_bool($mixed) ? ($mixed ? 'true' : 'false') : $mixed;
 
         else {
             $mixed = is_bool($mixed) ? ($mixed ? 'true' : 'false') : $mixed;
-            $domElement-&gt;appendChild($DOMDocument-&gt;createTextNode($mixed));
+            $domElement->appendChild($DOMDocument->createTextNode($mixed));
         }
 
 </div></div></li><li><div>
@@ -142,7 +142,7 @@ anonymous &ndash; Mar 6, 2011<div>
 
 This is great .. the only change I made was:
 
-if (rtrim($index,'s')!==$index &amp;&amp; count($mixedElement)&gt;1) {
+if (rtrim($index,'s')!==$index && count($mixedElement)>1) {
 
 Any node ending with 's' was causing an unecessary child node.  (ie: STATUS was  STATUS with a child node STATU)
 

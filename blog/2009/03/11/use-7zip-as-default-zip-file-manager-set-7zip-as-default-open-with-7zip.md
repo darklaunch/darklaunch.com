@@ -27,7 +27,7 @@ https://www.darklaunch.com/2009/03/11/use-7zip-as-default-zip-file-manager-set-7
 
 anonymous &ndash; Jul 5, 2012<div>
 
-7-zip set as default zip file manager. Excellent ! Has a bit of difference on my comp. at steps 7. &amp; 8. Got it completed o.k. with a bit of trial &amp; err. Thanks !!
+7-zip set as default zip file manager. Excellent ! Has a bit of difference on my comp. at steps 7. & 8. Got it completed o.k. with a bit of trial & err. Thanks !!
 
 </div></div></li><li><div>
 

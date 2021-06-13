@@ -79,8 +79,8 @@ As used in wordpress:
 /**
  * Send a HTTP header to disable content type sniffing in browsers which support it.
  *
- * @link <a href="http://blogs.msdn.com/ie/archive/2008/07/02/ie8-security-part-v-comprehensive-protection.aspx">http://blogs.msdn.com/ie/archive/2008/07/02/ie8-security-part-v-comprehensive-protection.aspx</a>
- * @link <a href="http://src.chromium.org/viewvc/chrome?view=rev&amp;revision=6985">http://src.chromium.org/viewvc/chrome?view=rev&amp;revision=6985</a>
+ * @link http://blogs.msdn.com/ie/archive/2008/07/02/ie8-security-part-v-comprehensive-protection.aspx
+ * @link http://src.chromium.org/viewvc/chrome?view=rev&revision=6985
  *
  * @since 3.0.0
  * @return none
@@ -90,6 +90,6 @@ function send_nosniff_header() {
 }
 ```
 
-<a href="https://core.svn.wordpress.org/trunk/wp-includes/functions.php">https://core.svn.wordpress.org/trunk/wp-includes/functions.php</a>
+https://core.svn.wordpress.org/trunk/wp-includes/functions.php
 
 </div></div></li></ol>

@@ -41,7 +41,7 @@ anonymous &ndash; Aug 3, 2012<div>
 Hi,
 I have tried many different things and install MySQLdb. If I type from the interpreter import MySQLdb it works. But when I try to do it using DJANGO it fails giving this error
 
-: Error loading MySQLdb module: No module named MySQLdb 
+<class 'django.core.exceptions.ImproperlyConfigured'>: Error loading MySQLdb module: No module named MySQLdb 
       args = ('Error loading MySQLdb module: No module named MySQLdb',) 
       message = 'Error loading MySQLdb module: No module named MySQLdb'
 
@@ -88,6 +88,6 @@ Possible errors:
 - ImportError: No module named 'ConfigParser' (from ConfigParser import SafeConfigParser)
 - SyntaxError: invalid syntax (_KEYCRE = re.compile(ur"%\(([^)]+)\)s"))
 
-<a href="https://docs.djangoproject.com/en/dev/ref/databases/#mysql-db-api-drivers">https://docs.djangoproject.com/en/dev/ref/databases/#mysql-db-api-drivers</a>
+https://docs.djangoproject.com/en/dev/ref/databases/#mysql-db-api-drivers
 
 </div></div></li></ol>

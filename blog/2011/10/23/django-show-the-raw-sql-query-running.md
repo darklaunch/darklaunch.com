@@ -34,7 +34,7 @@ anonymous &ndash; Dec 12, 2013<div>
 
 see also debugsqlshell in django-debug-toolbar.
 
-<a href="https://github.com/django-debug-toolbar/django-debug-toolbar/blob/master/debug_toolbar/management/commands/debugsqlshell.py">https://github.com/django-debug-toolbar/django-debug-toolbar/blob/master/debug_toolbar/management/commands/debugsqlshell.py</a>
+https://github.com/django-debug-toolbar/django-debug-toolbar/blob/master/debug_toolbar/management/commands/debugsqlshell.py
 
 </div></div></li><li><div>
 
@@ -49,7 +49,7 @@ l.setLevel(logging.DEBUG)
 l.addHandler(logging.StreamHandler())
 ```
 
-<a href="https://stackoverflow.com/questions/2314920/django-show-log-orm-sql-calls-from-python-shell">https://stackoverflow.com/questions/2314920/django-show-log-orm-sql-calls-from-python-shell</a>
+https://stackoverflow.com/questions/2314920/django-show-log-orm-sql-calls-from-python-shell
 
 </div></div></li><li><div>
 
@@ -58,8 +58,8 @@ anonymous &ndash; Dec 18, 2013<div>
 Also:
 
 ```
-&gt;&gt;&gt; queryset = MyModel.objects.all()
-&gt;&gt;&gt; print queryset.query
+>>> queryset = MyModel.objects.all()
+>>> print queryset.query
 SELECT "myapp_mymodel"."id", ... FROM "myapp_mymodel"
 ```
 

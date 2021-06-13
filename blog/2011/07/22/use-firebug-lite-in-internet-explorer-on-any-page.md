@@ -42,7 +42,7 @@ but sometime it is not working.
 
 anonymous &ndash; Mar 26, 2012<div>
 
-no... it just does a search on '<a>javascript:var</a> script = document.createElement("script"); script.type = "text/javascript"; script.src = "<a href="https://getfirebug.com/firebug-lite.js">https://getfirebug.com/firebug-lite.js</a>"; document.getElementsByTagName("body")[0].appendChild(script); void(0);'
+no... it just does a search on 'javascript:var script = document.createElement("script"); script.type = "text/javascript"; script.src = "https://getfirebug.com/firebug-lite.js"; document.getElementsByTagName("body")[0].appendChild(script); void(0);'
 
 </div></div></li><li><div>
 

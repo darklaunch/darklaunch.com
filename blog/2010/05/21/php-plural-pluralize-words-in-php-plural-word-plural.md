@@ -43,7 +43,7 @@ Party plural is Parties not Partys.
 
 anonymous &ndash; Jul 7, 2014<div>
 
-for ($i = 0; $i &lt;= 3; $i++) {
+for ($i = 0; $i <= 3; $i++) {
     echo $i . ' ' . plural($i, 'child', 'children') . "\n";
 }
 

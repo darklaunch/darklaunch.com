@@ -81,7 +81,7 @@ Google Chrome on OSX is located ~/Library/Application Support/Google/Chrome/Defa
 
 anonymous &ndash; Nov 4, 2011<div>
 
-<a href="http://src.chromium.org/viewvc/chrome/trunk/src/content/public/common/content_switches.cc">http://src.chromium.org/viewvc/chrome/trunk/src/content/public/common/content_switches.cc</a>
+http://src.chromium.org/viewvc/chrome/trunk/src/content/public/common/content_switches.cc
 
 </div></div></li><li><div>
 

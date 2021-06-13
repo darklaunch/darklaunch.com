@@ -22,6 +22,6 @@ anonymous &ndash; Nov 24, 2020<div>
 
 See also rolling releases like Arch, Gentoo, Manjaro, etc.
 
-<a href="https://en.wikipedia.org/wiki/Rolling_release">https://en.wikipedia.org/wiki/Rolling_release</a>
+https://en.wikipedia.org/wiki/Rolling_release
 
 </div></div></li></ol>

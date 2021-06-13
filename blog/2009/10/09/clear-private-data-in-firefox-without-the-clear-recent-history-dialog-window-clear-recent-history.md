@@ -102,6 +102,6 @@ no worky for 3.6
 anonymous &ndash; Feb 6, 2010<div>
 
 Use the Sanitisminau Firefox extension to clear your history without asking
-<a href="https://addons.mozilla.org/en-US/firefox/addon/5364/">https://addons.mozilla.org/en-US/firefox/addon/5364/</a>
+https://addons.mozilla.org/en-US/firefox/addon/5364/
 
 </div></div></li></ol>

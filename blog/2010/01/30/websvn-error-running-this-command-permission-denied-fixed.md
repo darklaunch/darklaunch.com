@@ -55,6 +55,6 @@ anonymous &ndash; Jun 30, 2011<div>
 also add to /etc/sudoers file:
 www-data ALL=(ALL) NOPASSWD:ALL
 
-sudo bash -c 'echo -e "www-data ALL=(ALL) NOPASSWD:ALL" &gt;&gt; /etc/sudoers'
+sudo bash -c 'echo -e "www-data ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers'
 
 </div></div></li></ol>

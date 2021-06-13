@@ -56,9 +56,9 @@ What about:
 ```php
 function implode_with_key($assoc, $inglue = ':')
 {
-    if(is_array($assoc) &amp;&amp; count($assoc)&gt;0)
+    if(is_array($assoc) && count($assoc)>0)
     {
-        foreach ($assoc as $tk =&gt; $tv) 
+        foreach ($assoc as $tk => $tv) 
         {
             $return[] = $tk . $inglue . $tv;
         }
@@ -79,7 +79,7 @@ This is exactly what I was looking for! Thanks for sharing.
 anonymous &ndash; Nov 7, 2013<div>
 
 This is exactly what I was looking for! Thanks for sharing.
-I changed the inglue from , to =&gt;. Makes more sense to me.
+I changed the inglue from , to =>. Makes more sense to me.
 
 </div></div></li><li><div>
 
