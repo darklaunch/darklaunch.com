@@ -81,7 +81,7 @@ Thank you very much
 anonymous &ndash; Oct 13, 2010<div>
 
 Here's the PHP version:
-
+```php
 function ago($a) {
         
     $b = strtotime("now"); 
@@ -106,6 +106,7 @@ function ago($a) {
         return "over a year ago";
     }
 }
+```
 
 </div></div></li><li><div>
 
@@ -144,7 +145,7 @@ Gracias!
 anonymous &ndash; May 16, 2012<div>
 
 Compiled JavaScript Code has been changed:
-
+```javascript
 var X = function () {
     var Z = navigator.userAgent;
     return {
@@ -194,6 +195,7 @@ var I = function (f) {
         return "over a year ago"
     }
 };
+```
 
 </div></div></li><li><div>
 
