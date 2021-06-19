@@ -36,10 +36,10 @@ anonymous &ndash; May 15, 2013<div>
 
 Hi! I have this problem but on mac! Can you help me?
 
-</div></div></li><li><div>
+</div></div><ol><li><div>
 
 anonymous &ndash; May 15, 2013<div>
 
 Look closely at the error log, what do you see causing the command 'gcc' failed with exit status 1 error?
 
-</div></div></li></ol>
+</div></div></li></ol></li></ol>
