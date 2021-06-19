@@ -1,3 +1,5 @@
+# Django Show the Raw SQL Query Running
+
 <img alt="" src="/img/uploads/2011-10/how-can-i-see-the-raw-sql-queries-django-is-running.png" />
 
 To see the raw SQL queries Django is running, do the following:

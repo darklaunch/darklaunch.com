@@ -1,3 +1,5 @@
+# JavaScript validate date is greater than current date
+
 To check if a date is greater than today in JavaScript, use the following:
 
 ```javascript

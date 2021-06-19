@@ -1,3 +1,5 @@
+# Yet Another Reason To Not Use Mercurial
+
 From the official Mercurial website, here is a quote for yet another reason against using Mercurial
 
 > "... if you attempt to use a branch per bugfix, you may eventually run into performance issues. Mercurial is designed to work well with hundreds of branches. It still works quite well with ten thousand branches, but some commands might show noticeable overhead which you will only see after your workflow already stabilized."

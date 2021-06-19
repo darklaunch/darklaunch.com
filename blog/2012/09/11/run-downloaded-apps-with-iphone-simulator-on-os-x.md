@@ -1,3 +1,5 @@
+# Run Downloaded Apps with iPhone Simulator on OS X
+
 To run downloaded apps with the iPhone Simulator, do the following:
 
 ```

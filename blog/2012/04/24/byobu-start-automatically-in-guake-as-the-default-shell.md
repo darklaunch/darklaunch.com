@@ -1,3 +1,5 @@
+# Byobu start automatically in guake as the default shell
+
 To launch byobu automatically at login, on the command line, run `byobu-enable`. byobu-enable is a "wrapper script for enabling/disabling automatic startup of byobu after login into text console".
 
 ```bash

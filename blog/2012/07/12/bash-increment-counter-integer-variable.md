@@ -1,3 +1,5 @@
+# Bash Increment Counter Integer Variable
+
 To increment a counter in bash, use any of the following:
 
 ```sh

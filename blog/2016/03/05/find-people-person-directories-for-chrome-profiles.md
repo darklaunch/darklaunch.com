@@ -1,3 +1,5 @@
+# Find People/Person directories for Chrome profiles
+
 ```sh
 $ cd ~/Library/Application\ Support/Google/Chrome
 $ find . -type d -iname "Profile *" -maxdepth 1 -exec php -r '$dir = ltrim("{}", "./"); echo $dir . " => "; echo json_decode(file_get_contents(getcwd() . "/" . $dir . "/Preferences"), false)->profile->name . "\n";' \;

@@ -1,3 +1,5 @@
+# Python Execute PHP script with parameters
+
 Call php code from a Python script. The following Python script executes a PHP script and outputs the results.
 
 ```python

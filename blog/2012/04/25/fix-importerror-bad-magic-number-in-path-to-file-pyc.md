@@ -1,3 +1,5 @@
+# Fix "ImportError: Bad magic number in /path/to/file.pyc"
+
 To fix the "ImportError: Bad magic number" error, you will need to remove existing .pyc compiled python files.
 
 ```bash

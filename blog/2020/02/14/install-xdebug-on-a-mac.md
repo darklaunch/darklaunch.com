@@ -1,3 +1,5 @@
+# Install xdebug on a Mac
+
 Use pecl instead of brew to install xdebug on a Mac.
 
 Install

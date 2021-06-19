@@ -1,3 +1,5 @@
+# Django call class based view in script
+
 Call a Django view with query parameters using querydict in a python script.
 
 A simple view we want to call from a script:

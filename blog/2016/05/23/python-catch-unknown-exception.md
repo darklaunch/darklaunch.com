@@ -1,3 +1,5 @@
+# Python catch "unknown" exception
+
 Unable to catch the python exception?
 
 First, use a catch all exception and see what exception it throws. The class and module will hint at where you may import the exception to catch from.

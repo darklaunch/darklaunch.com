@@ -1,3 +1,5 @@
+# Bash extract between two strings using sed
+
 Extract between a start and an end string using `sed`.
 
 The following will extract content between html comments in markdown (.md) files:

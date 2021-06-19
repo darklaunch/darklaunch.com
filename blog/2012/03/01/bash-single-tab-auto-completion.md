@@ -1,3 +1,5 @@
+# Bash single-tab auto completion
+
 You can tell bash to display possible completions by pressing the tab key only once instead of the usual twice. Add the following to your `~/.inputrc` file:
 
 ```sh

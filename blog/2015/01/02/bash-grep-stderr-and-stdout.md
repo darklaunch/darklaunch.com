@@ -1,3 +1,5 @@
+# Bash grep stderr and stdout
+
 Grep stderr by redirecting stderr to stdout.
 
 ```bash

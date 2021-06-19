@@ -1,3 +1,5 @@
+# Fix: "bash: /bin/rm: Argument list too long"
+
 Attempting to delete a large list of files may error with "Argument list too long".
 
 ```bash

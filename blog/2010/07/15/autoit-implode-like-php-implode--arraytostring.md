@@ -1,3 +1,5 @@
+# AutoIt implode like PHP implode(); _ArrayToString()
+
 ```autoit
 Func implode($glue, $pieces)
 	Return _ArrayToString($pieces, $glue)

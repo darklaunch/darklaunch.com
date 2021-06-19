@@ -1,3 +1,5 @@
+# Recursively diff two directories and exclude folders; SVN diff
+
 Exclude .svn folders when diffing two directories.
 
 ```

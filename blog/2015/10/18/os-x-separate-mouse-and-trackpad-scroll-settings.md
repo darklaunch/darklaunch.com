@@ -1,3 +1,5 @@
+# OS X Separate mouse and trackpad scroll settings
+
 Use Karabiner (https://github.com/tekezo/Karabiner) to change mouse and trackpad scroll settings. Edit private.xml.
 
 ```

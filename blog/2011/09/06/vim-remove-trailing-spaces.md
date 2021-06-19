@@ -1,3 +1,5 @@
+# Vim remove trailing spaces
+
 To remove all trailing spaces in vim, use the following command:
 
 ```

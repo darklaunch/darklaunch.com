@@ -1,3 +1,5 @@
+# PHP Disable X-PHP-Originating-Script header
+
 Disable php's `X-PHP-Originating-Script` header in `php.ini`
 
 ```

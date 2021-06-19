@@ -1,3 +1,5 @@
+# How to remote mount with password using SSHFS and stdin; Ubuntu sshfs remote mounting; MOSSO
+
 This will allow you to mount a remote ssh filesystem using sshfs (Secure SHell FileSystem):
 
 ```bash

@@ -1,3 +1,5 @@
+# PHP loading animation using spin marks
+
 Display a loading animation using php.
 
 ```php

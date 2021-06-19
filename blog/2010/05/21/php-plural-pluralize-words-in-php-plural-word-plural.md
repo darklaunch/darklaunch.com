@@ -1,3 +1,5 @@
+# PHP Plural; Pluralize Words in PHP; Plural Word, plural()
+
 ```php
 function plural($count, $singular, $plural = 's') {
     if ($plural === 's') {

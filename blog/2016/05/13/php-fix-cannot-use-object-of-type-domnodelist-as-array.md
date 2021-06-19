@@ -1,3 +1,5 @@
+# PHP fix: Cannot use object of type DOMNodeList as array
+
 Fix php error Cannot use object of type DOMNodeList as array. Use `->item()` instead of array access.
 
 ```php

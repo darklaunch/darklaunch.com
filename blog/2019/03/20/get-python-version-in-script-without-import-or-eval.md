@@ -1,3 +1,5 @@
+# Get python version in script without import or eval
+
 Find variable assignments in a python file using the ast module without executing the file.
 
 Given any of the following 3 files, we can find the value of the `VERSION` variable.

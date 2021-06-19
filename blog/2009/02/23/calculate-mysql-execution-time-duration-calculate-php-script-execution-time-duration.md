@@ -1,3 +1,5 @@
+# Calculate MySQL Execution Time/Duration; Calculate PHP Script Execution Time/Duration
+
 ```php
 <?php
 $stats = array();

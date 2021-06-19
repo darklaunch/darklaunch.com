@@ -1,3 +1,5 @@
+# Base58 Encode and Decode using PHP with example; base58_encode(), base58_decode()
+
 Base58 is base62 with ambiguous characters removed. These removed are `0`, `O`, `l`, `I` for the Flickr Base58 character set.
 
 ```

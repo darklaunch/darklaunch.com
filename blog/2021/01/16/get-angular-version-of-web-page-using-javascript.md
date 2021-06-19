@@ -1,3 +1,5 @@
+# Get Angular version of web page using JavaScript
+
 Use this snippet of JavaScript to determine the exact version of Angular a web page is using.
 
 ```javascript

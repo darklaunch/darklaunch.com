@@ -1,3 +1,5 @@
+# Ubuntu Remap Caps Lock to F12
+
 To remap `Caps Lock` to `F12`, go to Ubuntu > Startup Applications > Add > enter the command:
 
 ```

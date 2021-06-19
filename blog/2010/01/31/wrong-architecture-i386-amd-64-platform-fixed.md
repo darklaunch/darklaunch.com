@@ -1,3 +1,5 @@
+# Wrong architecture 'i386', AMD 64 platform, fixed
+
 ```
 sudo apt-get install libnspr4-dev
 ```

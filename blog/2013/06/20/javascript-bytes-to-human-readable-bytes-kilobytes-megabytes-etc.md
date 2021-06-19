@@ -1,3 +1,5 @@
+# JavaScript bytes to human readable bytes, kilobytes, megabytes, etc.
+
 ```javascript
 function prettySize(bytes) {
     var units = ['bytes', 'kb', 'MB', 'GB', 'TB', 'PB'];

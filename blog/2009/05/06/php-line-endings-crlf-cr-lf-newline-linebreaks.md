@@ -1,3 +1,5 @@
+# PHP Line Endings; CRLF; CR; LF; Newline; Linebreaks
+
 ```php
 define('CR', "\r");          // Carriage Return: Mac
 define('LF', "\n");          // Line Feed: Unix

@@ -1,3 +1,5 @@
+# Rhythmbox "Unable to find or create trash directory" fixed
+
 Rhythmbox with debugging turned on displayed this when attempting to "Move to Trash":
 ```
 rhythmbox --debug

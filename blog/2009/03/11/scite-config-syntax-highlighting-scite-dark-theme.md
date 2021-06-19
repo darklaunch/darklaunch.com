@@ -1,3 +1,5 @@
+# SciTE Config - Syntax Highlighting; SciTE Dark Theme
+
 http://code.google.com/p/scite-config/
 
     * AU3

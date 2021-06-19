@@ -1,3 +1,5 @@
+# git show list of all files changed between two commits & zip them
+
 To show a list of the files changed between git commits, do the following:
 
 ```bash

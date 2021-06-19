@@ -1,3 +1,5 @@
+# JavaScript startsWith function string, characters
+
 JavaScript starts with a string.
 
 ```javascript

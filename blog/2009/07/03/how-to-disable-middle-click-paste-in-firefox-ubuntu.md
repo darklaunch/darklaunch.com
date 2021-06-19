@@ -1,3 +1,5 @@
+# How to disable middle click paste in Firefox; Ubuntu
+
 Type `about:config` in the address bar of Firefox.
 
 In the Filter field type: middlemouse

@@ -1,3 +1,5 @@
+# don't, just don't
+
 don't use short open tags: `<? ?>;` always use the long form of the PHP open tag (`<?php ?>`)
 
 don't use print; use echo

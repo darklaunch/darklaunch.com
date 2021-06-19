@@ -1,3 +1,5 @@
+# Byobu resize panes up, down, left, right
+
 Press `Ctrl` + `a` and type `:resize-pane` followed by a direction flag. Optionally, include a distance.
 
 Use one of the following resize-pane commands to resize:

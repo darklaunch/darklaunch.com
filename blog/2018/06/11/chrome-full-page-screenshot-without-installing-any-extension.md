@@ -1,3 +1,5 @@
+# Chrome full page screenshot (without installing any extension)
+
 Create a full page screenshot in Chrome without installing any extension. Use the full size screenshot option in developer tools.
 
 1. Open developer tools

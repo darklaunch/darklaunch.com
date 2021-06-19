@@ -1,3 +1,5 @@
+# Make a bash alias with parameters or argument; pass args, parameter
+
 Bash aliases do not accept parameters. Thus, we need to change aliases that use parameters into functions.
 
 ```sh

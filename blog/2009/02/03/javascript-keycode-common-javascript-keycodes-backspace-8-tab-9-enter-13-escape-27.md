@@ -1,3 +1,5 @@
+# JavaScript KeyCode; Common JavaScript KeyCodes; Backspace (8), Tab (9), Enter (13), Escape (27)
+
 JavaScript keycodes.
 ```javascript
 var keyCode = {

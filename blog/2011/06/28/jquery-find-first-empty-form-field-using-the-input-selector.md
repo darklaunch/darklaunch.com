@@ -1,3 +1,5 @@
+# jQuery find first empty form field using the :input selector
+
 Find the first empty form field in JavaScript using jQuery with the example below.
 
 ```javascript

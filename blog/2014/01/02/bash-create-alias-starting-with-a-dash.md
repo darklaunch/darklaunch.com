@@ -1,3 +1,5 @@
+# Bash create alias starting with a dash
+
 To create an alias that starts with a dash, use a double-dash to signify the end of the command options.
 
 ```bash

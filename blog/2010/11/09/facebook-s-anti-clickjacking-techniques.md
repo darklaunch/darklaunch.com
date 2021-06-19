@@ -1,3 +1,5 @@
+# Facebook's Anti-Clickjacking Techniques
+
 Facebook uses a frame breaker to help mitigate clickjacking: `X-Frame-Options` with "deny". They send off analytics in the process.
 
 ```javascript

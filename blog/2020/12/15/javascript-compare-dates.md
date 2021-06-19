@@ -1,3 +1,5 @@
+# JavaScript compare dates
+
 Compare two dates in JavaScript.
 
 ```javascript

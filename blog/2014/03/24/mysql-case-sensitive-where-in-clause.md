@@ -1,3 +1,5 @@
+# MySQL Case Sensitive WHERE IN Clause
+
 MySQL WHERE IN case sensitive select clause.
 
 ```sql

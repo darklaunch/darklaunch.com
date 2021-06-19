@@ -1,3 +1,5 @@
+# Close Terminal After Script Completes / Command Exits
+
 To close Terminal after a script completes you will need to change it in the profile preference.
 
 Open Terminal.

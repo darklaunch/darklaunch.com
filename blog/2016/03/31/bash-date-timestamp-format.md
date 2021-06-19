@@ -1,3 +1,5 @@
+# Bash date timestamp format
+
 Create a timestamp in bash using the date command invoked with a format string.
 
 ```sh

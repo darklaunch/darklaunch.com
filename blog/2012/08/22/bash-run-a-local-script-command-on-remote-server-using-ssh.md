@@ -1,3 +1,5 @@
+# Bash Run a Local Script & Command on Remote Server using SSH
+
 Use ssh to run a local bash script on a remote computer.
 
 Use the following syntax:

@@ -1,3 +1,5 @@
+# How to format a dollar amount using PHP; money format; number_format
+
 This will format a number into a dollar amount.
 
 ```php

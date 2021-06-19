@@ -1,3 +1,5 @@
+# Print terminal colors
+
 <img alt="" src="/img/uploads/2020-05/shell-colors.png" />
 <img alt="" src="/img/uploads/2020-05/shell-256-colors.png" />
 

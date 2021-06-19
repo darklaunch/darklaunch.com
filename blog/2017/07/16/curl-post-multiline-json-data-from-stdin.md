@@ -1,3 +1,5 @@
+# Curl post multiline json data from stdin
+
 POST json data with Curl from the command line via STDIN.
 
 ```bash

@@ -1,3 +1,5 @@
+# PHP bash command line stdin
+
 Read stdin using php on the command line. 
 
 ```sh

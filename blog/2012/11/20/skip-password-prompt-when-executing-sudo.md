@@ -1,3 +1,5 @@
+# Skip Password Prompt When Executing sudo
+
 To skip the system prompt for the administrator's password, edit the sudoers file using `visudo` add the following replacing "user" with your username:
 
 ```

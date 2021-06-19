@@ -1,3 +1,5 @@
+# Python's pexpect.spawn expects arguments not str.format
+
 Use list of arguments with `pexpect.spawn` instead of `str.format`.
 
 ```python

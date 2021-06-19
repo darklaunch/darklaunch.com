@@ -1,3 +1,5 @@
+# JavaScript Timer; JavaScript Duration; Measure the duration of a JavaScript event
+
 To time and measure the duration of a JavaScript event.
 
 ```js

@@ -1,3 +1,5 @@
+# Bash date timestamp
+
 Bash timestamp with seconds.
 
 ```bash

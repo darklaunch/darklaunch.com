@@ -1,3 +1,5 @@
+# Bash count lines in file
+
 Use `wc` or `grep` to count the number of lines.
 
 ```

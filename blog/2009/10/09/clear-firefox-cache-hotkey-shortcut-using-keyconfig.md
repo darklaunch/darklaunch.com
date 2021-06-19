@@ -1,3 +1,5 @@
+# Clear Firefox Cache Hotkey/Shortcut using Keyconfig
+
 UPDATE: https://addons.mozilla.org/en-US/firefox/addon/5364/
 
 ---

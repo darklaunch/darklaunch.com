@@ -1,3 +1,5 @@
+# Bash remove section of string using sed
+
 Use sed to remove lines starting at `BEGIN` and ending with `END` line markers.
 
 ```sh

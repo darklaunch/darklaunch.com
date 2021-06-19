@@ -1,3 +1,5 @@
+# Remove nodes fetched using document.querySelectorAll
+
 Find html nodes using document.querySelectorAll and remove them.
 
 ```javascript

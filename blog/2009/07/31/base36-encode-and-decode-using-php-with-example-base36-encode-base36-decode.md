@@ -1,3 +1,5 @@
+# Base36 Encode and Decode using PHP with example; base36_encode(), base36_decode()
+
 > Base 36 is the most compact case-insensitive alphanumeric numeral system using ASCII characters.
 ```php
 function base36_encode($base10) {

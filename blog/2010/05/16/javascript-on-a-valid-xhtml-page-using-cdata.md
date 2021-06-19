@@ -1,3 +1,5 @@
+# JavaScript on a Valid XHTML page using CDATA
+
 Best option:
 ```javascript
 <script type="text/javascript">

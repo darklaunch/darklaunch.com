@@ -1,3 +1,5 @@
+# CSS and Html Loading; Full screen loading; width:100%, height:100%;
+
 ```html
 <div id="splash">
     <table height="90%" width="100%">

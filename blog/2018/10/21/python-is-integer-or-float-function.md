@@ -1,3 +1,5 @@
+# Python is integer or float function
+
 Return true when the string is an integer or float.
 
 ```python

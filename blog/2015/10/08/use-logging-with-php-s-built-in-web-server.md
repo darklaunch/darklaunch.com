@@ -1,3 +1,5 @@
+# Use logging with PHP's built-in web server
+
 Write to the php built-in web server's log.
 
 ```php

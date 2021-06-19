@@ -1,3 +1,5 @@
+# Append and prepend a variable string to each line
+
 Use `sed` to either append or prepend a variable string to each input line.
 
 Append a string to each input line:

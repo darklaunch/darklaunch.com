@@ -1,3 +1,5 @@
+# JavaScript function with default options
+
 Use Object.assign to merge objects.
 
 ```javascript

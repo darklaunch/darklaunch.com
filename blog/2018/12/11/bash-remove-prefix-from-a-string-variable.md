@@ -1,3 +1,5 @@
+# Bash remove prefix from a string variable
+
 Remove a leading string from a variable. The string after the number sign is removed from the variable.
 
 ```bash

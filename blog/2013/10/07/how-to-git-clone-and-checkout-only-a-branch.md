@@ -1,3 +1,5 @@
+# How to git clone and checkout only a branch
+
 To git clone a specific branch without downloading the entire repository, do the following:
 
 ```

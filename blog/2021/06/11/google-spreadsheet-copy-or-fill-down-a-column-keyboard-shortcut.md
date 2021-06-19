@@ -1,3 +1,5 @@
+# Google spreadsheet copy or fill down a column keyboard shortcut
+
 <img alt="" src="/img/uploads/2021-06/google-spreadsheet-fill-down.gif" />
 
 Option 1 (slower): With the mouse, click and drag the lower right corner of the currently selected cell, filling the cells with a copy of the original formula.

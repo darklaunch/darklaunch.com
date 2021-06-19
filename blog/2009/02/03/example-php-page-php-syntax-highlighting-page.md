@@ -1,3 +1,5 @@
+# Example PHP Page; PHP Syntax Highlighting Page
+
 ```php
 <?php
 /**

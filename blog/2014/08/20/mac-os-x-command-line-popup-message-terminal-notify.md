@@ -1,3 +1,5 @@
+# Mac OS X Command Line Popup Message / Terminal Notify
+
 To popup a message on OS X using the command line, use terminal-notifier.
 
 ```bash

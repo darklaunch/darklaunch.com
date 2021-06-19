@@ -1,3 +1,5 @@
+# Windows Disable Balloon Tips; Turn Off Traytip Notifications; regedit; registry
+
 To disable notifications in your system tray, import the following to the registry:
 ```ini
 Windows Registry Editor Version 5.00

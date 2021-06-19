@@ -1,3 +1,5 @@
+# Firefox Profile Directory and Extensions ID
+
 Open Firefox and enter about:support in the address bar.
 ```
 about:support

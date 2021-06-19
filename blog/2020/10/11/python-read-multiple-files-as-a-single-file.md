@@ -1,3 +1,5 @@
+# Python read multiple files as a single file
+
 Read many files as a single file using a generator function.
 
 ```python

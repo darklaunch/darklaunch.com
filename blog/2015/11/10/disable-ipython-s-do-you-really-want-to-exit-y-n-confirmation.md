@@ -1,3 +1,5 @@
+# Disable IPython's "Do you really want to exit ([y]/n)?" confirmation
+
 Disable ipython's exit confirmation. Create an ipython profile.
 
 ```bash

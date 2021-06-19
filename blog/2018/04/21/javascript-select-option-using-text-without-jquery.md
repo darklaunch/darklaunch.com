@@ -1,3 +1,5 @@
+# JavaScript select option using text without jQuery
+
 To select an option by searching for the option's text value without jQuery, use the `filter` method.
 
 ```html

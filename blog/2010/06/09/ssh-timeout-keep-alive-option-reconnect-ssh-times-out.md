@@ -1,3 +1,5 @@
+# SSH Timeout Keep Alive Option; Reconnect; ssh times out
+
 To keep your ssh session from timing out, do the following:
 
 Edit ssh_config:

@@ -1,3 +1,5 @@
+# JavaScript Hungarian Notation Variable Prefix Naming Convention
+
 Hungarian Notation is a language agnostic naming convention that prefixes variables with the variable's type. This allows the reader to determine the type and use of a variable by such an identifier.
 
 JavaScript Hungarian Prefixes:

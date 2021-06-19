@@ -1,3 +1,5 @@
+# JavaScript Trim; PHP like Trim for JavaScript
+
 Trim JavaScript string function.
 
 Similar to PHP's `trim()`.

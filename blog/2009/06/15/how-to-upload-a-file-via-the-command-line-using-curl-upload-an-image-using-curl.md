@@ -1,3 +1,5 @@
+# How to upload a file via the command line using cURL; Upload an image using curl
+
 To upload a file using the command line, do the following:
 
 ```bash

@@ -1,3 +1,5 @@
+# Dear Chrome: You are starting to suck
+
 Chrome, you are starting to suck.
 
 This message appears with Developer Mode enabled. Previously these restrictions only affected Windows users. Please at least let me reenable the extensions without having to manually remove each and every extension and then reinstall each and every extension.

@@ -1,3 +1,5 @@
+# JavaScript isArray type to distinguish between array or object
+
 The typeof operator will say that an array is an "object". To accurately identify an array from an object in JavaScript, use the following solution:
 
 ```javascript

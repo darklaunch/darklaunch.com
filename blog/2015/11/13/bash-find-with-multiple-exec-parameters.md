@@ -1,3 +1,5 @@
+# Bash find with multiple exec parameters
+
 Run multiple exec commands with find.
 
 The `find` command accepts multiple `-exec` parameters.

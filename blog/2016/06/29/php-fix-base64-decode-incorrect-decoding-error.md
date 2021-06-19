@@ -1,3 +1,5 @@
+# PHP fix base64_decode incorrect decoding error
+
 Fix a garbled base64 decoded string by trying this base64 url decoder:
 
 ```php

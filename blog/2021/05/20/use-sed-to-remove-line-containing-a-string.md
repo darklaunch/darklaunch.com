@@ -1,3 +1,5 @@
+# Use sed to remove line containing a string
+
 The `sed` command can be used to remove lines containing a keyword.
 
 Remove line containing string from standard input:

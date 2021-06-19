@@ -1,3 +1,5 @@
+# Mount DNS-323 on OS X
+
 <img alt="" src="/img/uploads/2013-10/dns-323-network-drive.png" />
 
 To mount your DNS-323 on OS X, do the following on the command line.

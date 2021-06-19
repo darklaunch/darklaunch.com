@@ -1,3 +1,5 @@
+# Windows XP Remove Boot / Shutdown / Logon / Logoff status messages
+
 To remove the message boxes / windows that appear while Windows is loading do the following:
 
 * Start > Run > gpedit.msc > Click OK

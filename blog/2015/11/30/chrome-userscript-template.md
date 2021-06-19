@@ -1,3 +1,5 @@
+# Chrome userscript template
+
 Chrome userscript template.
 
 ```javascript

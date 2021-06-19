@@ -1,3 +1,5 @@
+# Fix JavaScript date returning 1 instead of 31
+
 Using Date with JavaScript might unexpectedly return the value 1 instead of 31:
 
 ```javascript

@@ -1,3 +1,5 @@
+# PHP Empty array considered falsy
+
 Empty arrays in PHP are falsy.
 
 ```sh

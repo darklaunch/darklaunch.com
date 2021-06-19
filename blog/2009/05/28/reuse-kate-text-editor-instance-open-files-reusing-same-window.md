@@ -1,3 +1,5 @@
+# Reuse Kate Text Editor Instance; Open files reusing same window
+
 To tell Kate Advanced Text Editor to re-use any already open windows, do the following:
 ```
 1. Right click on the file to open with Kate and select Properties > Open With tab.

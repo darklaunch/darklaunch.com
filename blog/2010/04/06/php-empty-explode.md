@@ -1,3 +1,5 @@
+# PHP Empty Explode
+
 Explode a string with no empty elements. Similar to C# Split String: StringSplitOptions.RemoveEmptyEntries.
 
 ```php

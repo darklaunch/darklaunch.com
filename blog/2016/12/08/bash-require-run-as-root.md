@@ -1,3 +1,5 @@
+# Bash require run as root
+
 Require a bash script to run with root permissions.
 
 ```sh

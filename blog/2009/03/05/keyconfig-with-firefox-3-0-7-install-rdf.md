@@ -1,3 +1,5 @@
+# keyconfig with Firefox 3.0.7; install.rdf
+
 Open:
 
 C:\Documents and Settings\<YOUR_USER_NAME>\Application Data\Mozilla\Firefox\Profiles\<YOUR_PROFILE_ID>\extensions\keyconfig@dorando\install.rdf

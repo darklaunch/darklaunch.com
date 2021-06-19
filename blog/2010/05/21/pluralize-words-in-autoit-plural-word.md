@@ -1,3 +1,5 @@
+# Pluralize Words in AutoIt; Plural Word
+
 ```autoit
 Func plural($count, $singular, $plural = "s")
     If $plural == "s" Then

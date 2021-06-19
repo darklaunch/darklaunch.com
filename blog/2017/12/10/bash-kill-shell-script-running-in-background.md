@@ -1,3 +1,5 @@
+# Bash kill shell script running in background
+
 Kill a running script using the parent process id.
 
 ```bash

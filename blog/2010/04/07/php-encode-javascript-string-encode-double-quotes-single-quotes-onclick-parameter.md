@@ -1,3 +1,5 @@
+# PHP Encode JavaScript String; encode double quotes, single quotes; onclick parameter
+
 ```php
 function js_escape($str) {
 	for ($i = 0, $l = strlen($str), $new_str = ''; $i < $l; $i++) {

@@ -1,3 +1,5 @@
+# JavaScript bind to hashchange event
+
 Bind a function to the hash change event.
 
 ```javascript

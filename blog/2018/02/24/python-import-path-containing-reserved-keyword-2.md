@@ -1,3 +1,5 @@
+# Python import path containing reserved keyword
+
 Import a module from a path that contains a reserved Python keyword like `is`. This fixes `SyntaxError`.
 
 ```python

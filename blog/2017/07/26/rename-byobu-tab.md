@@ -1,3 +1,5 @@
+# Rename Byobu tab
+
 Rename a Byobu tab using the `tmux rename-window` command.
 
 Example:

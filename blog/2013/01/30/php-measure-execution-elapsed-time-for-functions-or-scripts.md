@@ -1,3 +1,5 @@
+# PHP Measure Execution & Elapsed Time for Functions or Scripts
+
 To measure execution times or duration of a php function or script, use the following:
 
 ```php

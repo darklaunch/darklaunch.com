@@ -1,3 +1,5 @@
+# How to fix SVN Error Commit failed; Unable to open an ra_local session to URL
+
 You may get this error if your svn repository moved:
 ```
 svn: Commit failed (details follow):

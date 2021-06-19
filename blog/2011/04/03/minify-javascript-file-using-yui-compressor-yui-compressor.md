@@ -1,3 +1,5 @@
+# Minify JavaScript File using YUI Compressor; yui-compressor
+
 To minify JavaScript using the YUI Compressor, do the following:
 
 Install YUI Compressor:

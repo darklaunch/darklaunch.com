@@ -1,3 +1,5 @@
+# Python simulate an imported module
+
 Fake a module import by adding a fake module to `sys.modules`.
 
 ```python

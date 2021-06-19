@@ -1,3 +1,5 @@
+# Bash add current path to $PATH environment variable
+
 To add the current path the the `$PATH` environment variable, do the following:
 
 ```bash

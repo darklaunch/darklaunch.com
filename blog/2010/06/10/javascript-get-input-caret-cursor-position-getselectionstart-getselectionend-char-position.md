@@ -1,3 +1,5 @@
+# JavaScript get input caret cursor position; getSelectionStart getSelectionEnd; char position
+
 To get the input field character position using JavaScript, use the following:
 ```js
 function getSelectionStart(o) {

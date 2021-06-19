@@ -1,3 +1,5 @@
+# Toggle Firefox Navigation Toolbar; Keyconfig; nav-bar; PersonalToolbar; webdeveloper-toolbar
+
 Toggle Navigation Bar
 ```javascript
 goToggleToolbar('nav-bar', '');

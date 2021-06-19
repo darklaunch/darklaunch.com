@@ -1,3 +1,5 @@
+# MySQL allow remote access to database
+
 Allow access to MySQL database from remote server.
 
 Edit `/etc/mysql/my.cnf` or `/usr/local/mysql/my.cnf` (on OS X)

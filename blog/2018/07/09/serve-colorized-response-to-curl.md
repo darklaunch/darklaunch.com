@@ -1,3 +1,5 @@
+# Serve colorized response to curl
+
 Use an ANSI escape sequence to display color in the curl output.
 
 <img alt="" src="/img/uploads/2018-07/colorized-curl-http-response.png" />

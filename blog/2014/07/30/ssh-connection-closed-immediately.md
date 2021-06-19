@@ -1,3 +1,5 @@
+# SSH connection closed immediately
+
 To determine why the ssh connection closes immediately, try running ssh daemon on the remote computer with the verbose debugging turned on. Then look at the logging output. If it contains "key_from_blob: can't read rsa key", you may have incorrectly copied and pasted the key.
 
 ```bash

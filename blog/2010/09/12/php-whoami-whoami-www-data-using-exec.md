@@ -1,3 +1,5 @@
+# PHP WhoAmI; whoami www-data using exec()
+
 PHP scripts typically runs under the `www-data` user. Verify this using the following code:
 
 ```php

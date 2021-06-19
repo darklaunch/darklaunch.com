@@ -1,3 +1,5 @@
+# How to rsync using a public ssh key
+
 You can use `ssh -i identity_file` method with `rsync` by specifying the
 remote shell to use.
 

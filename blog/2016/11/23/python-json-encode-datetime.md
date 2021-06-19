@@ -1,3 +1,5 @@
+# Python json encode datetime
+
 Fix TypeError: datetime.datetime is not JSON serializable error.
 
 ```python

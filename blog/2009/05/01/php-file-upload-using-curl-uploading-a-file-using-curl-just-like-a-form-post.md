@@ -1,3 +1,5 @@
+# PHP File Upload using cURL; Uploading a file using cURL just like a form POST
+
 Upload a file using PHP and cURL.
 
 ```php

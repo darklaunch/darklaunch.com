@@ -1,3 +1,5 @@
+# Remove .svn folder added by git svn clone
+
 If you accidentally added a .svn folder into your repository, you may get the "Failed to add directory" error when checking out the repository.
 
 ```bash

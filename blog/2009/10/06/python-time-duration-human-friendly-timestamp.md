@@ -1,3 +1,5 @@
+# Python Time Duration Human; Friendly Timestamp
+
 ```python
 def duration_human(seconds):
     seconds = long(round(seconds))

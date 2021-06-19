@@ -1,3 +1,5 @@
+# Fix ImproperlyConfigured: Error loading MySQLdb module: No module named MySQLdb
+
 To fix the "No module named MySQLdb" error, you need to install MySQL support for Python; do the following:
 
 ```sh

@@ -1,3 +1,5 @@
+# Django Fix "AttributeError: This QueryDict instance is immutable"
+
 Fix the Django error: "AttributeError: This QueryDict instance is immutable".
 
 ```python

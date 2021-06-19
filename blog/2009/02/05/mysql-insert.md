@@ -1,3 +1,5 @@
+# MySQL Insert
+
 To safely save data to a database and safely print data stored in a database
 
 ```php

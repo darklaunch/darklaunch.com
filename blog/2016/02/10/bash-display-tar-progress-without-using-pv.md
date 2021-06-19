@@ -1,3 +1,5 @@
+# Bash Display tar progress (without using pv)
+
 Display progress while creating a tar file.
 
 ```bash

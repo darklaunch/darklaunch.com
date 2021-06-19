@@ -1,3 +1,5 @@
+# Google Document bookmark to create new document and new spreadsheet
+
 Here's how to create new a document in Google Docs, Spreadsheets. Save these bookmarks for easily creating new Google Documents and Google Spreadsheets.
 
 * https://docs.google.com/document/create

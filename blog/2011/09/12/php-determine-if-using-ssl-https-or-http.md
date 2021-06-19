@@ -1,3 +1,5 @@
+# PHP determine if using SSL HTTPS or HTTP
+
 To determine if SSL is used, the `is_ssl()` function will return True
 if the page is using SSL (HTTPS or on Port 443), False if not
 used.

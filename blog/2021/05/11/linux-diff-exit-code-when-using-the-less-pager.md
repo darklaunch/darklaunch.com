@@ -1,3 +1,5 @@
+# Linux diff exit code when using the less pager
+
 Retrieve the `diff` exit code when using `diff` with the `less` pager.
 
 The `diff` command returns an exit code of `0` when there is no difference and `1` when there is a difference.

@@ -1,3 +1,5 @@
+# Kill screen session using command line & bash
+
 To kill an active screen, use the following command:
 
 ```bash

@@ -1,3 +1,5 @@
+# Copy select files with same directory structure
+
 Use rsync with the --files-from option to copy certain files while maintaining the same directory structure.
 
 This is the source directory.

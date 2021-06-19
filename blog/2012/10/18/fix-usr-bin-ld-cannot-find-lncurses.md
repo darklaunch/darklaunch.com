@@ -1,3 +1,5 @@
+# Fix "/usr/bin/ld: cannot find -lncurses"
+
 If you get this "/usr/bin/ld: cannot find -lncurses" error, then do the following to install libncurses:
 
 ```

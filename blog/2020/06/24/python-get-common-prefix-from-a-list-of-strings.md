@@ -1,3 +1,5 @@
+# Python get common prefix from a list of strings
+
 Get the common prefix from a list of strings using Python.
 
 ```python

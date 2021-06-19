@@ -1,3 +1,5 @@
+# Ubuntu Nautilus Back and Forth Mouse Click Buttons
+
 Navigate back and forward in Nautilus using the mouse back/forward buttons:
 
 Run in terminal:

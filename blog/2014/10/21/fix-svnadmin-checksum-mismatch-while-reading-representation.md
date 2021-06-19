@@ -1,3 +1,5 @@
+# Fix: "svnadmin: Checksum mismatch while reading representation"
+
 Fix the Subversion/svn error: "svnadmin: Checksum mismatch while reading representation".
 
 Verify the integrity of the repository.

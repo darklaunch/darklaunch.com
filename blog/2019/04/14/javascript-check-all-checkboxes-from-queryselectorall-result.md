@@ -1,3 +1,5 @@
+# JavaScript check all checkboxes from querySelectorAll result
+
 Use querySelectorAll with forEach to check checkboxes.
 
 ```javascript

@@ -1,3 +1,5 @@
+# Wine fails with "X Error of failed request: XF86VidModeExtensionDisabled"; UseXVidMode
+
 The error:
 ```
 X Error of failed request:  XF86VidModeExtensionDisabled

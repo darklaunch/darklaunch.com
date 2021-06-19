@@ -1,3 +1,5 @@
+# Diff ignore whitespace (LF/CRLF)
+
 Diff ignoring whitespace characters.
 
 ```

@@ -1,3 +1,5 @@
+# Bash check if file exists one liner and delete
+
 Delete a file only if it is a regular file without needing to use the force option (-f/--force).
 
 ```bash

@@ -1,3 +1,5 @@
+# How to prompt for password when running command over ssh
+
 To prompt for password when running a command over an ssh connect, allocate pseudo terminal using the `-t` flag
 
 ```bash

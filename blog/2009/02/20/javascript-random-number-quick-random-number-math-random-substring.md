@@ -1,3 +1,5 @@
+# JavaScript Random Number; quick random number; Math.random(); substring();
+
 I wanted to avoid specifying a max and min.
 
 ```javascript

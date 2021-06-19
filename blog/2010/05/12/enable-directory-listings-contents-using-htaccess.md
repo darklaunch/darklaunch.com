@@ -1,3 +1,5 @@
+# Enable Directory Listings/Contents using .htaccess
+
 To show or display directory listings, create a .htaccess with the following:
 ```
 Options +Indexes

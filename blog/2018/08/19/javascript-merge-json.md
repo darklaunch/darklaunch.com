@@ -1,3 +1,5 @@
+# JavaScript merge JSON
+
 Use Array.concat() to merge multiple JSON objects.
 
 ```javascript

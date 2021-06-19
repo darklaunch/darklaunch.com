@@ -1,3 +1,5 @@
+# SVN Move multiple files; CMD; command line
+
 ```bash
 for %i in (*.php) do svn move "C:\wamp\www\old_dir\%i" "C:\wamp\www\new_dir"
 ```

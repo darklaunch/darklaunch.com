@@ -1,3 +1,5 @@
+# PHP extract dollar amounts
+
 Extract dollar amounts using PHP.
 
 Input file:

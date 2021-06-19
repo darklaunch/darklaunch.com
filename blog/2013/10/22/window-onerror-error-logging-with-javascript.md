@@ -1,3 +1,5 @@
+# Window.onerror Error Logging with JavaScript
+
 JavaScript window.onerror logging and error handling.
 
 ```javascript

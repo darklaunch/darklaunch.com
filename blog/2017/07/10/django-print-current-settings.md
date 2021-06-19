@@ -1,3 +1,5 @@
+# Django print current settings
+
 Display the current Django project settings.
 
 ```python

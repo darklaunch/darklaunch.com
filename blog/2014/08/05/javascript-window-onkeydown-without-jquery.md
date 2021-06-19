@@ -1,3 +1,5 @@
+# JavaScript window.onkeydown without jQuery
+
 Bind to `window.onkeydown` natively without jQuery.
 
 ```javascript

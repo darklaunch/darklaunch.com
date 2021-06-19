@@ -1,3 +1,5 @@
+# Bash find and run script on files found
+
 Find files using the find command and pass results to a script.
 
 ```bash

@@ -1,3 +1,5 @@
+# Fix Firefox narrate missing
+
 The Firefox narrate page option might be missing from the reader view because an `about:config` setting has been changed.
 
 Update `privacy.resistFingerprinting` to `false` in `about:config`.

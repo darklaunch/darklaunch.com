@@ -1,3 +1,5 @@
+# hg list users for branch
+
 To list users for a specific branch in hg/Mercurial, use the following:
 
 ```bash

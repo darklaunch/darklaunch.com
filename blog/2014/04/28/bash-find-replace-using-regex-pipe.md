@@ -1,3 +1,5 @@
+# Bash find & replace using regex pipe
+
 <img alt="Bash Find & Replace" src="/img/uploads/2014-04/bash-find-replace-regex.png" />
 
 Find & replace using regex on the command line using perl.

@@ -1,3 +1,5 @@
+# jQuery file selector works in 1.2.6
+
 jQuery file selector works in 1.2.6
 
 $('#myform :file[value!='']') works in 1.2.6, but not in 1.3.x

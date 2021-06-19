@@ -1,3 +1,5 @@
+# JavaScript wait for an element to exist
+
 Wait for an element to exist using a JavaScript promise:
 
 ```javascript

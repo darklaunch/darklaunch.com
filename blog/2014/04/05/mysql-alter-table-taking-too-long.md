@@ -1,3 +1,5 @@
+# MySQL ALTER TABLE taking too long
+
 If the MySQL ALTER TABLE command is taking too long, this may help.
 
 ```sql

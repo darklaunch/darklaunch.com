@@ -1,3 +1,5 @@
+# VirtualBox SSH Port 22 Forwarding
+
 To set up SSH access to a VirtualBox VM, you need to forward the appropriate ports.
 
 Open Virtual Box preferences, select the Network tab, select Adapter 1, and click on the "Port Forwarding" button. Add a new rule. Host IP and Guest IP are optional and should be blank. Set Host Port to 2222 and Guest Port to 22.

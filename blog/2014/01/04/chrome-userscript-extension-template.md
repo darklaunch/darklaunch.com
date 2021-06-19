@@ -1,3 +1,5 @@
+# Chrome Userscript Extension Template
+
 Write a Greasemonkey userscript for Chrome and Chromium.
 
 ```javascript

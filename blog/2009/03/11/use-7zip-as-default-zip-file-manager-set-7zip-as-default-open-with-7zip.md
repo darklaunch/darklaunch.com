@@ -1,3 +1,5 @@
+# Use 7zip as default zip file manager; Set 7zip as default; Open With 7zip
+
 
 * Download and install 7-zip (free) from http://www.7-zip.org/download.html
 * Open My Computer/Windows Explorer. Select Tools> Folder Options.

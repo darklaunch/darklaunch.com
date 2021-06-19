@@ -1,3 +1,5 @@
+# How to Lazy-Load a Python Module Import with Example
+
 To dynamically load or lazy-load a python module, do the following:
 
 ```python

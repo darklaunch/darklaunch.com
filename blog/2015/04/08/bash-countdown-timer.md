@@ -1,3 +1,5 @@
+# Bash countdown timer
+
 Create a countdown timer in bash. This will display a timer and countdown the number of seconds.
 
 ```bash

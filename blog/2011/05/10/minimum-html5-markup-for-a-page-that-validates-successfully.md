@@ -1,3 +1,5 @@
+# Minimum HTML5 markup for a page that validates successfully
+
 Minimum HTML Markup that validates. The following is valid HTML5 markup and will validate.
 
 ```html

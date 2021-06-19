@@ -1,3 +1,5 @@
+# Use Firebug Lite in Internet Explorer on any page
+
 Use Firebug Lite in Internet Explorer on any page with a simple copy and paste in the URL bar. Firebug provides a lite version for IE to inspect page elements and perform of functions as well.
 
 To use Firebug in <ins>older versions of</ins> Internet Explorer, simply copy and paste the following code into the url and click "Go" or hit the enter key. The code will append the firebug lite script for use on the page and the firebug icon will appear in the bottom right on the page.

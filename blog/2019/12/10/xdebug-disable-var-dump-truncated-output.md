@@ -1,3 +1,5 @@
+# Xdebug disable var_dump truncated output
+
 Disable truncated html output when using var_dump by configuring xdebug using ini_set:
 
 ```php

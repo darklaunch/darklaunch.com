@@ -1,3 +1,5 @@
+# Bash get parent process pid
+
 Get the parent id of a process using the ps command. Example:
 
 ```bash

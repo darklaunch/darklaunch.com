@@ -1,3 +1,5 @@
+# JavaScript format string
+
 JavaScript format string similarly to python's string format.
 
 ```javascript

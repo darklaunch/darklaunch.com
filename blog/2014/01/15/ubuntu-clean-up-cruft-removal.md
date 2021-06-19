@@ -1,3 +1,5 @@
+# Ubuntu clean up / cruft removal
+
 Remove unwanted applications in Ubuntu.
 
 ```bash

@@ -1,3 +1,5 @@
+# PHP Sql Query Class
+
 > Update: This is outdated, please use prepared statements / PHP Data Objects (PDO).
 
 http://code.google.com/p/class-query/

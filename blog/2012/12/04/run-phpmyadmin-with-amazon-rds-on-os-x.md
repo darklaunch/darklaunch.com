@@ -1,3 +1,5 @@
+# Run phpMyAdmin with Amazon RDS on OS X
+
 To connect to an Amazon RDS instance on OS X, do the following:
 
 ```

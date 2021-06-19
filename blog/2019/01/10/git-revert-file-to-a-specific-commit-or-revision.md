@@ -1,3 +1,5 @@
+# Git revert file to a specific commit or revision
+
 Revert a file to a specific version, by using the `git checkout` command.
 
 ```bash

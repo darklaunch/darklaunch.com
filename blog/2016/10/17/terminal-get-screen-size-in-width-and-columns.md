@@ -1,3 +1,5 @@
+# Terminal get screen size in width and columns
+
 Use `tput cols` to tell you the number of columns and use `tput lines` to tell you the number of rows.
 
 ```

@@ -1,3 +1,5 @@
+# PHP Normalize Newlines/Line Endings; CRLF; CR; LF; UNIX, Windows, Mac
+
 ```php
 define('CR', "\r");          // Carriage Return: Mac
 define('LF', "\n");          // Line Feed: Unix

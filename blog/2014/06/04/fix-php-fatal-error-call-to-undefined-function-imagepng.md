@@ -1,3 +1,5 @@
+# Fix: "PHP Fatal error:  Call to undefined function imagepng()"
+
 Fix "PHP Fatal error:  Call to undefined function imagepng()" by installing the gd extension.
 
 ```bash

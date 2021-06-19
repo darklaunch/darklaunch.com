@@ -1,3 +1,5 @@
+# Python capture output using context manager
+
 Capture stdout output in python using a context manager.
 
 ```python

@@ -1,3 +1,5 @@
+# How to prefetch related QuerySet in Django admin
+
 Use `prefetch_related` and `select_related` in Django admin. Implement a custom `get_queryset` method.
 
 ```py

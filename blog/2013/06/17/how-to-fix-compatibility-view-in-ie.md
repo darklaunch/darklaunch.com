@@ -1,3 +1,5 @@
+# How to fix compatibility view in IE
+
 To fix Compatibility View in Internet Explorer, force IE to use the latest rendering engine.
 
 ```php

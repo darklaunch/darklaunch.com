@@ -1,3 +1,5 @@
+# Create repeating event for Thanksgiving day
+
 Create calendar event for Thanksgiving celebrated on the fourth Thursday of November.
 
 Create a new ics (iCalendar) file like "thanksgiving.ics".

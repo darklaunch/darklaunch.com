@@ -1,3 +1,5 @@
+# JavaScript parse url using document.createElement()
+
 Update: Use the `URL()` constructor to parse urls.
 https://developer.mozilla.org/en-US/docs/Web/API/URL/URL
 

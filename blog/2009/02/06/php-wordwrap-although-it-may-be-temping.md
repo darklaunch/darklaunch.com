@@ -1,3 +1,5 @@
+# PHP wordwrap; although it may be temping
+
 although it may sound like a good idea to use php's `wordwrap()` for user comments+, use css to control long strings
 
 ```php

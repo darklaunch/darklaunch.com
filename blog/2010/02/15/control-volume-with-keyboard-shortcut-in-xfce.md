@@ -1,3 +1,5 @@
+# Control Volume with Keyboard Shortcut in Xfce
+
 Add an Xfce shortcut by going to Applications > Settings > Keyboard. Select the Application Shortcuts tab. Click Add to set volume up, volume down and toggle mute shortcuts:
 ```
 amixer set Master 3+

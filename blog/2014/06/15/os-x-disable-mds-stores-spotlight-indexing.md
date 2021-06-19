@@ -1,3 +1,5 @@
+# OS X Disable mds_stores Spotlight Indexing
+
 Disable OS X spotlight indexing.
 
 ```bash

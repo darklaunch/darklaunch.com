@@ -1,3 +1,5 @@
+# Access local page variables inside Chrome/Firefox userscript
+
 To access a page's local variables from a userscript, use a callback:
 
 ```javascript

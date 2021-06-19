@@ -1,3 +1,5 @@
+# ssh-copy-id for OS X
+
 To use `ssh-copy-id` in OS X, do the following on the command line.
 
 ```sh

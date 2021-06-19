@@ -1,3 +1,5 @@
+# Python assertEqual as top-level function
+
 A regular assert statement could be more verbose:
 
 ```python

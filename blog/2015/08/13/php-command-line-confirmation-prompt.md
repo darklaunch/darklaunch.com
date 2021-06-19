@@ -1,3 +1,5 @@
+# PHP Command Line Confirmation Prompt
+
 Get user confirmation before continuing in PHP script.
 ```php
 <?php

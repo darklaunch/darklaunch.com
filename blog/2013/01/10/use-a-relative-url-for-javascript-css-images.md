@@ -1,3 +1,5 @@
+# Use a relative URL for JavaScript, CSS & Images
+
 A relative URL without a scheme is perfectly valid.
 
 ```javascript

@@ -1,3 +1,5 @@
+# jQuery $.next() & $.prev() with wrapping
+
 Wrap jQuery next and prev functions with `$.nextWrap()` and `$.prevWrap()`.
 
 ```javascript

@@ -1,3 +1,5 @@
+# Move mouse to prevent screensaver from activating & locking (wiggleme)
+
 Automatically move your mouse to keep your screen from locking.
 
 Ubuntu

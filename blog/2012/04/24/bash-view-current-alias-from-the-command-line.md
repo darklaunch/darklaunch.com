@@ -1,3 +1,5 @@
+# Bash View Current Alias from the command line
+
 To view the current alias from the command line, do the following:
 
 Given an alias `ll`

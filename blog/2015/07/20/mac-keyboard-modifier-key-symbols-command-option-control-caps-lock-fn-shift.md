@@ -1,3 +1,5 @@
+# Mac keyboard modifier key symbols (Command, Option, Control, Caps Lock, Fn, Shift)
+
 Symbols for Mac keyboard modifier keys:
 
 <table>

@@ -1,3 +1,5 @@
+# Vim keybindings in ipython
+
 To set vim keybindings in ipython, do the following:
 
 Add the following `set` commands in your `~/.inputrc` file:

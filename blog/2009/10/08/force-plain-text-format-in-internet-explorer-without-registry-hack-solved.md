@@ -1,3 +1,5 @@
+# Force Plain Text Format in Internet Explorer WITHOUT Registry Hack [SOLVED]
+
 Internet Explorer uses MIME sniffing to parse pages and will erroneously render the following page as html:
 
 ```php

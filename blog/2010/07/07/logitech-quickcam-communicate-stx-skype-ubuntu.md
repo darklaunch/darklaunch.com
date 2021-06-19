@@ -1,3 +1,5 @@
+# Logitech QuickCam Communicate STX; Skype; Ubuntu
+
 FIRST to test that your webcam at least works, run
 ```
 gstreamer-properties

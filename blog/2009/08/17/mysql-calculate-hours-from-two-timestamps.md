@@ -1,3 +1,5 @@
+# MySQL Calculate Hours From Two Timestamps
+
 To calculate the difference between two timestamps in seconds or hours use the following:
 ```sql
 SELECT (

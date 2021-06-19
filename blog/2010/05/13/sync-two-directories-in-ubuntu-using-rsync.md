@@ -1,3 +1,5 @@
+# Sync Two Directories in Ubuntu using rsync
+
 To sync two directories, use rsync with the following command:
 ```
 rsync --recursive --verbose --delete --progress /from/this/source/ /to/this/destination/

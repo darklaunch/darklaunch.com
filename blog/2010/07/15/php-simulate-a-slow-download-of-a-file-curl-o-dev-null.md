@@ -1,3 +1,5 @@
+# PHP Simulate a slow download of a file; curl -o /dev/null
+
 ```php
 <?php
 // server.php

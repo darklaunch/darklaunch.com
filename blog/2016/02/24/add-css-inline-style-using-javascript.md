@@ -1,3 +1,5 @@
+# Add css inline style using JavaScript
+
 Add inline css style using JavaScript via document.createElement.
 
 ```javascript

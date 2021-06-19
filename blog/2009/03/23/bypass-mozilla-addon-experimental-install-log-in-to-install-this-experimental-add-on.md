@@ -1,3 +1,5 @@
+# Bypass Mozilla addon experimental install;  "Log in to install this experimental add-on."
+
 Bypass "Log in to install this experimental add-on."
 
 Change:

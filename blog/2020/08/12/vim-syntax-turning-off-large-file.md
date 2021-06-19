@@ -1,3 +1,5 @@
+# Fix vim syntax turning off when viewing a large file
+
 Try increasing redraw time.
 
 ```

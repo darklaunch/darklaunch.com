@@ -1,3 +1,5 @@
+# Bash script: show progress bar
+
 To show a bash script progress while loading:
 
 ```sh

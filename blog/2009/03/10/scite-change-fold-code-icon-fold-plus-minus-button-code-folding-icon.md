@@ -1,3 +1,5 @@
+# SciTE change fold code icon, fold plus minus button; code folding icon
+
 Open "\Program Files\SciTE\SciTEGlobal.properties".
 ```
 fold.symbols=3

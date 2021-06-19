@@ -1,3 +1,5 @@
+# JavaScript function isHidden
+
 Determine if an element is effectively hidden in JavaScript.
 
 ```javascript

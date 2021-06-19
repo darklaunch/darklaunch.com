@@ -1,3 +1,5 @@
+# Disable xdebug html errors & colored output using ini_set()
+
 To disable xdebug's colorized html output, use the following `ini_set()`.
 
 ```php

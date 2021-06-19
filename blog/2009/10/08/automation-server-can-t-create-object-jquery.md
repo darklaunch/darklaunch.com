@@ -1,3 +1,5 @@
+# Automation server can't create object; jQuery
+
 "Automation server can't create object" fixed:
 
 Run your script with jquery-1.3.2.js (not compressed version) and the error is occurring on line 3382.

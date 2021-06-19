@@ -1,3 +1,5 @@
+# PHP split on multiple delimiters
+
 Use php to split a string using multiple characters like pipe, comma, semicolon, etc.
 
 ```php

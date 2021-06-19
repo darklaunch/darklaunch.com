@@ -1,3 +1,5 @@
+# PHP Return Function Response to Variable rather than Print or Echo it
+
 To capture the function's response or output to a variable, use the following function:
 
 ```php

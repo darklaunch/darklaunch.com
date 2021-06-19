@@ -1,3 +1,5 @@
+# Fix "WARNING: terminal is not fully functional" on Linux or Solaris
+
 To fix the "terminal is not fully functional" warning, do the following:
 
 ```

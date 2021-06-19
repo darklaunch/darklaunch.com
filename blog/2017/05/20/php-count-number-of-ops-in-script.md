@@ -1,3 +1,5 @@
+# PHP count number of ops in script
+
 Count number of ops in a script.
 
 Install php with pear.

@@ -1,3 +1,5 @@
+# Fix "Do you want the application "python" to accept incoming network connections?"
+
 With the OS X firewall enabled, you can remove the "Do you want the application "python" to accept incoming network connections?" message.
 
 <img alt="" src="/img/uploads/2014-02/os-x-accept-incoming-network-connections.png" />

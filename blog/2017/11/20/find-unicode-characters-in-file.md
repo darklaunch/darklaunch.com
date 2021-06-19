@@ -1,3 +1,5 @@
+# Find unicode characters in file
+
 Find unicode or non-ascii characters using grep.
 
 ```bash

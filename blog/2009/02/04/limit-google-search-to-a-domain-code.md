@@ -1,3 +1,5 @@
+# Limit Google Search To A Domain; Code
+
 You can limit a Google search to a specific domain using the following code. Change the value of the hidden input to the site of your choice.
 
 ```html

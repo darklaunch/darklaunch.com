@@ -1,3 +1,5 @@
+# PHP Remove all but allowed characters or disallowed chars
+
 The following will remove all characters but those allowed using `preg_replace()`.
 
 ```php

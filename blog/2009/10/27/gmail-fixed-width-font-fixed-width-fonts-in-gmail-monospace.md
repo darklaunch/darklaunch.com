@@ -1,3 +1,5 @@
+# Gmail Fixed Width Font; Fixed width fonts in Gmail; Monospace
+
 To force messages to use a fixed width font, create or edit your Firefox userContent.css file.
 ```
 /home/YOURUSER/.mozilla/firefox/YOURPROFILE/chrome/userContent.css

@@ -1,3 +1,5 @@
+# View git diff of the last commit
+
 To view the diff changes of the last commit, use the following:
 
 ```bash

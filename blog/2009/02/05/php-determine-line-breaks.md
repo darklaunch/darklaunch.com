@@ -1,3 +1,5 @@
+# PHP Determine Line Breaks
+
 To see whitespace characters in php, use the following function:
 
 ```php

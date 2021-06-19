@@ -1,3 +1,5 @@
+# Awesome JavaScript Debugger
+
 ```javascript
 function dump(arr, level) {
     // dump() from openjs.com

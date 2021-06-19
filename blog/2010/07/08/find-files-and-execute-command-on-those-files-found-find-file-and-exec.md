@@ -1,3 +1,5 @@
+# Find files and execute command on those files found; find file and exec
+
 To find files and execute a command on the files found, do the following:
 
 ```bash

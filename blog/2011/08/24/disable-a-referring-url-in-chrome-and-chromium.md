@@ -1,3 +1,5 @@
+# Disable a referring url in Chrome and Chromium
+
 UPDATE:
 > Use Referer Control: https://chrome.google.com/webstore/detail/referer-control/hnkcfpcejkafcihlgbojoidoihckciin
 

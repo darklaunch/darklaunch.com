@@ -1,3 +1,5 @@
+# Firefox Move Tab First, Last
+
 To send the current tab to the beginning or end of the list of currently open tabs, add the following hotkey shortcuts to Keyconfig:
 
 Add "Move Tab First" using keyboard shortcut Alt+Home. This will move the focused tab to the first position in the list.

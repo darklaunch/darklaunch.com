@@ -1,3 +1,5 @@
+# Run gnome-terminal in path, set working directory
+
 ```
 gksudo "gnome-terminal --working-directory=/home/user/Desktop/"
 ```

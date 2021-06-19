@@ -1,3 +1,5 @@
+# JavaScript class
+
 Here is a JavaScript class example.
 
 ```javascript

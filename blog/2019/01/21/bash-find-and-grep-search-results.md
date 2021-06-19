@@ -1,3 +1,5 @@
+# Bash find and grep search results
+
 Use the find command to locate certain files and grep to search for strings within the files found.
 
 Find todo tasks in recently modified files:

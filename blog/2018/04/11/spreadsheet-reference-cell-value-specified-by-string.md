@@ -1,3 +1,5 @@
+# Spreadsheet reference cell value specified by string
+
 Use `=INDIRECT()` to reference a spreadsheet cell using a string for the column and row in A1 notation or R1C1 notation.
 
 For example, if cell A1=123, a cell containing `=INDIRECT("A1")` would equal 123.

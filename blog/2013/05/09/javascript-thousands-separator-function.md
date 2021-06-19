@@ -1,3 +1,5 @@
+# JavaScript: Thousands separator function
+
 To add a comma thousands separator every 3 digits in a number using JavaScript, use the following function:
 
 ```javascript

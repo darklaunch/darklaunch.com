@@ -1,3 +1,5 @@
+# How to run a for loop in the Terminal; wget sequence for loop
+
 This will download a sequence of pictures from picture1.jpg to picture10.jpg from example.com:
 
 ```bash

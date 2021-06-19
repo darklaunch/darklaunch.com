@@ -1,3 +1,5 @@
+# MySQL Find non-ascii characters using REGEXP
+
 To find non-ascii characters using a `SELECT` query, run a query similar to the following:
 
 ```sql

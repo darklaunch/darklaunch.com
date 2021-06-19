@@ -1,3 +1,5 @@
+# Github ssh multiple accounts & users for separate projects
+
 Use multiple accounts for separate github projects.
 
 Create private and public keys. This command will create an RSA key with an empty comment (as it's not required). Run this command and save the id_rsa file using different names for each project.

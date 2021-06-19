@@ -1,3 +1,5 @@
+# Ubuntu Move window to next monitor keyboard shortcut
+
 Run compiz configuration settings manager (ccsm). Go to Window Management > Put > Bindings > Put To Next Output. Click the Put To Next Output and set a keyboard shortcut.
 
 ```bash

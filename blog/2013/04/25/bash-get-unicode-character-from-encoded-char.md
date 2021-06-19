@@ -1,3 +1,5 @@
+# Bash get unicode character from encoded char
+
 Use hexdump to lookup the 6-digit unicode sequence. Examples for bash and python are given.
 
 ```bash

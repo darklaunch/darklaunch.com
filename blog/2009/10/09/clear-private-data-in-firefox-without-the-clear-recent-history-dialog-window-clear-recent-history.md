@@ -1,3 +1,5 @@
+# Clear Private Data In Firefox WITHOUT the "Clear Recent History" Dialog Window; Clear Recent History
+
 <strong>UPDATE</strong>: Sanitisminau will clear your history WITHOUT asking.
 https://addons.mozilla.org/en-US/firefox/addon/5364/
 

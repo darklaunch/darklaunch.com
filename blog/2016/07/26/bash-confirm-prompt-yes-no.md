@@ -1,3 +1,5 @@
+# Bash confirm prompt yes/no
+
 Use an `Are you sure?` bash prompt for confirmation.
 
 ```sh

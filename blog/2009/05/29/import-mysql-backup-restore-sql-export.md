@@ -1,3 +1,5 @@
+# Import MySQL Backup; Restore .SQL Export
+
 Import a mysql backup by doing the following on the command line:
 
 ```

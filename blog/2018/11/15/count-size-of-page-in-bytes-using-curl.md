@@ -1,3 +1,5 @@
+# Count size of page in bytes using curl
+
 Count the number of bytes for a web page by using curl.
 
 ```bash

@@ -1,3 +1,5 @@
+# PHP xml_encode using DOMDocument; Convert Array to XML; json_encode
+
 Encode XML using `xml_encode();` similar to `json_encode()`.
 
 ```php

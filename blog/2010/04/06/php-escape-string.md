@@ -1,3 +1,5 @@
+# PHP Escape String
+
 ```php
 function escape($str) {
     return str_replace(

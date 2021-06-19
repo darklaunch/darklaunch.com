@@ -1,3 +1,5 @@
+# svn add recursively (the equivalent of "git add .")
+
 One solution to add files recursively with svn is to use the --force option. An example of this is:
 
 ```

@@ -1,3 +1,5 @@
+# Django refresh QuerySet count
+
 Call `all()` on a previously evaluated QuerySet to get updated results.
 
 ```python

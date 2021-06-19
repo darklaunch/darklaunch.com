@@ -1,3 +1,5 @@
+# Delete Empty Directories using bash / command line; Find empty directory
+
 To remove empty directories, use the following:
 
 ```bash

@@ -1,3 +1,5 @@
+# Byobu join two tabs
+
 Join two tabs (also called panes) in Byobu by calling running a tmux command.
 
 Call the Byobu tmux prefix (`Ctrl` + `a`) followed by a colon.

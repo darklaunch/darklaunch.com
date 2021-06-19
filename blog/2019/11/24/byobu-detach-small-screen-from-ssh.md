@@ -1,3 +1,5 @@
+# Byobu detach small screen from ssh
+
 Use `Alt` + `F6` to detach all clients in Byobu.
 
 ---

@@ -1,3 +1,5 @@
+# Internet Explorer Returns Incorrect JavaScript Object Length
+
 Internet Explorer will incorrectly give an object length off by one if the object contains a trailing comma. In the example below, the alerts return 5 and 6, respectively.
 ```html
 <!doctype html>

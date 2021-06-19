@@ -1,3 +1,5 @@
+# JavaScript trigger an AngularJS input change event from external JavaScript
+
 Use the `dispatchEvent` JavaScript function to trigger a form field`s input event on a page that is using Angular.
 
 This "input" trigger event was needed on an Angular 9.1.12 page:

@@ -1,3 +1,5 @@
+# Django template render string as html
+
 Render a template filename with context to an html string in Django.
 
 ```python

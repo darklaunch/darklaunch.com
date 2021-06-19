@@ -1,3 +1,5 @@
+# Remove duplicate empty lines using sed
+
 Use sed to remove duplicate empty lines from a file and replace them with a single empty line.
 
 ```bash

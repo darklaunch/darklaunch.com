@@ -1,3 +1,5 @@
+# Share WAMP/WampServer localhost Files on same Network
+
 To share your localhost and allow files to be available from other computers, do the following:
 
 Open httpd.conf by selecting the WampServer tray icon. Select "PHP" and "php.ini"

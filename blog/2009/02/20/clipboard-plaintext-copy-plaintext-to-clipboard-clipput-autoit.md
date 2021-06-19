@@ -1,3 +1,5 @@
+# Clipboard Plaintext; Copy Plaintext to Clipboard; ClipPut(); AutoIt
+
 AutoIt: Put plaintext in clipboard using `Ctrl` + `Shift` + `C`.
 
 ```autoit

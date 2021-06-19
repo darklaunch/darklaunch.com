@@ -1,3 +1,5 @@
+# How to Fix error: command 'gcc' failed with exit status 1
+
 If you get this error like I did when installing a python virtual environment, do the following on the command line:
 
 ```bash

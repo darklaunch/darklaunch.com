@@ -1,3 +1,5 @@
+# Link to creating a copy of a Google Document
+
 Create a link that will copy a Google Document.
 
 The format is this:

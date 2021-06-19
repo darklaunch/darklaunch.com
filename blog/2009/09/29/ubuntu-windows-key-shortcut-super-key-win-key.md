@@ -1,3 +1,5 @@
+# Ubuntu Windows Key Shortcut; Super Key; Win Key
+
 To use the Windows or Start key in a keyboard shortcut, go to System > Preferences > Keyboard.
 
 In Keyboard Preferences (window) go to Layouts (tab) and click Layout Options... (button).

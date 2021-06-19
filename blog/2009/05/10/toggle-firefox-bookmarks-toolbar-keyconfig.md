@@ -1,3 +1,5 @@
+# Toggle Firefox Bookmarks Toolbar; KeyConfig
+
 Install KeyConfig: http://mozilla.dorando.at/keyconfig.xpi
 
 1. Go to Tools > KeyConfig.

@@ -1,3 +1,5 @@
+# jQuery select option using text value $.text()
+
 To select an option by searching for the option's text value, <s>use the :contains selector</s> <ins>use the filter method</ins>.
 
 ```javascript

@@ -1,3 +1,5 @@
+# Enable HTTP Basic Authentication / Authorization with Django & mod_wsgi
+
 To enable Basic Authentication using Django and mod_wsgi, do the following:
 
 Add WSGIPassAuthorization to apache configuration file (

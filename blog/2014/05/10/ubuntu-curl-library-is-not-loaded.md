@@ -1,3 +1,5 @@
+# Ubuntu cURL library is not loaded
+
 Fix cURL library is not loaded on Ubuntu:
 
 ```sh

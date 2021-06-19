@@ -1,3 +1,5 @@
+# Denote important things
+
 ```php
 header('Location: https://example.org');
 exit; // !important

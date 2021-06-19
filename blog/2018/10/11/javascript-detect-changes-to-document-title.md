@@ -1,3 +1,5 @@
+# JavaScript detect changes to document.title
+
 Detect changes to document.title using JavaScript.
 
 ```javascript

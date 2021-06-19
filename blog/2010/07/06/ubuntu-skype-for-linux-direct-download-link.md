@@ -1,3 +1,5 @@
+# Ubuntu Skype for Linux; direct download link
+
 Here is the direct link to download Skype for Ubuntu:
 http://www.skype.com/intl/en-us/get-skype/on-your-computer/linux/post-download/
 

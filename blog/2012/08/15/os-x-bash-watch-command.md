@@ -1,3 +1,5 @@
+# OS X bash 'watch' command
+
 To run a command similar to the Linux `watch` command on Mac OSX, do the following:
 
 ```sh

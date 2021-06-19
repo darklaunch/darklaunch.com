@@ -1,3 +1,5 @@
+# Firefox open with application preferences; Content Type; Always ask; Use application; Ubuntu whereis
+
 How to set the default application for Firefox downloads:
 
 In Firefox go to Edit > Preferences (OR Tools > Preferences).

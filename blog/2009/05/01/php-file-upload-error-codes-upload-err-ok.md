@@ -1,3 +1,5 @@
+# PHP File Upload Error Codes; UPLOAD_ERR_OK
+
 PHP File Upload Error Codes
 
 ```php

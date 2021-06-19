@@ -1,3 +1,5 @@
+# Firefox 3.5 install flash player; Ubuntu
+
 I installed Firefox 3.5 to "/home/user/apps/firefox/" and Flash was missing. To install it manually, do the following:
 
 1. Download the RPM: http://fpdownload.macromedia.com/get/flashplayer/current/flash-plugin-10.0.22.87-release.i386.rpm OR select the latest rpm at http://get.adobe.com/flashplayer/

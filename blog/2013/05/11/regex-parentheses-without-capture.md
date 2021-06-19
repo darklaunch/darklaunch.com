@@ -1,3 +1,5 @@
+# Regex: Parentheses without capture
+
 Use regular expressions without capturing a group by using non-capturing groups.
 
 ```php

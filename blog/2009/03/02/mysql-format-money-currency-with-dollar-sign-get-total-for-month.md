@@ -1,3 +1,5 @@
+# MySQL Format Money/Currency with Dollar Sign; Get Total for Month
+
 Format the mysql select with a dollar sign and two decimal places.
 
 ```sql

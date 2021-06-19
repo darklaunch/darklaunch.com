@@ -1,3 +1,5 @@
+# Window Manager for OS X: ShiftIt
+
 OS X Window Manager: ShiftIt
 
 ```

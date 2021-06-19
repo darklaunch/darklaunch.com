@@ -1,3 +1,5 @@
+# Update sass using gem update
+
 To update sass, do the following on the command line:
 
 ```bash

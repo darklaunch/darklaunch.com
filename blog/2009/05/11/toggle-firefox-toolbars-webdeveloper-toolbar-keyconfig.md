@@ -1,3 +1,5 @@
+# Toggle Firefox Toolbars; Webdeveloper Toolbar; KeyConfig
+
 ```javascript
 // Toggle the Bookmarks toolbar
 var toolbar = document.getElementById('PersonalToolbar');

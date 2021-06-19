@@ -1,3 +1,5 @@
+# pChart - a PHP Class to build Charts
+
 http://pchart.sourceforge.net/
 
 ---

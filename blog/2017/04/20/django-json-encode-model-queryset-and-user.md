@@ -1,3 +1,5 @@
+# Django json encode Model, QuerySet, and User
+
 Encode Django model, queryset, and user in json. Fixes:
 
 * TypeError: &lt;Model: Model object> is not JSON serializable

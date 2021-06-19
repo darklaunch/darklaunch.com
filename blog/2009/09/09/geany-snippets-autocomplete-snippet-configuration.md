@@ -1,3 +1,5 @@
+# Geany Snippets, Autocomplete; Snippet Configuration
+
 Geany snippets configuration file is located in:
 
 ```

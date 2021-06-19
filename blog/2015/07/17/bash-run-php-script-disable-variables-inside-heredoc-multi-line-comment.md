@@ -1,3 +1,5 @@
+# Bash run php script & disable variables inside heredoc multi-line comment
+
 Quote or escape the limit string at the beginning of the here document (heredoc) to disable parameter substitution (variables).
 
 In the following example, escape EOF as \EOF. You can also put the limit string in quotes: "EOF".

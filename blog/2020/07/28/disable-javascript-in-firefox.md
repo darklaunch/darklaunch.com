@@ -1,3 +1,5 @@
+# Disable JavaScript in Firefox
+
 Firefox allows disabling JavaScript from the `about:config` advanced settings editor.
 
 To disable JavaScript in Firefox, do the following:

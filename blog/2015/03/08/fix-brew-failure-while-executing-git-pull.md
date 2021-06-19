@@ -1,3 +1,5 @@
+# Fix brew "Failure while executing: git pull"
+
 To fix brew "Failure while executing: git pull":
 
 ```

@@ -1,3 +1,5 @@
+# Upgrade early, upgrade often
+
 > "There are two basic approaches to take with dependency management.
 
 The first version is to lock down every dependency as tightly as you can to avoid accidentally breaking something. Which inevitably leads down the road to everything being locked to something archaic that can't be upgraded easily, and is incompatible with everything else. But with no idea what will break, or how to upgrade. I currently work at a company that went down that path and is now suffering for it.

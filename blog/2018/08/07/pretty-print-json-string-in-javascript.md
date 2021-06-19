@@ -1,3 +1,5 @@
+# Pretty print json string in JavaScript
+
 Pretty print a JSON string using JavaScript into an easy-to-read format with indentation and whitespace.
 
 ```javascript

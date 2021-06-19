@@ -1,3 +1,5 @@
+# Safer rm command
+
 Prevent accidental deletion caused by rm with wildcards. This replaces your rm command so that it prevents certain deletions.
 
 ```bash

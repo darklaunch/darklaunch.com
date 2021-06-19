@@ -1,3 +1,5 @@
+# Bash find multiple file types: directories & symbolic links
+
 To find two or more file types, use the logical OR operator.
 
 ```

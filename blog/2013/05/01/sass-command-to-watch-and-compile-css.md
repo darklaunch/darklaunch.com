@@ -1,3 +1,5 @@
+# Sass command to watch and compile css
+
 Write manageable CSS using Sass / SCSS. Compile to CSS with these options:
 
 ```sh

@@ -1,3 +1,5 @@
+# Firefox Move Tab Left and Move Tab Right with Wrapping (without requiring focus!)
+
 Geany allows you to reorder the document tabs using ALT+Page Up (Move document left) and ALT+Page Down (Move document right). To mimic this behavior in Firefox, do the following:
 
 1. Install Keyconfig (if not already installed).

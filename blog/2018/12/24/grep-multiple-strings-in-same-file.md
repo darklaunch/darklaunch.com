@@ -1,3 +1,5 @@
+# Grep multiple strings in same file
+
 Find multiple strings in the same file using grep. Pass the results of grep to xargs with grep.
 
 Find files containing both the add() method and the create() method.

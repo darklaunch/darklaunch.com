@@ -1,3 +1,5 @@
+# Bash why quotes are important for variables; preserve newlines, line endings
+
 ```sh
 #!/bin/bash
 

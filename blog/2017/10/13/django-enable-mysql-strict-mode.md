@@ -1,3 +1,5 @@
+# Django enable MySQL strict mode
+
 Enable MySQL strict mode to fix possible data integrity issues.
 
 ```python

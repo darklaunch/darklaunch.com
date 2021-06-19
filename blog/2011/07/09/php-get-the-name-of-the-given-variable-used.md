@@ -1,3 +1,5 @@
+# PHP get the name of the given variable used using var_name()
+
 Using PHP it is possible to get the given variable name as a string -- similar to using the function `get_defined_vars()` for a traceback.
 
 A possible use case is a situation like a traceback where you call a function with a parameter and you need to know which variable was passed to the original function.

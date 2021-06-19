@@ -1,3 +1,5 @@
+# Ubuntu Firefox Default View Source Editor; view_source.editor.external; view_source.editor.path
+
 Firefox allows changing the default view source editor.
 
 Open Firefox and enter `about:config` into the url bar.

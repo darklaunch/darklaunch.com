@@ -1,3 +1,5 @@
+# Python increase debugging level
+
 By default, python will only display warnings, errors, and critical messages. Change the debugging level to display all logging messages.
 
 Change the logging level threshold by using setLevel().

@@ -1,3 +1,5 @@
+# PHP exec() + stderr, stdout, & return code
+
 Run a command in php and get standard output (stdout), standard error (stderr), and the return code / return value.
 
 ```php

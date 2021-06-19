@@ -1,3 +1,5 @@
+# Where are nautilus bookmarks stored? Nautilus bookmark location
+
 Nautilus bookmarks are stored in `~/.gtk-bookmarks`.
 
 ```

@@ -1,3 +1,5 @@
+# Parse Twitter created_at value into friendly time format; relative time; time ago
+
 ```js
 // from http://widgets.twimg.com/j/1/widget.js
 var K = function () {

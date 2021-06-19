@@ -1,3 +1,5 @@
+# Replace CRLF with LF in list a files using the find command
+
 Find files containing the Windows newline character (CRLF) and replace them with Unix newlines (LF).
 
 ```sh

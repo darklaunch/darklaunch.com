@@ -1,3 +1,5 @@
+# Python import path containing reserved keyword
+
 Import a module from a path containing a reserved keyword like `is`.
 
 This import statement fails because the word `is` is a reserved in python.

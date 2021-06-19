@@ -1,3 +1,5 @@
+# Vim Paste Selected/Highlighted Character
+
 Find and replace the selected character in vim.
 
 Let's suppose you have the following text and you would like to replace bullets with dashes:

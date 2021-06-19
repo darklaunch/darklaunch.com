@@ -1,3 +1,5 @@
+# Enable and Disable Text Selection using JavaScript
+
 To enable page selecting if the page disabled it via JavaScript, enter the following on the JavaScript command line:
 
 ```javascript

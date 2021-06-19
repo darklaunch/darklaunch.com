@@ -1,3 +1,5 @@
+# JavaScript for loop using setTimeout to pass argument
+
 When using a for loop with `setTimeout`, you may encounter unexpected behavior.
 
 Consider the following code. What do you expect the console to display?

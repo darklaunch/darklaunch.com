@@ -1,3 +1,5 @@
+# Use Django slugify
+
 Do the following to use Django's slugify function:
 
 ```python

@@ -1,3 +1,5 @@
+# Watch files and run a command
+
 Watch the current directory for changes and run a command using watchman.
 
 Install watchman:

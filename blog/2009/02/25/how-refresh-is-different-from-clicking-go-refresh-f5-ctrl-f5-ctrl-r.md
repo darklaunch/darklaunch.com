@@ -1,3 +1,5 @@
+# How refresh is different from clicking "Go"; Refresh; F5; Ctrl+F5; Ctrl+R
+
 ```
 cached refresh:
 	form:

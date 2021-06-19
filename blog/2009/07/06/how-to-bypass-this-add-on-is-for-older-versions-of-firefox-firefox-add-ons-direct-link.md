@@ -1,3 +1,5 @@
+# How to bypass "This add-on is for older versions of Firefox"; Firefox Add-ons direct link
+
 UPDATE: Also, to ignore extension compatibility, install Nightly Tester Tools https://addons.mozilla.org/en-US/firefox/addon/6543
 Then restart Firefox and click "Override all compatibility" option under your Tools &gt; Addons window.
 

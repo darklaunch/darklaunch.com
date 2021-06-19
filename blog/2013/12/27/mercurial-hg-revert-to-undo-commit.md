@@ -1,3 +1,5 @@
+# Mercurial hg revert to undo commit
+
 To undo a commit in Mercurial, use the strip command.
 
 ```bash

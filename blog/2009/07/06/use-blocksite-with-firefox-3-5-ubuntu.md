@@ -1,3 +1,5 @@
+# Use BlockSite with Firefox 3.5; Ubuntu
+
 1.  Open the file "/home/user/.mozilla/firefox/YOURPROFILE/extensions/{dd3d7613-0246-469d-bc65-2a3cc1668adc}/install.rdf"
 
 2. Edit the file to update the maxVersion to "4.0.*":

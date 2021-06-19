@@ -1,3 +1,5 @@
+# Apache hide .git and .svn folder contents using .htaccess file
+
 To hide .git and .svn folder contents you need create a .htaccess file with the following:
 
 ```

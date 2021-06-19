@@ -1,3 +1,5 @@
+# Fix Exception: `curl-config' not found - please install the libcurl development files
+
 Fix the Exception error that `curl-config` is not found. Do the following to fix:
 
 ```bash

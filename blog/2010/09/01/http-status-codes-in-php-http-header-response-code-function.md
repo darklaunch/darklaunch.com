@@ -1,3 +1,5 @@
+# HTTP Status Codes in PHP; http header response code function
+
 Output your desired HTTP status code using the status code and the `header()` function.
 
 ```php

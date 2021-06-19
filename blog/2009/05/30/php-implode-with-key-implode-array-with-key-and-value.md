@@ -1,3 +1,5 @@
+# PHP implode_with_key(); Implode array with key and value
+
 ```php
 function implode_with_key($assoc, $inglue = '>', $outglue = ',') {
     $return = '';

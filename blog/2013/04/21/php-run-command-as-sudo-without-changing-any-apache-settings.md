@@ -1,3 +1,5 @@
+# PHP Run command as sudo without changing any Apache settings
+
 Here is how to run a php script as sudo without changing apache settings.
 
 Save the following snippet as `receiver.sh`. This will act as the receiving script to run commands with sudo permissions.

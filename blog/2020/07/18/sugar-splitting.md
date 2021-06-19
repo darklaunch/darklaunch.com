@@ -1,3 +1,5 @@
+# Sugar Splitting
+
 <img alt="Sugar Splitting in a yogurt product" src="/img/uploads/2020-07/sugar-splitting.jpg" />
 
 Recently, I have seen far too much "sugar splitting". Unhealthy ingredients, typically sugars, are being strategically placed later in the ingredient list with the intent of making the product appear healthier.
