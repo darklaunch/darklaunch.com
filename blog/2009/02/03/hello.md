@@ -26,10 +26,10 @@ anonymous &ndash; Mar 13, 2012<div>
 
 This website is looking awesome! :o)
 
-</div></div></li><li><div>
+</div></div><ol><li><div>
 
 anonymous &ndash; Jan 20, 2020<div>
 
 except the annoying advertisement ;)
 
-</div></div></li></ol>
+</div></div></li></ol></li></ol>
