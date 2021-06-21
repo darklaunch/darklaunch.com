@@ -22,11 +22,11 @@ Select options for your calendar.
 
 Select the "Settings and sharing" option.
 
-<img alt="" src="/img/uploads/2016-05/google-calendar-import-calendar.png" />
+<img alt="" src="/img/uploads/2016-05/calendar-settings-and-sharing.png" />
 
 Select the ics file you created and click the import button.
 
-<img alt="" src="/img/uploads/2016-05/google-calendar-select-ics-file.png" />
+<img alt="" src="/img/uploads/2016-05/calendar-import-and-export.png" />
 
 Or you can use Apple Calendar.
 
