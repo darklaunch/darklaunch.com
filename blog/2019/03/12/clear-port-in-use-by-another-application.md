@@ -38,3 +38,16 @@ $ kill 3746
 Posted Mar 12, 2019.
 
 https://www.darklaunch.com/2019/03/12/clear-port-in-use-by-another-application.html
+
+---
+
+1 comment
+
+<ol><li><div>
+
+anonymous &ndash; Jul 1, 2021<div>
+
+Sometimes `-9` is needed with the `kill` command:
+`$ sudo kill -9 $(sudo lsof -t -i:3306)`
+
+</div></div></li></ol>
