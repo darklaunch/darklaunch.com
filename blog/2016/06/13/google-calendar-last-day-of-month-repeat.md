@@ -36,7 +36,7 @@ https://www.darklaunch.com/2016/06/13/google-calendar-last-day-of-month-repeat.h
 
 ---
 
-7 comments
+8 comments
 
 <ol><li><div>
 
@@ -79,5 +79,11 @@ How would you edit this to create an event for, say, the day after (US) Thanksgi
 anonymous &ndash; Jun 17, 2020<div>
 
 I just put a monthly recurring event starting on the 1st of the month but make the notification 1 day before event, so in effect, it does what you without having to import the ICS file. Only downside is that day of the event is wrong so it is a tradeoff.
+
+</div></div></li><li><div>
+
+anonymous &ndash; Jul 14, 2021<div>
+
+THANKS!
 
 </div></div></li></ol>
