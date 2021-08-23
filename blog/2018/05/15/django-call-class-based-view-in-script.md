@@ -88,3 +88,17 @@ Content-Type: text/html; charset=utf-8
 Posted May 15, 2018.
 
 https://www.darklaunch.com/2018/05/15/django-call-class-based-view-in-script.html
+
+---
+
+1 comment
+
+<ol><li><div>
+
+Avramo &ndash; Jul 21, 2021<div>
+
+I was looking for this for hours,
+Great post, super clear and easy!
+Thanks!
+
+</div></div></li></ol>
