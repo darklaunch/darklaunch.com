@@ -25,7 +25,7 @@ https://www.darklaunch.com/2009/06/05/how-to-remote-mount-with-password-using-ss
 
 ---
 
-32 comments
+33 comments
 
 <ol><li><div>
 
@@ -221,7 +221,13 @@ anonymous &ndash; Nov 2, 2016<div>
 
 `"Timeout waiting for prompt"` happens due to host identity verification while connecting for the very first time. Simply add `-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null`. The first option allows you to connect to unknown hosts without prompt, the second option prevents the host key from getting stored in the first place, so you won't run into problems if it changes. This is not very secure, but neither is piping the clear-text password...
 
-</div></div></li><li><div>
+</div></div><ol><li><div>
+
+anonymous &ndash; Aug 24, 2021<div>
+
+You're a hero, thanks!
+
+</div></div></li></ol></li><li><div>
 
 anonymous &ndash; Feb 28, 2018<div>
 
