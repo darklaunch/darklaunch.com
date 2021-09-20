@@ -2,7 +2,7 @@
 
 Exclude .svn folders when diffing two directories.
 
-```
+```bash
 diff --exclude=".svn" -rq ~/mounts/www.example.com/ /var/www/www.example.com/
 ```
 

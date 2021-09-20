@@ -1,15 +1,15 @@
 # View git diff of the last commit
 
-To view the diff changes of the last commit, use the following:
+To view the diff changes of the last commit, use one of the following:
 
 ```bash
-git diff @~1
+git log --max-count=1 --patch
 ```
 
 OR
 
 ```bash
-git diff @{1} @{0}
+git diff @~1
 ```
 
 <img alt="" src="/img/uploads/2013-02/git-diff-last.png" />
