@@ -1,6 +1,6 @@
 # JavaScript merge JSON
 
-Use Array.concat() to merge multiple JSON objects.
+Use `Array.concat()` to merge multiple JSON objects.
 
 ```javascript
 var first = [
@@ -18,6 +18,7 @@ var second = [
 var combined = first.concat(second);
 console.log(JSON.stringify(combined, null, 2));
 ```
+
 ```
 [
   {
