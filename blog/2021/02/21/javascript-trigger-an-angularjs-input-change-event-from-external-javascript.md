@@ -39,3 +39,15 @@ triggerMouseEvent(myButton, 'mouseup');
 Posted Feb 21, 2021.
 
 https://www.darklaunch.com/2021/02/21/javascript-trigger-an-angularjs-input-change-event-from-external-javascript.html
+
+---
+
+1 comment
+
+<ol><li><div>
+
+anonymous &ndash; Nov 14, 2021<div>
+
+Thank you so much for this!!!
+
+</div></div></li></ol>
