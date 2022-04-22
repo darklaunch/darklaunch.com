@@ -12,7 +12,7 @@ https://www.darklaunch.com/2019/09/11/byobu-save-text.html
 
 ---
 
-2 comments
+3 comments
 
 <ol><li><div>
 
@@ -33,4 +33,14 @@ anonymous &ndash; Jan 21, 2021<div>
 
 see also `man tmux` for info on `capture-pane`
 
-</div></div></li></ol></li></ol>
+</div></div></li></ol></li><li><div>
+
+ak &ndash; Apr 1, 2022<div>
+
+Magnificent!  Works as stated.
+
+I'm using BYOBU via Conda on CentOS 7 (in order to get version 5.133) and Shift+F7 wouldn't work as I have no idea where BYOBU_RUN_DIR is located nor how to determine where that setting it set.  I even ran `updatedb` then searched for `locate -ir printscreen$` which returned nothing.
+
+Thank you.
+
+</div></div></li></ol>
