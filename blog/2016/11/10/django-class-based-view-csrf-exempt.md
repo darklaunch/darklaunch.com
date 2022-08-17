@@ -27,12 +27,18 @@ https://www.darklaunch.com/2016/11/10/django-class-based-view-csrf-exempt.html
 
 ---
 
-1 comment
+2 comments
 
 <ol><li><div>
 
 anonymous &ndash; Jan 13, 2022<div>
 
 You are decorating a non existent method
+
+</div></div></li><li><div>
+
+anonymous &ndash; Aug 17, 2022<div>
+
+Every Django view has a dispatch method so this is correct
 
 </div></div></li></ol>
