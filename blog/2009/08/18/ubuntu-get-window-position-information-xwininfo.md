@@ -38,3 +38,17 @@ xwininfo: Window id: 0x20ffa54 "Dark Launch - Mozilla Firefox"
 Posted Aug 18, 2009.
 
 https://www.darklaunch.com/2009/08/18/ubuntu-get-window-position-information-xwininfo.html
+
+---
+
+1 comment
+
+<ol><li><div>
+
+William Lee &ndash; Aug 11, 2022<div>
+
+Hey... just wondering who designed this website?
+
+-William L
+
+</div></div></li></ol>
