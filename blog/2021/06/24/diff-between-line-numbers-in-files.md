@@ -36,7 +36,7 @@ Additional output if debugging with`set -x` is enabled:
 ++ sed -n 144,229p util.py
 ```
 
-kw: diff, file descriptor
+kw: diff, file descriptor, process substitution, anonymous pipe
 
 ---
 

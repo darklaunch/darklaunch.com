@@ -37,6 +37,8 @@ else
 fi
 ```
 
+kw: diff, file descriptor, process substitution, anonymous pipe
+
 ---
 
 Posted May 11, 2021.
