@@ -116,7 +116,7 @@ https://www.darklaunch.com/2013/04/25/bash-get-unicode-character-from-encoded-ch
 
 ---
 
-4 comments
+5 comments
 
 <ol><li><div>
 
@@ -168,5 +168,15 @@ anonymous &ndash; Jul 29, 2016<div>
 
 $ echo -n "â€" | python -c 'import sys; print [sys.stdin.read()]'
 ['\xe2\x80\x9d']
+
+</div></div></li><li><div>
+
+anonymous &ndash; Aug 25, 2023<div>
+
+see also the command `xxd'.
+
+```
+$ xxd -g1 myfile.gz
+```
 
 </div></div></li></ol>

@@ -54,3 +54,15 @@ copy(Array.from($0).map(entry => entry.innerText + (entry.hasAttribute('value') 
 Posted Aug 18, 2022.
 
 https://www.darklaunch.com/2022/08/18/convert-html-select-options-to-text.html
+
+---
+
+1 comment
+
+<ol><li><div>
+
+Anon &ndash; Nov 27, 2023<div>
+
+You are genius
+
+</div></div></li></ol>
